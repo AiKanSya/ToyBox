@@ -1,0 +1,124 @@
+{
+     "_version": "1.48.0",
+     "sap.app": {
+          "id": "com.aikansya.toybox",
+          "type": "application",
+          "i18n": "i18n/i18n.properties",
+          "applicationVersion": {
+               "version": "0.0.1"
+          },
+          "title": "{{appTitle}}",
+          "description": "{{appDescription}}",
+          "resources": "resources.json",
+          "sourceTemplate": {
+               "id": "@sap/generator-fiori:basic",
+               "version": "1.16.1",
+               "toolsId": "882a2ec9-2c71-4708-b3b5-23260191e40f"
+          },
+          "dataSources": {
+               "mainService": {
+                    "uri": "/sap/opu/odata/sap/ZFGI_UI5_HUB_SRV/",
+                    "type": "OData",
+                    "settings": {
+                         "annotations": [],
+                         "localUri": "localService/metadata.xml",
+                         "odataVersion": "2.0"
+                    }
+               }
+          }
+     },
+     "sap.ui": {
+          "technology": "UI5",
+          "icons": {
+               "icon": "",
+               "favIcon": "",
+               "phone": "",
+               "phone@2": "",
+               "tablet": "",
+               "tablet@2": ""
+          },
+          "deviceTypes": {
+               "desktop": true,
+               "tablet": true,
+               "phone": true
+          }
+     },
+     "sap.ui5": {
+          "flexEnabled": true,
+          "dependencies": {
+               "minUI5Version": "1.108.30",
+               "libs": {
+                    "sap.m": {},
+                    "sap.ui.core": {}
+               }
+          },
+          "contentDensities": {
+               "compact": true,
+               "cozy": true
+          },
+          "models": {
+               "i18n": {
+                    "type": "sap.ui.model.resource.ResourceModel",
+                    "settings": {
+                         "bundleName": "com.aikansya.toybox.i18n.i18n"
+                    }
+               },
+               "": {
+                    "dataSource": "mainService",
+                    "preload": true,
+                    "settings": {
+                         "defaultOperationMode": "Server",
+                         "defaultBindingMode": "TwoWay",
+                         "defaultCountMode": "Inline",
+                         "defaultUpdateMethod": "MERGE",
+                         "refreshAfterChange": false,
+                         "headers": {
+                              "Cache-Control": "max-age=0"
+                         }
+                    }
+               }
+          },
+          "resources": {
+               "css": [
+                    {
+                         "uri": "css/style.css"
+                    }
+               ]
+          },
+          "routing": {
+               "config": {
+                    "routerClass": "sap.m.routing.Router",
+                    "viewType": "XML",
+                    "async": true,
+                    "viewPath": "com.aikansya.toybox.view",
+                    "controlAggregation": "pages",
+                    "controlId": "app",
+                    "clearControlAggregation": false
+               },
+               "routes": [
+                    {
+                         "name": "RouteHome",
+                         "pattern": ":?query:",
+                         "target": [
+                              "TargetHome"
+                         ]
+                    }
+               ],
+               "targets": {
+                    "TargetHome": {
+                         "viewType": "XML",
+                         "transition": "slide",
+                         "clearControlAggregation": false,
+                         "viewId": "Home",
+                         "viewName": "Home"
+                    }
+               }
+          },
+          "rootView": {
+               "viewName": "com.aikansya.toybox.view.App",
+               "type": "XML",
+               "async": true,
+               "id": "App"
+          }
+     }
+}
