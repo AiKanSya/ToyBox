@@ -1,6 +1,10 @@
 # SPREADSHEET IMPORTER (COMPONENT NPM)
 
-[SpreadsheetImporter](https://docs.spreadsheet-importer.com/pages/GettingStarted/)
+|                | **Lien**                                                    |
+| -------------- | ----------------------------------------------------------- |
+| Class          | https://docs.spreadsheet-importer.com/pages/GettingStarted/ |
+| Event          | https://docs.spreadsheet-importer.com/pages/Events/         |
+| Error handling | https://docs.spreadsheet-importer.com/pages/Checks/         |
 
 ## NPM - INSTAL COMPONENT
 
@@ -9,14 +13,14 @@
 Le composant `ui5-cc-spreadsheetimporter` s'installera dans `node_modules`. Vérifier cependant que la version installer est la bonne dans le fichier `ui5.yaml`
 
 ```yaml
-specVersion: '2.6'
+specVersion: "2.6"
 type: module
 metadata:
 name: ui5-cc-spreadsheetimporter
 resources:
 configuration:
-    paths:
-    /thirdparty/customControl/spreadsheetImporter/v0_33_2/: ./dist/
+  paths:
+  /thirdparty/customControl/spreadsheetImporter/v0_33_2/: ./dist/
 ```
 
 ## MANIFEST.JSON
@@ -49,7 +53,7 @@ Aller dans le `package.json` et ajouter `dependencies` :
         "ui5-cc-spreadsheetimporter": "^0.33.2"
     },
 ```
-    
+
 ## MAIN.XML
 
 Aller dans le `main.xml` et ajouter un bouton de test :
@@ -59,7 +63,7 @@ Aller dans le `main.xml` et ajouter un bouton de test :
         text="Importer un fichier Excel"
         press="onOpenXUP" />
 ```
-    
+
 ## MAIN.CONTROLER.JS
 
 Aller dans le `main.controller.js` et ajouter un bouton de test :

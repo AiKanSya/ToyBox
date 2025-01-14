@@ -1,181 +1,180 @@
 # MESSAGEPOPOVER
 
+|        | **Lien**                                                       |
+| ------ | -------------------------------------------------------------- |
+| Class  | https://sapui5.hana.ondemand.com/#/api/sap.m.MessagePopover    |
+| Sample | https://sapui5.hana.ondemand.com/#/entity/sap.m.MessagePopover |
+
 ## [webapp/controller/BaseController.js]()
 
 ```js
-sap.ui.define([
-	"sap/ui/core/mvc/Controller",
-	"sap/ui/model/json/JSONModel",
-	"sap/m/MessagePopover",
-	"sap/m/MessageItem"
-],
-function (
-	BaseController,
-	JSONModel,
-	MessagePopover,
-	MessageItem
-) {
-    	"use strict";
+sap.ui.define(
+  [
+    "sap/ui/core/mvc/Controller",
+    "sap/ui/model/json/JSONModel",
+    "sap/m/MessagePopover",
+    "sap/m/MessageItem",
+  ],
+  function (BaseController, JSONModel, MessagePopover, MessageItem) {
+    "use strict";
 
-    	return Controller.extend("com.aikansya.toybox.controller.BaseController", {
+    return Controller.extend("com.aikansya.toybox.controller.BaseController", {
+      onInit: function () {},
 
-		onInit: function () {
+      /**
+       * Update Calendar model on view mode changes
+       */
+      _msgInit: function () {
+        this.oMessageManager = sap.ui.getCore()._getMessageManager();
+        this.oMessageManager.registerObject(this.getView(), true);
+        this.getView().setModel(
+          this.oMessageManager.getMessageModel(),
+          "message"
+        );
+        this._createMessagePopover();
+      },
 
-		},
+      _createMessagePopover: function () {
+        this.oMessagePopover = new MessagePopover({
+          activeTitlePress: function (oEvent) {
+            const oItem = oEvent.getParameter("item");
+            const oMessage = oItem.getBindingContext("message").getObject();
+            const oControl = sap.ui.getCore().byId(oMessage.getControlId());
+            if (oControl) {
+              setTimeout(function () {
+                oControl.focus();
+                // oControl.selectText(0, 99);
+              }, 300);
+            }
+          },
+          items: {
+            path: "message>/",
+            template: new MessageItem({
+              title: "{message>message}",
+              subtitle: "{message>additionalText}",
+              activeTitle: {
+                parts: [
+                  {
+                    path: "message>controlIds",
+                  },
+                ],
+                formatter: this._isPositionable,
+              },
+              type: "{message>type}",
+              description: "{message>message}",
+            }),
+          },
+        });
 
-          /**
-           * Update Calendar model on view mode changes 
-           */
-		_msgInit: function () {
-			this.oMessageManager = sap.ui.getCore()._getMessageManager();
-			this.oMessageManager.registerObject(this.getView(), true);
-			this.getView().setModel(
-				this.oMessageManager.getMessageModel(),
-				"message"
-			);
-			this._createMessagePopover();
-		},
+        if (this.getView().byId("messagePopoverBtnHome")) {
+          this.getView()
+            .byId("messagePopoverBtnHome")
+            .addDependent(this.oMessagePopover);
+        }
 
-		_createMessagePopover: function () {
-			this.oMessagePopover = new MessagePopover({
-				activeTitlePress: function (oEvent) {
-					const oItem = oEvent.getParameter("item");
-					const oMessage = oItem.getBindingContext("message").getObject();
-					const oControl = sap.ui.getCore().byId(oMessage.getControlId());
-					if (oControl) {
-						setTimeout(function () {
-							oControl.focus();
-							// oControl.selectText(0, 99);
-						}, 300);
-					}
-				},
-				items: {
-					path: "message>/",
-					template: new MessageItem({
-						title: "{message>message}",
-						subtitle: "{message>additionalText}",
-						activeTitle: {
-							parts: [
-								{
-									path: "message>controlIds",
-								},
-							],
-							formatter: this._isPositionable,
-						},
-						type: "{message>type}",
-						description: "{message>message}",
-					}),
-				},
-			});
+        if (this.getView().byId("messagePopoverBtnTheme")) {
+          this.getView()
+            .byId("messagePopoverBtnTheme")
+            .addDependent(this.oMessagePopover);
+        }
+      },
 
-			if (this.getView().byId("messagePopoverBtnHome")) {
-				this.getView()
-					.byId("messagePopoverBtnHome")
-					.addDependent(this.oMessagePopover);
-			}
+      _onPopoverPress: function (oEvent) {
+        if (!this.oMessageManager) {
+          this._createMessagePopover();
+        }
+        this.oMessageManager.toggle(oEvent.getSource());
+      },
 
-			if (this.getView().byId("messagePopoverBtnTheme")) {
-				this.getView()
-					.byId("messagePopoverBtnTheme")
-					.addDependent(this.oMessagePopover);
-			}
-		},
+      _fillMessagePopover: function (oError) {
+        var aMessages = JSON.parse(oError.responseText).error.innererror
+          .errordetails;
+        // Filter message with code /IWBEP/CX_MGW_BUSI_EXCEPTION
+        aMessages = aMessages.filter(function (value, ind, arr) {
+          return (
+            value.code !== "/IWBEP/CX_MGW_BUSI_EXCEPTION" &&
+            value.severity === "error"
+          );
+        });
+        var oMsg = {
+          length: aMessages.length,
+          Messages: aMessages,
+        };
+        this.getView().getModel("messages").setData(oMsg);
+      },
 
-		_onPopoverPress: function (oEvent) {
-			if (!this.oMessageManager) {
-				this._createMessagePopover();
-			}
-			this.oMessageManager.toggle(oEvent.getSource());
-		},
+      _addMessagePopover: function (sError, sType) {
+        var oMessage = new sap.ui.core.message.Message({
+          message: sError,
+          persistent: true,
+          type: sType,
+        });
+        //"Messaging" required from module "sap/ui/core/Messaging";
+        this.oMessageManager.addMessages(oMessage);
+      },
 
-		_fillMessagePopover: function (oError) {
-			var aMessages = JSON.parse(oError.responseText).error.innererror.errordetails;
-			// Filter message with code /IWBEP/CX_MGW_BUSI_EXCEPTION
-			aMessages = aMessages.filter(function (value, ind, arr) {
-				return (value.code !== "/IWBEP/CX_MGW_BUSI_EXCEPTION" && value.severity === "error");
-			});
-			var oMsg = {
-				length: aMessages.length,
-				Messages: aMessages
-			};
-			this.getView().getModel("messages").setData(oMsg);
-		},
+      _isPositionable: function (sControlIds) {
+        if (sControlIds && sControlIds.length > 0) {
+          return true;
+        }
+        return false;
+      },
 
-		_addMessagePopover: function (sError, sType) {
-			var oMessage = new sap.ui.core.message.Message({
-				message: sError,
-				persistent: true,
-				type: sType
-			});
-			//"Messaging" required from module "sap/ui/core/Messaging";
-			this.oMessageManager.addMessages(oMessage);
-		},
+      _getMessageManager: function () {
+        return this.oMessageManager;
+      },
 
-		_isPositionable: function (sControlIds) {
-			if (sControlIds && sControlIds.length > 0) {
-				return true;
-			}
-			return false;
-		},
+      _removeAllMessages: function () {
+        this._getMessageManager().removeAllMessages();
+      },
 
-		_getMessageManager: function () {
-			return this.oMessageManager;
-		},
+      _handleMessagePopoverPress: function (oEvent) {
+        if (!this.oMessagePopover) {
+          this._createMessagePopover();
+        }
+        this.oMessagePopover.toggle(oEvent.getSource());
+      },
 
-		_removeAllMessages: function () {
-			this._getMessageManager().removeAllMessages();
-		},
+      _openMessagePopover: function () {
+        if (!this.oMessagePopover) {
+          this._createMessagePopover();
+        }
+        const oControl = this.oMessagePopover.getEventingParent();
+        if (oControl.getVisible()) {
+          this.oMessagePopover.openBy(oControl);
+        }
+      },
 
-		_handleMessagePopoverPress: function (oEvent) {
-			if (!this.oMessagePopover) {
-				this._createMessagePopover();
-			}
-			this.oMessagePopover.toggle(oEvent.getSource());
-		},
-
-		_openMessagePopover: function () {
-			if (!this.oMessagePopover) {
-				this._createMessagePopover();
-			}
-			const oControl = this.oMessagePopover.getEventingParent();
-			if (oControl.getVisible()) {
-				this.oMessagePopover.openBy(oControl);
-			}
-		},
-
-		_closeMessagePopover: function () {
-			if (this.oMessagePopover) {
-				this.oMessagePopover.close();
-			}
-		}
-
-    	});
-});
+      _closeMessagePopover: function () {
+        if (this.oMessagePopover) {
+          this.oMessagePopover.close();
+        }
+      },
+    });
+  }
+);
 ```
 
 ## [webapp/controller/BaseController.js]()
 
 ```js
-sap.ui.define([
-    	"com/aikansya/toybox/controller/BaseController",
-    	"com/aikansya/toybox/model/formatter",
-    	"com/aikansya/toybox/libs/ToolKit",
-],
-function (BaseController, formatter, ToolKit) {
-    	"use strict";
+sap.ui.define(
+  [
+    "com/aikansya/toybox/controller/BaseController",
+    "com/aikansya/toybox/model/formatter",
+    "com/aikansya/toybox/libs/ToolKit",
+  ],
+  function (BaseController, formatter, ToolKit) {
+    "use strict";
 
-    	return BaseController.extend("com.aikansya.toybox.controller.Home", {
+    return BaseController.extend("com.aikansya.toybox.controller.Home", {
+      formatter: formatter,
 
-        	formatter: formatter,
-
-        	onInit: function () {
-
-               this._msgInit();
-               this._removeAllMessages();
-
-        	},
-
-    	});
-});
+      onInit: function () {
+        this._msgInit();
+        this._removeAllMessages();
+      },
+    });
+  }
+);
 ```
-
