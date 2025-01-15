@@ -1,4 +1,4 @@
-# `♠ 3 - EXPLAINING THE CLEAN CORE APPROACH`
+# ♠ 3 - [EXPLAINING THE CLEAN CORE APPROACH](https://learning.sap.com/learning-journeys/developing-with-sap-integration-suite/explaining-the-clean-core-approach)
 
 > Objectifs
 >

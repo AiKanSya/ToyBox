@@ -1,4 +1,4 @@
-# `♠ 4 - DESCRIBING COMMON USES OF METADATA IN XML`
+# ♠ 4 - [DESCRIBING COMMON USES OF METADATA IN XML](https://learning.sap.com/learning-journeys/developing-with-sap-integration-suite/describing-common-uses-of-metadata-in-xml)
 
 > Objectifs
 >
