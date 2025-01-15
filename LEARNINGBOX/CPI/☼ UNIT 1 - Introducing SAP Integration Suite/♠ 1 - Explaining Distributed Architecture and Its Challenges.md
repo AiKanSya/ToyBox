@@ -1,14 +1,14 @@
 # `♠ 1 - EXPLAINING DISTRIBUTED ARCHITECTURE AND ITS CHALLENGES`
 
-Objectifs
-
-- Décrire une [architecture distribuée]()
-- Décrire un scénario entier/globale
-
-Topics
-
-- Qu'est-ce qu'une [architecture distribuée]() ?
-- Quels défis doivent être résolus ?
+> Objectifs
+>
+> - Décrire une [architecture distribuée]()
+> - Décrire un scénario entier/globale
+>
+> Topics
+>
+> - Qu'est-ce qu'une [architecture distribuée]() ?
+> - Quels défis doivent être résolus ?
 
 ## DISTRIBUTED ARCHITECTURE AND ITS CHALLENGES
 
