@@ -50,25 +50,25 @@ Une façon de surmonter ces défis consiste à utiliser une [API first approach]
 
 > #### :bookmark: [API first approach](../☼%20UNIT%200%20-%20Lexicon/♠%20API%20First%20Approach.md)
 >
-> Une approche API first est une méthodologie de conception dans laquelle l'accent principal du processus de développement est mis sur la conception de l'interface de programmation d'application (API) avant tout autre aspect de la solution logicielle. Cette approche met l'accent sur la création d'une API bien définie et robuste qui répond aux besoins des développeurs et des intégrateurs qui l'utilisent pour créer des applications, des services ou des intégrations.
+> Une approche API first est une méthodologie de conception dans laquelle l'accent principal du processus de développement est mis sur la conception de l'interface de programmation d'application ([API](../☼%20UNIT%200%20-%20Lexicon/♠%20API.md)) avant tout autre aspect de la solution logicielle. Cette approche met l'accent sur la création d'une [API](../☼%20UNIT%200%20-%20Lexicon/♠%20API.md) bien définie et robuste qui répond aux besoins des développeurs et des intégrateurs qui l'utilisent pour créer des applications, des services ou des intégrations.
 
 Les principaux aspects d’une [API first approach](../☼%20UNIT%200%20-%20Lexicon/♠%20API%20First%20Approach.md) incluent :
 
 - Design-Centric (Centré sur la conception) :
 
-  la conception d'API devient un élément central du cycle de vie du développement logiciel. Les décisions de conception donnent la priorité à la clarté, à la cohérence et à la convivialité pour garantir que les développeurs peuvent facilement comprendre et utiliser l'API.
+  la conception d'[API](../☼%20UNIT%200%20-%20Lexicon/♠%20API.md) devient un élément central du cycle de vie du développement logiciel. Les décisions de conception donnent la priorité à la clarté, à la cohérence et à la convivialité pour garantir que les développeurs peuvent facilement comprendre et utiliser l'[API](../☼%20UNIT%200%20-%20Lexicon/♠%20API.md).
 
 - Iterative Development (Développement itératif) :
 
-  les développeurs itèrent sur la conception de l'API en fonction des commentaires et de l'évolution des exigences avant de passer à l'implémentation backend ou à d'autres aspects de l'application.
+  les développeurs itèrent sur la conception de l'[API](../☼%20UNIT%200%20-%20Lexicon/♠%20API.md) en fonction des commentaires et de l'évolution des exigences avant de passer à l'implémentation backend ou à d'autres aspects de l'application.
 
 - Facilitates Collaboration (Facilite la collaboration) :
 
-  en définissant l'API dès le début, différentes équipes (développeurs front-end, backend, mobiles, tiers) peuvent travailler simultanément et de manière synchronisée. Cela réduit les dépendances et accélère le développement.
+  en définissant l'[API](../☼%20UNIT%200%20-%20Lexicon/♠%20API.md) dès le début, différentes équipes (développeurs front-end, backend, mobiles, tiers) peuvent travailler simultanément et de manière synchronisée. Cela réduit les dépendances et accélère le développement.
 
 - Ensures Scalability and Flexibility (Garantit l'évolutivité et la flexibilité) :
 
-  une approche axée sur l'API favorise l'évolutivité car elle encourage les composants modulaires et réutilisables. Il offre également la flexibilité nécessaire pour s’adapter aux exigences commerciales changeantes et aux avancées technologiques.
+  une approche axée sur l'[API](../☼%20UNIT%200%20-%20Lexicon/♠%20API.md) favorise l'évolutivité car elle encourage les composants modulaires et réutilisables. Il offre également la flexibilité nécessaire pour s’adapter aux exigences commerciales changeantes et aux avancées technologiques.
 
 - Focus on Developer Experience (DX) (Focus sur l'expérience du développeur) :
 
@@ -76,11 +76,11 @@ Les principaux aspects d’une [API first approach](../☼%20UNIT%200%20-%20Lexi
 
 - Supports Ecosystems Growth (Prend en charge la croissance des écosystèmes) :
 
-  les API conçues avec une [API first approach](../☼%20UNIT%200%20-%20Lexicon/♠%20API%20First%20Approach.md)` peuvent favoriser un écosystème autour de la plate-forme ou du service, permettant des intégrations tierces, des partenariats et l'innovation.
+  les [API](../☼%20UNIT%200%20-%20Lexicon/♠%20API.md) conçues avec une [API first approach](../☼%20UNIT%200%20-%20Lexicon/♠%20API%20First%20Approach.md) peuvent favoriser un écosystème autour de la plate-forme ou du service, permettant des intégrations tierces, des partenariats et l'innovation.
 
-### RESUME
+### SUMMARY
 
-> Pour les processus techniques automatisés, de nombreux composants logiciels, installations, technologies et disponibilités spatiales différents sont souvent couplés via des réseaux avec des protocoles différents. Les fonctionnalités de ces implémentations sont appelées services. L'interface est fournie via des API (Application Programming Interfaces). Le type, l’emplacement et la mise en œuvre des API ne sont pas pertinents pour l’instant. Ces API sont indépendantes du langage. C’est pourquoi on parle également d’une architecture ou d’une approche API first. Les architectures cloud natives sont basées sur des API. Cela s’accompagne de nouveaux défis.
+> Pour les processus techniques automatisés, de nombreux composants logiciels, installations, technologies et disponibilités spatiales différents sont souvent couplés via des réseaux avec des protocoles différents. Les fonctionnalités de ces implémentations sont appelées services. L'interface est fournie via des [API](../☼%20UNIT%200%20-%20Lexicon/♠%20API.md) (Application Programming Interfaces). Le type, l’emplacement et la mise en œuvre des [API](../☼%20UNIT%200%20-%20Lexicon/♠%20API.md) ne sont pas pertinents pour l’instant. Ces [APIs](../☼%20UNIT%200%20-%20Lexicon/♠%20API.md) sont indépendantes du langage. C’est pourquoi on parle également d’une architecture ou d’une [API first approach](../☼%20UNIT%200%20-%20Lexicon/♠%20API%20First%20Approach.md). Les architectures cloud natives sont basées sur des [APIs](../☼%20UNIT%200%20-%20Lexicon/♠%20API.md). Cela s’accompagne de nouveaux défis.
 
 ## DECRIRE UN SCENARIO ENTIER
 
