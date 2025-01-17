@@ -1,6 +1,6 @@
 # ♠ 1 - [EXPLAINING DISTRIBUTED ARCHITECTURE AND ITS CHALLENGES](https://learning.sap.com/learning-journeys/developing-with-sap-integration-suite/explaining-distributed-architecture-and-their-challenges_ebcaa544-f5ca-4351-b6b6-5eb471ec1464)
 
-> Objectifs
+> :exclamation: Objectifs
 >
 > - Décrire une [architecture distribuée]()
 > - Décrire un scénario entier/globale
