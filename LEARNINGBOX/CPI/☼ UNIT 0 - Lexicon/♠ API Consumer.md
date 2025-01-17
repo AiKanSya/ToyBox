@@ -6,13 +6,13 @@
 
 ## INTRODUCTION
 
-_La notion d'API Consumer complète celle d'API Provider en mettant l'accent sur la partie consommatrice d'une API. L'API Consumer est un élément clé dans les intégrations modernes, notamment dans SAP Integration Suite (CPI), où des applications ou systèmes utilisent des APIs pour accéder à des ressources ou services._
+_La notion d'API Consumer complète celle d'[API Provider](../☼%20UNIT%200%20-%20Lexicon/♠%20API%20Provider.md) en mettant l'accent sur la partie consommatrice d'une API. L'API Consumer est un élément clé dans les intégrations modernes, notamment dans SAP Integration Suite (CPI), où des applications ou systèmes utilisent des APIs pour accéder à des ressources ou services._
 
 ## DEFINITION
 
 > #### :bookmark: `API Consumer`
 >
-> Un API Consumer est une application, un système ou un service qui envoie des requêtes à une API pour accéder à des données ou exécuter des opérations sur un autre système. Contrairement à l’API Provider (qui expose l’API), l’API Consumer est l'entité qui consomme les services ou les données fournis par cette API.
+> Un API Consumer est une application, un système ou un service qui envoie des requêtes à une API pour accéder à des données ou exécuter des opérations sur un autre système. Contrairement à l’[API Provider](../☼%20UNIT%200%20-%20Lexicon/♠%20API%20Provider.md) (qui expose l’API), l’API Consumer est l'entité qui consomme les services ou les données fournis par cette API.
 >
 > Exemple concret :
 >
@@ -24,7 +24,7 @@ _La notion d'API Consumer complète celle d'API Provider en mettant l'accent sur
 
 ### :small_red_triangle_down: Envoyer des requêtes API :
 
-L’API Consumer envoie des requêtes HTTP ou SOAP aux endpoints de l’API Provider, en spécifiant l’action désirée (récupération de données, mise à jour, suppression, etc.).
+L’API Consumer envoie des requêtes HTTP ou SOAP aux endpoints de l’[API Provider](../☼%20UNIT%200%20-%20Lexicon/♠%20API%20Provider.md), en spécifiant l’action désirée (récupération de données, mise à jour, suppression, etc.).
 
 ### :small_red_triangle_down: Traiter les réponses API :
 
@@ -40,7 +40,7 @@ Il doit être capable de gérer les codes d’erreur ou d’exception retournés
 
 ### :small_red_triangle_down: Authentification et sécurité :
 
-L'API Consumer doit fournir les informations d'authentification requises par l’API Provider (par exemple, des jetons OAuth2, des clés API ou des certificats).
+L'API Consumer doit fournir les informations d'authentification requises par l’[API Provider](../☼%20UNIT%200%20-%20Lexicon/♠%20API%20Provider.md) (par exemple, des jetons OAuth2, des clés API ou des certificats).
 
 ## API CONSUMER DANS LE CONTEXTE DE SAP CPI :
 
@@ -99,7 +99,7 @@ Un système CRM externe consomme une API SAP CPI pour récupérer des informatio
 
 3. Authentification :
 
-   Les API Providers exigent souvent une authentification. Les API Consumers doivent fournir :
+   Les [API Providers](../☼%20UNIT%200%20-%20Lexicon/♠%20API%20Provider.md) exigent souvent une authentification. Les API Consumers doivent fournir :
 
    - Des clés API.
 
@@ -115,7 +115,7 @@ Un système CRM externe consomme une API SAP CPI pour récupérer des informatio
 
    - 404 Not Found : Endpoint incorrect ou ressource introuvable.
 
-   - 500 Internal Server Error : Erreur côté API Provider.
+   - 500 Internal Server Error : Erreur côté [API Provider](../☼%20UNIT%200%20-%20Lexicon/♠%20API%20Provider.md).
 
 5. Transformation des données :
 
@@ -149,7 +149,7 @@ Etapes de configuration d’un API Consumer dans SAP CPI :
 
 2. Configurer l'endpoint API :
 
-   Spécifier l'URL de l'API à consommer (endpoint de l’API Provider).
+   Spécifier l'URL de l'API à consommer (endpoint de l’[API Provider](../☼%20UNIT%200%20-%20Lexicon/♠%20API%20Provider.md)).
 
 3. Configurer l'authentification :
 
@@ -161,4 +161,4 @@ Etapes de configuration d’un API Consumer dans SAP CPI :
 
 5. Tester et déployer :
 
-   Exécuter des tests pour vérifier que l’API Consumer interagit correctement avec l’API Provider.
+   Exécuter des tests pour vérifier que l’API Consumer interagit correctement avec l’[API Provider](../☼%20UNIT%200%20-%20Lexicon/♠%20API%20Provider.md).
