@@ -1,8 +1,8 @@
 # ♠ 4 - [DESCRIBING COMMON USES OF METADATA IN XML](https://learning.sap.com/learning-journeys/developing-with-sap-integration-suite/describing-common-uses-of-metadata-in-xml)
 
-> Objectifs
+> :exclamation: Objectifs
 >
-> - Describe common uses of Metadata in XML
+> - [ ] Describe common uses of Metadata in XML
 
 ## METADATA IN XML
 

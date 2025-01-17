@@ -1,8 +1,8 @@
 # ♠ 5 - [DESCRIBING OPERATING MODES OF API ARCHITECTURES](https://learning.sap.com/learning-journeys/developing-with-sap-integration-suite/describing-operating-modes-of-api-architectures_b47895bf-cd5c-45f0-8bef-11384e978629)
 
-> Objectifs
+> :exclamation: Objectifs
 >
-> - Describe operating modes of API architectures
+> - [ ] Describe operating modes of API architectures
 
 ## WHAT IS A REQUEST-DRIVEN ARCHITECTURE ?
 

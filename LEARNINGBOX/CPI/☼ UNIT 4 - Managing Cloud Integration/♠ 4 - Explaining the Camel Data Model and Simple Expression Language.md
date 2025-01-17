@@ -1,8 +1,8 @@
 # ♠ 4 - [EXPLAINING THE CAMEL DATA MODEL AND SIMPLE EXPRESSION LANGUAGE](https://learning.sap.com/learning-journeys/developing-with-sap-integration-suite/using-message-monitoring-and-logging_cbf56a9f-63f2-4fe2-af39-43cc48b490c8)
 
-> Objectifs
+> :exclamation: Objectifs
 >
-> - Explain the Camel data model and simple expression language
+> - [ ] Explain the Camel data model and simple expression language
 
 ## CAMEL DATA MODEL AND SIMPLE EXPRESSION LANGUAGE
 

@@ -1,8 +1,8 @@
 # ♠ 1 - [INTRODUCTION SAP API MANAGEMENT](https://learning.sap.com/learning-journeys/developing-with-sap-integration-suite/introducing-sap-api-management_dd668e10-08ab-4763-9342-3e6cc7e74c18)
 
-> Objectifs
+> :exclamation: Objectifs
 >
-> - Describe the key features of SAP API Management
+> - [ ] Describe the key features of SAP API Management
 
 ## WHAT IS SAP API MANAGEMENT?
 

@@ -1,8 +1,8 @@
 # ♠ 4 - [CREATING AN API PROXY](https://learning.sap.com/learning-journeys/developing-with-sap-integration-suite/creating-an-api_b3973a9a-62ce-4a5e-b59a-c0ddf6924de5)
 
-> Objectifs
+> :exclamation: Objectifs
 >
-> - Create an API based on the API provider
+> - [ ] Create an API based on the API provider
 
 ## CREATION OF APIS BASED ON THE API PROVIDER
 

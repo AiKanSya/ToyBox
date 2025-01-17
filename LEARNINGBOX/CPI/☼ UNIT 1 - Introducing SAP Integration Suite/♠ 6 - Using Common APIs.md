@@ -1,8 +1,8 @@
 # ♠ 6 - [USING COMMON APIS](https://learning.sap.com/learning-journeys/developing-with-sap-integration-suite/introducing-rest_fb9a2610-c990-4e0c-9140-0802b642019e)
 
-> Objectifs
+> :exclamation: Objectifs
 >
-> - Be able to use API used in SAP
+> - [ ] Be able to use API used in SAP
 
 ## INTRODUCING TO REST
 

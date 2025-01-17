@@ -1,8 +1,8 @@
 # ♠ 2 - [INTRODUCING THE DEVELOPMENT CYCLE](https://learning.sap.com/learning-journeys/developing-with-sap-integration-suite/explaining-the-development-cycle_c8db2014-b9e1-4e16-9df3-cbce5688c1b6)
 
-> Objectifs
+> :exclamation: Objectifs
 >
-> - Explain the development cycle
+> - [ ] Explain the development cycle
 
 ## THE DEVELOPMENT CYCLE
 

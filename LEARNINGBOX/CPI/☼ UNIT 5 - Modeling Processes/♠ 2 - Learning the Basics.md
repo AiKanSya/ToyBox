@@ -1,8 +1,8 @@
 # ♠ 2 - [LEARNING THE BASICS](https://learning.sap.com/learning-journeys/developing-with-sap-integration-suite/learning-the-basics_ccfb5535-54c2-40d2-8249-6e3102987d30)
 
-> Objectifs
+> :exclamation: Objectifs
 >
-> - Create and configure a content modifier
+> - [ ] Create and configure a content modifier
 
 ## HANDLE ATTACHMENTS
 

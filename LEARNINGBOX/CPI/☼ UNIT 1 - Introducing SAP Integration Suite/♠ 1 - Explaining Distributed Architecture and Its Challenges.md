@@ -2,27 +2,29 @@
 
 > :exclamation: Objectifs
 >
-> - Décrire une [architecture distribuée]()
-> - Décrire un scénario entier/globale
+> - [ ] Describe the distributed architecture
+>
+> - [ ] Describe the whole scenario
 >
 > Topics
 >
-> - Qu'est-ce qu'une [architecture distribuée]() ?
+> - Qu'est-ce qu'une `architecture distribuée` (distributed architecture) ?
+>
 > - Quels défis doivent être résolus ?
 
 ## DISTRIBUTED ARCHITECTURE AND ITS CHALLENGES
 
-### QU'EST-CE QU'UNE [ARCHITECTURE DISTRIBUEE]() ?
+### QU'EST-CE QU'UNE ARCHITECTURE DISTRIBUEE ?
 
-#### [Distributed IT System]()
+#### `Distributed IT System` :
 
-"Un système informatique distribué comprend des sous-systèmes (des composants au sens le plus large) qui sont couplés entre eux dans le cadre d'une architecture spécifique et gèrent les tâches de manière coopérative."
+    "Un système informatique distribué comprend des sous-systèmes (des composants au sens le plus large) qui sont couplés entre eux dans le cadre d'une architecture spécifique et gèrent les tâches de manière coopérative."
 
-En revanche, dans un système informatique monolithique, les fonctions d’un système sont regroupées (centralisées). La répartition logique des fonctions du système entre les composants peut s'accompagner d'une décentralisation physique coordonnée dans un réseau informatique.
+    En revanche, dans un système informatique monolithique, les fonctions d’un système sont regroupées (centralisées). La répartition logique des fonctions du système entre les composants peut s'accompagner d'une décentralisation physique coordonnée dans un réseau informatique.
 
-Nous considérons toutes les installations et services informatiques comme des composants. Par exemple, les applications ERP On-Premise, SAP S/4HANA On-Premise et/ou SaaS.
+    Nous considérons toutes les installations et services informatiques comme des composants. Par exemple, les applications ERP On-Premise, SAP S/4HANA On-Premise et/ou SaaS.
 
-Exemple de [paysage client](). Vous voyez que de nombreux systèmes techniques différents communiquent entre eux avec toutes leurs particularités techniques.
+    Exemple de paysage client. Vous voyez que de nombreux systèmes techniques différents communiquent entre eux avec toutes leurs particularités techniques.
 
 ![](./RESSOURCES/CLD900_U1L1_001.png)
 
@@ -31,14 +33,23 @@ Exemple de [paysage client](). Vous voyez que de nombreux systèmes techniques d
 En raison de l’hétérogénéité, des solutions coûteuses et complexes doivent être recherchées, trouvées et mises en œuvre pour relever les défis suivants :
 
 - De nombreux protocoles de transport et de messages différents
+
 - Gestion des versions
+
 - Surveillance
+
 - Identification et correction des erreurs
+
 - Latence
+
 - Qualité de service
+
 - Sécurité
+
 - Disponibilité des implémentations
+
 - Observabilité
+
 - Documentation
 
 Une façon de surmonter ces défis consiste à utiliser une approche [API first]().

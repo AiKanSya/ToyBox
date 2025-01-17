@@ -1,8 +1,8 @@
 # ♠ 8 - [USING LOGGING AND MONITORING](https://learning.sap.com/learning-journeys/developing-with-sap-integration-suite/using-logging-and-monitoring_e83faa28-1ebd-41e5-87b7-1a053c336b36)
 
-> Objectifs
+> :exclamation: Objectifs
 >
-> - Use the different ways to log health data and messages, displayed in a monitor.
+> - [ ] Use the different ways to log health data and messages, displayed in a monitor.
 
 ## LOGGING AND MONITORING
 

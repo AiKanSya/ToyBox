@@ -1,8 +1,8 @@
 # ♠ 5 - [USING MAPPINGS](https://learning.sap.com/learning-journeys/developing-with-sap-integration-suite/using-adapters_f42fdb69-df78-4faf-bfd3-0a7b8c8beebd)
 
-> Objectifs
+> :exclamation: Objectifs
 >
-> - Use outbound security for adapters
+> - [ ] Use outbound security for adapters
 
 ## ADAPTER OUTBOUND SECURITY
 

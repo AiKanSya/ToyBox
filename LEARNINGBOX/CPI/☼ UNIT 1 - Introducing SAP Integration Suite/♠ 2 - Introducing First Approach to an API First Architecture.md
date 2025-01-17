@@ -1,13 +1,18 @@
 # ♠ 2 - [INTRODUCING FIRST APPROACH TO AN API FIRST ARCHITECTURE](https://learning.sap.com/learning-journeys/developing-with-sap-integration-suite/undergoing-a-first-approach-with-an-api_ccfd23d7-c298-4606-9af8-3c4f2ac91824)
 
-> Objectifs
+> :exclamation: Objectifs
 >
-> - What is an API First Approach?
-> - What are APIs?
-> - Types of APIs.
-> - Interface types mainly used in SAP.
-> - How to design APIs with description languages.
-> - Fulfill the contract between API Provider and API Consumer.
+> - [ ] What is an API First Approach?
+>
+> - [ ] What are APIs?
+>
+> - [ ] Types of APIs.
+>
+> - [ ] Interface types mainly used in SAP.
+>
+> - [ ] How to design APIs with description languages.
+>
+> - [ ] Fulfill the contract between API Provider and API Consumer.
 
 ## WHAT IS AN API FIRST APPROACH
 

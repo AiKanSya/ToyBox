@@ -1,8 +1,8 @@
 # ♠ 5 - [USING POLICIES](https://learning.sap.com/learning-journeys/developing-with-sap-integration-suite/using-policies_cd5fde51-b3d2-40d3-bd71-3f2870c2b51b)
 
-> Objectifs
+> :exclamation: Objectifs
 >
-> - Use policies
+> - [ ] Use policies
 
 ## USAGE OF POLICIES
 

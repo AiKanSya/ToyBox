@@ -1,8 +1,8 @@
 # ♠ 1 - [MODELING INTEGRATION FLOWS IN AN OVERVIEW](https://learning.sap.com/learning-journeys/developing-with-sap-integration-suite/modeling-integration-flows-in-an-overview_d550da39-d693-48bc-b425-dbc135589328)
 
-> Objectifs
+> :exclamation: Objectifs
 >
-> - Model Integration Flows in an overview
+> - [ ] Model Integration Flows in an overview
 
 ## INTEGRATION FLOWS MODELING
 

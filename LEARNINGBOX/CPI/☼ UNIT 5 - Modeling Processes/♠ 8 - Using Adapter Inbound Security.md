@@ -1,8 +1,8 @@
 # ♠ 8 - [USING ADAPTER INBOUND SECURITY](https://learning.sap.com/learning-journeys/developing-with-sap-integration-suite/using-adapter-inbound-security_cae0d690-8bda-4fc5-a45f-7b24b2134d26)
 
-> Objectifs
+> :exclamation: Objectifs
 >
-> - Use and set up an inbound security adapter
+> - [ ] Use and set up an inbound security adapter
 
 ## INBOUND SECURITY ADAPTER
 

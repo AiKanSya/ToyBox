@@ -1,8 +1,8 @@
 # ♠ 7 - [CREATING A PRODUCT](https://learning.sap.com/learning-journeys/developing-with-sap-integration-suite/creating-a-product_fc942de6-ff7b-4263-bd2b-f33fe481bc3d)
 
-> Objectifs
+> :exclamation: Objectifs
 >
-> - Create a product
+> - [ ] Create a product
 
 ## PRODUCT CREATION
 

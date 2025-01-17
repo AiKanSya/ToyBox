@@ -1,8 +1,8 @@
 # ♠ 3 - [CREATING AN API PROVIDER](https://learning.sap.com/learning-journeys/developing-with-sap-integration-suite/creating-an-api-provider_b95113e7-369f-4dd3-9773-ec4e0fde2e00)
 
-> Objectifs
+> :exclamation: Objectifs
 >
-> - Create an API provider using the SAP Integration Suite
+> - [ ] Create an API provider using the SAP Integration Suite
 
 ## API PROVIDER CREATION
 

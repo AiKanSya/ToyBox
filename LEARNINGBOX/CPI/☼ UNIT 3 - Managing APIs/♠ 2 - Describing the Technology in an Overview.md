@@ -1,8 +1,8 @@
 # ♠ 2 - [DESCRIBING THE TECHNOLOGIE IN AN OVERVIEW](https://learning.sap.com/learning-journeys/developing-with-sap-integration-suite/describing-the-technology-in-an-overview_b9547c58-091c-48d6-bb97-27835c35731d)
 
-> Objectifs
+> :exclamation: Objectifs
 >
-> - Gain an overview of the SAP API Management components
+> - [ ] Gain an overview of the SAP API Management components
 
 ## COMPONENTS OF SAP API MANAGEMENT
 

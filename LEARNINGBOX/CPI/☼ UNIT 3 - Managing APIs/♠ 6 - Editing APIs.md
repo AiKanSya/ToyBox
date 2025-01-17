@@ -1,8 +1,8 @@
 # ♠ 6 - [EDITING APIS](https://learning.sap.com/learning-journeys/developing-with-sap-integration-suite/editing-apis_c1f6b231-83bf-47aa-bf2d-06b633ba1e4b)
 
-> Objectifs
+> :exclamation: Objectifs
 >
-> - Edit APIs
+> - [ ] Edit APIs
 
 ## EDIT AN API
 
