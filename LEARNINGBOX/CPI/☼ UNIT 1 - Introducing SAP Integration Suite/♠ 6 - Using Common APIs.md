@@ -1,4 +1,4 @@
-# ♠ 6 - [USING COMMON APIS](https://learning.sap.com/learning-journeys/developing-with-sap-integration-suite/introducing-rest_fb9a2610-c990-4e0c-9140-0802b642019e)
+# ♠ 6 [USING COMMON APIS](https://learning.sap.com/learning-journeys/developing-with-sap-integration-suite/introducing-rest_fb9a2610-c990-4e0c-9140-0802b642019e)
 
 > :exclamation: Objectifs
 >

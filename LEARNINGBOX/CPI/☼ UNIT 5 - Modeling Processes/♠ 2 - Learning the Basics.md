@@ -1,4 +1,4 @@
-# ♠ 2 - [LEARNING THE BASICS](https://learning.sap.com/learning-journeys/developing-with-sap-integration-suite/learning-the-basics_ccfb5535-54c2-40d2-8249-6e3102987d30)
+# ♠ 2 [LEARNING THE BASICS](https://learning.sap.com/learning-journeys/developing-with-sap-integration-suite/learning-the-basics_ccfb5535-54c2-40d2-8249-6e3102987d30)
 
 > :exclamation: Objectifs
 >

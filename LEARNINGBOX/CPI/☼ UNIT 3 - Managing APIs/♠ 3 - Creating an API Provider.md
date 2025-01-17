@@ -1,4 +1,4 @@
-# ♠ 3 - [CREATING AN API PROVIDER](https://learning.sap.com/learning-journeys/developing-with-sap-integration-suite/creating-an-api-provider_b95113e7-369f-4dd3-9773-ec4e0fde2e00)
+# ♠ 3 [CREATING AN API PROVIDER](https://learning.sap.com/learning-journeys/developing-with-sap-integration-suite/creating-an-api-provider_b95113e7-369f-4dd3-9773-ec4e0fde2e00)
 
 > :exclamation: Objectifs
 >
@@ -39,7 +39,9 @@ Les étapes suivantes doivent être effectuées dans l'ordre :
 
     ![](./RESSOURCES/CLD900_U3_L3_07.png)
 
-           Note: Utiliser votre propres détails Host pour vous connecter au Backend System
+    > :pushpin: Note:
+    >
+    > Utiliser votre propres détails Host pour vous connecter au Backend System
 
     L'affectation suivante s'applique :
 

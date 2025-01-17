@@ -1,4 +1,4 @@
-# ♠ 7 - [CREATING A PRODUCT](https://learning.sap.com/learning-journeys/developing-with-sap-integration-suite/creating-a-product_fc942de6-ff7b-4263-bd2b-f33fe481bc3d)
+# ♠ 7 [CREATING A PRODUCT](https://learning.sap.com/learning-journeys/developing-with-sap-integration-suite/creating-a-product_fc942de6-ff7b-4263-bd2b-f33fe481bc3d)
 
 > :exclamation: Objectifs
 >
@@ -37,7 +37,9 @@ Les produits peuvent ensuite être recherchés, trouvés et consommés par les d
 
 ### PROCEDURE FOR CREATING A PRODUCT
 
-     Note : You perform in step in the SAP Integration Suite Cockpit
+> :pushpin: Note:
+>
+> You perform in step in the SAP Integration Suite Cockpit
 
 Les étapes suivantes doivent être effectuées dans l'ordre suivant :
 

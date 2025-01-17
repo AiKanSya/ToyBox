@@ -1,4 +1,4 @@
-# ♠ 1 - [INTRODUCTION CLOUD CONNECTOR](https://learning.sap.com/learning-journeys/developing-with-sap-integration-suite/introducing-cloud-integration_b3692797-cbf6-44ac-9b05-20b77411fa96)
+# ♠ 1 [INTRODUCTION CLOUD CONNECTOR](https://learning.sap.com/learning-journeys/developing-with-sap-integration-suite/introducing-cloud-integration_b3692797-cbf6-44ac-9b05-20b77411fa96)
 
 > :exclamation: Objectifs
 >

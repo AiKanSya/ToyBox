@@ -1,4 +1,4 @@
-# ♠ 9 - [USING INTEGRATION PATTERNS](https://learning.sap.com/learning-journeys/developing-with-sap-integration-suite/using-adapter-inbound-security_cae0d690-8bda-4fc5-a45f-7b24b2134d26)
+# ♠ 9 [USING INTEGRATION PATTERNS](https://learning.sap.com/learning-journeys/developing-with-sap-integration-suite/using-adapter-inbound-security_cae0d690-8bda-4fc5-a45f-7b24b2134d26)
 
 > :exclamation: Objectifs
 >

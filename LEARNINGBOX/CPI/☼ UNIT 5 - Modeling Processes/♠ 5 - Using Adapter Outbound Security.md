@@ -1,4 +1,4 @@
-# ♠ 5 - [USING MAPPINGS](https://learning.sap.com/learning-journeys/developing-with-sap-integration-suite/using-adapters_f42fdb69-df78-4faf-bfd3-0a7b8c8beebd)
+# ♠ 5 [USING MAPPINGS](https://learning.sap.com/learning-journeys/developing-with-sap-integration-suite/using-adapters_f42fdb69-df78-4faf-bfd3-0a7b8c8beebd)
 
 > :exclamation: Objectifs
 >
@@ -42,7 +42,9 @@ Nous pouvons utiliser un outil utile dans l'intégration cloud appelé Test Conn
 
 - Import the certificates at Monitor → Integrations → Manage Security → Manage Keystore → Add → Certificate.
 
-          Note : The following screenshots address twitter.com as receiver.
+> :pushpin: Note:
+>
+> The following screenshots address twitter.com as receiver.
 
 Explications complémentaires :
 

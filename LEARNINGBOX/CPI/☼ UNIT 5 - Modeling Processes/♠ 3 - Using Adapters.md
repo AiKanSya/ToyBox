@@ -1,4 +1,4 @@
-# ♠ 3 - [USING ADAPTERS](https://learning.sap.com/learning-journeys/developing-with-sap-integration-suite/using-adapters_f42fdb69-df78-4faf-bfd3-0a7b8c8beebd)
+# ♠ 3 [USING ADAPTERS](https://learning.sap.com/learning-journeys/developing-with-sap-integration-suite/using-adapters_f42fdb69-df78-4faf-bfd3-0a7b8c8beebd)
 
 > :exclamation: Objectifs
 >

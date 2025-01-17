@@ -1,4 +1,4 @@
-# ♠ 8 - [USING ADAPTER INBOUND SECURITY](https://learning.sap.com/learning-journeys/developing-with-sap-integration-suite/using-adapter-inbound-security_cae0d690-8bda-4fc5-a45f-7b24b2134d26)
+# ♠ 8 [USING ADAPTER INBOUND SECURITY](https://learning.sap.com/learning-journeys/developing-with-sap-integration-suite/using-adapter-inbound-security_cae0d690-8bda-4fc5-a45f-7b24b2134d26)
 
 > :exclamation: Objectifs
 >
@@ -47,7 +47,9 @@ Il s’agit du scénario le plus courant lors du développement, mais il n’est
 - Attribuez votre collection de rôles à un utilisateur de votre sous-compte.
 - Appelez le point de terminaison avec un utilisateur affecté à votre collection de rôles avec le rôle ESBMessaging.send inclus.
 
-  Note : It is not recommended to use client certificates for authorization. This approach requires importing a client certificate directly into the configuration.
+> :pushpin: Note:
+>
+> It is not recommended to use client certificates for authorization. This approach requires importing a client certificate directly into the configuration.
 
 ![](./RESSOURCES/CLD900_20_U5L8_003_scr.png)
 
@@ -55,7 +57,9 @@ Collection de rôles, `A_sendMessagesToCI` avec le rôle MessagingSend attribué
 
 ![](./RESSOURCES/CLD900_20_U5L8_004_scr.png)
 
-     Note : The role MessagingSend in the context of this situation is equivalent to the role ESBMessaging.send in the Cloud Integration.
+> :pushpin: Note:
+>
+> The role MessagingSend in the context of this situation is equivalent to the role ESBMessaging.send in the Cloud Integration.
 
 Vous recevez un appel réussi vers le point de terminaison en utilisant l'un des utilisateurs attribués.
 

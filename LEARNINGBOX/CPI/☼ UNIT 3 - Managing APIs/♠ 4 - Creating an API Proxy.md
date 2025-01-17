@@ -1,4 +1,4 @@
-# ♠ 4 - [CREATING AN API PROXY](https://learning.sap.com/learning-journeys/developing-with-sap-integration-suite/creating-an-api_b3973a9a-62ce-4a5e-b59a-c0ddf6924de5)
+# ♠ 4 [CREATING AN API PROXY](https://learning.sap.com/learning-journeys/developing-with-sap-integration-suite/creating-an-api_b3973a9a-62ce-4a5e-b59a-c0ddf6924de5)
 
 > :exclamation: Objectifs
 >
@@ -101,7 +101,9 @@ Passez à l'éditeur openAPI. Vous pouvez y créer manuellement votre API via le
 
 ### AFTER SAVING
 
-     Note: Be aware that the shown URL is a sample and will not work !
+> :pushpin: Note:
+>
+> Be aware that the shown URL is a sample and will not work !
 
 ![](./RESSOURCES/CLD900_20_U3L4_015_scr.png)
 

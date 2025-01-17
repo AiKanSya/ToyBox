@@ -1,4 +1,4 @@
-# ♠ 1 - [DESCRIBING THE INTEGRATION STRATEGY OF SAP](https://learning.sap.com/learning-journeys/developing-with-sap-integration-suite/describing-the-integration-strategy-of-sap_b4888fe7-2084-40f1-a89b-ca0f93933c78)
+# ♠ 1 [DESCRIBING THE INTEGRATION STRATEGY OF SAP](https://learning.sap.com/learning-journeys/developing-with-sap-integration-suite/describing-the-integration-strategy-of-sap_b4888fe7-2084-40f1-a89b-ca0f93933c78)
 
 > :exclamation: Objectifs
 >
