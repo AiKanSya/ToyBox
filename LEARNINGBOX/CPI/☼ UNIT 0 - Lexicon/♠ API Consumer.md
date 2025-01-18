@@ -4,10 +4,6 @@
 
 > :boom: Un API Consumer est une application ou un système qui consomme les services ou données exposés par une API. Dans SAP CPI, il peut s'agir d'une intégration consommant des APIs externes ou d'applications externes consommant des APIs exposées par CPI. L’API Consumer est une composante essentielle pour établir des connexions dans une architecture distribuée.
 
-## INTRODUCTION
-
-_La notion d'API Consumer complète celle d'[API Provider](../☼%20UNIT%200%20-%20Lexicon/♠%20API%20Provider.md) en mettant l'accent sur la partie consommatrice d'une API. L'API Consumer est un élément clé dans les intégrations modernes, notamment dans SAP Integration Suite (CPI), où des applications ou systèmes utilisent des APIs pour accéder à des ressources ou services._
-
 ## DEFINITION
 
 > #### :bookmark: `API Consumer`

@@ -1,18 +1,18 @@
-# ♠ 4 [DESCRIBING COMMON USES OF METADATA IN XML](https://learning.sap.com/learning-journeys/developing-with-sap-integration-suite/describing-common-uses-of-metadata-in-xml)
+# ♠ 4 [DESCRIBING COMMON USES OF `METADATA` IN XML](https://learning.sap.com/learning-journeys/developing-with-sap-integration-suite/describing-common-uses-of-``metadata``-in-xml)
 
 > :exclamation: Objectifs
 >
-> - [ ] Describe common uses of Metadata in XML
+> - [ ] Describe common uses of `Metadata` in `XML`
 
 ## :closed_book: COMMON USES OF METADATA IN XML
 
 ### METADATA IN XML
 
-La fonctionnalité de métadonnées remplit plusieurs fonctions importantes, en particulier dans les contextes où les données doivent être comprises, traitées ou partagées par différents systèmes et utilisateurs. Voici les utilisations courantes des métadonnées en XML.
+La fonctionnalité de `metadata` remplit plusieurs fonctions importantes, en particulier dans les contextes où les données doivent être comprises, traitées ou partagées par différents systèmes et utilisateurs. Voici les utilisations courantes des `metadata` en `XML`.
 
 ### DESCRIPTIVE INFORMATION
 
-Objectif : Fournir une description de haut niveau du document XML.
+#### :small_red_triangle_down: Objectif : Fournir une high-level description du document XML.
 
 - Auteur : Identifie le créateur du document.
 
@@ -36,7 +36,7 @@ Objectif : Fournir une description de haut niveau du document XML.
 
 ### ADMINISTRATIVE INFORMATION
 
-#### :small_red_triangle_down: Objectif : Gérer et contrôler l’utilisation et la gestion des versions du document.
+#### :small_red_triangle_down: Objectif : Manage et contrôler l’utilisation et la gestion des versions du document.
 
 - Version : Spécifie la version du document.
 
@@ -84,18 +84,18 @@ Objectif : Fournir une description de haut niveau du document XML.
 
 ### ENHANCING METADATA IN ODATA SERVICES
 
-Pour relever les défis que nous avons rencontrés, une solution proposée consiste à étendre le point de terminaison « $metadata » pour fonctionner lui-même comme un service OData.
+Pour relever les défis que nous avons rencontrés, une solution proposée consiste à étendre le `« $metadata » endpoint` pour fonctionner lui-même comme un service `OData`.
 
-Pour utiliser la fonctionnalité $metadata, utilisez l'URL GET suivante, où vous devez insérer vos paramètres individuels comme suit :
+Pour utiliser la fonctionnalité `$metadata`, utilisez l'`URL GET` suivante, où vous devez insérer vos paramètres individuels comme suit :
 
 ```xml
-http://<yourAPI>:<PORT>/$metadata
+http://<yourAPI>:<PORT>/$``metadata``
 ```
 
 ![](./RESSOURCES/gwsample_xml_sample.png)
 
-![](./RESSOURCES/metadata_from_gwsample.png)
+![](./RESSOURCES/``metadata``_from_gwsample.png)
 
 ### SUMMARY
 
-Les métadonnées XML sont essentielles pour fournir le contexte, la structure et le contrôle des documents XML. Il améliore la convivialité du document en offrant des informations descriptives, structurelles, administratives, techniques, de provenance et de gestion des droits. En intégrant des métadonnées dans XML, les utilisateurs et les systèmes peuvent mieux comprendre, gérer et utiliser les données efficacement.
+Les `metadata XML` sont essentielles pour fournir le contexte, la structure et le contrôle des documents `XML`. Il améliore la convivialité du document en offrant des informations `descriptives`, `structurelles`, `administratives`, `techniques`, de `provenance` et de `gestion des droits`. En intégrant des `metadata` dans `XML`, les utilisateurs et les systèmes peuvent mieux comprendre, gérer et utiliser les données efficacement.

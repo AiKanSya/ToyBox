@@ -8,7 +8,7 @@
 >
 > - [ ] Types of [APIs](../☼%20UNIT%200%20-%20Lexicon/♠%20API.md).
 >
-> - [ ] Interface types mainly used in SAP.
+> - [ ] `Interface` types mainly used in SAP.
 >
 > - [ ] How to design [API](../☼%20UNIT%200%20-%20Lexicon/♠%20API.md) with description languages.
 >
@@ -16,23 +16,23 @@
 
 ## :closed_book: WHAT IS AN API FIRST APPROACH
 
-L'[API first approach](../☼%20UNIT%200%20-%20Lexicon/♠%20API%20First%20Approach.md) est une approche de conception de logiciels qui se concentre sur l'[API](../☼%20UNIT%200%20-%20Lexicon/♠%20API.md) pour créer des applications pouvant être facilement connectées les unes aux autres. API First crée des écosystèmes d'applications modulaires, réutilisables et extensibles, à l'image des briques Lego.
+L'[API first approach](../☼%20UNIT%200%20-%20Lexicon/♠%20API%20First%20Approach.md) est une approche `software design` (conception de logiciels) qui se concentre sur l'[API](../☼%20UNIT%200%20-%20Lexicon/♠%20API.md) pour créer des applications pouvant être facilement connectées les unes aux autres. `API First` crée des écosystèmes d'`applications modulaires, réutilisables et extensibles`, à l'image des briques Lego.
 
-Une [API first approach](../☼%20UNIT%200%20-%20Lexicon/♠%20API%20First%20Approach.md) signifie que vos [API](../☼%20UNIT%200%20-%20Lexicon/♠%20API.md) sont traitées comme des `first class citizens`. Tout tourne autour du produit final utilisé par les appareils mobiles et les applications client. Une [API first approach](../☼%20UNIT%200%20-%20Lexicon/♠%20API%20First%20Approach.md) implique de développer des [APIs](../☼%20UNIT%200%20-%20Lexicon/♠%20API.md) cohérentes et réutilisables. Ceci est réalisé en utilisant un langage de description d’[API](../☼%20UNIT%200%20-%20Lexicon/♠%20API.md).
+Une [API first approach](../☼%20UNIT%200%20-%20Lexicon/♠%20API%20First%20Approach.md) signifie que vos [API](../☼%20UNIT%200%20-%20Lexicon/♠%20API.md) sont traitées comme des `first class citizens`. Tout tourne autour du end product (produit final) utilisé par les appareils mobiles et les applications client. Une [API first approach](../☼%20UNIT%200%20-%20Lexicon/♠%20API%20First%20Approach.md) implique de développer des [APIs](../☼%20UNIT%200%20-%20Lexicon/♠%20API.md) `consistent` (cohérentes) et `reusable`. Ceci est réalisé en utilisant un `API description language`.
 
 ![](./RESSOURCES/CLD900_20_U1L2_001.png)
 
 Explication:
 
-### :small_red_triangle_down: API PROVIDER (FOURNISSEUR D'API)
+### :small_red_triangle_down: [API Provider](../☼%20UNIT%200%20-%20Lexicon/♠%20API%20Provider.md) (FOURNISSEUR D'API)
 
-Un [API Provider](../☼%20UNIT%200%20-%20Lexicon/♠%20API%20Provider.md) fournit une interface avec des fonctionnalités techniques (n°1). Symboliquement, cela est montré sur cette image avec la notation boule ou sucette. Cette interface peut être consommée par un service (n°5). La représentation correspond à la notation socket (n°2). Le service joue le rôle de [API Consumer](../☼%20UNIT%200%20-%20Lexicon/♠%20API%20Consumer.md).
+L'[API Provider](../☼%20UNIT%200%20-%20Lexicon/♠%20API%20Provider.md) fournit une `interface` avec des `technical features` (fonctionnalités techniques) (n°1). Symboliquement, cela est montré sur cette image avec la notation boule ou sucette. Cette `interface` peut être `consumed` par un `service` (n°5). La représentation correspond à la `socket notation` (n°2). Le service joue le rôle de l'[API Consumer](../☼%20UNIT%200%20-%20Lexicon/♠%20API%20Consumer.md).
 
-### :small_red_triangle_down: API CONSUMER (CONSOMMATEUR D'API)
+### :small_red_triangle_down: [API Consumer](../☼%20UNIT%200%20-%20Lexicon/♠%20API%20Consumer.md) (CONSOMMATEUR D'API)
 
-Le [API Consumer](../☼%20UNIT%200%20-%20Lexicon/♠%20API%20Consumer.md) nécessite une interface (n°3). La représentation correspond à la notation socket (n°4). Dans ce cas, le [API Provider](../☼%20UNIT%200%20-%20Lexicon/♠%20API%20Provider.md)I est le service (n°5). La présentation est à nouveau faite avec la notation boule ou sucette.
+L'[API Consumer](../☼%20UNIT%200%20-%20Lexicon/♠%20API%20Consumer.md) nécessite une `interface` (n°3). La représentation correspond à la `socket notation` (n°4). Dans ce cas, l'[API Provider](../☼%20UNIT%200%20-%20Lexicon/♠%20API%20Provider.md)I est le `service` (n°5). La présentation est à nouveau faite avec la notation boule ou sucette.
 
-### FOND MORE INFORMATION AT:
+### FIND MORE INFORMATION AT:
 
 - [Understanding the API-First Approach to Building Products.](https://swagger.io/resources/articles/adopting-an-api-first-approach)
 
@@ -40,7 +40,7 @@ Le [API Consumer](../☼%20UNIT%200%20-%20Lexicon/♠%20API%20Consumer.md) néce
 
 ## :closed_book: WHAT ARE APIS?
 
-[API](../☼%20UNIT%200%20-%20Lexicon/♠%20API.md) signifie Application Programming Interface. Une [API](../☼%20UNIT%200%20-%20Lexicon/♠%20API.md) spécifie les opérations ainsi que les entrées et sorties d'un composant logiciel. Il définit des fonctionnalités indépendantes de leurs implémentations respectives, afin que ces implémentations puissent varier sans affecter l'utilisateur de l'[API](../☼%20UNIT%200%20-%20Lexicon/♠%20API.md).
+[API](../☼%20UNIT%200%20-%20Lexicon/♠%20API.md) signifie ` Application Programming ``Interface```. Une [API](../☼%20UNIT%200%20-%20Lexicon/♠%20API.md) spécifie les  `operations`ainsi que les inputs et outputs (entrées/sorties) d'un`component` logiciel. Il définit des fonctionnalités indépendantes de leurs implémentations respectives, afin que ces implémentations puissent varier sans affecter l'utilisateur de l'[API](../☼%20UNIT%200%20-%20Lexicon/♠%20API.md).
 
 ### TYPES OF APIS
 
@@ -52,23 +52,23 @@ Dans la littérature, il existe de nombreuses présentations de différents type
 
 Ici, quatre [API](../☼%20UNIT%200%20-%20Lexicon/♠%20API.md) différentes sont définies sous le sur-ensemble d'[API](../☼%20UNIT%200%20-%20Lexicon/♠%20API.md), en fonction de leur utilisation.
 
-#### :small_red_triangle_down: [API](../☼%20UNIT%200%20-%20Lexicon/♠%20API.md) basées sur une base de données :
+#### :small_red_triangle_down: Databased [APIs](../☼%20UNIT%200%20-%20Lexicon/♠%20API.md) :
 
 Ceux-ci sont destinés à l’échange de fichiers entre systèmes. Les fichiers peuvent être, par exemple, des fichiers de configuration.
 
-#### :small_red_triangle_down: [API](../☼%20UNIT%200%20-%20Lexicon/♠%20API.md) orientées objet :
+#### :small_red_triangle_down: Object-orientated [APIs](../☼%20UNIT%200%20-%20Lexicon/♠%20API.md) :
 
-Ceux-ci sont utilisés dans les langages de programmation orientés objet pour définir la communication des classes entre elles.
+Ceux-ci sont utilisés dans les langages object-oriented programming (programmation orientés objet) pour définir la communication des classes entre elles.
 
-#### :small_red_triangle_down: [API](../☼%20UNIT%200%20-%20Lexicon/♠%20API.md) distantes (n°1) :
+#### :small_red_triangle_down: Remote [APIs](../☼%20UNIT%200%20-%20Lexicon/♠%20API.md) (n°1) :
 
-Cela inclut les [API](../☼%20UNIT%200%20-%20Lexicon/♠%20API.md) Web importantes d'aujourd'hui, telles que les API REST et SOAP. REST lui-même n'est pas un protocole mais un style architectural logiciel.
+Cela inclut les [API](../☼%20UNIT%200%20-%20Lexicon/♠%20API.md) Web importantes d'aujourd'hui, telles que les API `REST` et `SOAP`. `REST` lui-même n'est pas un protocole mais un software architectural style (style architectural logiciel).
 
-#### :small_red_triangle_down: [API](../☼%20UNIT%200%20-%20Lexicon/♠%20API.md) de messagerie (n°2) :
+#### :small_red_triangle_down: Messaging [APIs](../☼%20UNIT%200%20-%20Lexicon/♠%20API.md) (n°2) :
 
-Ce sont des [API](../☼%20UNIT%200%20-%20Lexicon/♠%20API.md) asynchrones qui envoient des événements en fonction d'événements. Ceux-ci sont utilisés dans les architectures Event Driven.
+Ce sont des [API](../☼%20UNIT%200%20-%20Lexicon/♠%20API.md) `asynchrones` qui envoient des `events` en fonction d'`events` . Ceux-ci sont utilisés dans les [Event-Driven architectures](../☼%20UNIT%200%20-%20Lexicon/♠%20Event-Driven%20Architecture.md).
 
-## :closed_book: INTERFACE TYPES MAINLY USED IN SAP
+## :closed_book: `INTERFACE` TYPES MAINLY USED IN SAP
 
 Techniquement, quelques protocoles ont été convenus. La figure suivante montre les [API](../☼%20UNIT%200%20-%20Lexicon/♠%20API.md) et leurs relations les unes avec les autres.
 
@@ -76,43 +76,49 @@ Techniquement, quelques protocoles ont été convenus. La figure suivante montre
 
 Ceux-ci sont chez SAP :
 
-- [API](../☼%20UNIT%200%20-%20Lexicon/♠%20API.md) REST, comme les [API](../☼%20UNIT%200%20-%20Lexicon/♠%20API.md) HTTP RESTful :
+#### :small_red_triangle_down: REST APIs
 
-  - OData 2.0.
+comme les `RESTful HTTP APIs` :
 
-  - OData 4.0, tous deux comme SAP Graph.
+- `OData` 2.0.
 
-- [API](../☼%20UNIT%200%20-%20Lexicon/♠%20API.md) distantes, comme les [API](../☼%20UNIT%200%20-%20Lexicon/♠%20API.md) SOAP.
+- `OData` 4.0, tous deux comme SAP Graph.
 
-- [API](../☼%20UNIT%200%20-%20Lexicon/♠%20API.md) de messagerie, comme les [API](../☼%20UNIT%200%20-%20Lexicon/♠%20API.md) d'événements.
+#### :small_red_triangle_down: Remote APIs
 
-Les formats de présentation sont soit JSON, soit XML.
+comme les `SOAP APIs` .
+
+#### :small_red_triangle_down: Messaging APIs
+
+comme les `Event APIs`.
+
+    Les formats de présentation sont soit JSON, soit XML.
 
 ### HOW TO DESIGN APIS WITH DESCRIPTION LANGUAGES
 
-Les [API](../☼%20UNIT%200%20-%20Lexicon/♠%20API.md) SOAP sont décrites avec le` Web Services Description Language (WSDL)`. Il s'agit d'un langage de description d'interface basé sur XML utilisé pour décrire les fonctionnalités offertes par un service Web.
+- Les [APIs](../☼%20UNIT%200%20-%20Lexicon/♠%20API.md) `SOAP` sont décrites avec le `Web Services Description Language (WSDL)`. Il s'agit d'un ` XML-based ``interface`` description language ` (langage de description d'`interface` basé sur XML) utilisé pour décrire les fonctionnalités offertes par un `web service`.
 
-Vous trouverez plus d'informations sur WSDL ici : [Langage de description des services Web](https://en.wikipedia.org/wiki/Web_Services_Description_Language)
+  Vous trouverez plus d'informations sur `WSDL` ici : [Web Services Description Language](https://en.wikipedia.org/wiki/Web_Services_Description_Language)
 
-#### :small_red_triangle_down: Les [API](../☼%20UNIT%200%20-%20Lexicon/♠%20API.md) REST peuvent être créées avec les principaux langages de description suivants :
+- Les [APIs](../☼%20UNIT%200%20-%20Lexicon/♠%20API.md) `REST` peuvent être créées avec les principaux langages de description suivants :
 
-- `RAML`
+  - `RAML`
 
-- `OpenAPI`
+  - `OpenAPI`
 
 #### :small_red_triangle_down: `RAML` :
 
-langage basé sur YAML pour décrire les [API](../☼%20UNIT%200%20-%20Lexicon/♠%20API.md) RESTful.
+langage basé sur `YAML` pour décrire les [API](../☼%20UNIT%200%20-%20Lexicon/♠%20API.md) `RESTful`.
 
 Vous trouverez plus d’informations sur `RAML` ici : https://raml.org/
 
 #### :small_red_triangle_down: OpenAPI :
 
-Une spécification `OpenAPI`, anciennement connue sous le nom de spécification Swagger, est une spécification pour un langage de définition d'interface lisible par machine permettant de décrire, de produire, de consommer et de visualiser des services Web RESTful.
+Une spécification `OpenAPI`, anciennement connue sous le nom de `Swagger specification`, est une spécification pour un ` machine-readable ``interface`` definition language ` (langage de définition d'`interface` lisible par machine) permettant de décrire, de produire, de consommer et de visualiser des `RESTful web services`.
 
 Vous trouverez plus d’informations sur `OpenAPI` ici : [openapis.org](https://www.``openapi``s.org/).
 
-La spécification `OpenAPI` est utilisée dans la gestion des [API](../☼%20UNIT%200%20-%20Lexicon/♠%20API.md).
+La spécification `OpenAPI` est utilisée dans la gestion des [APIs](../☼%20UNIT%200%20-%20Lexicon/♠%20API.md).
 
 ### FULFILL THE CONTRACT BETWEEN PROVIDER AND API CONSUMER
 
@@ -120,16 +126,26 @@ La description dans `RAML` ou `OpenAPI` est le contrat entre l'[API Provider](..
 
 Deux cas sont possibles :
 
-#### :small_red_triangle_down: Implémentation – Première approche
+#### :small_red_triangle_down: Implémentation – First Approach :
 
 L'implémentation est d'abord créée par le [API Provider](../☼%20UNIT%200%20-%20Lexicon/♠%20API%20Provider.md). Le descriptif (contrat) est alors généré automatiquement. Ceci est utilisé par l’[API Consumer](../☼%20UNIT%200%20-%20Lexicon/♠%20API%20Consumer.md).
 
-#### :small_red_triangle_down: Contrat - Première approche.
+#### :small_red_triangle_down: Contrat - First Approach :
 
 La description de l'[API](../☼%20UNIT%200%20-%20Lexicon/♠%20API.md) est d'abord créée avec `RAML` ou `OpenAPI`. Les générateurs créent automatiquement l'implémentation rudimentaire pour le [API Provider](../☼%20UNIT%200%20-%20Lexicon/♠%20API%20Provider.md) et le [API Consumer](../☼%20UNIT%200%20-%20Lexicon/♠%20API%20Consumer.md). Ces implémentations rudimentaires dans différents langages et concepts de programmation doivent ensuite être pleinement mises en œuvre.
 
 ### RESUME
 
-> Dans une [API first approach](../☼%20UNIT%200%20-%20Lexicon/♠%20API%20First%20Approach.md), seules les [API](../☼%20UNIT%200%20-%20Lexicon/♠%20API.md) fournies sont intéressantes. En utilisant des protocoles et des concepts de communication standardisés, tels que REST et OData, presque tous les cas d'utilisation peuvent être cartographiés au-delà des frontières. La communication a lieu entre un [API Provider](../☼%20UNIT%200%20-%20Lexicon/♠%20API%20Provider.md) qui dispose de l'interface et le [API Consumer](../☼%20UNIT%200%20-%20Lexicon/♠%20API%20Consumer.md) qui consomme cette interface.
+> Dans une [API first approach](../☼%20UNIT%200%20-%20Lexicon/♠%20API%20First%20Approach.md), seules les [API](../☼%20UNIT%200%20-%20Lexicon/♠%20API.md) fournies sont intéressantes. En utilisant des `standardized communication protocols and concepts`, tels que `REST` et `OData`, presque tous les cas d'utilisation peuvent être cartographiés au-delà des frontières. La communication a lieu entre un [API Provider](../☼%20UNIT%200%20-%20Lexicon/♠%20API%20Provider.md) qui dispose de l'`interface` et le [API Consumer](../☼%20UNIT%200%20-%20Lexicon/♠%20API%20Consumer.md) qui consomme cette `interface`.
 >
-> Les [API](../☼%20UNIT%200%20-%20Lexicon/♠%20API.md) sont décrites avec des langages de description standardisés, tels que `RAML` ou `OpenAPI`. L'implémentation peut être créée d'abord au niveau du [API Provider](../☼%20UNIT%200%20-%20Lexicon/♠%20API%20Provider.md) puis au niveau de la description (implémentation - première approche basée sur celle-ci) ou inversement en créant d'abord la description puis en créant automatiquement des stubs de serveur et de client à partir de celle-ci (contrat - première approche). Nous constatons que les [API](../☼%20UNIT%200%20-%20Lexicon/♠%20API.md) SOAP, OData 2.0 et 4.0, ainsi que SAP Graph jouent le rôle de premier plan dans l'univers SAP.
+> Les [API](../☼%20UNIT%200%20-%20Lexicon/♠%20API.md) sont décrites avec des `standardized description languages` (langages de description standardisés), tels que `RAML` ou `OpenAPI`. L'implémentation peut être créée d'abord au niveau de l'[API Provider](../☼%20UNIT%200%20-%20Lexicon/♠%20API%20Provider.md) puis au niveau de la description (implémentation - First Approach basée sur celle-ci) ou inversement en créant d'abord la description puis en créant automatiquement des `client stubs`[^1] (stubs de serveur) et de client à partir de celle-ci (contrat - First Approach). Nous constatons que les [APIs](../☼%20UNIT%200%20-%20Lexicon/♠%20API.md) `SOAP`, `OData` 2.0 et 4.0, ainsi que `SAP Graph` jouent le rôle de premier plan dans l'univers SAP.
+
+---
+
+[^1]: un client stub fait généralement référence à une implémentation simulée ou simplifiée d'un client, utilisée pour imiter le comportement d'un système ou d'un service externe avec lequel une intégration est censée interagir. Les stubs permettent de tester les flux d'intégration sans avoir besoin de connecter réellement le système cible ou de dépendre de sa disponibilité.
+
+Dans SAP CPI, un client stub peut être implémenté de plusieurs manières :
+
+- Scripts Groovy : Un script peut être utilisé pour créer des réponses statiques ou dynamiques simulant le comportement du système cible.
+- Endpoint mock : Vous pouvez créer un endpoint fictif ou un service dans CPI pour renvoyer des données prédéfinies (souvent via des configurations dans l'artefact de flux d'intégration).
+- Systèmes de test tiers : Parfois, des outils externes comme Postman ou Mock Server sont utilisés en conjonction avec CPI pour jouer le rôle du stub

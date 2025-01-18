@@ -4,10 +4,6 @@
 
 > :boom: Un API Provider est une plateforme ou un composant qui expose des [APIs](../☼%20UNIT%200%20-%20Lexicon/♠%20API.md) pour permettre à d'autres systèmes de consommer des données ou services. Dans SAP CPI, un API Provider joue un rôle clé dans l'intégration et la gestion des communications entre différents systèmes, tout en assurant la sécurité, la performance, et la supervision des interactions.
 
-## INTRODUCTION
-
-_La notion d'API Provider est essentielle pour comprendre comment les [APIs](../☼%20UNIT%200%20-%20Lexicon/♠%20API.md) sont gérées et exposées dans un environnement d'intégration, notamment dans le cadre de la SAP Integration Suite (CPI)._
-
 ## DEFINITION
 
 > #### :bookmark: `API Provider`

@@ -4,10 +4,6 @@
 
 > :boom: Une API est un intermédiaire qui permet aux systèmes et applications de communiquer entre eux. Dans le contexte de SAP CPI, les APIs sont utilisées pour connecter des systèmes SAP et non-SAP, pour automatiser les processus métiers, et pour exposer ou consommer des services. Les APIs offrent une flexibilité et une évolutivité cruciales dans les architectures modernes.
 
-## INTRODUCTION
-
-_La notion d'API (Application Programming Interface, ou Interface de Programmation d’Applications) est essentielle pour comprendre les intégrations modernes et, en particulier, pour travailler avec la SAP Integration Suite (CPI). Les APIs jouent un rôle central dans la communication entre différents systèmes, applications et services._
-
 Exemple concret :
 
 Quand tu utilises une application mobile pour vérifier la météo, cette application envoie une requête via une API vers un service qui fournit des données météorologiques. L’API retourne les informations (en général sous forme de données JSON ou XML) que l’application affiche ensuite.

@@ -4,10 +4,6 @@
 
 > :boom: L'architecture distribuée dans le contexte de SAP CPI fait référence à un environnement où différents systèmes SAP ou non-SAP sont interconnectés pour échanger des données de manière sécurisée et fiable. Cela permet aux entreprises de connecter facilement divers systèmes sans avoir à se soucier des détails d'infrastructure complexes.
 
-## INTRODUCTION
-
-_L'architecture distribuée est un concept clé, en particulier dans le cadre de l'intégration SAP via la SAP Integration Suite (CPI), car elle décrit la manière dont les différentes applications et systèmes sont organisés et interagissent entre eux dans un environnement distribué._
-
 ## DEFINITION
 
 > #### :bookmark: `Distributed Archiecture`

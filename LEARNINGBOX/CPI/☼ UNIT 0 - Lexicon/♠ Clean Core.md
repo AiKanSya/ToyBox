@@ -4,10 +4,6 @@
 
 > :boom: Le Clean Core est une philosophie de conception qui vise à maintenir le noyau standard de SAP (comme SAP S/4HANA) propre et intact, tout en externalisant les personnalisations vers des plateformes comme SAP BTP. Cette approche offre une flexibilité accrue, simplifie les mises à jour, et permet une adoption rapide des innovations.
 
-## INTRODUCTION
-
-_La notion de Clean Core est essentielle dans le contexte des solutions SAP modernes, particulièrement avec SAP S/4HANA et l’écosystème cloud. Elle repose sur un principe clé : maintenir le noyau (core) du système ERP aussi "propre" que possible en réduisant les personnalisations directement intégrées au système standard. Cela permet d'assurer la flexibilité, la facilité de mise à jour, et la pérennité du système._
-
 ## DEFINITION
 
 > #### :bookmark: `Clean Core`

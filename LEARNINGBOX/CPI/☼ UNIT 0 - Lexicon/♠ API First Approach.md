@@ -4,10 +4,6 @@
 
 > :boom: L'API First Approach est une méthode qui place les APIs au centre du développement. Dans le cadre de SAP CPI, cela garantit que toutes les interactions entre les systèmes SAP et non-SAP sont bien définies, normalisées et évolutives. Cette approche permet d'améliorer la cohérence, la sécurité et la collaboration, ce qui est essentiel dans des projets d'intégration complexes.
 
-## INTRODUCTION
-
-_L'Approche centrée sur les API est un concept de développement logiciel qui gagne en popularité, notamment dans les architectures modernes comme celles utilisées dans la SAP Integration Suite (CPI). Cette approche met l'accent sur la conception et la gestion des interfaces de programmation d'applications (APIs) avant de développer les applications elles-mêmes._
-
 ## DEFINITION
 
 > #### :bookmark: `API First Approach`
