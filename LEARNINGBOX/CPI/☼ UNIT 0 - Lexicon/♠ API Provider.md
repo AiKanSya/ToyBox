@@ -82,25 +82,25 @@ Un système externe (par exemple, un portail client) doit récupérer des donné
 
 ## AVANTAGE D'UN API PROVIDER DANS SAP CPI :
 
-1. Centralisation :
+### :small_red_triangle_down: Centralisation :
 
-   L'API Provider dans SAP CPI agit comme un point d'accès centralisé pour toutes les intégrations, ce qui simplifie la gestion.
+L'API Provider dans SAP CPI agit comme un point d'accès centralisé pour toutes les intégrations, ce qui simplifie la gestion.
 
-2. Flexibilité :
+### :small_red_triangle_down: Flexibilité :
 
-   SAP CPI permet de transformer, enrichir ou sécuriser les données exposées via l'[API](../☼%20UNIT%200%20-%20Lexicon/♠%20API.md) avant de les fournir aux consommateurs.
+SAP CPI permet de transformer, enrichir ou sécuriser les données exposées via l'[API](../☼%20UNIT%200%20-%20Lexicon/♠%20API.md) avant de les fournir aux consommateurs.
 
-3. Interopérabilité :
+### :small_red_triangle_down: Interopérabilité :
 
-   L'utilisation d'un API Provider facilite la connexion entre des systèmes SAP (comme S/4HANA, SuccessFactors) et des applications tierces.
+L'utilisation d'un API Provider facilite la connexion entre des systèmes SAP (comme S/4HANA, SuccessFactors) et des applications tierces.
 
-4. Sécurité renforcée :
+### :small_red_triangle_down: Sécurité renforcée :
 
-   SAP CPI offre des mécanismes de sécurisation avancés pour protéger les données exposées via les APIs.
+SAP CPI offre des mécanismes de sécurisation avancés pour protéger les données exposées via les APIs.
 
-5. Monitoring et analytics :
+### :small_red_triangle_down: Monitoring et analytics :
 
-   Les API Providers dans SAP CPI permettent de suivre les métriques des appels [API](../☼%20UNIT%200%20-%20Lexicon/♠%20API.md), d'identifier les problèmes et d’optimiser les performances.
+Les API Providers dans SAP CPI permettent de suivre les métriques des appels [API](../☼%20UNIT%200%20-%20Lexicon/♠%20API.md), d'identifier les problèmes et d’optimiser les performances.
 
 ## EXEMPLE DE CONFIGURATION DANS SAP CPI :
 

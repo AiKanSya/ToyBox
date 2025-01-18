@@ -81,63 +81,63 @@ Un système CRM externe consomme une API SAP CPI pour récupérer des informatio
 
 ## COMPOSANTS CLES POUR UN API CONSUMER :
 
-1. Endpoints API :
+### :small_red_triangle_down: Endpoints API :
 
-   L’API Consumer doit connaître les endpoints de l’API à interroger.
+L’API Consumer doit connaître les endpoints de l’API à interroger.
 
-2. Méthodes HTTP :
+### :small_red_triangle_down: Méthodes HTTP :
 
-   Les requêtes peuvent inclure :
+Les requêtes peuvent inclure :
 
-   - GET : Pour récupérer des données.
+- GET : Pour récupérer des données.
 
-   - POST : Pour créer une nouvelle ressource.
+- POST : Pour créer une nouvelle ressource.
 
-   - PUT : Pour mettre à jour une ressource existante.
+- PUT : Pour mettre à jour une ressource existante.
 
-   - DELETE : Pour supprimer une ressource.
+- DELETE : Pour supprimer une ressource.
 
-3. Authentification :
+### :small_red_triangle_down: Authentification :
 
-   Les [API Providers](../☼%20UNIT%200%20-%20Lexicon/♠%20API%20Provider.md) exigent souvent une authentification. Les API Consumers doivent fournir :
+Les [API Providers](../☼%20UNIT%200%20-%20Lexicon/♠%20API%20Provider.md) exigent souvent une authentification. Les API Consumers doivent fournir :
 
-   - Des clés API.
+- Des clés API.
 
-   - Des jetons OAuth2.
+- Des jetons OAuth2.
 
-   - Des certificats SSL/TLS.
+- Des certificats SSL/TLS.
 
-4. Gestion des erreurs :
+### :small_red_triangle_down: Gestion des erreurs :
 
-   Les API Consumers doivent gérer les erreurs, comme :
+Les API Consumers doivent gérer les erreurs, comme :
 
-   - 401 Unauthorized : Mauvaise authentification.
+- 401 Unauthorized : Mauvaise authentification.
 
-   - 404 Not Found : Endpoint incorrect ou ressource introuvable.
+- 404 Not Found : Endpoint incorrect ou ressource introuvable.
 
-   - 500 Internal Server Error : Erreur côté [API Provider](../☼%20UNIT%200%20-%20Lexicon/♠%20API%20Provider.md).
+- 500 Internal Server Error : Erreur côté [API Provider](../☼%20UNIT%200%20-%20Lexicon/♠%20API%20Provider.md).
 
-5. Transformation des données :
+### :small_red_triangle_down: Transformation des données :
 
-   Les données reçues d’une API doivent parfois être transformées pour être intégrées dans le système consommateur.
+Les données reçues d’une API doivent parfois être transformées pour être intégrées dans le système consommateur.
 
 ## AVANTAGES POUR L'API CONSUMER :
 
-1. Accès aux données :
+### :small_red_triangle_down: Accès aux données :
 
-   L’API Consumer peut accéder à des ressources ou des fonctionnalités sans connaître les détails internes du système sous-jacent.
+L’API Consumer peut accéder à des ressources ou des fonctionnalités sans connaître les détails internes du système sous-jacent.
 
-2. Interopérabilité :
+### :small_red_triangle_down: Interopérabilité :
 
-   Il permet de connecter des systèmes hétérogènes via des standards comme REST, SOAP, ou OData.
+Il permet de connecter des systèmes hétérogènes via des standards comme REST, SOAP, ou OData.
 
-3. Automatisation des processus :
+### :small_red_triangle_down: Automatisation des processus :
 
-   Les API Consumers automatisent l’échange de données entre les systèmes, réduisant ainsi les tâches manuelles.
+Les API Consumers automatisent l’échange de données entre les systèmes, réduisant ainsi les tâches manuelles.
 
-4. Flexibilité et évolutivité :
+### :small_red_triangle_down: Flexibilité et évolutivité :
 
-   Les API Consumers peuvent consommer de nouvelles APIs ou ajouter des fonctionnalités en fonction des besoins métiers.
+Les API Consumers peuvent consommer de nouvelles APIs ou ajouter des fonctionnalités en fonction des besoins métiers.
 
 ## EXEMPLE PRATIQUE :
 

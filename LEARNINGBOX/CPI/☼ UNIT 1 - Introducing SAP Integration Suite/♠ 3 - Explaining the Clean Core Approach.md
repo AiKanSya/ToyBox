@@ -26,7 +26,7 @@ Il concerne les dimensions utilisées pour fournir des capacités via un systèm
 
 ![](./RESSOURCES/illustrive_model_cleancore.png)
 
-L’approche [clean core]() vise à créer des ERP modernes, flexibles et compatibles avec le cloud. Parvenir à un noyau propre implique d'intégrer et d'étendre un système pour garantir qu'il est conforme aux normes de conformité du cloud, tout en maintenant une gouvernance efficace des données de référence et des processus métier.
+L’approche [clean core](../☼%20UNIT%200%20-%20Lexicon/♠%20Clean%20Core.md) vise à créer des ERP modernes, flexibles et compatibles avec le cloud. Parvenir à un noyau propre implique d'intégrer et d'étendre un système pour garantir qu'il est conforme aux normes de conformité du cloud, tout en maintenant une gouvernance efficace des données de référence et des processus métier.
 
 Une idée fausse courante est qu’un noyau propre signifie un système exempt de personnalisation du noyau. En réalité, un noyau véritablement « propre » adhère à des directives standardisées pour tous ses éléments. Cette adhésion garantit que lorsque des mises à niveau du système sont nécessaires, les modifications peuvent être mises en œuvre avec un minimum d'effort manuel pour tester et adapter les structures existantes.
 
@@ -66,6 +66,6 @@ Grâce à la collaboration entre l'entreprise, l'informatique et les partenaires
 
 ## TACKLING THE CLEAN CORE IS A CONTINUOUS STRATEGIC ENDEAVOR
 
-Conclusion : le « CLEAN CORE » est une méthode visant à atteindre et à préserver la propreté des systèmes de gestion d'entreprise de base d'une organisation afin d'améliorer la « maintenabilité » et de réduire le coût total de possession (TCO). Cela englobe les activités liées aux logiciels, aux données, aux interfaces, aux processus et aux opérations.
+Conclusion : le [clean core](../☼%20UNIT%200%20-%20Lexicon/♠%20Clean%20Core.md) est une méthode visant à atteindre et à préserver la propreté des systèmes de gestion d'entreprise de base d'une organisation afin d'améliorer la « maintenabilité » et de réduire le coût total de possession (TCO). Cela englobe les activités liées aux logiciels, aux données, aux interfaces, aux processus et aux opérations.
 
 ![](./RESSOURCES/cleancore_conclusion.png)
