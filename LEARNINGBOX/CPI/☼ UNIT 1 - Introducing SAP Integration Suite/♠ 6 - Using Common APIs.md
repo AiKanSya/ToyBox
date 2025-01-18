@@ -14,7 +14,7 @@
 
 ### ARCHITECTURAL PROPERTIES
 
-Les contraintes du style architectural REST affectent les propriétés architecturales suivantes :
+#### :small_red_triangle_down: Les contraintes du style architectural REST affectent les propriétés architecturales suivantes :
 
 - Performances dans les interactions des composants, qui peuvent être le facteur dominant dans les performances perçues par l'utilisateur et dans l'efficacité du réseau.
 
@@ -32,7 +32,7 @@ Les contraintes du style architectural REST affectent les propriétés architect
 
 ### ARCHITECTURAL CONSTRAINTS
 
-Le style architectural REST définit les six contraintes directrices suivantes :
+#### :small_red_triangle_down: Le style architectural REST définit les six contraintes directrices suivantes :
 
 - Architecture client-serveur
 
@@ -48,7 +48,7 @@ Le style architectural REST définit les six contraintes directrices suivantes 
 
 ### REALIZATION AS A WEB API
 
-Les API Web service qui adhèrent aux contraintes et propriétés architecturales REST sont appelées API RESTful. Les API RESTful basées sur HTTP sont définies avec les aspects suivants :
+#### :small_red_triangle_down: Les API Web service qui adhèrent aux contraintes et propriétés architecturales REST sont appelées API RESTful. Les API RESTful basées sur HTTP sont définies avec les aspects suivants :
 
 - Une URL de base, telle que http://api.example.com/.
 
@@ -76,7 +76,7 @@ En informatique, Open Data Protocol (OData) est un protocole ouvert qui permet l
 
 ### ARCHITECTURAL CONSTRAINTS
 
-Les contraintes suivantes doivent être remplies :
+#### :small_red_triangle_down: Les contraintes suivantes doivent être remplies :
 
 - Identification des ressources
 
@@ -154,7 +154,7 @@ OData utilise différents formats pour représenter les données et le modèle d
 
 ### TUTORIAL: LEARN ABOUT ODATA FUNDAMENTALS
 
-Il existe un didacticiel fantastique pour découvrir les [principes fondamentaux d'OData](https://developers.sap.com/tutorials/odata-01-intro-origins.html) avec les sujets suivants :
+#### :small_red_triangle_down: Il existe un didacticiel fantastique pour découvrir les [principes fondamentaux d'OData](https://developers.sap.com/tutorials/odata-01-intro-origins.html) avec les sujets suivants :
 
 - D’où vient OData et pourquoi il a été conçu ainsi.
 
@@ -200,13 +200,13 @@ Data Graphs supporte les Queries qui explore les données et les relations.
 
 ![](./RESSOURCES/CLD900_U1L6_002.png)
 
-Un graphe de données représente des entités (objets de données) en tant que nœuds d'un graphe :
+#### :small_red_triangle_down: Un graphe de données représente des entités (objets de données) en tant que nœuds d'un graphe :
 
 - Les entités sont regroupées dans des espaces de noms.
 
 - Les champs d'une entité sont appelés attributs.
 
-Les arêtes représentent des relations sémantiques :
+#### :small_red_triangle_down: Les arêtes représentent des relations sémantiques :
 
 - Entre un nœud racine et ses sous-nœuds : une composition.
 

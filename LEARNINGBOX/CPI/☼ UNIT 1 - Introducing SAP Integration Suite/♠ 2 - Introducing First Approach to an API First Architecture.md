@@ -42,7 +42,7 @@ Le [API Consumer](../☼%20UNIT%200%20-%20Lexicon/♠%20API%20Consumer.md) néce
 
 [API](../☼%20UNIT%200%20-%20Lexicon/♠%20API.md) signifie Application Programming Interface. Une [API](../☼%20UNIT%200%20-%20Lexicon/♠%20API.md) spécifie les opérations ainsi que les entrées et sorties d'un composant logiciel. Il définit des fonctionnalités indépendantes de leurs implémentations respectives, afin que ces implémentations puissent varier sans affecter l'utilisateur de l'[API](../☼%20UNIT%200%20-%20Lexicon/♠%20API.md).
 
-## :closed_book: TYPES OF APIS
+### TYPES OF APIS
 
 Dans la littérature, il existe de nombreuses présentations de différents types d’[API](../☼%20UNIT%200%20-%20Lexicon/♠%20API.md). Vous trouverez ci-dessous un simple aperçu des [API](../☼%20UNIT%200%20-%20Lexicon/♠%20API.md) que nous devons comprendre pour ce cours.
 
@@ -88,7 +88,7 @@ Ceux-ci sont chez SAP :
 
 Les formats de présentation sont soit JSON, soit XML.
 
-## :closed_book: HOW TO DESIGN APIS WITH DESCRIPTION LANGUAGES
+### HOW TO DESIGN APIS WITH DESCRIPTION LANGUAGES
 
 Les [API](../☼%20UNIT%200%20-%20Lexicon/♠%20API.md) SOAP sont décrites avec le` Web Services Description Language (WSDL)`. Il s'agit d'un langage de description d'interface basé sur XML utilisé pour décrire les fonctionnalités offertes par un service Web.
 
@@ -114,7 +114,7 @@ Vous trouverez plus d’informations sur `OpenAPI` ici : [openapis.org](https://
 
 La spécification `OpenAPI` est utilisée dans la gestion des [API](../☼%20UNIT%200%20-%20Lexicon/♠%20API.md).
 
-## :closed_book: FULFILL THE CONTRACT BETWEEN PROVIDER AND API CONSUMER
+### FULFILL THE CONTRACT BETWEEN PROVIDER AND API CONSUMER
 
 La description dans `RAML` ou `OpenAPI` est le contrat entre l'[API Provider](../☼%20UNIT%200%20-%20Lexicon/♠%20API%20Provider.md) et l'[API Consumer](../☼%20UNIT%200%20-%20Lexicon/♠%20API%20Consumer.md). L'[API](../☼%20UNIT%200%20-%20Lexicon/♠%20API.md) doit être implémentée dans le cadre de ce contrat.
 
@@ -128,7 +128,7 @@ L'implémentation est d'abord créée par le [API Provider](../☼%20UNIT%200%20
 
 La description de l'[API](../☼%20UNIT%200%20-%20Lexicon/♠%20API.md) est d'abord créée avec `RAML` ou `OpenAPI`. Les générateurs créent automatiquement l'implémentation rudimentaire pour le [API Provider](../☼%20UNIT%200%20-%20Lexicon/♠%20API%20Provider.md) et le [API Consumer](../☼%20UNIT%200%20-%20Lexicon/♠%20API%20Consumer.md). Ces implémentations rudimentaires dans différents langages et concepts de programmation doivent ensuite être pleinement mises en œuvre.
 
-## :closed_book: RESUME
+### RESUME
 
 > Dans une [API first approach](../☼%20UNIT%200%20-%20Lexicon/♠%20API%20First%20Approach.md), seules les [API](../☼%20UNIT%200%20-%20Lexicon/♠%20API.md) fournies sont intéressantes. En utilisant des protocoles et des concepts de communication standardisés, tels que REST et OData, presque tous les cas d'utilisation peuvent être cartographiés au-delà des frontières. La communication a lieu entre un [API Provider](../☼%20UNIT%200%20-%20Lexicon/♠%20API%20Provider.md) qui dispose de l'interface et le [API Consumer](../☼%20UNIT%200%20-%20Lexicon/♠%20API%20Consumer.md) qui consomme cette interface.
 >
