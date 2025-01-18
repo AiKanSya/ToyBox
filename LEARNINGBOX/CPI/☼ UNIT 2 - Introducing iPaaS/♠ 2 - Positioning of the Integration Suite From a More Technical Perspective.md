@@ -1,4 +1,4 @@
-# ♠ 2 P[OSITIONING OF THE INTEGRATION SUITE FROM A MORE TECHNICAL PERSPECTIVE](https://learning.sap.com/learning-journeys/developing-with-sap-integration-suite/positioning-of-the-integration-suite-from-a-more-technical-perspective_e5874277-92fd-43d8-b59e-70a49a9fb3aa)
+# ♠ 2 [POSITIONING OF THE INTEGRATION SUITE FROM A MORE TECHNICAL PERSPECTIVE](https://learning.sap.com/learning-journeys/developing-with-sap-integration-suite/positioning-of-the-integration-suite-from-a-more-technical-perspective_e5874277-92fd-43d8-b59e-70a49a9fb3aa)
 
 > :exclamation: Objectifs
 >
