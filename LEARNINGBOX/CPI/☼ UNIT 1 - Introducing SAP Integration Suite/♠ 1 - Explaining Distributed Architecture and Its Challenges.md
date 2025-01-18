@@ -86,4 +86,4 @@ Les [API](../☼%20UNIT%200%20-%20Lexicon/♠%20API.md) conçues avec une [API f
 
 ## :closed_book: DECRIRE UN SCENARIO ENTIER
 
-- [Exercices](hhttps://learning.sap.com/learning-journeys/developing-with-sap-integration-suite/explaining-distributed-architecture-and-their-challenges_ebcaa544-f5ca-4351-b6b6-5eb471ec1464)
+- [Exercices](https://learning.sap.com/learning-journeys/developing-with-sap-integration-suite/explaining-distributed-architecture-and-their-challenges_ebcaa544-f5ca-4351-b6b6-5eb471ec1464)
