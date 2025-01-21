@@ -89,7 +89,7 @@ Pour relever les défis que nous avons rencontrés, une solution proposée consi
 Pour utiliser la fonctionnalité `$metadata`, utilisez l'`URL GET` suivante, où vous devez insérer vos paramètres individuels comme suit :
 
 ```xml
-http://<yourAPI>:<PORT>/$``metadata``
+http://<yourAPI>:<PORT>/$metadata
 ```
 
 ![](./RESSOURCES/gwsample_xml_sample.png)
