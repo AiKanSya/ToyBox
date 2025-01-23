@@ -8,26 +8,27 @@
 
 ### WHAT ARE PRODUCTS IN THE CONTEXT OF SAP API MANAGEMENT?
 
-Les produits sont des artefacts qui apparaissent sur le SAP API Business Hub Enterprise portal. Le SAP API Business Hub Enterprise portal est accessible à l'aide de sa propre URL. Il est accessible dans le SAP Integration Suite cockpit via la navigation dans le coin supérieur droit de l'interface.
+Les `Products` sont des `artefacts` qui apparaissent sur le ` SAP API ``Business Hub Enterprise portal```. Le `SAP API `` Business Hub Enterprise portal``` est accessible à l'aide de sa propre  `URL`. Il est accessible dans le` SAP Integration Suite cockpit` via la navigation dans le coin supérieur droit de l'interface.
 
 ![](./RESSOURCES/CLD900_U3_L5_48.png)
 
-Après avoir ouvert le API Business Hub Enterprise portal, les produits sont affichés sous forme de vignettes. L'API utilisée sous un produit correspond à l'URL du proxy API de l'API correspondante.
+Après avoir ouvert l'` API ``Business Hub Enterprise portal```, les produits sont affichés sous forme de  `tiles`. L'[API](../☼%20UNIT%200%20-%20Lexicon/♠%20API.md) utilisée sous un produit correspond à l'`URL`du`proxy API` de l'[API](../☼%20UNIT%200%20-%20Lexicon/♠%20API.md) correspondante.
 
 ### NEEDED ROLES (ROLE COLLECTION) TO USE TGE API BUSINESS HUB ENTERPRISE
 
-Pour ouvrir l'API Business Hub Enterprise portal, l'un des groupes de rôles suivants est requis :
+Pour ouvrir l'`API ``Business Hub Enterprise portal```, l'un des groupes de rôles suivants est requis :
 
-- AuthGroup.API.Admin
-- AuthGroup.API.ApplicationDeveloper
+- `AuthGroup.API.Admin`
 
-Nous avons déjà attribué les deux groupes de rôles à l'utilisateur lors du provisionnement des fonctionnalités de SAP Integration Suite.
+- `AuthGroup.API.ApplicationDeveloper`
 
-Si vous venez via learning.sap.com, vous devez alors attribuer votre compte utilisateur aux collections de rôles mentionnées.
+Nous avons déjà attribué les deux groupes de rôles à l'utilisateur lors du provisionnement des fonctionnalités de `SAP Integration Suite`.
 
-### OPEN AN API BUSINESS HUB ENTERPRISE PORTAL WITH PUBLISHED PRODUCTS AS A SAMPLE
+Si vous venez via _learning.sap.com_, vous devez alors attribuer votre compte utilisateur aux collections de rôles mentionnées.
 
-Dans cette capture d'écran, vous pouvez voir un `produit` déjà créé nommé Product basé sur l'API GWSAMPLE_BASIC_v1.
+### OPEN AN API `BUSINESS HUB ENTERPRISE PORTAL` WITH PUBLISHED PRODUCTS AS A SAMPLE
+
+Dans cette capture d'écran, vous pouvez voir un `produit` déjà créé nommé `Product` basé sur l'`API GWSAMPLE_BASIC_v1`.
 
 Cette page est vide, si vous n'avez pas encore créé de produit.
 
@@ -39,20 +40,25 @@ Les produits peuvent ensuite être recherchés, trouvés et consommés par les d
 
 > :pushpin: Note:
 >
-> You perform in step in the SAP Integration Suite Cockpit
+> You perform in step in the` SAP Integration Suite Cockpit`
 
 Les étapes suivantes doivent être effectuées dans l'ordre suivant :
 
-- Créez un produit à l'aide du bouton Créer
-- Ajoutez les entrées sous l'onglet Présentation
-- Ajouter une API sous l'onglet API
-- Choisissez le bouton Publier
-- Ouvrez le portail API Business Hub Enterprise
-- Découvrez votre produit
+1. Créez un `Product` à l'aide du bouton Créer
+
+2. Ajoutez les entries sous l'onglet `Overview`
+
+3. Ajouter une API sous l'onglet API
+
+4. Choisissez le bouton Publier
+
+5. Ouvrez le `API ``Business Hub Enterprise portal```
+
+6. Découvrez votre `Product`
 
 ### CREATE AND PUBLISH A PRODUCT
 
-Une condition préalable à la création d’un produit est une API fonctionnelle. La création est lancée à l'aide d'Engage. Ensuite, accédez à l'onglet Produits.
+Une condition préalable à la création d’un `Product` est une [API](../☼%20UNIT%200%20-%20Lexicon/♠%20API.md) fonctionnelle. La création est lancée à l'aide d'`Engage`. Ensuite, accédez à l'onglet `Product`.
 
 ![](./RESSOURCES/CLD900_U3_L5_42.png)
 
@@ -60,83 +66,86 @@ Choisissez le bouton Créer pour démarrer la procédure.
 
 Au moins les entrées suivantes doivent être effectuées :
 
-#### TAB: OVERVIEW
+#### :small_red_triangle_down: TAB: Overview :
 
-Le nom et le titre doivent être les mêmes. Le titre est l'en-tête de la vignette. La description est également affichée sur les vignettes et vise à donner à l'utilisateur les informations les plus importantes sur l'API.
+Le nom et lse `tiles` doivent être les mêmes. Le titre est l'en-tête de la `Tile`. La description est également affichée sur les `Tiles` et vise à donner à l'utilisateur les informations les plus importantes sur l'[API](../☼%20UNIT%200%20-%20Lexicon/♠%20API.md).
 
 Exemple
 
-Nom : P_GWSAMPLE_BASIC_v1
-Titre : P_GWSAMPLE_BASIC_v1
-Description : Une API basée sur le modèle d'approvisionnement d'entreprise (EPM).
+     Nom : P_GWSAMPLE_BASIC_v1
+     Titre : P_GWSAMPLE_BASIC_v1
+     Description : Une API basée sur le modèle d'approvisionnement d'entreprise (EPM).
 
 L'authentification se fait à l'aide de policies. Aucune authentification supplémentaire n'est requise.
 
 Un exemple de paramètre est disponible ici : Créer un [Product](https://help.sap.com/docs/SAP_INTEGRATION_SUITE/51ab953548be4459bfe8539ecaeee98d/d7696221f36947a481b154335b89010d.html)
 
-#### TAB: APIS
+#### :small_red_triangle_down: TAB: APIs :
 
-Ici, vous pouvez choisir votre proxy API précédemment créé, que vous pouvez ajouter à votre produit API. Lorsque vous sélectionnez le bouton Ajouter, toutes les API disponibles sont affichées. Vous pouvez attribuer n'importe quelle combinaison des API affichées. Il est également possible de combiner des ressources individuelles.
+Ici, vous pouvez choisir votre `proxy API` précédemment créé, que vous pouvez ajouter à votre `API product`. Lorsque vous sélectionnez le bouton Ajouter, toutes les [API](../☼%20UNIT%200%20-%20Lexicon/♠%20API.md) disponibles sont affichées. Vous pouvez attribuer n'importe quelle combinaison des [API](../☼%20UNIT%200%20-%20Lexicon/♠%20API.md) affichées. Il est également possible de combiner des ressources individuelles.
 
-Dans le cas suivant, l'intégralité (toutes les ressources) de l'API GWSAMPLE_BASIC_v1 est ajoutée.
+Dans le cas suivant, l'intégralité (toutes les ressources) de l'`API GWSAMPLE_BASIC_v1` est ajoutée.
 
 ![](./RESSOURCES/CLD900_U3_L5_45.png)
 
-Les entrées sous les onglets Autorisations, Plans tarifaires et Attributs personnalisés sont facultatives.
+Les entrées sous les onglets `Permissions`, `Rate plans` (Plans tarifaires) et `Custom Attributes` (Attributs personnalisés) sont facultatives.
 
 Un exemple de paramètre d'attributs personnalisés est décrit ici : [Attributs personnalisés](https://help.sap.com/docs/SAP_INTEGRATION_SUITE/51ab953548be4459bfe8539ecaeee98d/90a5a6d2a75f4426964ec85c49faef88.html)
 
-### PUBLISH YOUR PRODUCT
+#### :small_red_triangle_down: PUBLISH YOUR PRODUCT
 
-Une fois le produit configuré, la mise en œuvre du produit doit être publiée sur le portail API Business Hub Enterprise. Cela s’appelle Publier.
+Une fois le `product` configuré, la mise en œuvre du `product` doit être publiée sur le `API Business Hub Enterprise portal`. Cela s’appelle `Publish`.
 
 ![](./RESSOURCES/CLD900_U3_L5_46.png)
 
-### SHOW PRODUCT AT API BUSINESS HUB ENTERPRISE PORTAL
+#### :small_red_triangle_down: SHOW PRODUCT AT `API ``BUSINESS HUB ENTERPRISE PORTAL```
 
-Le portail API Business Hub Enterprise est sa propre application. Cela a été fourni avec la gestion SAP.
+Le `API Business Hub Enterprise portal` est sa propre application. Cela a été fourni avec `SAP management`.
 
-Le portail API Business Hub Enterprise est connecté à API Management via sa propre URL. Ceux-ci peuvent être vérifiés sous Paramètres → API si des problèmes surviennent.
+Le `API Business Hub Enterprise portal` est connecté à `API Management` via sa propre `URL`. Ceux-ci peuvent être vérifiés sous Paramètres → API si des problèmes surviennent.
 
-Après avoir ouvert le portail API Business Hub Enterprise, comme décrit précédemment, tous les produits publiés s'affichent sous forme de vignettes.
+Après avoir ouvert le `API Business Hub Enterprise portal`, comme décrit précédemment, tous les produits publiés s'affichent sous forme de `Tiles`.
 
 ![](./RESSOURCES/CLD900_U3_L5_50.png)
 
 ### NAVIGATE TO YOUR PRODUCT
 
-Pour le moment, vous avez encore la possibilité de choisir entre deux représentations. Nous utilisons le nouveau design. Accédez à la vignette et vous êtes redirigé vers l'onglet Environnement de test.
+Pour le moment, vous avez encore la possibilité de choisir entre deux représentations. Nous utilisons le nouveau `design`. Accédez à la `Tile` et vous êtes redirigé vers l'onglet `Test Environment`.
 
 ![](./RESSOURCES/CLD900_20_U3L7_010_scr.png)
 
 Explications :
 
-N°1 : Voici votre description du produit
-N°2 : Voici les métadonnées du produit
-N°3 : La décision de conception
-N°4 : L'utilisateur connecté
+     N°1 : Voici votre description du produit
+     N°2 : Voici les métadonnées du produit
+     N°3 : La décision de conception
+     N°4 : L'utilisateur connecté
 
-Pour tester l'API, accédez à l'onglet API. Ici, vous pouvez maintenant voir le titre de l'API attribuée. Dans ce cas, il s'agit de GWSAMPLE_BASIC. Le nom de cette API est GWSAMPLE_BASIC_v1. Le nom du produit est P_GWSAMPLE_BASIC_v1.
+Pour tester l'[API](../☼%20UNIT%200%20-%20Lexicon/♠%20API.md), accédez à l'onglet [API](../☼%20UNIT%200%20-%20Lexicon/♠%20API.md). Ici, vous pouvez maintenant voir le titre de l'[API](../☼%20UNIT%200%20-%20Lexicon/♠%20API.md) attribuée. Dans ce cas, il s'agit de `GWSAMPLE_BASIC`. Le nom de cette API est `GWSAMPLE_BASIC_v1`. Le nom du produit est `P_GWSAMPLE_BASIC_v1`.
 
 ![](./RESSOURCES/CLD900_20_U3L7_011_scr.png)
 
 ### NAVIGATE TO YOUR API
 
-Lorsque vous sélectionnez la vignette avec le titre de l'API associée, vous êtes dans l'API. Sous l'onglet Référence API, vous trouverez l'interface utilisateur Swagger pour appeler les ressources attribuées.
+Lorsque vous sélectionnez la `Tile` avec le titre de l'[API](../☼%20UNIT%200%20-%20Lexicon/♠%20API.md) associée, vous êtes dans l'[API](../☼%20UNIT%200%20-%20Lexicon/♠%20API.md). Sous l'onglet `API Reference`, vous trouverez l'interface utilisateur `Swagger` pour appeler les ressources attribuées.
 
 ![](./RESSOURCES/CLD900_20_U3L7_012_scr.png)
 
-Si vous testez avec succès une ressource sélectionnée, ici GET/ProductSet, vous verrez l'URL proxy bien connue de SAP API Management en tant qu'URL de demande.
+Si vous testez avec succès une ressource sélectionnée, ici `GET/ProductSet`, vous verrez l'`URL proxy` bien connue de `SAP API Management` en tant que `Request URL`.
 
 ![](./RESSOURCES/CLD900_20_U3L7_013_scr.png)
 
-### API BUSINESS HUB ENTERPRISE PORTAL AT GLANCE
+### `API ``BUSINESS HUB ENTERPRISE PORTAL``` AT GLANCE
 
-Le portail API Business Hub Enterprise offre une plateforme pour déployer des produits avec vos API associées, de manière centralisée dans votre entreprise. C'est le seul endroit où les développeurs recherchent, trouvent et testent les API, et utilisent finalement l'URL proxy correspondante dans leurs propres processus. A cet effet, le portail API Business Hub Enterprise propose les éléments suivants :
+L'`API Business Hub Enterprise portal` offre une plateforme pour déployer des `product` avec vos `API associées`, de manière `centralisée` dans votre entreprise. C'est le seul endroit où les développeurs recherchent, trouvent et testent les [API](../☼%20UNIT%200%20-%20Lexicon/♠%20API.md), et utilisent finalement l'`URL proxy` correspondante dans leurs propres processus. A cet effet, le `API Business Hub Enterprise portal` propose les éléments suivants :
 
-- Votre propre gestion des utilisateurs
-- Un accès aux produits basé sur les rôles
-- Une couche d'authentification supplémentaire avec sa propre clé API
-- Un développeur inconnu auto-enregistré
+- Your own user management
+
+- A role-based access to the products
+
+- An additional authentication Layer with its own API key
+
+- A self-registration Unknown developer
 
 ### RESOURCES
 
@@ -146,7 +155,7 @@ Des ressources sont également disponibles sur les blogs : [Protégez votre pr
 
 ### SUMMARY
 
-Un produit dans le contexte de SAP API Management est son propre artefact qui encapsule les API créées ou des parties d'entre elles (ressources). Le produit est configuré et déployé (publié) sur le portail API Business Hub Enterprise. Le produit peut être testé sur le portail API Business Hub Enterprise. L'accès aux produits est restreint par les rôles.
+Un produit dans le contexte de `SAP API Management` est son propre `artefact` qui encapsule les [API](../☼%20UNIT%200%20-%20Lexicon/♠%20API.md) créées ou des parties d'entre elles (ressources). Le `product` est configuré et déployé (publié) sur l'`API Business Hub Enterprise portal`. Le `product` peut être testé sur l'`API Business Hub Enterprise portal`. L'accès aux produits est restreint par les `rôles`.
 
 ## CREATE A PRODUCT BASED ON YOUR CREATED API
 
