@@ -1,19 +1,5 @@
 # DEVELOPING WITH SAP INTEGRATION SUITE
 
-## LINKS
-
-### :exclamation: Learning
-
-https://learning.sap.com/learning-journeys/developing-with-sap-integration-suite
-
-### :exclamation: SAP Certified Associate - Integration Developer
-
-https://learning.sap.com/certifications/sap-certified-associate-integration-developer
-
-### :question: Sample Questions
-
-https://ondemand.questionmark.eu/delivery/open.php?session=0381216000381216&customerid=602316&NAME=Sample&GROUP=TS
-
 ## SUMMARY
 
 ### UNIT 0 - [Lexicon](./☼%20UNIT%200%20-%20Lexicon/README.md)
@@ -95,3 +81,17 @@ https://ondemand.questionmark.eu/delivery/open.php?session=0381216000381216&cust
 - :small_red_triangle_down: Module 9 - [Using Integration Patterns](./☼%20UNIT%205%20-%20Modeling%20Processes/♠%209%20-%20Using%20Integration%20Patterns.md)
 
 - :anger: Module Quizz - [Test & solutions](./☼%20UNIT%205%20-%20Modeling%20Processes/☼%20QUIZZ.md)
+
+## LINKS
+
+### :exclamation: Learning
+
+https://learning.sap.com/learning-journeys/developing-with-sap-integration-suite
+
+### :exclamation: SAP Certified Associate - Integration Developer
+
+https://learning.sap.com/certifications/sap-certified-associate-integration-developer
+
+### :question: Sample Questions
+
+https://ondemand.questionmark.eu/delivery/open.php?session=0381216000381216&customerid=602316&NAME=Sample&GROUP=TS
