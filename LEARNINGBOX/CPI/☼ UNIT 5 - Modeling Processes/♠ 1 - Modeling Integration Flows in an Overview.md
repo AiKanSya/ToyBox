@@ -8,108 +8,109 @@
 
 ### INTEGRATION FLOW DESIGN GUIDELINES OVERVIEW
 
-Les développeurs d'intégration doivent s'assurer que les flux d'intégration sont conçus de manière robuste pour protéger les processus métier critiques de leur entreprise. Comme chaque cas d’utilisation peut être unique, il existe autant de modèles de flux d’intégration que de cas d’utilisation. SAP fournit des solutions pour les exigences récurrentes via les directives de conception de flux d'intégration, qui sont bien documentées et mises en œuvre. Ces exemples de flux d’intégration peuvent être testés directement.
+Les développeurs d'intégration doivent s'assurer que les `integration flows` sont conçus de manière `robuste` pour protéger les `company's mission-critical business processes` (processus métier critiques de leur entreprise). Comme chaque cas d’utilisation peut être unique, il existe autant de `integration flow models` que de cas d’utilisation. SAP fournit des solutions pour les exigences récurrentes via les `Integration Flow Design Guidelines` (directives de conception de `integration flows`), qui sont bien documentées et mises en œuvre. Ces exemples de `integration flows` peuvent être testés directement.
 
 ### THIS SECTION PROVIDES GUIDELINES FOR INTEGRATION DEVELOPERS COVERING THE FOLLOWING THRE MAIN ASPECTS:
 
-- Apprenez les bases.
+- Learn the `Basics`.
 
-- Lignes directrices pour concevoir des flux d’intégration de niveau entreprise.
+- Guidelines to `Design Enterprise-Grade Integration Flows`.
 
-- Lignes directrices pour mettre en œuvre des modèles d’intégration spécifiques.
+- Guidelines to ` Implement Specific Integration Patterns`.
 
 ### THE INTEGRATION FLOWS ARE DESIGNED TO MEET THE FOLLOWING REQUIREMENTS:
 
-- Une ligne directrice ou un modèle spécifique est au centre de chaque flux d’intégration, ce qui vous permet de comprendre facilement le sujet.
+- Une ligne directrice ou un `pattern` spécifique est qu'il est au centre de chaque `integration flows`, ce qui vous permet de comprendre facilement le sujet.
 
-- Vous pouvez facilement déployer et exécuter chaque flux d'intégration avec un minimum d'effort, ce qui vous permet de tester chaque ligne directrice ou modèle par vous-même.
+- Vous pouvez facilement déployer et exécuter chaque `integration flows` avec un minimum d'effort, ce qui vous permet de tester chaque ligne directrice ou `pattern` par vous-même.
 
-- Chaque flux d'intégration de référence peut servir de base au développement de scénarios plus complexes.
+- Chaque `integration flows` de référence peut servir de base au développement de scénarios plus complexes.
 
 ### IMPLEMENT THE SAMPLE PACKAGES
 
-Les trois derniers exercices vous ont appris à implémenter et à utiliser un exemple de flux d'intégration du package « Apprendre les bases ».
+Les trois derniers exercices vous ont appris à implémenter et à utiliser un exemple de `integration flows` du package « Apprendre les bases ».
 
 ### LEARN THE BASICS
 
 Ici, les sujets suivants sont abordés sur la base d'exemples d'implémentation :
 
-- Commencez votre parcours de conception de flux d’intégration en vous familiarisant avec un ensemble de trois flux d’intégration simples qui démontrent les fonctionnalités de base du traitement des messages. Ces flux gagnent progressivement en complexité.
+- Start your integration flow design journey by getting familiar with a set of three simple integration flows that demonstrate the `basic features of message processing`. These flows progressively increase in complexity.
 
-- Découvrez comment accéder (et définir) les en-têtes et les propriétés.
-  Apprenez à concevoir des scénarios d'intégration avec un flux d'intégration pour une communication de flux d'intégration.
+- Learn how to `access (and set) headers and properties`.
 
-- Découvrez comment configurer les adaptateurs.
+- Learn how to `design integration scenarios` with `integration flow` to integration `flow communication`.
 
-- Découvrez comment transporter le contenu d’intégration d’une source vers un locataire cible.
+- Learn how to `configure adapters`.
 
-- Découvrez comment implémenter différents scénarios pour découpler le traitement de l'expéditeur et du flux d'intégration.
+- Learn how to `transport integration content` from a `source` to a `target` tenant.
 
-- Découvrez comment récupérer uniquement les données delta du système source en utilisant la date actuelle ou la dernière date de la charge utile.
+- Learn how to `implement different scenarios` to decouple `sender` and `integration flow` processing.
 
-- Découvrez comment gérer les exceptions avec un sous-processus d'exception.
+- Learn how to `retrieve only delta data` from the `source system` using the current date or the latest date in the `payload`.
 
-- Découvrez comment utiliser l'application de surveillance pour analyser le comportement d'un flux d'intégration au moment de l'exécution.
+- Learn how to `handle exceptions` with an `exception subprocess`.
 
-- Découvrez comment modifier le contenu pour utiliser différentes étapes du flux d'intégration (par exemple, le modificateur de contenu ou l'enrichisseur de contenu) pour modifier le contenu du message :
+- Learn how to `use the monitor application` to `analyze the behavior` of an `integration flow` at `runtime`.
 
-  - Découvrez comment convertir des données d'une source vers un format cible.
+- Learn how to `modify content` to use different `integration flow steps` (for example, the content modifier or the content enricher) to modify the message content:
 
-  - Apprenez à encoder et décoder du contenu.
+  - Learn how to `convert data` from a source into a `target format`.
 
-  - Découvrez comment gérer les mappages de messages.
+  - Learn how to `encode and decode content`.
 
-- Découvrez comment utiliser les étapes qui stockent le message dans la base de données des locataires.
+  - Learn how to `handle message mappings`.
 
-- Apprenez à transférer des fichiers.
+- Learn how to `use steps that store the message on the tenant database`.
+
+- Learn how to `transfer files`.
 
 ### GUIDELINES TO DESIGN ENTERPRISE-GRADE INTEGRATION FLOWS
 
 Ici, les sujets suivants sont abordés sur la base d'exemples d'implémentation :
 
-- Apprenez à concevoir avec une haute disponibilité.
+- Learn to design with `high availability`.
 
-- Apprenez à concevoir avec résilience.
+- Learn to design with `resilience`.
 
-- Apprenez à gérer des ressources limitées.
+- Learn to deal with `limited resources`.
 
-- Apprenez à concevoir un accouplement lâche.
+- Learn to design `loose coupling`.
 
-- Apprenez à gérer les échecs avec élégance.
+- Learn to handle `failures gracefully`.
 
-- Apprenez à concevoir la lisibilité des flux.
+- Learn to design `flows readability`.
 
-- Apprenez à utiliser le contenu d'intégration préemballé.
+- Learn to use `prepackaged integration content`.
 
 ### GUIDELINES TO IMPLEMENT SPECIFIC INTEGRATION PATTERNS
 
 Sur la base d'exemples d'implémentation, les sujets suivants sont abordés ici :
 
-- Apprenez à implémenter et à utiliser un modèle d'agrégateur.
+- Learn to implement and use `anAggregator pattern`.
 
-- Apprenez à implémenter et à utiliser un modèle de processeur de message composé.
+- Learn to implement and use a `Composed Message Processor pattern`.
 
-- Apprenez à implémenter et à utiliser un modèle de routage basé sur le contenu.
+- Learn to implement and use a `Content based routing pattern`.
 
-- Apprenez à implémenter et à utiliser un modèle Content Enricher.
+- Learn to implement and use a `Content Enricher pattern`.
 
-- Apprenez à implémenter et à utiliser un modèle de filtre de contenu.
+- Learn to implement and use a `Content Filter pattern`.
 
-- Apprenez à implémenter et à utiliser un modèle de filtre de messages.
+- Learn to implement and use a `Message Filter pattern`.
 
-- Apprenez à implémenter et à utiliser un modèle de liste de destinataires.
+- Learn to implement and use a `Recipient List pattern`.
 
-- Apprenez à implémenter et à utiliser un modèle Resequencer.
+- Learn to implement and use a `Resequencer pattern`.
 
-- Apprenez à mettre en œuvre et à utiliser un modèle Scatter-Gather.
+- Learn to implement and use a `Scatter-Gather pattern`.
 
-- Apprenez à implémenter et à utiliser un modèle Splitter.
+- Learn to implement and use a `Splitter pattern`.
 
-- Apprenez à mettre en œuvre et à utiliser un modèle de qualité de service.
+- Learn to implement and use a `Quality of Service pattern`.
 
 ### INTEGRATION DESIGN GUIDELINES CHECK
 
-Dans le flux d'intégration, vous pouvez désormais exécuter des vérifications des directives dans votre flux d'intégration avec une vue d'analyse ou un rapport des composants violés.
+Dans le `integration flows`, vous pouvez désormais exécuter des `Execute Guidelines checks` (vérifications des directives) dans votre `integration flows` avec une vue d'analyse ou un `Report` des `violated components`.
 
 ![](./RESSOURCES/CLD900_U5_L1_01.png)
 
@@ -117,25 +118,25 @@ Dans le flux d'intégration, vous pouvez désormais exécuter des vérifications
 
 Lire la suite ici :
 
-- À propos de la conception de flux d'intégration de niveau entreprise :
+#### :small_red_triangle_down: About Designing Enterprise-Grade Integration Flows :
 
-  Description des flux d'intégration sur : Lignes directrices pour concevoir des flux d'intégration de niveau entreprise
+Description des `integration flows` sur : Lignes directrices pour concevoir des `integration flows` de niveau entreprise
 
-- Documentation de base
+#### :small_red_triangle_down: Basic Documentation :
 
-  Description des flux d'intégration sur : Apprendre les bases
+Description des `integration flows` sur : Apprendre les bases
 
-- Documentation sur les directives de conception de flux d'intégration de niveau entreprise
+#### :small_red_triangle_down: Documentation About Guidelines to Design Enterprise-Grade Integration Flows :
 
-  Description des flux d'intégration sur : Lignes directrices pour concevoir des flux d'intégration de niveau entreprise
+Description des `integration flows` sur : Lignes directrices pour concevoir des `integration flows` de niveau entreprise
 
-- Documentation sur les directives pour implémenter des modèles d'intégration spécifiques
+#### :small_red_triangle_down: Documentation About Guidelines to Implement Specific Integration Patterns :
 
-  Description du package, y compris des informations supplémentaires sur les liens vers les modèles uniques : Lignes directrices pour la mise en œuvre de modèles d'intégration spécifiques
+Description du package, y compris des informations supplémentaires sur les liens vers les `pattern` s uniques : Lignes directrices pour la mise en œuvre de `pattern` s d'intégration spécifiques
 
 ### SUMMARY
 
-SAP propose diverses solutions pour les exigences techniques courantes via de la documentation et des exemples de mise en œuvre. Ces domaines comprennent l'apprentissage des bases, les directives pour la conception de flux d'intégration de niveau entreprise et les directives pour la mise en œuvre de modèles d'intégration spécifiques. Vous pouvez rechercher et utiliser ces exemples dans vos propres projets.
+SAP propose diverses solutions pour les `common technical requirements` (exigences techniques courantes) via de la `documentation` et des `implementation examples`. Ces domaines comprennent l'apprentissage des bases, les `Guidelines for Designing Enterprise-Grade Integration Flows` et les `Guidelines for Implementing Specific Integration Patterns`. Vous pouvez rechercher et utiliser ces exemples dans vos propres projets.
 
 ## CREATE AND CONFIGURE A GENERAL SPLITTER
 
