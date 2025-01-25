@@ -94,6 +94,6 @@ Les sources sont disponible sur le SAP Help Portal : [API Providers](https://hel
 
 ### SUMMARY
 
-Un [API Provider](../☼%20UNIT%200%20-%20Lexicon/♠%20API%20Provider.md) encapsule l'accès aux API provenant de diverses sources. Plus de 260 `third-party REST-based APIs` sont connectées via `Open Connector`. Les systèmes backend SAP tels que `SAP S/4HANA On-Prem` ou `ECC/PI/PO` peuvent être connectés via le `Cloud Connector`. Les `API SOAP` peuvent également être mises à disposition via l'`intégration cloud`. Au final, presque toutes les [API](../☼%20UNIT%200%20-%20Lexicon/♠%20API.md) peuvent être connectées. La procédure de connexion d'une foreign [API](../☼%20UNIT%200%20-%20Lexicon/♠%20API.md) est contrôlée par un assistant.
+> Un [API Provider](../☼%20UNIT%200%20-%20Lexicon/♠%20API%20Provider.md) encapsule l'accès aux API provenant de diverses sources. Plus de 260 `third-party REST-based APIs` sont connectées via `Open Connector`. Les systèmes backend SAP tels que `SAP S/4HANA On-Prem` ou `ECC/PI/PO` peuvent être connectés via le `Cloud Connector`. Les `API SOAP` peuvent également être mises à disposition via l'`intégration cloud`. Au final, presque toutes les [API](../☼%20UNIT%200%20-%20Lexicon/♠%20API.md) peuvent être connectées. La procédure de connexion d'une foreign [API](../☼%20UNIT%200%20-%20Lexicon/♠%20API.md) est contrôlée par un assistant.
 
 [Exercices](https://learning.sap.com/learning-journeys/developing-with-sap-integration-suite/creating-an-api-provider_b95113e7-369f-4dd3-9773-ec4e0fde2e00)

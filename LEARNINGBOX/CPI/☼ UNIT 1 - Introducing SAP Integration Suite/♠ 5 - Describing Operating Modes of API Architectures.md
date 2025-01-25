@@ -84,11 +84,11 @@ Les numéros 1 à 6 fonctionnent comme décrit dans une section précédente, ma
 
 ### SUMMARY
 
-Il existe deux types d’exploitation de l’[approche API First](../☼%20UNIT%200%20-%20Lexicon/♠%20API%20First%20Approach.md).
-
-Le `request-driven` est basé sur une `communication synchrone` des partenaires impliqués.
-
-L'`event-driven`, fonctionne de manière `asynchrone` et `découple` l'émetteur (`transmitter`) du récepteur (`receiver`) en termes de temps et de contenu. Cet `loose coupling` (accouplement libre) offre de nombreux avantages. Les deux types sont souvent utilisés l’un après l’autre.
+> Il existe deux types d’exploitation de l’[approche API First](../☼%20UNIT%200%20-%20Lexicon/♠%20API%20First%20Approach.md).
+>
+> Le `request-driven` est basé sur une `communication synchrone` des partenaires impliqués.
+>
+> L'`event-driven`, fonctionne de manière `asynchrone` et `découple` l'émetteur (`transmitter`) du récepteur (`receiver`) en termes de temps et de contenu. Cet `loose coupling` (accouplement libre) offre de nombreux avantages. Les deux types sont souvent utilisés l’un après l’autre.
 
 ---
 

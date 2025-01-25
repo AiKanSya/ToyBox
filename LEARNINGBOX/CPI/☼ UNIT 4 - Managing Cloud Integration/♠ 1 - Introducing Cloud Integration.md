@@ -132,7 +132,7 @@ En savoir plus:
 
 ### SUMMARY
 
-Les `individual integration flows` sont compilés via des étapes fonctionnelles prédéfinies. Ils sont divisés en catégories telles que le `mappage`, le `routage` et autres, et fournis sous forme de `palette`. Le processus est démarré via exactement un message entrant. Le contenu de ce message peut ensuite être manipulé de diverses manières au cours du processus lui-même. La `connectivité` et la `flexibilité` proviennent de nombreux adaptateurs `émetteurs` et `récepteurs`. En plus de créer le `flux d'intégration individuel`, SAP propose plus de `400 flux d'intégration prédéfinis`, car ils sont souvent nécessaires dans l'environnement SAP.
+> Les `individual integration flows` sont compilés via des étapes fonctionnelles prédéfinies. Ils sont divisés en catégories telles que le `mappage`, le `routage` et autres, et fournis sous forme de `palette`. Le processus est démarré via exactement un message entrant. Le contenu de ce message peut ensuite être manipulé de diverses manières au cours du processus lui-même. La `connectivité` et la `flexibilité` proviennent de nombreux adaptateurs `émetteurs` et `récepteurs`. En plus de créer le `flux d'intégration individuel`, SAP propose plus de `400 flux d'intégration prédéfinis`, car ils sont souvent nécessaires dans l'environnement SAP.
 
 ## DESCRIBE THE IFLOW PROCESS CREATED IN THE NEXT EXERCICES
 

@@ -98,4 +98,4 @@ http://<yourAPI>:<PORT>/$metadata
 
 ### SUMMARY
 
-Les `metadata XML` sont essentielles pour fournir le contexte, la structure et le contrôle des documents `XML`. Il améliore la convivialité du document en offrant des informations `descriptives`, `structurelles`, `administratives`, `techniques`, de `provenance` et de `gestion des droits`. En intégrant des `metadata` dans `XML`, les utilisateurs et les systèmes peuvent mieux comprendre, gérer et utiliser les données efficacement.
+> Les `metadata XML` sont essentielles pour fournir le contexte, la structure et le contrôle des documents `XML`. Il améliore la convivialité du document en offrant des informations `descriptives`, `structurelles`, `administratives`, `techniques`, de `provenance` et de `gestion des droits`. En intégrant des `metadata` dans `XML`, les utilisateurs et les systèmes peuvent mieux comprendre, gérer et utiliser les données efficacement.

@@ -140,7 +140,7 @@ En savoir plus ici : [Qualité de service exactement une fois](https://help.sa
 
 ### SUMMARY
 
-Cette leçon décrit divers `integration patterns` (modèles d'intégration), notamment l'`Aggregator`, `Composed Message Processor`,` Content-Based Routing`, `Content Enricher`, `Content Filter`, `Message Filter`, `Recipient List`, `Resequencer`, `Scatter-Gather`, `Splitter` et le `Quality of Service Exactly Once`.
+> Cette leçon décrit divers `integration patterns` (modèles d'intégration), notamment l'`Aggregator`, `Composed Message Processor`,` Content-Based Routing`, `Content Enricher`, `Content Filter`, `Message Filter`, `Recipient List`, `Resequencer`, `Scatter-Gather`, `Splitter` et le `Quality of Service Exactly Once`.
 
 ## INSTALL EXAMPLE INTEGRATION FLOWS
 

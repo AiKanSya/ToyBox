@@ -66,7 +66,7 @@ De nombreuses informations peuvent être trouvées sur Internet sous forme de te
 
 ### SUMMARY
 
-Une `web API RESTful` est créée avec le `REST software architecture style` (style d'architecture logicielle REST). L'`interface` doit correspondre à la fois aux propriétés architecturales et aux contraintes. Il en résulte une implémentation qui, en plus d'un `URI` de base, utilise des `standard HTTP methods` et prend en charge de nombreux types de médias. Cela place les `web API RESTful` au cœur d’une [API First Approach](../☼%20UNIT%200%20-%20Lexicon/♠%20API%20First%20Approach.md) (architecture).
+> Une `web API RESTful` est créée avec le `REST software architecture style` (style d'architecture logicielle REST). L'`interface` doit correspondre à la fois aux propriétés architecturales et aux contraintes. Il en résulte une implémentation qui, en plus d'un `URI` de base, utilise des `standard HTTP methods` et prend en charge de nombreux types de médias. Cela place les `web API RESTful` au cœur d’une [API First Approach](../☼%20UNIT%200%20-%20Lexicon/♠%20API%20First%20Approach.md) (architecture).
 
 ## :closed_book: INTRODUCING TO ODATA
 
@@ -172,7 +172,7 @@ Il est recommandé de suivre ce didacticiel pour vous familiariser pleinement av
 
 ### SUMMARY
 
-Le `protocole OData` décrit une `RESTful Web API`. Outre les principes `REST`, il offre également d’autres avantages bénéfiques dans le milieu professionnel. L'`interface` elle-même fournit deux `meta documents`, un `service` et un `métadocument`. Ceci décrit de manière exhaustive l’`interface`. La fonction la plus efficace est la possibilité de `filtrer`, `rechercher` et `exécuter` des fonctions telles que `$count` via des paramètres de requête (`query parameters`) sur l'`interface`. La représentation s'effectue soit en `XML`, soit en `JSON`.
+> Le `protocole OData` décrit une `RESTful Web API`. Outre les principes `REST`, il offre également d’autres avantages bénéfiques dans le milieu professionnel. L'`interface` elle-même fournit deux `meta documents`, un `service` et un `métadocument`. Ceci décrit de manière exhaustive l’`interface`. La fonction la plus efficace est la possibilité de `filtrer`, `rechercher` et `exécuter` des fonctions telles que `$count` via des paramètres de requête (`query parameters`) sur l'`interface`. La représentation s'effectue soit en `XML`, soit en `JSON`.
 
 ## :closed_book: EXPLORE THE APIS FROM THE SAP GATEWAY DEMO SYSTEM
 
@@ -234,4 +234,4 @@ Il existe deux options pour créer une `API SAP Graph`. Vous pouvez créer des [
 
 ### SUMMARY
 
-`SAP Graph` est une [API](../☼%20UNIT%200%20-%20Lexicon/♠%20API.md) basée sur `OData v4` qui connecte des `entities` de différentes sources dans une seule [API](../☼%20UNIT%200%20-%20Lexicon/♠%20API.md). Par exemple, les données produit de divers systèmes SAP, tels que SAP S/4HANA, Sales Cloud et autres, sont proposées dans une seule [API](../☼%20UNIT%200%20-%20Lexicon/♠%20API.md)s. Il existe déjà des `API SAP Graph standard` pour diverses `entities`. Les `API SAP Graph` peuvent être programmées avec `Node.js` ainsi que créées via `SAP API Management` en mode `low code`.
+> `SAP Graph` est une [API](../☼%20UNIT%200%20-%20Lexicon/♠%20API.md) basée sur `OData v4` qui connecte des `entities` de différentes sources dans une seule [API](../☼%20UNIT%200%20-%20Lexicon/♠%20API.md). Par exemple, les données produit de divers systèmes SAP, tels que SAP S/4HANA, Sales Cloud et autres, sont proposées dans une seule [API](../☼%20UNIT%200%20-%20Lexicon/♠%20API.md)s. Il existe déjà des `API SAP Graph standard` pour diverses `entities`. Les `API SAP Graph` peuvent être programmées avec `Node.js` ainsi que créées via `SAP API Management` en mode `low code`.

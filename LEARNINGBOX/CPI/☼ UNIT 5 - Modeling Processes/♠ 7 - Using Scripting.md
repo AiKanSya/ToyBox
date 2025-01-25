@@ -96,7 +96,7 @@ Après avoir copier le code, coller le dans le `scripting component`, et procéd
 
 ### SUMMARY
 
-Des `Scripts in Java or Groovy` peuvent être créés à l'aide d'un `Script SDK`, qui permet de traiter les messages et leurs métadonnées de différentes manières. Le `SDK` permet de définir et de lire les paramètres d'échange, d'écrire des `logs`, d'intercepter des `exceptions`, etc. Ces scripts peuvent être créés à l'aide de l'`inLine editor` (éditeur en ligne) et d'un `IDE en ligne` qui inclut tous les `SDK` nécessaires, permettant de tester directement le script.
+> Des `Scripts in Java or Groovy` peuvent être créés à l'aide d'un `Script SDK`, qui permet de traiter les messages et leurs métadonnées de différentes manières. Le `SDK` permet de définir et de lire les paramètres d'échange, d'écrire des `logs`, d'intercepter des `exceptions`, etc. Ces scripts peuvent être créés à l'aide de l'`inLine editor` (éditeur en ligne) et d'un `IDE en ligne` qui inclut tous les `SDK` nécessaires, permettant de tester directement le script.
 
 ## CREATE A GROOVY SCRIPT FOR ERROR HANDLING
 

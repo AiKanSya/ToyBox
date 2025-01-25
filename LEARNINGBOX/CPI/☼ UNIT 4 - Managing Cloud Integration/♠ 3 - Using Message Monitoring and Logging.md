@@ -156,7 +156,7 @@ Trouvez un aperçu complet et une description sur : [Statut du message](https:/
 
 ### SUMMARY
 
-SAP propose divers produits pour prendre en charge la `support message monitoring` (surveillance des messages), tels que `SAP Cloud ALM`, `SAP Solution Manager`, `SAP Focused Run`, `SAP Analytics Cloud`, etc. De plus, `SAP Cloud Integration` fournit son propre `graphical monitor`, qui offre une vue complète du `processing des messages`. Le moniteur permet aux utilisateurs de lire les `system log files` (fichiers journaux du système) et repose sur une [API](../☼%20UNIT%200%20-%20Lexicon/♠%20API.md), qui peut être directement appelée. Cette [API](../☼%20UNIT%200%20-%20Lexicon/♠%20API.md) permet aux utilisateurs de créer leur propre moniteur personnalisé.
+> SAP propose divers produits pour prendre en charge la `support message monitoring` (surveillance des messages), tels que `SAP Cloud ALM`, `SAP Solution Manager`, `SAP Focused Run`, `SAP Analytics Cloud`, etc. De plus, `SAP Cloud Integration` fournit son propre `graphical monitor`, qui offre une vue complète du `processing des messages`. Le moniteur permet aux utilisateurs de lire les `system log files` (fichiers journaux du système) et repose sur une [API](../☼%20UNIT%200%20-%20Lexicon/♠%20API.md), qui peut être directement appelée. Cette [API](../☼%20UNIT%200%20-%20Lexicon/♠%20API.md) permet aux utilisateurs de créer leur propre moniteur personnalisé.
 
 ## CREATE A TIMER IN PLACE OF THE MESSAGE START EVENT
 

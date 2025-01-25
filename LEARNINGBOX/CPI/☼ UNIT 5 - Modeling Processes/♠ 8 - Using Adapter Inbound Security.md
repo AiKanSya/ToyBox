@@ -164,9 +164,9 @@ Vous pouvez utiliser `OAuth 2.0` pour l'`authenticating`, ce qui implique deux �
 
 ### SUMMARY
 
-La communication sécurisée implique deux étapes : l'établissement d'une `secure connection` à le `load balancer` (répartiteur de charge) et l'`authenticating` auprès du `Cloud Integration tenant` où le flux d'intégration est implémenté. Ceci est réalisé en utilisant des `certificates` dans les `TCP (Transport Control Protocol) based connections` (connexions basées sur TCP (Transport Control Protocol)) via la `TSL (Transport Layer Security) procedure` (procédure TSL (Transport Layer Security)). Ces protocoles incluent `HTTPS`, `IMAPS`, `POP3S`, `SMTPS`, `FTPS` et autres. De nombreux protocoles tels que `SOAP`, `OData`, `HTTP`, utilisent également ces `secure communication protocols` (protocoles de communication sécurisés).
-
-L'`authenticating` au niveau de l'`endpoint` du flux d'intégration peut être réalisée de deux manières : `direct assignment of a user role` à un utilisateur ou l'utilisation d'un `local OAuth 2.0 client` offrant des `extra authentication options`, telles que `ClientId/Clientsecret`, `Bearer token` ou `OAuth. 2.0`. Ces méthodes ne sont pas personnalisées et sont plus sécurisées que la première option.
+> La communication sécurisée implique deux étapes : l'établissement d'une `secure connection` à le `load balancer` (répartiteur de charge) et l'`authenticating` auprès du `Cloud Integration tenant` où le flux d'intégration est implémenté. Ceci est réalisé en utilisant des `certificates` dans les `TCP (Transport Control Protocol) based connections` (connexions basées sur TCP (Transport Control Protocol)) via la `TSL (Transport Layer Security) procedure` (procédure TSL (Transport Layer Security)). Ces protocoles incluent `HTTPS`, `IMAPS`, `POP3S`, `SMTPS`, `FTPS` et autres. De nombreux protocoles tels que `SOAP`, `OData`, `HTTP`, utilisent également ces `secure communication protocols` (protocoles de communication sécurisés).
+>
+> L'`authenticating` au niveau de l'`endpoint` du flux d'intégration peut être réalisée de deux manières : `direct assignment of a user role` à un utilisateur ou l'utilisation d'un `local OAuth 2.0 client` offrant des `extra authentication options`, telles que `ClientId/Clientsecret`, `Bearer token` ou `OAuth. 2.0`. Ces méthodes ne sont pas personnalisées et sont plus sécurisées que la première option.
 
 ## CREATE AN INBOUND SOAP ADAPTER
 

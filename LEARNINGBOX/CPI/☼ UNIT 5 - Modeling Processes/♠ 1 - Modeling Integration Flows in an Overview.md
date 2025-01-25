@@ -136,7 +136,7 @@ Description du package, y compris des informations supplémentaires sur les lien
 
 ### SUMMARY
 
-SAP propose diverses solutions pour les `common technical requirements` (exigences techniques courantes) via de la `documentation` et des `implementation examples`. Ces domaines comprennent l'apprentissage des bases, les `Guidelines for Designing Enterprise-Grade Integration Flows` et les `Guidelines for Implementing Specific Integration Patterns`. Vous pouvez rechercher et utiliser ces exemples dans vos propres projets.
+> SAP propose diverses solutions pour les `common technical requirements` (exigences techniques courantes) via de la `documentation` et des `implementation examples`. Ces domaines comprennent l'apprentissage des bases, les `Guidelines for Designing Enterprise-Grade Integration Flows` et les `Guidelines for Implementing Specific Integration Patterns`. Vous pouvez rechercher et utiliser ces exemples dans vos propres projets.
 
 ## CREATE AND CONFIGURE A GENERAL SPLITTER
 

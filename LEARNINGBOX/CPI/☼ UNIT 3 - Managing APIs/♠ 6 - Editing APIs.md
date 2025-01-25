@@ -150,9 +150,9 @@ Vous trouvez toute la documentation openAPI ici :
 
 ### SUMMARY
 
-L'`URL du proxy` est la nouvelle `URL` qui `ultimately consume the resource API`. Le nom de `Virtual Host` est défini par vous. Il est utilisé comme `API host` (URL proxy API) dans le `subaccount`.
-
-L'`URL du proxy` est la nouvelle `URL` qui `ultimately consume the resource API`. Le nom de `Virtual Host` est défini par vous. Il est utilisé comme hôte API (URL proxy API) dans le `subaccount`. Il peut également y avoir un `custom domain` ici. `SAP API Management` propose différents onglets avec différentes fonctionnalités dans `View API`. L'onglet `Ressources` est le plus important. Les `ressources` décrivent les fonctionnalités `REST` (GET, POST, etc.) et les `paths` aux données réelles (/ProductSet, /BusinessPartnerSet...). La description est basée sur la spécification `openAPI`. La visualisation de la spécification `openAPI` est réalisée avec l'interface utilisateur `Swagger`. L'interface utilisateur `Swagger` est un `framework JavaScript open source` permettant de rendre les `API tangibles`.
+> L'`URL du proxy` est la nouvelle `URL` qui `ultimately consume the resource API`. Le nom de `Virtual Host` est défini par vous. Il est utilisé comme `API host` (URL proxy API) dans le `subaccount`.
+>
+> L'`URL du proxy` est la nouvelle `URL` qui `ultimately consume the resource API`. Le nom de `Virtual Host` est défini par vous. Il est utilisé comme hôte API (URL proxy API) dans le `subaccount`. Il peut également y avoir un `custom domain` ici. `SAP API Management` propose différents onglets avec différentes fonctionnalités dans `View API`. L'onglet `Ressources` est le plus important. Les `ressources` décrivent les fonctionnalités `REST` (GET, POST, etc.) et les `paths` aux données réelles (/ProductSet, /BusinessPartnerSet...). La description est basée sur la spécification `openAPI`. La visualisation de la spécification `openAPI` est réalisée avec l'interface utilisateur `Swagger`. L'interface utilisateur `Swagger` est un `framework JavaScript open source` permettant de rendre les `API tangibles`.
 
 ## EXPLORE THE [API DESIGNER](../☼%20UNIT%200%20-%20Lexicon/♠%20API%20Designer.md)
 

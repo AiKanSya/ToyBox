@@ -46,14 +46,14 @@ Intégrez des applications `On-Premise`, dans le `cloud` ou dans un `modèle hyb
 
 ### SUMMARY
 
-SAP souhaite offrir à ses clients une solution d'intégration complète, sécurisée et complète. Ceci repose sur quatre principes. Ces principes sont les suivants :
-
-- Predefined integration
-
-- Open integration
-
-- Holistic integration
-
-- AI-driven integration
-
-Cette réclamation est satisfaite par les services sur SAP BTP.
+> SAP souhaite offrir à ses clients une solution d'intégration complète, sécurisée et complète. Ceci repose sur quatre principes. Ces principes sont les suivants :
+>
+> - Predefined integration
+>
+> - Open integration
+>
+> - Holistic integration
+>
+> - AI-driven integration
+>
+> Cette réclamation est satisfaite par les services sur SAP BTP.

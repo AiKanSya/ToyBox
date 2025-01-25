@@ -126,17 +126,17 @@ Il est courant d'utiliser une `clé API` pour l'`authentication` et l'`authoriza
 
 ### SUMMARY
 
-Il faut distinguer le `process of establishing secure connections processus` (établissement de connexions sécurisées) et d'`authentication`. Initialement, la `TSL connection` est établie, similaire à l'`inbound case`( au cas entrant). Cependant, dans ce scénario, la communication et l'échange de `certificates` se produisent directement entre le `Cloud Integration tenant` (locataire Cloud Integration) (`subaccount`) et le `receiver`. Pour identifier et importer ces `certificates`, SAP fournit un `Test Connection tool`. L'`authentication` proprement dite est effectuée par l'`adapter` et diverses options sont disponibles, telles que celles fournies par l'`OData adapter`.
-
-- Basic
-
-- Client Certificate
-
-- None
-
-- OAuth2 Client Credentials
-
-- OAuth2 SAML Bearer Assertion
+> Il faut distinguer le `process of establishing secure connections processus` (établissement de connexions sécurisées) et d'`authentication`. Initialement, la `TSL connection` est établie, similaire à l'`inbound case`( au cas entrant). Cependant, dans ce scénario, la communication et l'échange de `certificates` se produisent directement entre le `Cloud Integration tenant` (locataire Cloud Integration) (`subaccount`) et le `receiver`. Pour identifier et importer ces `certificates`, SAP fournit un `Test Connection tool`. L'`authentication` proprement dite est effectuée par l'`adapter` et diverses options sont disponibles, telles que celles fournies par l'`OData adapter`.
+>
+> - Basic
+>
+> - Client Certificate
+>
+> - None
+>
+> - OAuth2 Client Credentials
+>
+> - OAuth2 SAML Bearer Assertion
 
 ## CREATE A REQUEST AND REPLY TO AN EXTERNAL CALL (3.ODATA ADAPTER)
 

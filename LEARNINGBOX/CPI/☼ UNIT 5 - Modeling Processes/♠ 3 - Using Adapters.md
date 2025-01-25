@@ -99,7 +99,7 @@ En savoir plus ici : [Configurer l'adaptateur d'expéditeur OData](https://help
 
 ### SUMMARY
 
-SAP propose une `range of adapters` pour l'`intégration cloud`, qui varient en fonction de leur direction (`inbound or outbound`) et des `protocoles de transport`, d'`application` et de `message` utilisés. D'une manière générale, ces adaptateurs peuvent être classés comme étant `HTTP-based`, `TCP/IP-based` ou `non HTTP/non TCP/IP-based`. Par exemple, le `OData receiver adapter` (adaptateur récepteur OData) offre plusieurs fonctionnalités uniques, telles qu'un `wizard` qui facilite la configuration facile de l'`API OData` à appeler et la capacité de traitement de page pour gérer de gros volumes de données. En outre, l'adaptateur supprime les `namespaces` et leurs `préfixes` respectifs de la réponse, ce qui constitue un autre avantage important.
+> SAP propose une `range of adapters` pour l'`intégration cloud`, qui varient en fonction de leur direction (`inbound or outbound`) et des `protocoles de transport`, d'`application` et de `message` utilisés. D'une manière générale, ces adaptateurs peuvent être classés comme étant `HTTP-based`, `TCP/IP-based` ou `non HTTP/non TCP/IP-based`. Par exemple, le `OData receiver adapter` (adaptateur récepteur OData) offre plusieurs fonctionnalités uniques, telles qu'un `wizard` qui facilite la configuration facile de l'`API OData` à appeler et la capacité de traitement de page pour gérer de gros volumes de données. En outre, l'adaptateur supprime les `namespaces` et leurs `préfixes` respectifs de la réponse, ce qui constitue un autre avantage important.
 
 ### CREATE A REQUEST AND REPLY TO AN EXTERNAL CALL (ODATA ADAPTER)
 

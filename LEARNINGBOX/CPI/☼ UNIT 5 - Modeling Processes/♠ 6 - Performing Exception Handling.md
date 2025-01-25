@@ -92,7 +92,7 @@ Si vous obtenez le statut `Escalated`, le processus a fonctionné correctement.
 
 ### SUMMARY
 
-Un `special error subprocess` peut intercepter une erreur inattendue à l'aide d'un `événement de démarrage d'exception`. Après interception, différentes étapes de `handling` peuvent être mises en œuvre. Par exemple, il convient de `store` des `process values` (valeurs de processus) ou le `message content` (contenu d'un message) suite à une erreur. En outre, il est également possible d'informer (via configuration) l'information de l'erreur à l'expéditeur .
+> Un `special error subprocess` peut intercepter une erreur inattendue à l'aide d'un `événement de démarrage d'exception`. Après interception, différentes étapes de `handling` peuvent être mises en œuvre. Par exemple, il convient de `store` des `process values` (valeurs de processus) ou le `message content` (contenu d'un message) suite à une erreur. En outre, il est également possible d'informer (via configuration) l'information de l'erreur à l'expéditeur .
 
 ## CREATE AN EXCEPTION PROCESS
 

@@ -80,4 +80,4 @@ En conséquence, la capture d'écran suivante montre l'utilisation de `Splunk `
 
 ### SUMMARY
 
-Les `Metrics`, `usage` et les `performances` des `individual API calls` peuvent être examinées d'une part avec le `build-in Advanced API Analytics` et d'autre part avec le produit `SAP Cloud ALM`. Le `Logging` (journalisation) des paramètres de communication et de le `payload` est effectuée avec la `Message Logging Policy`. Il compile les données correspondantes et utilise une solution externe, comme `Loggly` ou autres, pour les visualiser.
+> Les `Metrics`, `usage` et les `performances` des `individual API calls` peuvent être examinées d'une part avec le `build-in Advanced API Analytics` et d'autre part avec le produit `SAP Cloud ALM`. Le `Logging` (journalisation) des paramètres de communication et de le `payload` est effectuée avec la `Message Logging Policy`. Il compile les données correspondantes et utilise une solution externe, comme `Loggly` ou autres, pour les visualiser.

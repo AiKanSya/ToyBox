@@ -124,15 +124,15 @@ Portail d'aide : [Créer un proxy [API](../☼%20UNIT%200%20-%20Lexicon/♠%20A
 
 ### SUMMARY
 
-Il existe plusieurs façons de créer une [API](../☼%20UNIT%200%20-%20Lexicon/♠%20API.md). Des [API](../☼%20UNIT%200%20-%20Lexicon/♠%20API.md) peuvent être créées :
-
-- En utilisant le bouton `Create`.
-
-- Basé sur un [API provider](../☼%20UNIT%200%20-%20Lexicon/♠%20API%20Provider.md) existant.
-
-- Directement via une `URL` fournie.
-
-Enfin, vous pouvez également le définir avec une spécification `openAPI` via le bouton `Create` dans `API Designer`.
+> Il existe plusieurs façons de créer une [API](../☼%20UNIT%200%20-%20Lexicon/♠%20API.md). Des [API](../☼%20UNIT%200%20-%20Lexicon/♠%20API.md) peuvent être créées :
+>
+> - En utilisant le bouton `Create`.
+>
+> - Basé sur un [API provider](../☼%20UNIT%200%20-%20Lexicon/♠%20API%20Provider.md) existant.
+>
+> - Directement via une `URL` fournie.
+>
+> Enfin, vous pouvez également le définir avec une spécification `openAPI` via le bouton `Create` dans `API Designer`.
 
 ## CREATE AN [API](../☼%20UNIT%200%20-%20Lexicon/♠%20API.md) BASED ON A PREDEFINED [API](../☼%20UNIT%200%20-%20Lexicon/♠%20API.md) PROVIDER
 

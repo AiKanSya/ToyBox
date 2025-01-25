@@ -44,4 +44,4 @@ Les ressources suivantes sont disponibles sur le portail d'aide SAP :
 
 ### SUMMARY
 
-SAP API Management se compose de divers composants qui offrent différentes fonctionnalités. Les plus importants sont le fournisseur d'API, l'API, le produit et l'API Business Hub Enterprise.
+> SAP API Management se compose de divers composants qui offrent différentes fonctionnalités. Les plus importants sont le fournisseur d'API, l'API, le produit et l'API Business Hub Enterprise.

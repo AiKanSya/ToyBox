@@ -138,6 +138,6 @@ Jumpstart pour les projets d'intégration avec des [API](../☼%20UNIT%200%20-%2
 
 - Point de vue technique : [paysage technique, environnement `Cloud` Foundry](https://help.sap.com/viewer/368c481cd6954bdfa5d0435479fd4eaf/``Cloud``/en-US/cc22301edf174cc9bf7337c6c66fb704.html)
 
-### Résumé
+### SUMMARY
 
-Nous faisons la distinction entre les capacités principales (`core capabilities`), les capacités complémentaires (`add-on capabilities`)et les capacités complémentaires (`add-on capabilities`). Les fonctionnalités de base sont implémentées dans Integration Suite. Les fonctionnalités les plus importantes sont l'`API Management` et le `Cloud Integration`.
+> Nous faisons la distinction entre les capacités principales (`core capabilities`), les capacités complémentaires (`add-on capabilities`)et les capacités complémentaires (`add-on capabilities`). Les fonctionnalités de base sont implémentées dans Integration Suite. Les fonctionnalités les plus importantes sont l'`API Management` et le `Cloud Integration`.

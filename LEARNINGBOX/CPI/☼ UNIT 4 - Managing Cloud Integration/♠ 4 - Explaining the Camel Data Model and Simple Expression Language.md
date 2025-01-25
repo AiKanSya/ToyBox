@@ -143,11 +143,11 @@ Lire la suite ici :
 
 ### SUMMARY
 
-Le `Camel Data Model` (modèle de données Camel) est utilisé pour gérer les `temporary data` pendant le traitement dans les `individual integration flow components`. Ce modèle de données inclut non seulement le `payload` (`body`), mais également les propriétés et les `header data`, qui sont automatiquement incluses dans un `HTTP call`.
-
-Le `Exchange container` est transmis du prédécesseur à l'étape de traitement suivante à chaque étape de traitement. Les `Exchange Parameters` sont définis automatiquement, par exemple lorsqu'un message est reçu, et manuellement via des composants tels que le `Content Modifier` ou le `Groovy SDK`, entre autres. Le `Camel Data Model` gère les données temporaires pendant le traitement, qui incluent le `payload` (`body`), les propriétés et les `header data`. Les `header data` sont automatiquement incluses dans un `HTTP call`.
-
-L'accès aux `Exchange Parameters` pour la lecture se fait via le `Simple Expression Language`, qui inclut non seulement des `built-in parameters` (paramètres intégrés), mais permet également de modéliser des expressions `regex` complexes.
+> Le `Camel Data Model` (modèle de données Camel) est utilisé pour gérer les `temporary data` pendant le traitement dans les `individual integration flow components`. Ce modèle de données inclut non seulement le `payload` (`body`), mais également les propriétés et les `header data`, qui sont automatiquement incluses dans un `HTTP call`.
+>
+> Le `Exchange container` est transmis du prédécesseur à l'étape de traitement suivante à chaque étape de traitement. Les `Exchange Parameters` sont définis automatiquement, par exemple lorsqu'un message est reçu, et manuellement via des composants tels que le `Content Modifier` ou le `Groovy SDK`, entre autres. Le `Camel Data Model` gère les données temporaires pendant le traitement, qui incluent le `payload` (`body`), les propriétés et les `header data`. Les `header data` sont automatiquement incluses dans un `HTTP call`.
+>
+> L'accès aux `Exchange Parameters` pour la lecture se fait via le `Simple Expression Language`, qui inclut non seulement des `built-in parameters` (paramètres intégrés), mais permet également de modéliser des expressions `regex` complexes.
 
 ### CREATE A CONTENT MODIFIER WITH SAMPLE DATA AS PAYLOAD (XML)
 

@@ -172,7 +172,7 @@ Après la mise à jour, l'enregistrement et le redéploiement, le `policy templa
 
 ### SUMMARY
 
-`SAP API Management` offre des fonctionnalités permettant de définir le comportement d'une [API](../☼%20UNIT%200%20-%20Lexicon/♠%20API.md) à l'aide de `Policies`. Ces capacités peuvent être utilisées à la fois dans la `request` et dans la `response`. Il existe des `Policies` pour la transformation de la charge utile et des appels externes, par exemple pour se connecter à l'aide d'`OAuth 2.0` et bien plus encore. En particulier, les `Policies` de sécurité sont utiles. SAP propose `federal of policies and policy templates` pour certains cas d'utilisation. Ils peuvent être facilement importés.
+> `SAP API Management` offre des fonctionnalités permettant de définir le comportement d'une [API](../☼%20UNIT%200%20-%20Lexicon/♠%20API.md) à l'aide de `Policies`. Ces capacités peuvent être utilisées à la fois dans la `request` et dans la `response`. Il existe des `Policies` pour la transformation de la charge utile et des appels externes, par exemple pour se connecter à l'aide d'`OAuth 2.0` et bien plus encore. En particulier, les `Policies` de sécurité sont utiles. SAP propose `federal of policies and policy templates` pour certains cas d'utilisation. Ils peuvent être facilement importés.
 
 ## ADD POLICITES FOR BASIC AUTHENTICATION AGAINST THE ES5 DEMO SYSTEM
 

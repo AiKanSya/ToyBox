@@ -155,7 +155,7 @@ Des ressources sont également disponibles sur les blogs : [Protégez votre pr
 
 ### SUMMARY
 
-Un produit dans le contexte de `SAP API Management` est son propre `artefact` qui encapsule les [API](../☼%20UNIT%200%20-%20Lexicon/♠%20API.md) créées ou des parties d'entre elles (ressources). Le `product` est configuré et déployé (publié) sur l'`API Business Hub Enterprise portal`. Le `product` peut être testé sur l'`API Business Hub Enterprise portal`. L'accès aux produits est restreint par les `rôles`.
+> Un produit dans le contexte de `SAP API Management` est son propre `artefact` qui encapsule les [API](../☼%20UNIT%200%20-%20Lexicon/♠%20API.md) créées ou des parties d'entre elles (ressources). Le `product` est configuré et déployé (publié) sur l'`API Business Hub Enterprise portal`. Le `product` peut être testé sur l'`API Business Hub Enterprise portal`. L'accès aux produits est restreint par les `rôles`.
 
 ## CREATE A PRODUCT BASED ON YOUR CREATED API
 

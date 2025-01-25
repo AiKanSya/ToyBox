@@ -72,4 +72,4 @@ Les ressources suivantes sont disponibles sur le portail d'aide SAP :
 
 ### SUMMARY
 
-Avec la gestion des [API](../☼%20UNIT%200%20-%20Lexicon/♠%20API.md), l’intégralité du cycle de vie d’une [API](../☼%20UNIT%200%20-%20Lexicon/♠%20API.md) peut être mapped. Cela commence par la création, la publication et la maintenance sur toute la durée. Dans une `architecture API first`, la gestion des API est l’élément central et est utilisée dans chaque cas d’utilisation spécifique d’un client.
+> Avec la gestion des [API](../☼%20UNIT%200%20-%20Lexicon/♠%20API.md), l’intégralité du cycle de vie d’une [API](../☼%20UNIT%200%20-%20Lexicon/♠%20API.md) peut être mapped. Cela commence par la création, la publication et la maintenance sur toute la durée. Dans une `architecture API first`, la gestion des API est l’élément central et est utilisée dans chaque cas d’utilisation spécifique d’un client.

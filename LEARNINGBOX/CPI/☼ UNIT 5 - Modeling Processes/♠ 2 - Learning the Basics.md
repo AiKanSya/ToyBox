@@ -70,7 +70,7 @@ Cette leçon fournit des conseils sur la façon d'effectuer une `file format con
 
 ### SUMMARY
 
-Les `attachments` peuvent être `créées`, `modifiées` et `combinées`, tandis que les fichiers peuvent être récupérés à l'aide du `SFTP adapter` de différentes manières. Le `découplage asynchrone` des `integration flows` sépare le `call time` (temps d'appel) du `processing time` (temps de traitement). Il est également important de noter que les `formats XML ou JSON` sont nécessaires pour le `message mapping and XPATH operations` (mappage des messages et les opérations XPATH).
+> Les `attachments` peuvent être `créées`, `modifiées` et `combinées`, tandis que les fichiers peuvent être récupérés à l'aide du `SFTP adapter` de différentes manières. Le `découplage asynchrone` des `integration flows` sépare le `call time` (temps d'appel) du `processing time` (temps de traitement). Il est également important de noter que les `formats XML ou JSON` sont nécessaires pour le `message mapping and XPATH operations` (mappage des messages et les opérations XPATH).
 
 ## CREATE AND CONFIGURE A CONTENT MODIFIER
 

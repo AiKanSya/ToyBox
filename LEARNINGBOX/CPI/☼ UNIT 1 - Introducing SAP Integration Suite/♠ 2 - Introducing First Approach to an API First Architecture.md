@@ -134,7 +134,7 @@ L'implémentation est d'abord créée par le [API Provider](../☼%20UNIT%200%20
 
 La description de l'[API](../☼%20UNIT%200%20-%20Lexicon/♠%20API.md) est d'abord créée avec `RAML` ou `OpenAPI`. Les générateurs créent automatiquement l'implémentation rudimentaire pour le [API Provider](../☼%20UNIT%200%20-%20Lexicon/♠%20API%20Provider.md) et le [API Consumer](../☼%20UNIT%200%20-%20Lexicon/♠%20API%20Consumer.md). Ces implémentations rudimentaires dans différents langages et concepts de programmation doivent ensuite être pleinement mises en œuvre.
 
-### RESUME
+### SUMMARY
 
 > Dans une [API first approach](../☼%20UNIT%200%20-%20Lexicon/♠%20API%20First%20Approach.md), seules les [API](../☼%20UNIT%200%20-%20Lexicon/♠%20API.md) fournies sont intéressantes. En utilisant des `standardized communication protocols and concepts`, tels que `REST` et `OData`, presque tous les cas d'utilisation peuvent être cartographiés au-delà des frontières. La communication a lieu entre un [API Provider](../☼%20UNIT%200%20-%20Lexicon/♠%20API%20Provider.md) qui dispose de l'`interface` et le [API Consumer](../☼%20UNIT%200%20-%20Lexicon/♠%20API%20Consumer.md) qui consomme cette `interface`.
 >
