@@ -13,51 +13,51 @@
 
 ## CARACTÉRISTIQUES PRINCIPALES DE L'EVENT MESH
 
-### :small_red_triangle_down: communication asynchrone
+### :small_red_triangle_down: Communication asynchrone :
 
 Les messages (événements) sont échangés sans nécessiter de réponse immédiate ou un couplage direct entre l’émetteur et le récepteur.
 
-### :small_red_triangle_down: architecture distribuée
+### :small_red_triangle_down: Architecture distribuée :
 
 L’Event Mesh fonctionne comme un réseau distribué qui relie des producteurs (publishers) et des consommateurs (subscribers) d’événements sur plusieurs environnements (cloud, on-premise, hybride).
 
-### :small_red_triangle_down: routage intelligent
+### :small_red_triangle_down: Routage intelligent :
 
 Les messages sont acheminés automatiquement vers les abonnés pertinents en fonction des règles de routage et des abonnements définis.
 
-### :small_red_triangle_down: indépendance des systèmes
+### :small_red_triangle_down: Indépendance des systèmes :
 
 Les producteurs et les consommateurs d’événements n’ont pas besoin de se connaître directement. Cela permet un couplage faible et une meilleure scalabilité.
 
-### :small_red_triangle_down: prise en charge multi-cloud et hybride
+### :small_red_triangle_down: Prise en charge multi-cloud et hybride :
 
 L’Event Mesh peut interconnecter des systèmes déployés dans plusieurs clouds ou sur des infrastructures locales.
 
 ## COMPOSANTS CLÉS D’UN EVENT MESH
 
-### :small_red_triangle_down: producteurs d’événements (publishers)
+### :small_red_triangle_down: Producteurs d’événements (publishers) :
 
 Les systèmes ou applications qui génèrent des événements en réponse à des actions ou des changements (par ex., une commande client passée).
 
-### :small_red_triangle_down: consommateurs d’événements (subscribers)
+### :small_red_triangle_down: Consommateurs d’événements (subscribers) :
 
 Les applications ou services qui s’abonnent pour recevoir et traiter des événements spécifiques.
 
-### :small_red_triangle_down: brokers d’événements
+### :small_red_triangle_down: Brokers d’événements :
 
 Des composants (comme Kafka, RabbitMQ, ou Solace) qui gèrent la distribution des événements entre producteurs et consommateurs.
 
-### :small_red_triangle_down: sujets (topics)
+### :small_red_triangle_down: Sujets (topics) :
 
 Les canaux ou catégories utilisés pour classer les événements. Les abonnés s’inscrivent à des topics spécifiques pour recevoir des types d’événements.
 
-### :small_red_triangle_down: outils de gestion
+### :small_red_triangle_down: Outils de gestion :
 
 Des interfaces ou API permettant de configurer, surveiller, et gérer le réseau d’événements.
 
 ## EXEMPLE D’UTILISATION DE L’EVENT MESH
 
-### :small_red_triangle_down: scénario e-commerce
+### :small_red_triangle_down: Scénario e-commerce :
 
 1. Lorsqu’un client passe une commande en ligne, un événement "Commande passée" est publié.
 
@@ -73,37 +73,37 @@ Des interfaces ou API permettant de configurer, surveiller, et gérer le réseau
 
 ## AVANTAGES DE L’EVENT MESH
 
-### :small_red_triangle_down: scalabilité
+### :small_red_triangle_down: Scalabilité :
 
 Les systèmes peuvent facilement s'étendre en ajoutant de nouveaux producteurs ou consommateurs d’événements sans modifier les connexions existantes.
 
-### :small_red_triangle_down: résilience
+### :small_red_triangle_down: Résilience :
 
 Les applications continuent de fonctionner même si certains services sont indisponibles, car les événements peuvent être stockés dans des files d’attente temporaires.
 
-### :small_red_triangle_down: réduction du couplage
+### :small_red_triangle_down: Réduction du couplage :
 
 Les producteurs et les consommateurs d’événements n’ont pas besoin de dépendances directes, ce qui rend les systèmes plus modulaires.
 
-### :small_red_triangle_down: temps réel
+### :small_red_triangle_down: Temps réel :
 
 Les événements sont distribués dès qu’ils se produisent, permettant une réaction immédiate des systèmes.
 
-### :small_red_triangle_down: flexibilité multi-environnements
+### :small_red_triangle_down: Flexibilité multi-environnements :
 
 Il connecte des systèmes sur différents clouds ou infrastructures locales.
 
 ## DÉFIS DE L’EVENT MESH
 
-### :small_red_triangle_down: complexité accrue
+### :small_red_triangle_down: Complexité accrue :
 
 La gestion d’un réseau distribué d’événements peut devenir complexe, notamment pour surveiller et dépanner les flux.
 
-### :small_red_triangle_down: fiabilité des brokers
+### :small_red_triangle_down: Ffiabilité des brokers :
 
 Le bon fonctionnement de l’Event Mesh dépend de la fiabilité des brokers d’événements.
 
-### :small_red_triangle_down: conception des événements
+### :small_red_triangle_down: Conception des événements :
 
 Une mauvaise conception des événements (trop génériques ou mal structurés) peut entraîner des inefficacités ou des difficultés de maintenance.
 
@@ -115,7 +115,7 @@ SAP propose une solution native appelée SAP Event Mesh, qui fait partie de la S
 
 - Implémenter des architectures event-driven dans des environnements hybrides ou cloud.
 
-### :small_red_triangle_down: cas d'utilisation
+### :small_red_triangle_down: Cas d'utilisation :
 
 - Notifications clients : Envoi de mises à jour en temps réel sur le statut des commandes.
 

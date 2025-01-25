@@ -16,7 +16,7 @@
 >
 > - Simplifier la maintenance et les mises à jour en évitant que des personnalisations bloquent ou compliquent les processus de mise à niveau.
 
-## POURQUOI ADOPTER LE CLEAN CORE ? :
+## POURQUOI ADOPTER LE CLEAN CORE ?
 
 Historiquement, les systèmes ERP on-premise (comme ECC) étaient souvent fortement personnalisés avec du code ABAP ou des ajustements spécifiques aux entreprises. Cela a engendré plusieurs problèmes :
 
@@ -32,7 +32,7 @@ Un système trop personnalisé est difficile à adapter aux nouveaux besoins mé
 
 Plus le système est personnalisé, plus son entretien demande du temps et des ressources.
 
-## PRINCIPES DU CLEAN CORE :
+## PRINCIPES DU CLEAN CORE
 
 ### :small_red_triangle_down: Rigidité :
 
@@ -56,7 +56,7 @@ Implémenter des extensions en parallèle au système de base (et non dedans), v
 
 Réduire l’utilisation de code ABAP personnalisé et le limiter aux cas indispensables qui ne peuvent pas être couverts autrement.
 
-## AVANTAGES DU CLEAN CORE :
+## AVANTAGES DU CLEAN CORE
 
 ### :small_red_triangle_down: Mises à jour simplifiées :
 
@@ -132,7 +132,7 @@ Solution avec le Clean Core :
 >
 > Le noyau SAP reste propre, et les mises à jour peuvent être effectuées sans interruption.
 
-## LES OUTILS POUR UN CLEAN CORE AVEC SAP :
+## LES OUTILS POUR UN CLEAN CORE AVEC SAP
 
 ### :small_red_triangle_down: SAP Business Technology Platform (BTP) :
 

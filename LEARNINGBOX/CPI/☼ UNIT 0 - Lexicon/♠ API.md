@@ -80,7 +80,7 @@ Les APIs utilisent des mécanismes comme OAuth2, des clés API, ou des certifica
 
 Une bonne API est accompagnée d’une documentation détaillée expliquant comment l’utiliser (par exemple, Swagger pour les APIs REST).
 
-## LES APIS DANS LE CONTEXTE DE SAP CPI :
+## LES APIS DANS LE CONTEXTE DE SAP CPI
 
 Dans SAP Integration Suite (CPI), les APIs jouent un rôle crucial pour permettre l'intégration entre divers systèmes SAP et non-SAP. Voici quelques exemples d’utilisation :
 
@@ -96,7 +96,7 @@ SAP CPI permet d’appeler des APIs externes pour intégrer des systèmes tiers 
 
 SAP CPI permet également de concevoir et d’héberger des APIs personnalisées, qui exposent des données ou des processus métiers spécifiques.
 
-## EXEMPLE D'UTILISATION D'UNE API AVEC SAP CPI :
+## EXEMPLE D'UTILISATION D'UNE API AVEC SAP CPI
 
 > Scénario :
 >
@@ -118,7 +118,7 @@ SAP CPI permet également de concevoir et d’héberger des APIs personnalisées
 
    - Une réponse est renvoyée au site e-commerce via l’API pour confirmer que la commande a été créée avec succès.
 
-## AVANTAGES DES APIS DANS SAP CPI :
+## AVANTAGES DES APIS DANS SAP CPI
 
 ### :small_red_triangle_down: Flexibilité :
 

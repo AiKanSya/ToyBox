@@ -16,7 +16,7 @@
 >
 > - Dans le cadre de SAP CPI, un système externe pourrait consommer une API REST exposée par CPI pour obtenir des informations sur les commandes ou les clients.
 
-## ROLE ET RESPONSABILITES D'UN D'UN API CONSUMER :
+## ROLE ET RESPONSABILITES D'UN D'UN API CONSUMER
 
 ### :small_red_triangle_down: Envoyer des requêtes API :
 
@@ -38,7 +38,7 @@ Il doit être capable de gérer les codes d’erreur ou d’exception retournés
 
 L'API Consumer doit fournir les informations d'authentification requises par l’[API Provider](../☼%20UNIT%200%20-%20Lexicon/♠%20API%20Provider.md) (par exemple, des jetons OAuth2, des clés API ou des certificats).
 
-## API CONSUMER DANS LE CONTEXTE DE SAP CPI :
+## API CONSUMER DANS LE CONTEXTE DE SAP CPI
 
 Dans SAP CPI, un API Consumer peut être :
 
@@ -52,7 +52,7 @@ Exemple d’utilisation :
 
 - Consommation des APIs SAP : Une application mobile ou un système CRM externe peut consommer une API exposée par SAP CPI pour interagir avec SAP S/4HANA ou d’autres systèmes SAP.
 
-## EXEMPLE DE FLUX AVEC UN API CONSUMER :
+## EXEMPLE DE FLUX AVEC UN API CONSUMER
 
 Scénario :
 
@@ -75,7 +75,7 @@ Un système CRM externe consomme une API SAP CPI pour récupérer des informatio
 
    SAP CPI retourne une réponse JSON avec les informations du client que le CRM peut afficher ou utiliser.
 
-## COMPOSANTS CLES POUR UN API CONSUMER :
+## COMPOSANTS CLES POUR UN API CONSUMER
 
 ### :small_red_triangle_down: Endpoints API :
 
@@ -117,7 +117,7 @@ Les API Consumers doivent gérer les erreurs, comme :
 
 Les données reçues d’une API doivent parfois être transformées pour être intégrées dans le système consommateur.
 
-## AVANTAGES POUR L'API CONSUMER :
+## AVANTAGES POUR L'API CONSUMER
 
 ### :small_red_triangle_down: Accès aux données :
 
@@ -135,7 +135,7 @@ Les API Consumers automatisent l’échange de données entre les systèmes, ré
 
 Les API Consumers peuvent consommer de nouvelles APIs ou ajouter des fonctionnalités en fonction des besoins métiers.
 
-## EXEMPLE PRATIQUE :
+## EXEMPLE PRATIQUE
 
 Etapes de configuration d’un API Consumer dans SAP CPI :
 

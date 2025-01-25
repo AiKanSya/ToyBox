@@ -18,7 +18,7 @@
 
 ## OBJECTIFS DU PI MIGRATION ASSESSMENT
 
-### :small_red_triangle_down: comprendre l’environnement existant
+### :small_red_triangle_down: Comprendre l’environnement existant :
 
 L’évaluation commence par une analyse approfondie des objets dans SAP PI/PO, tels que :
 
@@ -30,11 +30,11 @@ L’évaluation commence par une analyse approfondie des objets dans SAP PI/PO, 
 
 - Les flux d’intégration complexes.
 
-### :small_red_triangle_down: identifier les incompatibilités potentielles
+### :small_red_triangle_down: Identifier les incompatibilités potentielles :
 
 L’objectif est de détecter les fonctionnalités ou les configurations spécifiques de SAP PI/PO qui pourraient ne pas être directement compatibles avec la SAP Integration Suite.
 
-### :small_red_triangle_down: estimer l’effort de migration
+### :small_red_triangle_down: Estimer l’effort de migration :
 
 Le PI Migration Assessment aide à catégoriser les interfaces en fonction de leur complexité (simple, moyenne, complexe), ce qui permet d’estimer :
 
@@ -42,13 +42,13 @@ Le PI Migration Assessment aide à catégoriser les interfaces en fonction de le
 
 - Les ressources nécessaires pour le projet.
 
-### :small_red_triangle_down: prioriser les actions
+### :small_red_triangle_down: Prioriser les actions :
 
 L’évaluation permet de créer une feuille de route de migration en identifiant les interfaces critiques ou prioritaires.
 
 ## ÉTAPES DU PI MIGRATION ASSESSMENT
 
-### :small_red_triangle_down: collecte des données
+### :small_red_triangle_down: Collecte des données :
 
 Les données sont collectées depuis le système SAP PI/PO pour analyser tous les objets d’intégration existants, tels que :
 
@@ -58,7 +58,7 @@ Les données sont collectées depuis le système SAP PI/PO pour analyser tous le
 
 - Points de terminaison et adaptateurs.
 
-### :small_red_triangle_down: classification des interfaces
+### :small_red_triangle_down: Classification des interfaces :
 
 Les interfaces sont classées en fonction de leur complexité et de leur criticité :
 
@@ -68,7 +68,7 @@ Les interfaces sont classées en fonction de leur complexité et de leur critici
 
 - Complexes : Incluent des processus métiers sophistiqués ou des scénarios spécifiques.
 
-### :small_red_triangle_down: évaluation des fonctionnalités spécifiques
+### :small_red_triangle_down: Evaluation des fonctionnalités spécifiques :
 
 Certaines fonctionnalités de SAP PI/PO peuvent nécessiter des adaptations ou une reconfiguration lors de la migration, comme :
 
@@ -78,7 +78,7 @@ Certaines fonctionnalités de SAP PI/PO peuvent nécessiter des adaptations ou u
 
 - Les adaptateurs propriétaires.
 
-### :small_red_triangle_down: génération d’un rapport d’évaluation
+### :small_red_triangle_down: Génération d’un rapport d’évaluation :
 
 Un rapport est généré pour :
 
@@ -92,64 +92,64 @@ Un rapport est généré pour :
 
 SAP fournit des outils dédiés pour faciliter l’évaluation et la migration :
 
-### :small_red_triangle_down: SAP Integration Assessment Tool
+### :small_red_triangle_down: SAP Integration Assessment Tool :
 
     Un outil intégré à la SAP Integration Suite pour analyser les objets d’intégration SAP PI/PO et évaluer leur compatibilité avec le cloud.
 
-### :small_red_triangle_down: PI Migration Tool
+### :small_red_triangle_down: PI Migration Tool :
 
     Facilite la conversion des objets d’intégration existants en artefacts compatibles avec SAP Integration Suite.
 
-### :small_red_triangle_down: Custom Code Migration Tool
+### :small_red_triangle_down: Custom Code Migration Tool :
 
     Permet de gérer la migration des codes personnalisés (par exemple, Java Mappings) utilisés dans SAP PI/PO.
 
 ## AVANTAGES DU PI MIGRATION ASSESSMENT
 
-### :small_red_triangle_down: visibilité accrue
+### :small_red_triangle_down: Visibilité accrue :
 
 Il fournit une vue claire de l’état actuel des interfaces, réduisant les risques liés à la migration.
 
-### :small_red_triangle_down: planification efficace
+### :small_red_triangle_down: Planification efficace :
 
 Avec des informations détaillées sur la complexité et les dépendances, il devient plus facile de planifier la migration.
 
-### :small_red_triangle_down: réduction des coûts
+### :small_red_triangle_down: Réduction des coûts :
 
 En identifiant les obstacles potentiels à l’avance, il est possible de minimiser les retards et les surcoûts.
 
-### :small_red_triangle_down: adoption des meilleures pratiques
+### :small_red_triangle_down: Adoption des meilleures pratiques :
 
 Le rapport inclut des recommandations basées sur les meilleures pratiques SAP pour garantir une migration fluide.
 
 ## DÉFIS ASSOCIÉS AU PI MIGRATION ASSESSMENT
 
-### :small_red_triangle_down: compatibilité des fonctionnalités
+### :small_red_triangle_down: Compatibilité des fonctionnalités :
 
 Certaines fonctionnalités spécifiques à SAP PI/PO peuvent ne pas avoir d’équivalent direct dans la SAP Integration Suite.
 
-### :small_red_triangle_down: dépendance au code personnalisé
+### :small_red_triangle_down: Dépendance au code personnalisé :
 
 Les flux ou mappings utilisant du code personnalisé (Java, XSLT) peuvent nécessiter une refonte.
 
-### :small_red_triangle_down: manque de documentation
+### :small_red_triangle_down: Manque de documentation :
 
 Si les interfaces existantes ne sont pas documentées correctement, cela peut compliquer l’évaluation.
 
 ## MEILLEURES PRATIQUES POUR UN PI MIGRATION ASSESSMENT
 
-### :small_red_triangle_down: inventorier toutes les interfaces
+### :small_red_triangle_down: Inventorier toutes les interfaces :
 
 Dresser un inventaire complet des flux d’intégration est une première étape essentielle.
 
-### :small_red_triangle_down: impliquer les parties prenantes
+### :small_red_triangle_down: Impliquer les parties prenantes :
 
 Collaborer avec les équipes métier et IT pour identifier les flux critiques ou les exigences spécifiques.
 
-### :small_red_triangle_down: commencer par des scénarios simples
+### :small_red_triangle_down: Commencer par des scénarios simples :
 
 Migrer d'abord les interfaces simples pour tester et ajuster les processus avant de s'attaquer aux cas complexes.
 
-### :small_red_triangle_down: se former à SAP Integration Suite
+### :small_red_triangle_down: Se former à SAP Integration Suite :
 
 Assurer que l’équipe technique comprend les capacités et les différences de la SAP Integration Suite.

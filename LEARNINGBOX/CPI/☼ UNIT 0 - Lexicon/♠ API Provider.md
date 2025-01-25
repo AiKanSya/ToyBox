@@ -42,7 +42,7 @@ L'API Provider offre souvent une interface ou une documentation (comme Swagger o
 
 Les API Providers surveillent l'utilisation des [APIs](../☼%20UNIT%200%20-%20Lexicon/♠%20API.md), collectent des métriques (nombre de requêtes, erreurs, temps de réponse, etc.) et fournissent des insights pour améliorer les performances.
 
-## API PROVIDER DANS SAP CPI :
+## API PROVIDER DANS SAP CPI
 
 Dans le cadre de SAP Cloud Platform Integration (CPI), un API Provider est utilisé pour exposer des [APIs](../☼%20UNIT%200%20-%20Lexicon/♠%20API.md) qui connectent différents systèmes (SAP ou non-SAP). Cela peut inclure :
 
@@ -52,7 +52,7 @@ Dans le cadre de SAP Cloud Platform Integration (CPI), un API Provider est utili
 
 - Création et exposition d’APIs personnalisées : SAP CPI permet de concevoir des flux d’intégration qui peuvent être exposés sous forme d’APIs RESTful. Ces APIs permettent à d’autres systèmes de consommer les données ou services exposés.
 
-## EXEMPLE D'UTILISATION D'UN API PROVIDER DANS SAP CPI :
+## EXEMPLE D'UTILISATION D'UN API PROVIDER DANS SAP CPI
 
 Scénario :
 
@@ -76,7 +76,7 @@ Un système externe (par exemple, un portail client) doit récupérer des donné
 
    - SAP CPI agit comme un API Provider, reçoit la requête, interagit avec SAP S/4HANA pour obtenir les données, et retourne une réponse au portail client.
 
-## AVANTAGE D'UN API PROVIDER DANS SAP CPI :
+## AVANTAGE D'UN API PROVIDER DANS SAP CPI
 
 ### :small_red_triangle_down: Centralisation :
 

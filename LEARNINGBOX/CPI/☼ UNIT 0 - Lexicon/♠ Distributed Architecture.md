@@ -40,7 +40,7 @@ L'intégration des différentes solutions SAP telles que SAP S/4HANA, SAP Succes
 
 De plus, des systèmes non-SAP (par exemple, un système ERP d'un autre fournisseur ou un service dans le cloud) peuvent être intégrés à l'aide de CPI, nécessitant des connecteurs ou des adaptateurs spécifiques pour échanger des messages avec les autres systèmes.
 
-## EXEMPLE D'ARCHITECTURE DISTRIBUEE AVEC SAP CPI :
+## EXEMPLE D'ARCHITECTURE DISTRIBUEE AVEC SAP CPI
 
 Imaginons un scénario d'intégration avec plusieurs systèmes impliqués :
 
@@ -54,7 +54,7 @@ Ces trois systèmes, bien qu'indépendants, doivent échanger des informations (
 
 L'architecture distribuée dans ce cas signifie que CPI va gérer les flux de données entre ces systèmes de manière fiable, tout en assurant la sécurité, la cohérence des données et l'évolutivité.
 
-## AVANTAGES DE L'ARCHITECTURE DISTRIBUEE DANS SAP CPI :
+## AVANTAGES DE L'ARCHITECTURE DISTRIBUEE DANS SAP CPI
 
 ### :small_red_triangle_down: Modularité :
 

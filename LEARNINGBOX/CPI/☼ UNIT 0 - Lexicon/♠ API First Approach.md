@@ -30,7 +30,7 @@ Une fois que l'API est définie, les équipes peuvent commencer à travailler en
 
 L'API étant définie dès le départ, la documentation et les tests peuvent être mis en place très tôt dans le processus de développement. Cela réduit les risques d'erreurs, car les tests peuvent être basés sur la spécification initiale de l'API.
 
-## PRINCIPES DE L'API FIRST APPROACH :
+## PRINCIPES DE L'API FIRST APPROACH
 
 Voici les principales caractéristiques de cette approche :
 
@@ -50,7 +50,7 @@ Dans une architecture API-first, il est essentiel de définir un système de ver
 
 Les tests doivent être intégrés dès le début du processus de développement. L'API est testée pour s'assurer qu'elle répond aux exigences et qu'elle fonctionne de manière fiable avant d'être utilisée dans l'application.
 
-## API FIRST APPROACH DANS LE CONTEXTE DE SAP CPI :
+## API FIRST APPROACH DANS LE CONTEXTE DE SAP CPI
 
 Dans le cadre de SAP Cloud Platform Integration (CPI), l’API First Approach joue un rôle très important. Voici quelques exemples pratiques :
 
@@ -70,7 +70,7 @@ Dans le cadre d'API First, les formats de données (par exemple, JSON, XML) et l
 
 SAP CPI permet d’intégrer des systèmes divers en utilisant des APIs. Si l'intégration repose sur une approche API First, il devient beaucoup plus simple de créer des solutions d'intégration flexibles et évolutives.
 
-## AVANTAGES DE L'API FIRST APPROACH DANS SAP CPI :
+## AVANTAGES DE L'API FIRST APPROACH DANS SAP CPI
 
 ### :small_red_triangle_down: Interopérabilité :
 
