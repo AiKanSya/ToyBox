@@ -8,44 +8,49 @@
 
 ### INBOUND SECURITY FOR ADAPTERS
 
-Deux cas doivent être distingués : l'établissement d'une connexion sécurisée au répartiteur de charge et l'authentification auprès du locataire Cloud Integration où le flux d'intégration est implémenté. Pour établir une connexion sécurisée, une procédure Transport Layer Security (TLS) est utilisée sur les connexions basées sur TCP (Transport Control Protocol) et des certificats sont utilisés. Cette procédure est utilisée dans HTTPS, IMAPS, POP3S, SMTPS, FTPS et d'autres protocoles. Dans les exercices de cette formation, nous utilisons l'adaptateur SOAP.
+Deux cas doivent être distingués : l'établissement d'une `secure connection` au `load balancer` (répartiteur de charge) et l'`authenticating` auprès du `Cloud Integration tenant` où le flux d'intégration est implémenté. Pour établir une `secure connection`, une `Transport Layer Security (TLS) procedure` est utilisée sur les connexions basées sur `TCP` (`Transport Control Protocol`) et des `certificates` sont utilisés. Cette procédure est utilisée dans `HTTPS`, `IMAPS`, `POP3S`, `SMTPS`, `FTPS` et d'autres protocoles. Dans les exercices de cette formation, nous utilisons le `SOAP adapter`.
 
-Nous souhaitons explorer les options disponibles pour garantir que seuls les expéditeurs autorisés peuvent envoyer des messages à notre flux d'intégration. Cette rubrique est appelée sécurité entrante.
+Nous souhaitons explorer les options disponibles pour garantir que seuls les `sender` autorisés peuvent envoyer des messages à notre flux d'intégration. Cette rubrique est appelée `Inbound Security`.
 
-Les certificats requis pour établir une connexion HTTPS entre l'expéditeur et l'équilibreur de charge sont nécessaires.
+Les `certificates` requis pour établir une `HTTPS connection` entre le `sender` et le `load balancer` (répartiteur de charge) sont nécessaires.
 
-L'autorisation de l'expéditeur est validée par rapport au point de terminaison du flux d'intégration.
+L'autorisation du `sender` est validée par rapport à l'`integration flow endpoint` du flux d'intégration.
 
 ### ESTABLISHING OF THE HTTPS CONNECTION
 
-Rappelez-vous la présentation technique abordée dans une leçon précédente, qui montre un équilibreur de charge entre l'expéditeur et l'URL du point de terminaison de notre flux d'intégration déployé. De ce fait, il est nécessaire d’établir la connexion SSL entre l’expéditeur et l’équilibreur de charge.
+Rappelez-vous la présentation technique abordée dans une leçon précédente, qui montre un `load balancer` (répartiteur de charge) entre le `sender` et l'`endpoint UR`L de notre flux d'intégration déployé. De ce fait, il est nécessaire d’établir la `SSL connection` entre le `sender` et le `load balancer` (répartiteur de charge).
 
 ![](./RESSOURCES/CLD900_20_U5L8_001_scr.png)
 
-La responsabilité de l'importation de tous les certificats requis incombe à SAP, car nous n'avons pas accès à l'équilibreur de charge dans Cloud Integration.
+La responsabilité de l'importation de tous les `certificates` requis incombe à SAP, car nous n'avons pas accès à le `load balancer` (répartiteur de charge) dans `Cloud Integration`.
 
 ### AUTHORIZATION OF THE SENDER AGAINST THE ENDPOINT OF THE INTEGRATION FLOW
 
 Deux options sont également disponibles ici :
 
-- L'authentification peut être effectuée directement auprès du locataire distant où les flux d'intégration sont déployés.
+- L'`authenticating` peut être effectuée directement auprès du `remote tenant` (locataire distant) où les flux d'intégration sont déployés.
 
-- Utilisation d'un client d'authentification (OAuth) sur votre propre locataire.
+- Utilisation d'un `authentication client (OAuth)` sur votre propre `tenant`.
 
 ![](./RESSOURCES/CLD900_20_U5L8_002_scr.png)
 
 ### AUTHENTICATION CAN BE PERFORMED DIRECTLY AGAINST THE REMOTE TENANT WHERE THE INTEGRATION FLOWS ARE DEPLOYED
 
-Il s’agit du scénario le plus courant lors du développement, mais il n’est pas recommandé pour une utilisation en production. Cette option est marquée en rouge comme n°1 dans l’image précédente.
+Il s’agit du scénario le plus courant lors du développement, mais il n’est pas recommandé pour une utilisation en `production`. Cette option est marquée en rouge comme n°1 dans l’image précédente.
 
 ### PROCEDURE
 
-- Créez votre adaptateur d’expéditeur de flux d’intégration et choisissez Rôle d’utilisateur comme autorisation.
-- Dans Rôle utilisateur, choisissez les rôles d'utilisateur disponibles.
-- Le rôle utilisateur par défaut est ESBMessaging.send.
-- Attribuez le rôle utilisateur ESBMessaging.send à une collection de rôles.
-- Attribuez votre collection de rôles à un utilisateur de votre sous-compte.
-- Appelez le point de terminaison avec un utilisateur affecté à votre collection de rôles avec le rôle ESBMessaging.send inclus.
+- Create your `integration flow sender adapter` and choose `User Role` as `Authorization`.
+
+- At `User Role`, choose the available `user roles`.
+
+- The default user role is `ESBMessaging.send`.
+
+- Assign the user role `ESBMessaging.send` to a `Role Collection`.
+
+- Assign your `Role Collection` to a user at your `subaccount`.
+
+- `Call the endpoint` with a user who is assigned to your `Role Collection` with the `ESBMessaging.send role` included.
 
 > :pushpin: Note:
 >
@@ -53,7 +58,7 @@ Il s’agit du scénario le plus courant lors du développement, mais il n’est
 
 ![](./RESSOURCES/CLD900_20_U5L8_003_scr.png)
 
-Collection de rôles, `A_sendMessagesToCI` avec le rôle MessagingSend attribué à deux utilisateurs.
+`Role Collection` (Collection de rôles), `A_sendMessagesToCI` avec le rôle `MessagingSend` attribué à deux utilisateurs.
 
 ![](./RESSOURCES/CLD900_20_U5L8_004_scr.png)
 
@@ -61,63 +66,63 @@ Collection de rôles, `A_sendMessagesToCI` avec le rôle MessagingSend attribué
 >
 > The role MessagingSend in the context of this situation is equivalent to the role ESBMessaging.send in the Cloud Integration.
 
-Vous recevez un appel réussi vers le point de terminaison en utilisant l'un des utilisateurs attribués.
+Vous recevez un appel réussi vers le endpoint en utilisant l'un des utilisateurs attribués.
 
 ![](./RESSOURCES/CLD900_20_U5L8_005_scr.png)
 
 ### SET YOUR OWN USER ROLE AT CLOUD INTEGRATION
 
-Vous pouvez utiliser vos propres rôles d'utilisateur. Pour définir votre propre rôle d'utilisateur, accédez à Surveiller les artefacts → Intégrations → Gérer la sécurité → Rôles d'utilisateur et définissez votre propre rôle.
+Vous pouvez utiliser vos propres `user roles`. Pour définir votre propre `user role`, accédez à [Monitor Artifacts] → [Intégrations] → [Manage Security] → [User Roles] et définissez votre propre rôle.
 
 ![](./RESSOURCES/CLD900_20_U5L8_006_scr.png)
 
-Définissez votre propre rôle d'utilisateur, par exemple Peter1 :
+Définissez votre propre `user role`, par exemple Peter1 :
 
 ![](./RESSOURCES/CLD900_20_U5L8_007_scr.png)
 
-Ensuite, comme décrit précédemment, vous pouvez configurer votre propre rôle d'utilisateur :
+Ensuite, comme décrit précédemment, vous pouvez configurer votre propre `user roles` :
 
-- Créez une collection de rôles.
+- Créez une `Role Collection` (collection de rôles).
 
-- Attribuez votre propre rôle d'utilisateur à votre propre collection de rôles.
+- Attribuez votre propre `user role` à votre propre `Role Collection` (collection de rôles).
 
-- Attribuez la collection de rôles à un utilisateur.
+- Attribuez la `Role Collection` (collection de rôles) à un utilisateur.
 
 ![](./RESSOURCES/CLD900_20_U5L8_008_scr.png)
 
 ### USAGE OF AN AUTHENTICATION (OAUTH) CLIENT ON YOUR OWN TENANT
 
-La méthode d'appel direct d'un flux d'intégration via l'approche basée sur les rôles présentée utilise des utilisateurs personnalisés et une authentification de base, qui ne sont pas adaptées à des fins productives. Pour de meilleures méthodes d'authentification, nous devons utiliser un client OAuth2.0 auto-configuré qui peut être créé sur notre propre sous-compte.
+La méthode d'appel direct d'un flux d'intégration via le `role-based approach` présentée utilise des utilisateurs personnalisés et une `basic authenticating`, qui ne sont pas adaptées à des fins productives. Pour de meilleures méthodes d'`authenticating`, nous devons utiliser un `self-configured OAuth2.0 client` (client OAuth2.0 auto-configuré) qui peut être créé sur notre propre `subaccount`.
 
-Pour ce faire, nous devons configurer une instance Process Integration Runtime sur notre sous-compte et l'associer au plan de flux d'intégration. Cette instance peut ensuite être personnalisée avec diverses informations d'identification client. Ceux-ci correspondent aux n°1 et n°2, marqués en bleu sur la photo précédente.
+Pour ce faire, nous devons configurer une `instance Process Integration Runtime` sur notre `subaccount` et l'associer au `integration flow plan` (plan de flux d'intégration). Cette instance peut ensuite être personnalisée avec diverses informations d'identification client. Ceux-ci correspondent aux n°1 et n°2, marqués en bleu sur la photo précédente.
 
 Vous pouvez choisir les grands types suivants :
 
-- Authorization Code
+- `Authorization Code`
 
-- Client Credentials
+- `Client Credentials`
 
-- Password
+- `Password`
 
-- Refresh Token
+- `Refresh Token`
 
-- SAML2 Bearer
+- `SAML2 Bearer`
 
-- JWT Bearer
+- `JWT Bearer`
 
-Sélection de types généraux lors de la configuration de l’instance locale du Runtime d’intégration de processus.
+Sélection de types généraux lors de la configuration de le `local Process integration Runtime instance` (instance locale du Runtime d’intégration de processus).
 
 ![](./RESSOURCES/CLD900_20_U5L8_009_scr.png)
 
 ### PROCEDURE
 
-- Create a local Process integration Runtime instance.
+- Create a local `Process integration Runtime` instance.
 
 - Configure the appropriate grand-type.
 
 - Create a key.
 
-- Use the key parameters for authorization.
+- Use the key parameters for `authorization`.
 
 The new Process Integration Runtime instance of plan integration-flow.
 
@@ -131,23 +136,23 @@ The new Process Integration Runtime instance of plan integration-flow.
 
 ### SAMPLE - LOG ON WITH CLIENTID AND CLIENTSECRET
 
-Utiliser le clientId du user et le clientSecret en tant que mot de passe.
+Utiliser le `clientId` du user et le `clientSecret` en tant que `password`.
 
 ![](./RESSOURCES/CLD900_20_U5L8_014_scr.png)
 
 ### SAMPLE - LOG ON WITH BEARER TOKEN
 
-Utiliser le tokenUrl avec le clientIS en tant que username, et le clientsecret en tant que mot de passe au niveau du Bearer token.
+Utiliser le `tokenUrl` avec le `clientIS` en tant que `username`, et le `clientsecret` en tant que `password` au niveau du `Bearer token`.
 
 ![](./RESSOURCES/CLD900_20_U5L8_015_scr.png)
 
-Utiliser le Bearer token pour l'authentication.
+Utiliser le `Bearer token` pour l'`authentication`.
 
 ![](./RESSOURCES/CLD900_20_U5L8_016_scr.png)
 
 ### SAMPLE - LOG WITH OAUTH 2.0 AUTHENTICATION
 
-Vous pouvez utiliser OAuth 2.0 pour l'authentification, ce qui implique deux étapes : premièrement, générer un jeton, et deuxièmement, utiliser ce jeton pour l'autorisation.
+Vous pouvez utiliser `OAuth 2.0` pour l'`authenticating`, ce qui implique deux étapes : premièrement, générer un `token`, et deuxièmement, utiliser ce `token` pour l'`authentication`.
 
 ![](./RESSOURCES/CLD900_20_U5L8_017_scr.png)
 
@@ -159,9 +164,9 @@ Vous pouvez utiliser OAuth 2.0 pour l'authentification, ce qui implique deux ét
 
 ### SUMMARY
 
-La communication sécurisée implique deux étapes : l'établissement d'une connexion sécurisée à l'équilibreur de charge et l'authentification auprès du locataire Cloud Integration où le flux d'intégration est implémenté. Ceci est réalisé en utilisant des certificats dans les connexions basées sur TCP (Transport Control Protocol) via la procédure TSL (Transport Layer Security). Ces protocoles incluent HTTPS, IMAPS, POP3S, SMTPS, FTPS et autres. De nombreux protocoles tels que SOAP, OData, HTTP, utilisent également ces protocoles de communication sécurisés.
+La communication sécurisée implique deux étapes : l'établissement d'une `secure connection` à le `load balancer` (répartiteur de charge) et l'`authenticating` auprès du `Cloud Integration tenant` où le flux d'intégration est implémenté. Ceci est réalisé en utilisant des `certificates` dans les `TCP (Transport Control Protocol) based connections` (connexions basées sur TCP (Transport Control Protocol)) via la `TSL (Transport Layer Security) procedure` (procédure TSL (Transport Layer Security)). Ces protocoles incluent `HTTPS`, `IMAPS`, `POP3S`, `SMTPS`, `FTPS` et autres. De nombreux protocoles tels que `SOAP`, `OData`, `HTTP`, utilisent également ces `secure communication protocols` (protocoles de communication sécurisés).
 
-L'authentification au point final du flux d'intégration peut être réalisée de deux manières : attribution directe d'un rôle d'utilisateur à un utilisateur ou utilisation d'un client OAuth 2.0 local offrant des options d'authentification supplémentaires, telles que ClientId/Clientsecret, Bearer token ou OAuth. 2.0. Ces méthodes ne sont pas personnalisées et sont plus sécurisées que la première option.
+L'`authenticating` au niveau de l'`endpoint` du flux d'intégration peut être réalisée de deux manières : `direct assignment of a user role` à un utilisateur ou l'utilisation d'un `local OAuth 2.0 client` offrant des `extra authentication options`, telles que `ClientId/Clientsecret`, `Bearer token` ou `OAuth. 2.0`. Ces méthodes ne sont pas personnalisées et sont plus sécurisées que la première option.
 
 ## CREATE AN INBOUND SOAP ADAPTER
 
