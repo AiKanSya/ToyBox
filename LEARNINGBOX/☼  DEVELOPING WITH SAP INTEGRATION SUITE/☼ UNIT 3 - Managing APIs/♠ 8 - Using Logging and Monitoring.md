@@ -8,15 +8,15 @@
 
 ### HEALTH MONITORING WITH SAP CLOUD ALM
 
-Dans l'application `Health Monitoring`, vous pouvez vérifier le `health` (l'état de santé) votre `monitored cloud service` et de vos `technical systems` surveillés du point de vue de l'application et du client (customer perspective). Les `Technical metrics` sont collectées régulièrement et peuvent être utilisées pour calculer le `health` global de l’objet surveillé. Les `monitored metrics` sont définies par le service lui-même et peuvent différer pour chaque type de service.
+Dans l'application **Health Monitoring**, vous pouvez vérifier le **health** de votre **monitored cloud service** et de vos **technical systems** surveillés du **point de vue de l'application et du client** (customer perspective). Les **Technical metrics** sont collectées régulièrement et peuvent être utilisées pour calculer le **health global** de l’**objet surveillé**. Les **monitored metrics** sont définies par le service lui-même et peuvent **différer** pour chaque **type de service**.
 
-Pour le moment, seule le `health monitoring` avec la solution `SAP Cloud ALM` est possible.
+Pour le moment, seule le **health monitoring** avec la solution **SAP Cloud ALM** est possible.
 
 ### ANALYZE API USAGE AND PERFORMANCE WITH THE BUILD-IN ADVANCED API ANALYTICS
 
-`Advanced API Analytics` vous propose un tout nouveau `dashboard` d'analyse, fournissant des outils puissants et des rapports détaillés pour analyser l'utilisation et les performances de votre [API](../☼%20UNIT%200%20-%20Lexicon/♠%20API.md). Les rapports sont classés dans plusieurs pages de rapport, chaque page de rapport fournissant des informations sur les `key API metrics` de l'[API](../☼%20UNIT%200%20-%20Lexicon/♠%20API.md), pertinentes à la fois pour les utilisateurs professionnels et les développeurs d'[API](../☼%20UNIT%200%20-%20Lexicon/♠%20API.md).
+**Advanced API Analytics** vous propose un tout nouveau **dashboard d'analyse**, fournissant des outils puissants et des rapports détaillés pour analyser l'utilisation et les **performances** de votre [API](../☼%20UNIT%200%20-%20Lexicon/♠%20API.md). Les **rapports** sont **classés** dans plusieurs **pages de rapport**, chaque page de rapport fournissant des informations sur les **key API metrics** de l'[API](../☼%20UNIT%200%20-%20Lexicon/♠%20API.md), pertinentes à la fois pour les utilisateurs professionnels et les développeurs d'[API](../☼%20UNIT%200%20-%20Lexicon/♠%20API.md).
 
-Accédez à Moniteur → API. Le `dashboard` s'ouvre.
+Accédez à [Monitor] → [API]. Le **dashboard** s'ouvre.
 
 ![](./RESSOURCES/CLD900_U3_L7_01.png)
 
@@ -24,29 +24,29 @@ Il existe de nombreuses vues et options de configuration pour visualiser les inf
 
 ### LOGGING WITH MESSAGE LOGGING POLICIY
 
-Si vous souhaitez utiliser une `logging solution` (solution de journalisation), `SAP API Management` vous permet d'envoyer des [messages syslog](../☼%20UNIT%200%20-%20Lexicon/♠%20Messages%20Syslog.md) au `third-party log management services` (service de gestion des journaux tiers). Si vous souhaitez envoyer syslog à un service tiers, suivez la [documentation du service](https://help.sap.com/docs/sap-api-management/sap-api-management/message-logging-policy?version=Cloud).
+Si vous souhaitez utiliser une **logging solution** (solution de journalisation), **SAP API Management** vous permet d'envoyer des [messages syslog](../☼%20UNIT%200%20-%20Lexicon/♠%20Messages%20Syslog.md) au **third-party log management services** (service de gestion des journaux tiers). Si vous souhaitez envoyer des [syslog](../☼%20UNIT%200%20-%20Lexicon/♠%20Messages%20Syslog.md) à un service tiers, suivez la [documentation du service](https://help.sap.com/docs/sap-api-management/sap-api-management/message-logging-policy?version=Cloud).
 
-Les `third-party log management services` sont les suivants :
+Les **third-party log management services** sont les suivants :
 
-- `Splunk`
+- _Splunk_
 
-- `Sumo Logic`
+- _Sumo Logic_
 
-- `Loggly`
+- _Loggly_
 
-- Autres
+- _Autres_
 
-Un [messages syslog](../☼%20UNIT%200%20-%20Lexicon/♠%20Messages%20Syslog.md) contient les éléments et attributs suivants de requête et/ou de réponse en fonction de l'endroit où se trouve le flux.
+Un [messages syslog](../☼%20UNIT%200%20-%20Lexicon/♠%20Messages%20Syslog.md) contient les **éléments** et **attributs** suivants de **request** et/ou de **response** en fonction de l'**endroit** où se trouve le **flux**.
 
-- `Message` (Payload)
+- _Message_ (Payload)
 
-- `Host`
+- _Host_
 
-- `Port`
+- _Port_
 
-- `Protocol`
+- _Protocol_
 
-En conséquence, la capture d'écran suivante montre l'utilisation de `Splunk `:
+En conséquence, la capture d'écran suivante montre l'utilisation de _Splunk _:
 
 ![](./RESSOURCES/CLD900_20_U3L8_002_scr.png)
 
@@ -80,4 +80,4 @@ En conséquence, la capture d'écran suivante montre l'utilisation de `Splunk `
 
 ### SUMMARY
 
-> Les `Metrics`, `usage` et les `performances` des `individual API calls` peuvent être examinées d'une part avec le `build-in Advanced API Analytics` et d'autre part avec le produit `SAP Cloud ALM`. Le `Logging` (journalisation) des paramètres de communication et de le `payload` est effectuée avec la `Message Logging Policy`. Il compile les données correspondantes et utilise une solution externe, comme `Loggly` ou autres, pour les visualiser.
+> Les **Metrics**, **usage** et les **performances** des **individual API calls** peuvent être examinées d'une part avec le **build-in Advanced API Analytics** et d'autre part avec le produit **SAP Cloud ALM.** Le **Logging** (journalisation) des paramètres de communication et de le **payload** est effectuée avec la **Message Logging Policy**. Il compile les données correspondantes et utilise une solution externe, comme _Loggly_ ou autres, pour les visualiser.
