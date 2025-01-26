@@ -12,7 +12,7 @@ Il offre notamment les fonctionnalités suivantes :
 
 #### :small_red_triangle_down: Building APIs :
 
-L'`API portal` est une application qui fournit une plate-forme commune permettant aux concepteurs d'[API](../☼%20UNIT%200%20-%20Lexicon/♠%20API.md) de définir et de publier des [API](../☼%20UNIT%200%20-%20Lexicon/♠%20API.md). Chaque `API Management customer` dispose de sa propre application de `API portal` dans le `cloud`. L'`API portal` offre des fonctionnalités pour configurer des systèmes, créer et publier des [API](../☼%20UNIT%200%20-%20Lexicon/♠%20API.md), analyser et tester des [API](../☼%20UNIT%200%20-%20Lexicon/♠%20API.md).
+L'`API portal` est une application qui fournit une plate-forme commune permettant aux `API designers` de définir et de publier des [API](../☼%20UNIT%200%20-%20Lexicon/♠%20API.md). Chaque `API Management customer` dispose de sa propre application de `API portal` dans le `cloud`. L'`API portal` offre des fonctionnalités pour configurer des systèmes, créer et publier des [API](../☼%20UNIT%200%20-%20Lexicon/♠%20API.md), analyser et tester des [API](../☼%20UNIT%200%20-%20Lexicon/♠%20API.md).
 
 #### :small_red_triangle_down: Publishing APIs :
 
