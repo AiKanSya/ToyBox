@@ -52,17 +52,17 @@ En conséquence, la capture d'écran suivante montre l'utilisation de _Splunk _
 
 ### RESOURCES
 
-#### :small_red_triangle_down: Health Monitoring (Surveillance de l'état de santé) avec SAP Cloud ALM :
+#### :small_red_triangle_down: **Health Monitoring (Surveillance de l'état de santé) avec SAP Cloud ALM** :
 
 - En savoir plus ici : [Surveillance de la santé](https://support.sap.com/en/alm/sap-cloud-alm/operations/expert-portal/health-monitoring.html).
 
 - En savoir plus ici : [Solutions prises en charge](https://help.sap.com/docs/cloud-alm/setup-administration/supported-solutions).
 
-#### :small_red_triangle_down: Analysez l'utilisation et les performances de l'API grâce au build-in Advanced API Analytics.
+#### :small_red_triangle_down: **Analysez l'utilisation et les performances de l'API grâce au build-in Advanced API Analytics** :
 
 - En savoir plus ici : [Analyser les API](https://help.sap.com/docs/SAP_CLOUD_PLATFORM_API_MANAGEMENT/66d066d903c2473f81ec33acfe2ccdb4/7712c611015045afb47d7c244fffee63.html?locale=en-US).
 
-#### :small_red_triangle_down: Logging with Message Logging Policy (Journalisation avec la stratégie de journalisation des messages) :
+#### :small_red_triangle_down: **Logging with Message Logging Policy** (Journalisation avec la stratégie de journalisation des messages) :
 
 - Apprenez-en davantage sur un blog pour utiliser Splunk et la politique de journalisation des messages : [Splunk – Partie 1 : Journalisation et surveillance SAP APIM | Blogues SAP](https://blogs.sap.com/2020/05/12/splunk-part-1-sap-apim-logging-monitoring/).
 
@@ -70,7 +70,7 @@ En conséquence, la capture d'écran suivante montre l'utilisation de _Splunk _
 
 - En savoir plus sur la politique de journalisation des messages : [Politique de journalisation des messages](https://help.sap.com/doc/66d066d903c2473f81ec33acfe2ccdb4/Cloud/en-US/6407ae7701814caa8a5107bdc3f44fe2.html).
 
-#### :small_red_triangle_down: Inspection :
+#### :small_red_triangle_down: **Inspection** :
 
 - En savoir plus dans un blog à utiliser : [Inspecter et comprendre la consommation des ressources... - SAP Community](https://community.sap.com/t5/technology-blogs-by-sap/inspecting-and-understanding-resource-consumption-of-your-integration/ba-p/13567246)
 
