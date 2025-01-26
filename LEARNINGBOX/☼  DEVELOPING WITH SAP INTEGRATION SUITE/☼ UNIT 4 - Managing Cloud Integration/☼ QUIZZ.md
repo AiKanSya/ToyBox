@@ -4,7 +4,7 @@
 
 _Choose the correct answer._
 
-- [ ] SAP Business Accelerator Hub or in the Discovery tab in the Integration Suite
+- [x] SAP Business Accelerator Hub or in the Discovery tab in the Integration Suite
 
 - [ ] API Business Hub Enterprise or the Design tab into the Integration Suite
 
@@ -38,7 +38,7 @@ _Choose the correct answer._
 
 - [ ] Monitor → Design Overview → Integration Content of the Monitor
 
-- [ ] Monitor → Overview → Manage Integration Content
+- [x] Monitor → Overview → Manage Integration Content
 
 </details>
 
@@ -55,7 +55,7 @@ _Choose the correct answer._
 <details>
   <summary>Solution</summary>
 
-- [ ] The log level must be set on trace
+- [x] The log level must be set on trace
 
 - [ ] The log level must be set on info
 
@@ -78,7 +78,7 @@ _Choose the correct answer._
 
 - [ ] Only synchronous
 
-- [ ] Synchronously or asynchronously
+- [x] Synchronously or asynchronously
 
 - [ ] Only asynchronous
 
