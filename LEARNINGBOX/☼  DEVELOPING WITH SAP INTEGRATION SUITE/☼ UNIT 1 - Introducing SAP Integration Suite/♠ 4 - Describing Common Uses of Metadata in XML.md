@@ -1,101 +1,104 @@
-# ♠ 4 [DESCRIBING COMMON USES OF `METADATA` IN XML](https://learning.sap.com/learning-journeys/developing-with-sap-integration-suite/describing-common-uses-of-``metadata``-in-xml)
+# ♠ 4 [DESCRIBING COMMON USES OF METADATA IN XML](https://learning.sap.com/learning-journeys/developing-with-sap-integration-suite/describing-common-uses-of-metadata-in-xml)
 
 > :exclamation: Objectifs
 >
-> - [ ] Describe common uses of `Metadata` in `XML`
+> - [ ] Describe common uses of Metadata in XML
 
 ## :closed_book: COMMON USES OF METADATA IN XML
 
 ### METADATA IN XML
 
-La fonctionnalité de `metadata` remplit plusieurs fonctions importantes, en particulier dans les contextes où les données doivent être comprises, traitées ou partagées par différents systèmes et utilisateurs. Voici les utilisations courantes des `metadata` en `XML`.
+La fonctionnalité de **metadata** remplit plusieurs fonctions importantes, en particulier dans les contextes où les données doivent être comprises, traitées ou partagées par **différents systèmes** et **utilisateurs**. Voici les utilisations courantes des **metadata** en **XML**.
 
 ### DESCRIPTIVE INFORMATION
 
-#### :small_red_triangle_down: Objectif : Fournir une high-level description du document XML.
+#### :small_red_triangle_down: **Purpose: To provide a high-level description of the XML document** :
 
-- Auteur : Identifie le créateur du document.
+- _Author_: Identifie le créateur du document.
 
-- Titre : Fournit un titre ou un nom bref pour le document.
+- _Title_: Fournit un titre ou un nom bref pour le document.
 
-- Description : Offre un résumé du contenu et de l'objectif du document.
+- _Description_: Offre un résumé du contenu et de l'objectif du document.
 
-- Mots-clés : répertorie les mots-clés pertinents pour le document, facilitant ainsi la recherche et la catégorisation.
+- _Keywords_: répertorie les mots-clés pertinents pour le document, facilitant ainsi la recherche et la catégorisation.
 
 ![](./RESSOURCES/descriptive_information_exam.png)
 
 ### STRUCTURAL INFORMATION
 
-#### :small_red_triangle_down: Objectif : Décrire la structure et le format du document XML.
+#### :small_red_triangle_down: **Purpose: To describe the structure and format of the XML document** :
 
-- Emplacement du schéma : pointe vers le fichier de schéma (XSD) qui définit la structure du document.
+- _Schema Location_: pointe vers le fichier de schéma (XSD) qui définit la structure du document.
 
-- Espaces de noms : déclare les espaces de noms XML utilisés dans le document, garantissant que les noms d'éléments et d'attributs sont uniques et évitant les conflits.
+- _Namespaces_: déclare les espaces de noms XML utilisés dans le document, garantissant que les noms d'éléments et d'attributs sont uniques et évitant les conflits.
 
 ![](./RESSOURCES/structural_information_example.png)
 
 ### ADMINISTRATIVE INFORMATION
 
-#### :small_red_triangle_down: Objectif : Manage et contrôler l’utilisation et la gestion des versions du document.
+#### :small_red_triangle_down: **Purpose: To manage and control the usage and versioning of the document** :
 
-- Version : Spécifie la version du document.
+- _Version_: Spécifie la version du document.
 
-- Date de création : Indique quand le document a été créé.
+- _Creation Date_: Indique quand le document a été créé.
 
-- Date de modification : Enregistre la dernière fois que le document a été modifié.
+- _Modification Date_: Enregistre la dernière fois que le document a été modifié.
 
-- Droits d'accès : définit qui peut accéder ou modifier le document.
+- _Access Rights_: définit qui peut accéder ou modifier le document.
 
 ![](./RESSOURCES/admin_information_exam.png)
 
 ### TECHNICAL INFORMATION
 
-#### :small_red_triangle_down: Objectif : Fournir des détails techniques qui facilitent le traitement du document.
+#### :small_red_triangle_down: **Purpose: To provide technical details that assist in the processing of the document** :
 
-- Taille du fichier : indique la taille du document.
+- _File Size_: indique la taille du document.
 
-- Format : Spécifie le format ou l'encodage utilisé dans le document.
+- _Format_: Spécifie le format ou l'encodage utilisé dans le document.
 
-- Somme de contrôle : fournit une valeur de somme de contrôle pour vérifier l'intégrité du document.
+- _Checksum_: fournit une valeur de checksum (somme de contrôle) pour vérifier l'intégrité du document.
 
 ![](./RESSOURCES/technical_information_example.png)
 
 ### PROVENANCE INFORMATION
 
-#### :small_red_triangle_down: Objectif : Retracer l'origine et l'historique du document.
+#### :small_red_triangle_down: **Purpose: To track the origin and history of the document** :
 
-- Source : Indique la source d'où provient le document.
+- _Source_: Indique la source d'où provient le document.
 
-- Historique : enregistre les modifications et les mises à jour apportées au document au fil du temps.
+- _History_: enregistre les modifications et les mises à jour apportées au document au fil du temps.
 
 ![](./RESSOURCES/provenance_information_example.png)
 
 ### RIGHTS MANAGEMENT
 
-#### :small_red_triangle_down: Objectif : Gérer les droits de propriété intellectuelle et les conditions d’utilisation.
+#### :small_red_triangle_down: Purpose: **To manage intellectual property rights and usage terms** :
 
-- Licence : Spécifie les conditions de licence sous lesquelles le document peut être utilisé.
+- _Licence_: Spécifie les conditions de licence sous lesquelles le document peut être utilisé.
 
-- Copyright : indique le détenteur du droit d’auteur et les informations associées.
+- _Copyright_: indique le détenteur du droit d’auteur et les informations associées.
 
-- Restrictions d'utilisation : répertorie toutes les restrictions sur l'utilisation ou la distribution du document.
+- _Usage Restrictions_: répertorie toutes les restrictions sur l'utilisation ou la distribution du document.
 
 ![](./RESSOURCES/rights_management_example.png)
 
 ### ENHANCING METADATA IN ODATA SERVICES
 
-Pour relever les défis que nous avons rencontrés, une solution proposée consiste à étendre le `« $metadata » endpoint` pour fonctionner lui-même comme un service `OData`.
+Pour relever les défis que nous avons rencontrés, une solution proposée consiste à étendre le `$metadata` **endpoint**[^1] pour fonctionner lui-même comme un **service OData**.
 
-Pour utiliser la fonctionnalité `$metadata`, utilisez l'`URL GET` suivante, où vous devez insérer vos paramètres individuels comme suit :
+Pour utiliser la fonctionnalité **$metadata**, utilisez l'URL GET suivante, où vous devez insérer vos paramètres individuels comme suit :
 
-```xml
+xml
 http://<yourAPI>:<PORT>/$metadata
-```
 
 ![](./RESSOURCES/gwsample_xml_sample.png)
 
-![](./RESSOURCES/``metadata``_from_gwsample.png)
+![](./RESSOURCES/metadata_from_gwsample.png)
 
 ### SUMMARY
 
-> Les `metadata XML` sont essentielles pour fournir le contexte, la structure et le contrôle des documents `XML`. Il améliore la convivialité du document en offrant des informations `descriptives`, `structurelles`, `administratives`, `techniques`, de `provenance` et de `gestion des droits`. En intégrant des `metadata` dans `XML`, les utilisateurs et les systèmes peuvent mieux comprendre, gérer et utiliser les données efficacement.
+> Les **metadata XML** sont essentielles pour fournir le **contexte**, la **structure** et le **contrôle** des **documents XML**. Il améliore la **convivialité** du document en offrant des **informations descriptives**, **structurelles**, **administratives**, **techniques**, de **provenance** et de **gestion des droits**. En intégrant des metadata dans XML, les utilisateurs et les systèmes peuvent mieux comprendre, gérer et utiliser les données efficacement.
+
+---
+
+[^1]: Un endpoint (ou point de terminaison en français) est une URL spécifique d'une API (Application Programming Interface) qui permet à un client (comme une application ou un navigateur) de communiquer avec un serveur pour effectuer des actions ou récupérer des données. Par exemple : GET https://api.example.com/users (Endpoint pour récupérer la liste des utilisateurs), POST https://api.example.com/users (Endpoint pour créer un nouvel utilisateur).
