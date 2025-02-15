@@ -8,7 +8,7 @@
 
 ### SCRIPTING OVERVIEW
 
-Vous pouvez utiliser des `Java or Groovy scripts` pour le` message processing`, ce qui peut être utile dans les scénarios suivants :
+Vous pouvez utiliser des **Java or Groovy scripts** pour le **message processing**, ce qui peut être utile dans les scénarios suivants :
 
 - [Ajouter des informations au journal de traitement des messages](https://help.sap.com/docs/CLOUD_INTEGRATION/368c481cd6954bdfa5d0435479fd4eaf/e8e928373b66488b8d78fb5a314b8a9e.html?locale=en-US)
 
@@ -42,15 +42,15 @@ La documentation Java peut être trouvée ici : com.sap.it.script.custom-develo
 
 ### DEVELOPPING GROOVY SCRIPTS WITH THE INLINE EDITOR
 
-Vous pouvez utiliser l'`inLine editor` (éditeur en ligne) directement de la manière suivante.
+Vous pouvez utiliser l'**inLine editor** (éditeur en ligne) directement de la manière suivante.
 
 ### PROCEDURE
 
-- Position a `Groovy Script component` on the `expiration path`.
+- Position a **Groovy Script component** on the **expiration path**.
 
-- Choose the `Create` button from the context menu.
+- Choose the **Create** button from the context menu.
 
-- After that, you are in the `inline editor` of the `Groovy script`. There is already a `basic script` created, on which you can build.
+- After that, you are in the **inline editor** of the **Groovy script**. There is already a **basic script** created, on which you can build.
 
 - You will have code compilation and more.
 
@@ -60,17 +60,17 @@ Vous pouvez utiliser l'`inLine editor` (éditeur en ligne) directement de la man
 
 ![](./RESSOURCES/CLD900_20_U5L7_003_scr.png)
 
-Ensuite, procédez au `standard simulation and/or testing process` en `déployant` et en `traçant` le flux.
+Ensuite, procédez au **standard simulation and/or testing process** en **déployant** et en **traçant** le flux.
 
 ### CREATE GRROVY SCRIPTS WITH AN EXTERNAL EDITOR
 
-Vous pouvez créer un `local development environment` avec `Eclipse`, `IntelliJ` ou `Visual Code`. Vous pouvez obtenir le `SDK` correspondant ici : [Outils de développement SAP](https://tools.hana.ondemand.com/#cloudintegration) dans [Using Script API] → [Script API].
+Vous pouvez créer un **local development environment** avec **Eclipse**, **IntelliJ** ou **Visual Code**. Vous pouvez obtenir le **SDK** correspondant ici : [Outils de développement SAP](https://tools.hana.ondemand.com/#cloudintegration) dans [Using Script API] → [Script API].
 
-Il existe également un `inLine editor` (éditeur en ligne) avec lequel vous pouvez écrire et tester directement. Utilisez [Groovy IDE](https://groovyide.com/cpi) pour développer et tester facilement vos `scripts`. Tous les `SDK` nécessaires sont déjà implémentés.
+Il existe également un **inLine editor** (éditeur en ligne) avec lequel vous pouvez écrire et tester directement. Utilisez [Groovy IDE](https://groovyide.com/cpi) pour développer et tester facilement vos **scripts**. Tous les **SDK** nécessaires sont déjà implémentés.
 
 ![](./RESSOURCES/CLD900_20_U5L7_004_scr.png)
 
-Après avoir copier le code, coller le dans le `scripting component`, et procéder normalement.
+Après avoir copier le code, coller le dans le **scripting component**, et procéder normalement.
 
 ### RESOURCES
 
@@ -96,7 +96,7 @@ Après avoir copier le code, coller le dans le `scripting component`, et procéd
 
 ### SUMMARY
 
-> Des `Scripts in Java or Groovy` peuvent être créés à l'aide d'un `Script SDK`, qui permet de traiter les messages et leurs métadonnées de différentes manières. Le `SDK` permet de définir et de lire les paramètres d'échange, d'écrire des `logs`, d'intercepter des `exceptions`, etc. Ces scripts peuvent être créés à l'aide de l'`inLine editor` (éditeur en ligne) et d'un `IDE en ligne` qui inclut tous les `SDK` nécessaires, permettant de tester directement le script.
+> Des **Scripts in Java or Groovy** peuvent être créés à l'aide d'un **Script SDK**, qui permet de traiter les messages et leurs métadonnées de différentes manières. Le **SDK** permet de définir et de lire les paramètres d'échange, d'écrire des **logs**, d'intercepter des **exceptions**, etc. Ces scripts peuvent être créés à l'aide de l'**inLine editor** (éditeur en ligne) et d'un **IDE en ligne** qui inclut tous les **SDK** nécessaires, permettant de tester directement le script.
 
 ## CREATE A GROOVY SCRIPT FOR ERROR HANDLING
 

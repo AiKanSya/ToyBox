@@ -10,29 +10,29 @@
 
 Les types de mappage suivants sont disponibles :
 
-- `Message Mapping`.
+- **Message Mapping**.
 
-- `XSLT Mapping`.
+- **XSLT Mapping**.
 
-- `Mapping with Scripting`.
+- **Mapping with Scripting**.
 
-- `Operation Mapping from Enterprise Service Repository` (On-Premise).
+- **Operation Mapping from Enterprise Service Repository** (On-Premise).
 
 #### :small_red_triangle_down: Message Mapping :
 
-Le `Java SDK` pour le` message mapping` et les `user-defined functions (UDFs)` (fonctions définies par l'utilisateur) est le même que pour les `intégrations de processus`. Pour les utiliser, vous avez besoin du `body` au `format XML ou JSON`. Le `source and destination mapping` (mappage source et destination) peut être défini à l'aide de l'un des types de fichiers suivants :
+Le **Java SDK** pour le** message mapping** et les **user-defined functions (UDFs)** (fonctions définies par l'utilisateur) est le même que pour les **intégrations de processus**. Pour les utiliser, vous avez besoin du **body** au **format XML ou JSON**. Le **source and destination mapping** (mappage source et destination) peut être défini à l'aide de l'un des types de fichiers suivants :
 
-- `XML Schema Definitions` (XSD)
+- **XML Schema Definitions** (XSD)
 
-- `OData V2/V4 metadata files with .edmx or .xml extensions`
+- **OData V2/V4 metadata files with .edmx or .xml extensions**
 
-- `WSDL`
+- **WSDL**
 
-- `Swagger/OpenAPI Spec JSON file`
+- **Swagger/OpenAPI Spec JSON file**
 
 ##### MAPPING EDITOR
 
-Cette leçon n'implique pas l'utilisation d'un `message mapping`. Le `mapping editor` fournit cependant tous les outils nécessaires pour `mapper les messages XML ou JSON`.
+Cette leçon n'implique pas l'utilisation d'un **message mapping**. Le **mapping editor** fournit cependant tous les outils nécessaires pour **mapper les messages XML ou JSON**.
 
 ![](./RESSOURCES/CLD900_20_U5L4_001_scr.png)
 
@@ -50,7 +50,7 @@ Cette leçon n'implique pas l'utilisation d'un `message mapping`. Le `mapping ed
 
 ##### TESTING
 
-Nous pouvons tester/simuler le `mapping` à l’aide du `moniteur`.
+Nous pouvons tester/simuler le **mapping** à l’aide du **moniteur**.
 
 ##### IMPLEMENTED SAMPLES VIA GUIDELINES
 
@@ -76,13 +76,13 @@ Nous pouvons tester/simuler le `mapping` à l’aide du `moniteur`.
 
 #### :small_red_triangle_down: XSLT Mapping :
 
-`XSLT (Extensible Stylesheet Language Transformations)` est un langage initialement conçu pour `transformer des documents XML` en d'autres `documents XML`, ou en d'autres formats tels que `HTML` pour les pages Web, `plain text` (texte brut) ou `XSL Formatting Objects` (objets de formatage XSL), qui peuvent ensuite être convertis en d'autres formats, tels que `PDF`. Une `style sheet` (`style sheet`) est traitée par un `XSLT processor` (processeur XSLT) tel que `Xalan` ou `Saxon`. Les deux sont inclus dans chaque `SDK Java`. Nous utilisons le `mappage XSLT` dans les exercices. Il existe un éditeur en ligne utile, [Groovy IDE](https://groovyide.com/cpi), pour faciliter le développement et le test de vos scripts.
+**XSLT (Extensible Stylesheet Language Transformations)** est un langage initialement conçu pour **transformer des documents XML** en d'autres **documents XML**, ou en d'autres formats tels que **HTML** pour les pages Web, **plain text** (texte brut) ou **XSL Formatting Objects** (objets de formatage XSL), qui peuvent ensuite être convertis en d'autres formats, tels que **PDF**. Une **style sheet** (**style sheet**) est traitée par un **XSLT processor** (processeur XSLT) tel que **Xalan** ou **Saxon**. Les deux sont inclus dans chaque **SDK Java**. Nous utilisons le **mappage XSLT** dans les exercices. Il existe un éditeur en ligne utile, [Groovy IDE](https://groovyide.com/cpi), pour faciliter le développement et le test de vos scripts.
 
 ##### SAMPLE
 
-Cet exemple copie le contenu du fichier source sans aucun `namespaces` ni leurs `préfixes` correspondants, et génère un `target file`.
+Cet exemple copie le contenu du fichier source sans aucun **namespaces** ni leurs **préfixes** correspondants, et génère un **target file**.
 
-Les `namespaces` sont :
+Les **namespaces** sont :
 
 - xmlns:m="http://schemas.microsoft.com/ado/2007/08/dataservices/metadata"
 
@@ -90,11 +90,11 @@ Les `namespaces` sont :
 
 - xml:base=„https://sapes5.sapdevcenter.com/sap/opu/odata/iwbep/GWSAMPLE_BASIC/"
 
-Ceci est nécessaire pour pouvoir accéder au contenu de la réponse via `XPATH`.
+Ceci est nécessaire pour pouvoir accéder au contenu de la réponse via **XPATH**.
 
 ![](./RESSOURCES/CLD900_20_U5L4_002_scr.png)
 
-La `style sheet XSL` crée le document résultat via un `template` qui inclut uniquement les noms et attributs des `éléments d'origine`.
+La **style sheet XSL** crée le document résultat via un **template** qui inclut uniquement les noms et attributs des **éléments d'origine**.
 
 ![](./RESSOURCES/CLD900_20_U5L4_003_scr.png)
 
@@ -104,7 +104,7 @@ Résultat après transformation :
 
 ##### TESTING AND LIMITATIONS
 
-Le test du `XSLT mapping` nécessite le déploiement du `integration flow` ou l'utilisation d'outils externes. Sans déploiement, les tests ne sont pas possibles. Pour accélérer les tâches liées au transport de l'`integration flow`, aux tests et à la gestion des erreurs, vous pouvez utiliser des outils tels que les `DOST Add-on`.
+Le test du **XSLT mapping** nécessite le déploiement du **integration flow** ou l'utilisation d'outils externes. Sans déploiement, les tests ne sont pas possibles. Pour accélérer les tâches liées au transport de l'**integration flow**, aux tests et à la gestion des erreurs, vous pouvez utiliser des outils tels que les **DOST Add-on**.
 
 ##### IMPLEMENTED SAMPLES VIA GUIDELINES
 
@@ -124,13 +124,13 @@ Learn the Basics → Access Header and Properties → Access Header and Properti
 
 #### :small_red_triangle_down: Mapping with Scripting :
 
-Le mapping peut également être implémenté en utilisant `Groovy` ou `JavaScript`
+Le mapping peut également être implémenté en utilisant **Groovy** ou **JavaScript**
 
 ##### SAMPLE
 
 Dans cet exemple, la liste des Articles d'un ordre sont restructurer d'une autre manière.
 
-`Source JSON Payload` :
+**Source JSON Payload** :
 
 ![](./RESSOURCES/CLD900_20_U5L4_005_scr.png)
 
@@ -140,7 +140,7 @@ Dans cet exemple, la liste des Articles d'un ordre sont restructurer d'une autre
 
 ##### TESTING
 
-Les tests du `Groovy script mapping` (mappage de script Groovy) peuvent être effectués en déployant l'`integration flow` ou en utilisant des outils externes. Il n'est pas possible de tester sans le déployer.
+Les tests du **Groovy script mapping** (mappage de script Groovy) peuvent être effectués en déployant l'**integration flow** ou en utilisant des outils externes. Il n'est pas possible de tester sans le déployer.
 
 ##### READ MORE HERE:
 
@@ -150,19 +150,19 @@ Les tests du `Groovy script mapping` (mappage de script Groovy) peuvent être ef
 
 #### :small_red_triangle_down: Operation Mapping from Enterprise Service Repository (On-Premise) :
 
-Pour gagner du temps et des efforts lors de la création de ` integration content`, vous pouvez importer le contenu existant de votre `ES repository` directement dans `Cloud Integration`. Pour ce faire, vous devez configurer les paramètres de connexion pour vous connecter au `On-Premise ES system` via `Cloud Connector`. Cela vous permet de réutiliser l'`integration content` créé précédemment et d'éviter le travail redondant dans l'application `Web Cloud Integration`.
+Pour gagner du temps et des efforts lors de la création de ** integration content**, vous pouvez importer le contenu existant de votre **ES repository** directement dans **Cloud Integration**. Pour ce faire, vous devez configurer les paramètres de connexion pour vous connecter au **On-Premise ES system** via **Cloud Connector**. Cela vous permet de réutiliser l'**integration content** créé précédemment et d'éviter le travail redondant dans l'application **Web Cloud Integration**.
 
 ##### IMPORT CONTENT FROM ESR
 
-Une fois que vous avez configuré la connexion au `ES repository`, vous pouvez procéder à l'importation du contenu de celui-ci via l'onglet "[Ressources]" de l'éditeur de l'`integration flow`. Maintenant, vous pouvez importer :
+Une fois que vous avez configuré la connexion au **ES repository**, vous pouvez procéder à l'importation du contenu de celui-ci via l'onglet "[Ressources]" de l'éditeur de l'**integration flow**. Maintenant, vous pouvez importer :
 
-- `Message mapping`
+- **Message mapping**
 
-- `Value mapping`
+- **Value mapping**
 
-- `Operation mapping`
+- **Operation mapping**
 
-- `WSDL`
+- **WSDL**
 
 ##### READ MORE HERE:
 
@@ -178,7 +178,7 @@ Une fois que vous avez configuré la connexion au `ES repository`, vous pouvez p
 
 ### SUMMARY
 
-> Le `Mapping` est le `processus de conversion d'un format source` en un `format cible` différent à l'aide de diverses techniques dans `SAP Cloud Integration`. Les `source and target structures` doivent d'abord être définies, ce qui peut être fait via des `XSD`, `WSDL` et d'autres définitions dans le `message mapping`. Le `Message Mapping Editor`, qui offre un `context handling` (gestion du contexte), des `user-defined functions` et des `testing options`, est utilisé pour la `build-in variant` (variante intégrée) du mappage aux formats `XML` et `JSON`. La `XSLT procedure`, qui nécessite `XML` comme format d'entrée et propose un éditeur simple, peut créer davantage de formats cibles et est utile pour créer des `attachments` (pièces jointes). Les tests sont effectués via le déploiement de l'`integration flow` ou des outils externes tels que `XML Spy`. Le `Mapping` via des `scripts` offre le plus grand degré de liberté en termes de `formats source et cible` et nécessite un langage écrit prenant en charge les formats, tel que `XMLSlurper` pour le langage de script `Groovy`. Les tests ici sont également effectués via le déploiement de l'`integration flow` ou des outils externes comme `IntelliJ IDEA`. Si toutes les structures de données telles que `XSD` et `WSDL` sont déjà créées dans l'`Enterprise Service Repository`, le `mappage des messages` peut être connecté et utilisé.
+> Le **Mapping** est le **processus de conversion d'un format source** en un **format cible** différent à l'aide de diverses techniques dans **SAP Cloud Integration**. Les **source and target structures** doivent d'abord être définies, ce qui peut être fait via des **XSD**, **WSDL** et d'autres définitions dans le **message mapping**. Le **Message Mapping Editor**, qui offre un **context handling** (gestion du contexte), des **user-defined functions** et des **testing options**, est utilisé pour la **build-in variant** (variante intégrée) du mappage aux formats **XML** et **JSON**. La **XSLT procedure**, qui nécessite **XML** comme format d'entrée et propose un éditeur simple, peut créer davantage de formats cibles et est utile pour créer des **attachments** (pièces jointes). Les tests sont effectués via le déploiement de l'**integration flow** ou des outils externes tels que **XML Spy**. Le **Mapping** via des **scripts** offre le plus grand degré de liberté en termes de **formats source et cible** et nécessite un langage écrit prenant en charge les formats, tel que **XMLSlurper** pour le langage de script **Groovy**. Les tests ici sont également effectués via le déploiement de l'**integration flow** ou des outils externes comme **IntelliJ IDEA**. Si toutes les structures de données telles que **XSD** et **WSDL** sont déjà créées dans l'**Enterprise Service Repository**, le **mappage des messages** peut être connecté et utilisé.
 
 ## CREATE AND CONFIGURE A CONTENT MODIFIER FOR SALESORDERID AND ITEMPOSITION
 

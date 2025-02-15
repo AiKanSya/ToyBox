@@ -34,19 +34,19 @@
 
 #### :small_red_triangle_down: Aggregator :
 
-Pour traiter les `related individual messages in bulk`( messages individuels associés en masse), vous pouvez utiliser un `Aggregator pattern` (modèle d'agrégateur). Ce `pattern` implique la collecte et le stockage de messages individuels jusqu'à ce qu'un `set` complet de messages associés soit reçu. Le message agrégé est ensuite envoyé au `receiver` prévu.
+Pour traiter les **related individual messages in bulk** (messages individuels associés en masse), vous pouvez utiliser un **Aggregator pattern** (modèle d'agrégateur). Ce **pattern** implique la collecte et le stockage de messages individuels jusqu'à ce qu'un **set** complet de messages associés soit reçu. Le message agrégé est ensuite envoyé au **receiver** prévu.
 
 ![](./RESSOURCES/CLD900_20_U5L9_001_scr.png)
 
 #### :small_red_triangle_down: Composed Message Processor :
 
-Le `Composed Message Processor pattern` (modèle Composed Message Processor) est utile lorsque vous devez traiter un message contenant plusieurs éléments, chacun nécessitant un traitement différent. Le `pattern` implique de diviser le message en `submessage` , de `routing` (acheminer) chaque `submessage` vers une destination différente, puis de `reaggregating` les `responses` en un seul message.
+Le **Composed Message Processor pattern** (modèle Composed Message Processor) est utile lorsque vous devez traiter un message contenant plusieurs éléments, chacun nécessitant un traitement différent. Le **pattern** implique de diviser le message en **submessage** , de **routing** (acheminer) chaque **submessage** vers une destination différente, puis de **reaggregating** les **responses** en un seul message.
 
 ![](./RESSOURCES/CLD900_20_U5L9_002_scr.png)
 
 #### :small_red_triangle_down: Content-Based Routing :
 
-En supposant que vous disposez d'un `order process` (processus de commande) dans lequel l'`inventory system` qui traite l'`order` dépend du `shipping address` (l'adresse de livraison), vous pouvez utiliser le `content-based routing` (routage basé sur le contenu) pour diriger le message vers le `recipient` approprié en fonction de son contenu. Dans cet exercice, nous utilisons un `content-based router` (routeur basé sur le contenu).
+En supposant que vous disposez d'un **order process** (processus de commande) dans lequel l'**inventory system** qui traite l'**order** dépend du **shipping address** (l'adresse de livraison), vous pouvez utiliser le **content-based routing** (routage basé sur le contenu) pour diriger le message vers le **recipient** approprié en fonction de son contenu. Dans cet exercice, nous utilisons un **content-based router** (routeur basé sur le contenu).
 
 Lire la suite ici :
 
@@ -58,17 +58,17 @@ Lire la suite ici :
 
 #### :small_red_triangle_down: Content Enricher :
 
-Supposons que vous deviez envoyer un `order` à un `supplier` (fournisseur), mais que vous ne disposiez pas de toutes les informations requises pour que le `receiver system` (système récepteur) puisse la traiter. Par exemple, les `product items` (articles du produit) n'ont qu'un `category code` et le nom de la `category name` est manquant. Dans ce cas, vous pouvez utiliser un `Content Enricher pattern` qui lit les données de manière `synchrone` à partir d'un système externe et ajoute les informations manquantes au message d'origine avant de le transmettre au `recipient` .
+Supposons que vous deviez envoyer un **order** à un **supplier** (fournisseur), mais que vous ne disposiez pas de toutes les informations requises pour que le **receiver system** (système récepteur) puisse la traiter. Par exemple, les **product items** (articles du produit) n'ont qu'un **category code** et le nom de la **category name** est manquant. Dans ce cas, vous pouvez utiliser un **Content Enricher pattern** qui lit les données de manière **synchrone** à partir d'un système externe et ajoute les informations manquantes au message d'origine avant de le transmettre au **recipient** .
 
 ![](./RESSOURCES/CLD900_20_U5L9_003_scr.png)
 
 #### :small_red_triangle_down: Content Filter :
 
-Supposons que vous receviez un `order` d'un `partner` dans un format standardisé avec de nombreux champs, mais que votre système backend n'en a besoin que d'une petite fraction. Vous disposez de deux options pour mettre en œuvre ce scénario :
+Supposons que vous receviez un **order** d'un **partner** dans un format standardisé avec de nombreux champs, mais que votre système backend n'en a besoin que d'une petite fraction. Vous disposez de deux options pour mettre en œuvre ce scénario :
 
-- Using a `Filter step`.
+- Using a **Filter step**.
 
-- Using `Message Mapping`.
+- Using **Message Mapping**.
 
 Lire la suite ici :
 
@@ -78,13 +78,13 @@ Lire la suite ici :
 
 #### :small_red_triangle_down: Message Filter :
 
-Vous pouvez implémenter le `Message Filter pattern` (modèle de filtre de messages) pour supprimer les données indésirables d'un canal. Par exemple, si vous devez envoyer des informations sur les produits à un `inventory system` (système d'inventaire), mais que l'`inventory system` ne gère qu'une `specific range` de produits en fonction de la `product category`, vous pouvez appliquer un `Message Filter` pour supprimer toutes les données non pertinentes. Le `Message Filter` est un `subtype` du `Message Router pattern` (modèle Message Router), avec un seul `receiver channel` (canal de réception). Il évalue les `incoming messages` et les achemine vers le `receiver channel` (canal récepteur) uniquement s'ils répondent aux` specified criteria` (critères spécifiés) ; sinon, ils sont `discarded` (rejetés).
+Vous pouvez implémenter le **Message Filter pattern** (modèle de filtre de messages) pour supprimer les données indésirables d'un canal. Par exemple, si vous devez envoyer des informations sur les produits à un **inventory system** (système d'inventaire), mais que l'**inventory system** ne gère qu'une **specific range** de produits en fonction de la **product category**, vous pouvez appliquer un **Message Filter** pour supprimer toutes les données non pertinentes. Le **Message Filter** est un **subtype** du **Message Router pattern** (modèle Message Router), avec un seul **receiver channel** (canal de réception). Il évalue les **incoming messages** et les achemine vers le **receiver channel** (canal récepteur) uniquement s'ils répondent aux** specified criteria** (critères spécifiés) ; sinon, ils sont **discarded** (rejetés).
 
 ![](./RESSOURCES/CLD900_20_U5L9_004_scr.png)
 
 #### :small_red_triangle_down: Recipient List :
 
-Supposons que vous souhaitiez trouver le `best quote` (meilleur devis) pour un `order` en l’envoyant à plusieurs `suppliers`, mais que tous les `suppliers` ne soient pas pertinents pour chaque produit de la commande. Dans ce cas, les `suppliers` qui doivent recevoir la commande sont déterminés dynamiquement en fonction des produits spécifiques commandés. Pour y parvenir, vous pouvez utiliser le `Dynamic Router pattern` (modèle Dynamic Router), qui envoie une copie du message à plusieurs `receivers` en fonction des `dynamically determined criteria`. Contrairement au `content-based router` (routeur basé sur le contenu), qui transmet le message original à un seul `receiver`, le `dynamic router` envoie une copie du message à plusieurs `receivers`.
+Supposons que vous souhaitiez trouver le **best quote** (meilleur devis) pour un **order** en l’envoyant à plusieurs **suppliers**, mais que tous les **suppliers** ne soient pas pertinents pour chaque produit de la commande. Dans ce cas, les **suppliers** qui doivent recevoir la commande sont déterminés dynamiquement en fonction des produits spécifiques commandés. Pour y parvenir, vous pouvez utiliser le **Dynamic Router pattern** (modèle Dynamic Router), qui envoie une copie du message à plusieurs **receivers** en fonction des **dynamically determined criteria**. Contrairement au **content-based router** (routeur basé sur le contenu), qui transmet le message original à un seul **receiver**, le **dynamic router** envoie une copie du message à plusieurs **receivers**.
 
 Lire la suite ici :
 
@@ -96,23 +96,23 @@ Lire la suite ici :
 
 #### :small_red_triangle_down: Resequencer :
 
-Si vous devez réorganiser les messages reçus par le `Cloud Integration` dans un ordre incorrect, vous pouvez utiliser le `Aggregator pattern` (modèle Agrégateur). Ce `pattern` vous permet de rassembler des messages individuels en `batches` triés par `sequence number`. Pour transformer les `message batches` en messages séparés, vous pouvez utiliser le `Splitter pattern` et envoyer les messages individuels au `receiver` prévu.
+Si vous devez réorganiser les messages reçus par le **Cloud Integration** dans un ordre incorrect, vous pouvez utiliser le **Aggregator pattern** (modèle Agrégateur). Ce **pattern** vous permet de rassembler des messages individuels en **batches** triés par **sequence number**. Pour transformer les **message batches** en messages séparés, vous pouvez utiliser le **Splitter pattern** et envoyer les messages individuels au **receiver** prévu.
 
 ![](./RESSOURCES/CLD900_20_U5L9_005_scr.png)
 
 #### :small_red_triangle_down: Scatter-Gather :
 
-Le `Scatter-Gather pattern` vous permet d'envoyer un message à plusieurs `receivers` et de collecter leurs `replies`. En diffusant un message à plusieurs `receivers`, le `pattern` permet un `parallel processing` (traitement parallèle) du message par tous les `receivers`. Après avoir reçu les `replies`, le `pattern` les réagrège en un seul message.
+Le **Scatter-Gather pattern** vous permet d'envoyer un message à plusieurs **receivers** et de collecter leurs **replies**. En diffusant un message à plusieurs **receivers**, le **pattern** permet un **parallel processing** (traitement parallèle) du message par tous les **receivers**. Après avoir reçu les **replies**, le **pattern** les réagrège en un seul message.
 
 ![](./RESSOURCES/CLD900_20_U5L9_006_scr.png)
 
 #### :small_red_triangle_down: Splitter :
 
-Le `Splitter pattern` peut être utilisé lorsqu'un message contient plusieurs éléments nécessitant un traitement différent. Le `pattern` peut `break up` (diviser) le message en messages individuels en fonction du nombre d'éléments. Cependant, dans l’exercice donné, le `Splitter pattern` n’est pas utilisé.
+Le **Splitter pattern** peut être utilisé lorsqu'un message contient plusieurs éléments nécessitant un traitement différent. Le **pattern** peut **break up** (diviser) le message en messages individuels en fonction du nombre d'éléments. Cependant, dans l’exercice donné, le **Splitter pattern** n’est pas utilisé.
 
 Une distinction est faite entre les cas d'utilisation suivants :
 
-- `Splitting a bulk order message` (Diviser un message de commande groupée) en plusieurs commandes.
+- **Splitting a bulk order message** (Diviser un message de commande groupée) en plusieurs commandes.
 
 - Fractionner une seule commande avec plusieurs articles.
 
@@ -126,21 +126,21 @@ Lire la suite ici :
 
 ### QUALITY OF SERVICE EXACTLY ONCE
 
-Vous voulez garantir qu'un message est `delivered` et `processed` par le `receiver` une seule fois. Cette exigence peut être satisfaite en combinant les deux `enterprise integration patterns` (modèles d'intégration d'entreprise) suivants :
+Vous voulez garantir qu'un message est **delivered** et **processed** par le **receiver** une seule fois. Cette exigence peut être satisfaite en combinant les deux **enterprise integration patterns** (modèles d'intégration d'entreprise) suivants :
 
 #### :small_red_triangle_down: Guaranteed Delivery :
 
-Le `Guaranteed Delivery pattern` garantit qu'un message sera finalement `delivered` à un `receiver`, même en cas de `failures` temporaires dans le `messaging system`. Cependant, en raison de la possibilité de `redeliveries` (redistributions), ce `pattern` peut entraîner la transmission d'un message plusieurs fois.
+Le **Guaranteed Delivery pattern** garantit qu'un message sera finalement **delivered** à un **receiver**, même en cas de **failures** temporaires dans le **messaging system**. Cependant, en raison de la possibilité de **redeliveries** (redistributions), ce **pattern** peut entraîner la transmission d'un message plusieurs fois.
 
 #### :small_red_triangle_down: Idempotent[^1] Receiver :
 
-Le `Duplicate Message Suppression pattern` (modèle de suppression des messages en double) résout le problème de la gestion des `duplicate messages` et garantit que si un composant reçoit le même message plusieurs fois, il ne le traite qu'une seule fois.
+Le **Duplicate Message Suppression pattern** (modèle de suppression des messages en double) résout le problème de la gestion des **duplicate messages** et garantit que si un composant reçoit le même message plusieurs fois, il ne le traite qu'une seule fois.
 
 En savoir plus ici : [Qualité de service exactement une fois](https://help.sap.com/docs/CLOUD_INTEGRATION/368c481cd6954bdfa5d0435479fd4eaf/f96cf276c37d424f9a5b3e63778cf0ae.html?locale=en-US)
 
 ### SUMMARY
 
-> Cette leçon décrit divers `integration patterns` (modèles d'intégration), notamment l'`Aggregator`, `Composed Message Processor`,` Content-Based Routing`, `Content Enricher`, `Content Filter`, `Message Filter`, `Recipient List`, `Resequencer`, `Scatter-Gather`, `Splitter` et le `Quality of Service Exactly Once`.
+> Cette leçon décrit divers **integration patterns** (modèles d'intégration), notamment l'**Aggregator**, **Composed Message Processor**,** Content-Based Routing**, **Content Enricher**, **Content Filter**, **Message Filter**, **Recipient List**, **Resequencer**, **Scatter-Gather**, **Splitter** et le **Quality of Service Exactly Once**.
 
 ## INSTALL EXAMPLE INTEGRATION FLOWS
 

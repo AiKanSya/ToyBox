@@ -6,7 +6,7 @@
 
 ## HANDLE ATTACHMENTS
 
-Dans cette leçon, vous n'utiliserez pas de `attachments`, mais vous apprendrez à les gérer efficacement dans les `integration flows`, où un fichier est spécifié dans un format tel que des fichiers texte et joint en tant que `exchange parameter`.
+Dans cette leçon, vous n'utiliserez pas de **attachments**, mais vous apprendrez à les gérer efficacement dans les **integration flows**, où un fichier est spécifié dans un format tel que des fichiers texte et joint en tant que **exchange parameter**.
 
 ### READ MORE HERE:
 
@@ -22,7 +22,7 @@ Dans cette leçon, vous n'utiliserez pas de `attachments`, mais vous apprendrez 
 
 ### FILE TRANSFERT
 
-Cette leçon couvre le transfert de fichiers depuis un `serveur`, bien qu'elle n'implique pas l'utilisation de `attachments`.
+Cette leçon couvre le transfert de fichiers depuis un **serveur**, bien qu'elle n'implique pas l'utilisation de **attachments**.
 
 ### READ MORE HERE:
 
@@ -38,7 +38,7 @@ Cette leçon couvre le transfert de fichiers depuis un `serveur`, bien qu'elle n
 
 ### DECOUPLE INTEGRATION FLOWS
 
-Dans cette leçon, vous découvrirez le traitement de `decoupling` , qui implique l'`asynchronous decoupling` (découplage asynchrone) du traitement des `integration scenarios` entre l'expéditeur et l'`integration flows`.
+Dans cette leçon, vous découvrirez le traitement de **decoupling** , qui implique l'**asynchronous decoupling** (découplage asynchrone) du traitement des **integration scenarios** entre l'expéditeur et l'**integration flows**.
 
 ### READ MORE HERE:
 
@@ -48,17 +48,17 @@ Dans cette leçon, vous découvrirez le traitement de `decoupling` , qui impliqu
 
 ### DECOUPLE WITH SOAP ADAPTER
 
-Cette leçon utilise une configuration spécifique pour le `SOAP adapter`, qui appelle l'`integration flows` de manière `asynchrone`. La configuration est la suivante :
+Cette leçon utilise une configuration spécifique pour le **SOAP adapter**, qui appelle l'**integration flows** de manière **asynchrone**. La configuration est la suivante :
 
-- `Message Exchange Pattern: One-Way`.
+- **Message Exchange Pattern: One-Way**.
 
-- `Process Settings: WS Standard`.
+- **Process Settings: WS Standard**.
 
 ![](./RESSOURCES/CLD900_20_U5L2_001_scr.png)
 
 ### USE CONVERTERS
 
-Cette leçon fournit des conseils sur la façon d'effectuer une `file format conversion`, mais il est important de noter que des `convertisseurs` sont nécessaires car il n'existe pas d'`internal message format` (format de message interne) comme dans l'intégration de `processus avec le XI Message Protocol` (protocole de message XI). `XML` est le format le plus couramment utilisé car il est requis pour les `Message Mapping and XPATH operations` (opérations de mappage de messages et XPATH), ainsi que pour le `format JSON`.
+Cette leçon fournit des conseils sur la façon d'effectuer une **file format conversion**, mais il est important de noter que des **convertisseurs** sont nécessaires car il n'existe pas d'**internal message format** (format de message interne) comme dans l'intégration de **processus avec le XI Message Protocol** (protocole de message XI). **XML** est le format le plus couramment utilisé car il est requis pour les **Message Mapping and XPATH operations** (opérations de mappage de messages et XPATH), ainsi que pour le **format JSON**.
 
 ### READ MORE HERE:
 
@@ -70,7 +70,7 @@ Cette leçon fournit des conseils sur la façon d'effectuer une `file format con
 
 ### SUMMARY
 
-> Les `attachments` peuvent être `créées`, `modifiées` et `combinées`, tandis que les fichiers peuvent être récupérés à l'aide du `SFTP adapter` de différentes manières. Le `découplage asynchrone` des `integration flows` sépare le `call time` (temps d'appel) du `processing time` (temps de traitement). Il est également important de noter que les `formats XML ou JSON` sont nécessaires pour le `message mapping and XPATH operations` (mappage des messages et les opérations XPATH).
+> Les **attachments** peuvent être **créées**, **modifiées** et **combinées**, tandis que les fichiers peuvent être récupérés à l'aide du **SFTP adapter** de différentes manières. Le **découplage asynchrone** des **integration flows** sépare le **call time** (temps d'appel) du **processing time** (temps de traitement). Il est également important de noter que les **formats XML ou JSON** sont nécessaires pour le **message mapping and XPATH operations** (mappage des messages et les opérations XPATH).
 
 ## CREATE AND CONFIGURE A CONTENT MODIFIER
 
