@@ -102,7 +102,7 @@ Les [API](../☼%20UNIT%200%20-%20Lexicon/♠%20API.md) conçues avec une [API f
 >
 > Ces [APIs](../☼%20UNIT%200%20-%20Lexicon/♠%20API.md) sont indépendantes du langage (language agnostic). C’est pourquoi on parle également d’une architecture ou d’une [API first approach](../☼%20UNIT%200%20-%20Lexicon/♠%20API%20First%20Approach.md). Les Cloud native architectures sont basées sur des [APIs](../☼%20UNIT%200%20-%20Lexicon/♠%20API.md). Cela s’accompagne de nouveaux défis.
 
-## :closed_book: Log in to the SAP Integration Suite
+## :closed_book: LOG IN TO THE SAP INTEGRATION SUITE
 
 > If you have only just created your SAP BTP Trail Account, no API proxies and integration packages are visible when you call up the corresponding capability.
 
