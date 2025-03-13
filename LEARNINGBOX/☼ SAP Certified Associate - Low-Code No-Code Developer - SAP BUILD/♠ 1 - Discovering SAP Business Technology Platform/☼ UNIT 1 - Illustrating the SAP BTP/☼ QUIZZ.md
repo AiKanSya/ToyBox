@@ -27,7 +27,7 @@ _There are two correct answers._
 
 ## :small_red_triangle_down: Cloud computing can lower your costs by allowing you to use only the resources you need on demand.
 
-_There are two correct answers._
+_Choose the correct answer._
 
 - [ ] True
 
@@ -44,7 +44,7 @@ _There are two correct answers._
 
 ## :small_red_triangle_down: SAP partners with two well known hyperscalers.
 
-_There are three correct answers._
+_Choose the correct answer._
 
 - [ ] True
 
@@ -78,7 +78,7 @@ _Choose the correct answer._
 
 ## :small_red_triangle_down: SAP Ariba is a cloud-based solution that makes it easier to manage the entire purchasing process.
 
-_There are three correct answers._
+_Choose the correct answer._
 
 - [ ] True
 
@@ -112,7 +112,7 @@ _Choose the correct answer._
 
 ## :small_red_triangle_down: The three key end-to-end scenarios of the SAP BTP are Integration, Data-to-Value, and Extensibility.
 
-_There are three correct answers._
+_Choose the correct answer._
 
 - [ ] True
 
@@ -129,7 +129,7 @@ _There are three correct answers._
 
 ## :small_red_triangle_down: The SAP Business Technology Platform is based on several pillars. Which of these are pillars of SAP BTP?
 
-_Choose the correct answer._
+_There are two correct answers._
 
 - [ ] AI
 

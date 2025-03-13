@@ -1,181 +1,23 @@
-# ☼ UNIT 1 - QUIZZ
+# ☼ UNIT 3 - QUIZZ
 
-## :small_red_triangle_down: Which are the three main capabilities of the SAP Integration Suite?
+## :small_red_triangle_down: No-code development is primarily intended for those who aren't comfortable with coding their own software.
 
-_There are three correct answers._
+_Choose the correct answer.._
 
-- [ ] Extend Non-SAP Connectivity
+- [ ] True
 
-- [ ] Design, Develop, and Manage APIs
-
-- [ ] Design, Develop, and Operate Integration Scenarios
-
-- [ ] Managing Integration with Trading Partners
+- [ ] False
 
 <details>
   <summary>Solution</summary>
 
-- [x] Extend Non-SAP Connectivity
+- [ ] True
 
-- [x] Design, Develop, and Manage APIs
-
-- [x] Design, Develop, and Operate Integration Scenarios
-
-- [ ] Managing Integration with Trading Partners
+- [ ] False
 
 </details>
 
-## :small_red_triangle_down: How does an event-driven architecture work?
-
-_There are two correct answers._
-
-- [ ] Pull
-
-- [ ] Push
-
-- [ ] Force
-
-- [ ] Turn
-
-<details>
-  <summary>Solution</summary>
-
-- [x] Pull
-
-- [x] Push
-
-- [ ] Force
-
-- [ ] Turn
-
-</details>
-
-## :small_red_triangle_down: Which are the most commonly used HTTP methods?
-
-_There are three correct answers._
-
-- [ ] GET
-
-- [ ] DELETE
-
-- [ ] SMASH
-
-- [ ] POST
-
-<details>
-  <summary>Solution</summary>
-
-- [x] GET
-
-- [x] DELETE
-
-- [ ] SMASH
-
-- [x] POST
-
-</details>
-
-## :small_red_triangle_down: Where can you configure the virtual host alias?
-
-_Choose the correct answer._
-
-- [ ] Configure ->Settings ->Integrations
-
-- [ ] Discover
-
-- [ ] Settings ->Integrations ->Configure
-
-- [ ] Design
-
-<details>
-  <summary>Solution</summary>
-
-- [ ] Configure ->Settings ->Integrations
-
-- [ ] Discover
-
-- [x] Settings ->Integrations ->Configure
-
-- [ ] Design
-
-</details>
-
-## :small_red_triangle_down: Which are the guiding constraints that define the REST architectural style?
-
-_There are three correct answers._
-
-- [ ] High-Availability
-
-- [ ] Stateless
-
-- [ ] Client-Server-Architecture
-
-- [ ] Cache-Ability
-
-<details>
-  <summary>Solution</summary>
-
-- [ ] High-Availability
-
-- [x] Stateless
-
-- [x] Client-Server-Architecture
-
-- [x] Cache-Ability
-
-</details>
-
-## :small_red_triangle_down: Which approach supports to overcome heterogeneity and complex solutions?
-
-_Choose the correct answer._
-
-- [ ] RAP first Approach
-
-- [ ] API first Approach
-
-- [ ] CAP first Approach
-
-- [ ] Call first Approach
-
-<details>
-  <summary>Solution</summary>
-
-- [ ] RAP first Approach
-
-- [x] API first Approach
-
-- [ ] CAP first Approach
-
-- [ ] Call first Approach
-
-</details>
-
-## :small_red_triangle_down: Which of the following are some elements of the core as it relates to the clean core approach?
-
-_There are three correct answers._
-
-- [ ] Software Stack
-
-- [ ] Extensibility
-
-- [ ] Integrations
-
-- [ ] Analytics
-
-<details>
-  <summary>Solution</summary>
-
-- [x] Software Stack
-
-- [x] Extensibility
-
-- [x] Integrations
-
-- [ ] Analytics
-
-</details>
-
-## :small_red_triangle_down: Metadata in XML is essential for providing context, structure, and control over XML documents.
+## :small_red_triangle_down: Application Development with SAP BTP is a portfolio of solutions that help you simplify your development.
 
 _Choose the correct answer._
 
@@ -186,33 +28,104 @@ _Choose the correct answer._
 <details>
   <summary>Solution</summary>
 
-- [x] True
+- [ ] True
 
 - [ ] False
 
 </details>
 
-## :small_red_triangle_down: Which sentence describes best an event-driven architecture (EDA)?
+## :small_red_triangle_down: SAPUI5 is a framework to build native applications.
 
 _Choose the correct answer._
 
-- [ ] EDA is a software pattern where apps publish/subscribe events via a broker, allowing decoupling and asynchronous communication.
+- [ ] True
 
-- [ ] EDA is an application pattern where systems push via a broker messages to a unified system.
-
-- [ ] EDA is an exchange message platform, which is provided by a SAP platform.
-
-- [ ] EDA is a supervised and unified PAAS.
+- [ ] False
 
 <details>
   <summary>Solution</summary>
 
-- [x] EDA is a software pattern where apps publish/subscribe events via a broker, allowing decoupling and asynchronous communication.
+- [ ] True
 
-- [ ] EDA is an application pattern where systems push via a broker messages to a unified system.
+- [ ] False
 
-- [ ] EDA is an exchange message platform, which is provided by a SAP platform.
+</details>
 
-- [ ] EDA is a supervised and unified PAAS.
+## :small_red_triangle_down: Which of the following roles can we typically identify regarding software development?
+
+_There are three correct answers._
+
+- [ ] Professional Developer
+
+- [ ] Data Modeler
+
+- [ ] Administrator
+
+- [ ] Citizen Developer
+
+- [ ] System Architect
+
+<details>
+  <summary>Solution</summary>
+
+- [ ] Professional Developer
+
+- [ ] Data Modeler
+
+- [ ] Administrator
+
+- [ ] Citizen Developer
+
+- [ ] System Architect
+
+</details>
+
+## :small_red_triangle_down: Which tool is the new strategic IDE from SAP for Application Development?
+
+_Choose the correct answer._
+
+- [ ] SAP Web IDE
+
+- [ ] SAP BTP cockpit
+
+- [ ] SAP HANA Development Workbench
+
+- [ ] SAP Business Application Studio
+
+<details>
+  <summary>Solution</summary>
+
+- [ ] SAP Web IDE
+
+- [ ] SAP BTP cockpit
+
+- [ ] SAP HANA Development Workbench
+
+- [ ] SAP Business Application Studio
+
+</details>
+
+## :small_red_triangle_down: What can you do with SAP Build Apps?
+
+_Choose the correct answer._
+
+- [ ] Create mobile apps with a visual editor.
+
+- [ ] Create OData services.
+
+- [ ] Create database artifacts
+
+- [ ] Create microservice back-ends
+
+<details>
+  <summary>Solution</summary>
+
+- [ ] Create mobile apps with a visual editor.
+
+- [ ] Create OData services.
+
+- [ ] Create database artifacts
+
+- [ ] Create microservice back-ends
 
 </details>
