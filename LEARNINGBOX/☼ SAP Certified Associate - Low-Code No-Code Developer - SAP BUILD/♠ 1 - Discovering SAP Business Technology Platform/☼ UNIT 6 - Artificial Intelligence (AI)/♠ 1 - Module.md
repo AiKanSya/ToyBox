@@ -6,6 +6,8 @@
 >
 > - [ ] Objectif
 
+---
+
 ## :closed_book: TITLE 2
 
 ### TITLE 3
