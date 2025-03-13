@@ -1,4 +1,4 @@
-# ♠ 1 [DESCRIBING THE SUITE QUALITIES AND USE CASES OF SAP BTP](link)
+# ♠ 1 [DESCRIBING THE SUITE QUALITIES AND USE CASES OF SAP BTP](https://learning.sap.com/learning-journeys/discover-sap-business-technology-platform/describing-technology-of-the-intelligent-sustainable-enterprise_b0fbf80e-2b65-4de1-8455-885c3298fa46)
 
 > :exclamation: Objectifs
 >

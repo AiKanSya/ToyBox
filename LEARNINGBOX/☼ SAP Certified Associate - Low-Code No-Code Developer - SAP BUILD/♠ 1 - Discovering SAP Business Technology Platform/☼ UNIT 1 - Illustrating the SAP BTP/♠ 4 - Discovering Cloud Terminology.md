@@ -1,4 +1,4 @@
-# ♠ 1 [DISCOVERING CLOUD TERMINOLOGY](link)
+# ♠ 1 [DISCOVERING CLOUD TERMINOLOGY](https://learning.sap.com/learning-journeys/discover-sap-business-technology-platform/discovering-cloud-terminology_caf029db-06d3-445a-aedb-20684defabe5)
 
 > :exclamation: Objectifs
 >

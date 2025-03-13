@@ -1,4 +1,4 @@
-# ♠ 1 [IDENTIFUING SOLUTIONS AREAS OF SAP & BUSINESS PROCESSES](link)
+# ♠ 1 [IDENTIFUING SOLUTIONS AREAS OF SAP & BUSINESS PROCESSES](https://learning.sap.com/learning-journeys/discover-sap-business-technology-platform/identifying-solution-areas-of-the-intelligent-sustainable-enterprise_c46fd60f-ece0-4d3e-9496-1a4b0ec355f9)
 
 > :exclamation: Objectifs
 >
