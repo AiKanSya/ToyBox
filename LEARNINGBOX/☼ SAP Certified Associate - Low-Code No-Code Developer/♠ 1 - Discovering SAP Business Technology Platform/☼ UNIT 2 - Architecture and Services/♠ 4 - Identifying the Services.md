@@ -22,7 +22,7 @@ Une instance de service est un ensemble de fonctionnalités utilisées via des A
 
 Un abonnement à un service est autonome et fonctionne sans environnement d'exécution supplémentaire ni aucun autre service. Ces services sont généralement fournis avec une application que vous pouvez ouvrir et utiliser. Vous pouvez exploiter les fonctionnalités de cette application pour vos scénarios.
 
-### EXEMPLE USE OF SERVICES ON SAP BTP
+### EXAMPLE USE OF SERVICES ON SAP BTP
 
 ![](./RESSOURCES/BTP100_01_U2L3_003.png)
 

@@ -66,7 +66,7 @@ Vous pouvez également consulter l'article de [blog suivant](https://blogs.sap.c
 
 ## :closed_book: DEVELOPMENT FRAMEWORKS
 
-### EXEMPLE OF DEVELOPMENT FRAMEWORKS FROM SAP
+### EXAMPLE OF DEVELOPMENT FRAMEWORKS FROM SAP
 
 ![](./RESSOURCES/DEV_FRAMEWO.png)
 
