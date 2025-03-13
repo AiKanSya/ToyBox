@@ -148,7 +148,7 @@ SAP Build Code s'adresse aussi bien aux développeurs professionnels qu'aux expe
 
 Joule agit comme copilote et offre divers avantages qui accélèrent et optimisent le processus de développement.
 
-## :closed_book: SUMMARY
+### SUMMARY
 
 En substance, SAP Build Code est bien plus qu'un simple outil de développement : c'est un outil d'optimisation de la productivité qui permet aux développeurs de créer des applications robustes et dynamiques. Avec SAP Build Code, vous pouvez :
 

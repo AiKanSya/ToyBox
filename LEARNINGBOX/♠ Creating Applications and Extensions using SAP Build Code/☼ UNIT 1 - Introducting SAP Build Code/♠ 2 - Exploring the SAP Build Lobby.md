@@ -44,6 +44,6 @@ Ce parcours d'apprentissage comprend également une unité sur la configuration 
 
 ![](./RESSOURCES/BTP120_02_U1L3_11.png)
 
-## :closed_book: SUMMARY
+### SUMMARY
 
 Dans cette leçon, nous nous sommes concentrés sur le SAP Build Lobby, une plateforme centrale conçue pour rationaliser et simplifier la gestion des projets SAP Build. Il sert de passerelle pour la création de nouveaux projets, offre une vue d'ensemble organisée des projets existants et facilite l'accès aux ressources et aux paramètres. Le SAP Build Lobby fait partie intégrante de l'environnement SAP Build Code et améliore l'expérience utilisateur en rendant la gestion de projet plus efficace et accessible.
