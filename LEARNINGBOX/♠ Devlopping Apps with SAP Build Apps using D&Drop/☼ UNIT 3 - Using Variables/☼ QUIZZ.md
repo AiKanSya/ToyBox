@@ -1,218 +1,101 @@
-# ☼ UNIT 1 - QUIZZ
+# ☼ UNIT 3 - QUIZZ
 
-## :small_red_triangle_down: Which are the three main capabilities of the SAP Integration Suite?
+## :small_red_triangle_down: Which variable do you use to store information retrieved from a back-end system?
 
-_There are three correct answers._
+_Choose the correct answer._
 
-- [ ] Extend Non-SAP Connectivity
+- [ ] App variable
 
-- [ ] Design, Develop, and Manage APIs
+- [ ] Page parameter
 
-- [ ] Design, Develop, and Operate Integration Scenarios
+- [ ] Page variable
 
-- [ ] Managing Integration with Trading Partners
+- [ ] Data variable
 
 <details>
   <summary>Solution</summary>
 
-- [x] Extend Non-SAP Connectivity
+- [ ] App variable
 
-- [x] Design, Develop, and Manage APIs
+- [ ] Page parameter
 
-- [x] Design, Develop, and Operate Integration Scenarios
+- [ ] Page variable
 
-- [ ] Managing Integration with Trading Partners
+- [ ] Data variable
 
 </details>
 
-## :small_red_triangle_down: How does an event-driven architecture work?
+## :small_red_triangle_down: What is the main difference between an app variable and a page variable?
+
+_Choose the correct answer._
+
+- [ ] An app variable can have fewer data types than a page variable.
+
+- [ ] An app variable’s value can be set once and not changed, while a page variable's value can be changed multiple times.
+
+- [ ] An app variable can be referenced anywhere, but a page variable can only be referenced in a particular page.
+
+- [ ] You can have only one app variable but many page variables.
+
+<details>
+  <summary>Solution</summary>
+
+- [ ] An app variable can have fewer data types than a page variable.
+
+- [ ] An app variable’s value can be set once and not changed, while a page variable's value can be changed multiple times.
+
+- [ ] An app variable can be referenced anywhere, but a page variable can only be referenced in a particular page.
+
+- [ ] You can have only one app variable but many page variables.
+
+</details>
+
+## :small_red_triangle_down: Which of the following will guide you if you try to set a variable with a value that does not conform to its data type?
+
+_Choose the correct answer._
+
+- [ ] Marketplace
+
+- [ ] Lobby
+
+- [ ] Formula editor
+
+- [ ] Data tab
+
+<details>
+  <summary>Solution</summary>
+
+- [ ] Marketplace
+
+- [ ] Lobby
+
+- [ ] Formula editor
+
+- [ ] Data tab
+
+</details>
+
+## :small_red_triangle_down: What are the reasons for using variables?
 
 _There are two correct answers._
 
-- [ ] Pull
+- [ ] To connect to the back-end data.
 
-- [ ] Push
+- [ ] To store temporary data, such as user preferences.
 
-- [ ] Force
+- [ ] To store data retrieved from back-end data source.
 
-- [ ] Turn
-
-<details>
-  <summary>Solution</summary>
-
-- [x] Pull
-
-- [x] Push
-
-- [ ] Force
-
-- [ ] Turn
-
-</details>
-
-## :small_red_triangle_down: Which are the most commonly used HTTP methods?
-
-_There are three correct answers._
-
-- [ ] GET
-
-- [ ] DELETE
-
-- [ ] SMASH
-
-- [ ] POST
+- [ ] To define application logic.
 
 <details>
   <summary>Solution</summary>
 
-- [x] GET
+- [ ] To connect to the back-end data.
 
-- [x] DELETE
+- [ ] To store temporary data, such as user preferences.
 
-- [ ] SMASH
+- [ ] To store data retrieved from back-end data source.
 
-- [x] POST
-
-</details>
-
-## :small_red_triangle_down: Where can you configure the virtual host alias?
-
-_Choose the correct answer._
-
-- [ ] Configure ->Settings ->Integrations
-
-- [ ] Discover
-
-- [ ] Settings ->Integrations ->Configure
-
-- [ ] Design
-
-<details>
-  <summary>Solution</summary>
-
-- [ ] Configure ->Settings ->Integrations
-
-- [ ] Discover
-
-- [x] Settings ->Integrations ->Configure
-
-- [ ] Design
-
-</details>
-
-## :small_red_triangle_down: Which are the guiding constraints that define the REST architectural style?
-
-_There are three correct answers._
-
-- [ ] High-Availability
-
-- [ ] Stateless
-
-- [ ] Client-Server-Architecture
-
-- [ ] Cache-Ability
-
-<details>
-  <summary>Solution</summary>
-
-- [ ] High-Availability
-
-- [x] Stateless
-
-- [x] Client-Server-Architecture
-
-- [x] Cache-Ability
-
-</details>
-
-## :small_red_triangle_down: Which approach supports to overcome heterogeneity and complex solutions?
-
-_Choose the correct answer._
-
-- [ ] RAP first Approach
-
-- [ ] API first Approach
-
-- [ ] CAP first Approach
-
-- [ ] Call first Approach
-
-<details>
-  <summary>Solution</summary>
-
-- [ ] RAP first Approach
-
-- [x] API first Approach
-
-- [ ] CAP first Approach
-
-- [ ] Call first Approach
-
-</details>
-
-## :small_red_triangle_down: Which of the following are some elements of the core as it relates to the clean core approach?
-
-_There are three correct answers._
-
-- [ ] Software Stack
-
-- [ ] Extensibility
-
-- [ ] Integrations
-
-- [ ] Analytics
-
-<details>
-  <summary>Solution</summary>
-
-- [x] Software Stack
-
-- [x] Extensibility
-
-- [x] Integrations
-
-- [ ] Analytics
-
-</details>
-
-## :small_red_triangle_down: Metadata in XML is essential for providing context, structure, and control over XML documents.
-
-_Choose the correct answer._
-
-- [ ] True
-
-- [ ] False
-
-<details>
-  <summary>Solution</summary>
-
-- [x] True
-
-- [ ] False
-
-</details>
-
-## :small_red_triangle_down: Which sentence describes best an event-driven architecture (EDA)?
-
-_Choose the correct answer._
-
-- [ ] EDA is a software pattern where apps publish/subscribe events via a broker, allowing decoupling and asynchronous communication.
-
-- [ ] EDA is an application pattern where systems push via a broker messages to a unified system.
-
-- [ ] EDA is an exchange message platform, which is provided by a SAP platform.
-
-- [ ] EDA is a supervised and unified PAAS.
-
-<details>
-  <summary>Solution</summary>
-
-- [x] EDA is a software pattern where apps publish/subscribe events via a broker, allowing decoupling and asynchronous communication.
-
-- [ ] EDA is an application pattern where systems push via a broker messages to a unified system.
-
-- [ ] EDA is an exchange message platform, which is provided by a SAP platform.
-
-- [ ] EDA is a supervised and unified PAAS.
+- [ ] To define application logic.
 
 </details>
