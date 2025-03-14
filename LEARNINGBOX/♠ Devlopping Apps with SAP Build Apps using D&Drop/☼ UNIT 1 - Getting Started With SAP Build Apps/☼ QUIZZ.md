@@ -1,218 +1,101 @@
 # ☼ UNIT 1 - QUIZZ
 
-## :small_red_triangle_down: Which are the three main capabilities of the SAP Integration Suite?
-
-_There are three correct answers._
-
-- [ ] Extend Non-SAP Connectivity
-
-- [ ] Design, Develop, and Manage APIs
-
-- [ ] Design, Develop, and Operate Integration Scenarios
-
-- [ ] Managing Integration with Trading Partners
-
-<details>
-  <summary>Solution</summary>
-
-- [x] Extend Non-SAP Connectivity
-
-- [x] Design, Develop, and Manage APIs
-
-- [x] Design, Develop, and Operate Integration Scenarios
-
-- [ ] Managing Integration with Trading Partners
-
-</details>
-
-## :small_red_triangle_down: How does an event-driven architecture work?
+## :small_red_triangle_down: Which two fields can you enter while creating a new project?
 
 _There are two correct answers._
 
-- [ ] Pull
+- [ ] Title
 
-- [ ] Push
+- [ ] Name of home page
 
-- [ ] Force
+- [ ] Description
 
-- [ ] Turn
+- [ ] Permissions
 
 <details>
   <summary>Solution</summary>
 
-- [x] Pull
+- [ ] Title
 
-- [x] Push
+- [ ] Name of home page
 
-- [ ] Force
+- [ ] Description
 
-- [ ] Turn
+- [ ] Permissions
 
 </details>
 
-## :small_red_triangle_down: Which are the most commonly used HTTP methods?
+## :small_red_triangle_down: What capabilities does SAP Build Apps provides to make it easy to build apps?
 
 _There are three correct answers._
 
-- [ ] GET
+- [ ] Dragging and dropping pre-built components for building the UI
 
-- [ ] DELETE
+- [ ] Defining with simple form connections to backend data
 
-- [ ] SMASH
+- [ ] Deploying your application to Microsoft Azure
 
-- [ ] POST
+- [ ] Creating logic to respond to user and app events
 
 <details>
   <summary>Solution</summary>
 
-- [x] GET
+- [ ] Dragging and dropping pre-built components for building the UI
 
-- [x] DELETE
+- [ ] Defining with simple form connections to backend data
 
-- [ ] SMASH
+- [ ] Deploying your application to Microsoft Azure
 
-- [x] POST
+- [ ] Creating logic to respond to user and app events
 
 </details>
 
-## :small_red_triangle_down: Where can you configure the virtual host alias?
+## :small_red_triangle_down: Where can you see all your SAP Build projects?
 
 _Choose the correct answer._
 
-- [ ] Configure ->Settings ->Integrations
+- [ ] Canvas
 
-- [ ] Discover
+- [ ] Lobby
 
-- [ ] Settings ->Integrations ->Configure
+- [ ] Atrium
 
-- [ ] Design
-
-<details>
-  <summary>Solution</summary>
-
-- [ ] Configure ->Settings ->Integrations
-
-- [ ] Discover
-
-- [x] Settings ->Integrations ->Configure
-
-- [ ] Design
-
-</details>
-
-## :small_red_triangle_down: Which are the guiding constraints that define the REST architectural style?
-
-_There are three correct answers._
-
-- [ ] High-Availability
-
-- [ ] Stateless
-
-- [ ] Client-Server-Architecture
-
-- [ ] Cache-Ability
+- [ ] Build Hub
 
 <details>
   <summary>Solution</summary>
 
-- [ ] High-Availability
+- [ ] Canvas
 
-- [x] Stateless
+- [ ] Lobby
 
-- [x] Client-Server-Architecture
+- [ ] Atrium
 
-- [x] Cache-Ability
+- [ ] Build Hub
 
 </details>
 
-## :small_red_triangle_down: Which approach supports to overcome heterogeneity and complex solutions?
+## :small_red_triangle_down: What are the three parts of a typical application?
 
 _Choose the correct answer._
 
-- [ ] RAP first Approach
+- [ ] Build configuration
 
-- [ ] API first Approach
+- [ ] User interface
 
-- [ ] CAP first Approach
+- [ ] Logic
 
-- [ ] Call first Approach
-
-<details>
-  <summary>Solution</summary>
-
-- [ ] RAP first Approach
-
-- [x] API first Approach
-
-- [ ] CAP first Approach
-
-- [ ] Call first Approach
-
-</details>
-
-## :small_red_triangle_down: Which of the following are some elements of the core as it relates to the clean core approach?
-
-_There are three correct answers._
-
-- [ ] Software Stack
-
-- [ ] Extensibility
-
-- [ ] Integrations
-
-- [ ] Analytics
+- [ ] Data
 
 <details>
   <summary>Solution</summary>
 
-- [x] Software Stack
+- [ ] Build configuration
 
-- [x] Extensibility
+- [ ] User interface
 
-- [x] Integrations
+- [ ] Logic
 
-- [ ] Analytics
-
-</details>
-
-## :small_red_triangle_down: Metadata in XML is essential for providing context, structure, and control over XML documents.
-
-_Choose the correct answer._
-
-- [ ] True
-
-- [ ] False
-
-<details>
-  <summary>Solution</summary>
-
-- [x] True
-
-- [ ] False
-
-</details>
-
-## :small_red_triangle_down: Which sentence describes best an event-driven architecture (EDA)?
-
-_Choose the correct answer._
-
-- [ ] EDA is a software pattern where apps publish/subscribe events via a broker, allowing decoupling and asynchronous communication.
-
-- [ ] EDA is an application pattern where systems push via a broker messages to a unified system.
-
-- [ ] EDA is an exchange message platform, which is provided by a SAP platform.
-
-- [ ] EDA is a supervised and unified PAAS.
-
-<details>
-  <summary>Solution</summary>
-
-- [x] EDA is a software pattern where apps publish/subscribe events via a broker, allowing decoupling and asynchronous communication.
-
-- [ ] EDA is an application pattern where systems push via a broker messages to a unified system.
-
-- [ ] EDA is an exchange message platform, which is provided by a SAP platform.
-
-- [ ] EDA is a supervised and unified PAAS.
+- [ ] Data
 
 </details>
