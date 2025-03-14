@@ -1,181 +1,81 @@
 # ☼ UNIT 1 - QUIZZ
 
-## :small_red_triangle_down: Which are the three main capabilities of the SAP Integration Suite?
-
-_There are three correct answers._
-
-- [ ] Extend Non-SAP Connectivity
-
-- [ ] Design, Develop, and Manage APIs
-
-- [ ] Design, Develop, and Operate Integration Scenarios
-
-- [ ] Managing Integration with Trading Partners
-
-<details>
-  <summary>Solution</summary>
-
-- [x] Extend Non-SAP Connectivity
-
-- [x] Design, Develop, and Manage APIs
-
-- [x] Design, Develop, and Operate Integration Scenarios
-
-- [ ] Managing Integration with Trading Partners
-
-</details>
-
-## :small_red_triangle_down: How does an event-driven architecture work?
-
-_There are two correct answers._
-
-- [ ] Pull
-
-- [ ] Push
-
-- [ ] Force
-
-- [ ] Turn
-
-<details>
-  <summary>Solution</summary>
-
-- [x] Pull
-
-- [x] Push
-
-- [ ] Force
-
-- [ ] Turn
-
-</details>
-
-## :small_red_triangle_down: Which are the most commonly used HTTP methods?
-
-_There are three correct answers._
-
-- [ ] GET
-
-- [ ] DELETE
-
-- [ ] SMASH
-
-- [ ] POST
-
-<details>
-  <summary>Solution</summary>
-
-- [x] GET
-
-- [x] DELETE
-
-- [ ] SMASH
-
-- [x] POST
-
-</details>
-
-## :small_red_triangle_down: Where can you configure the virtual host alias?
+## :small_red_triangle_down: Why would you need to define a data resource?
 
 _Choose the correct answer._
 
-- [ ] Configure ->Settings ->Integrations
+- [ ] To define the valid values for a variable.
 
-- [ ] Discover
+- [ ] To retrieve data from a back-end system.
 
-- [ ] Settings ->Integrations ->Configure
+- [ ] To define the look and feel of the user interface.
 
-- [ ] Design
-
-<details>
-  <summary>Solution</summary>
-
-- [ ] Configure ->Settings ->Integrations
-
-- [ ] Discover
-
-- [x] Settings ->Integrations ->Configure
-
-- [ ] Design
-
-</details>
-
-## :small_red_triangle_down: Which are the guiding constraints that define the REST architectural style?
-
-_There are three correct answers._
-
-- [ ] High-Availability
-
-- [ ] Stateless
-
-- [ ] Client-Server-Architecture
-
-- [ ] Cache-Ability
+- [ ] To define the logic for app and user events.
 
 <details>
   <summary>Solution</summary>
 
-- [ ] High-Availability
+- [ ] To define the valid values for a variable.
 
-- [x] Stateless
+- [ ] To retrieve data from a back-end system.
 
-- [x] Client-Server-Architecture
+- [ ] To define the look and feel of the user interface.
 
-- [x] Cache-Ability
+- [ ] To define the logic for app and user events.
 
 </details>
 
-## :small_red_triangle_down: Which approach supports to overcome heterogeneity and complex solutions?
+## :small_red_triangle_down: What is the benefit of using on-device storage versus an OData or REST data resource?
 
 _Choose the correct answer._
 
-- [ ] RAP first Approach
+- [ ] It has more data types.
 
-- [ ] API first Approach
+- [ ] It is available to the current user offline and does not require a call to a back-end system.
 
-- [ ] CAP first Approach
+- [ ] It can hold more data.
 
-- [ ] Call first Approach
-
-<details>
-  <summary>Solution</summary>
-
-- [ ] RAP first Approach
-
-- [x] API first Approach
-
-- [ ] CAP first Approach
-
-- [ ] Call first Approach
-
-</details>
-
-## :small_red_triangle_down: Which of the following are some elements of the core as it relates to the clean core approach?
-
-_There are three correct answers._
-
-- [ ] Software Stack
-
-- [ ] Extensibility
-
-- [ ] Integrations
-
-- [ ] Analytics
+- [ ] It can be accessed by the UI.
 
 <details>
   <summary>Solution</summary>
 
-- [x] Software Stack
+- [ ] It has more data types.
 
-- [x] Extensibility
+- [ ] It is available to the current user offline and does not require a call to a back-end system.
 
-- [x] Integrations
+- [ ] It can hold more data.
 
-- [ ] Analytics
+- [ ] It can be accessed by the UI.
 
 </details>
 
-## :small_red_triangle_down: Metadata in XML is essential for providing context, structure, and control over XML documents.
+## :small_red_triangle_down: Which of the following is not a type of data resource?
+
+_Choose the correct answer._
+
+- [ ] OData
+
+- [ ] REST
+
+- [ ] SQL
+
+- [ ] On-device
+
+<details>
+  <summary>Solution</summary>
+
+- [ ] OData
+
+- [ ] REST
+
+- [ ] SQL
+
+- [ ] On-device
+
+</details>
+
+## :small_red_triangle_down: The available data section in the Marketplace of SAP Build Apps is only used to test functions of the app.
 
 _Choose the correct answer._
 
@@ -186,33 +86,33 @@ _Choose the correct answer._
 <details>
   <summary>Solution</summary>
 
-- [x] True
+- [ ] True
 
 - [ ] False
 
 </details>
 
-## :small_red_triangle_down: Which sentence describes best an event-driven architecture (EDA)?
+## :small_red_triangle_down: When setting up a data resource, you can define and enable its actions. Which one of the following actions you cannot enable?
 
 _Choose the correct answer._
 
-- [ ] EDA is a software pattern where apps publish/subscribe events via a broker, allowing decoupling and asynchronous communication.
+- [ ] Retrieve All Records
 
-- [ ] EDA is an application pattern where systems push via a broker messages to a unified system.
+- [ ] Get Record
 
-- [ ] EDA is an exchange message platform, which is provided by a SAP platform.
+- [ ] Create Record
 
-- [ ] EDA is a supervised and unified PAAS.
+- [ ] Update Record
 
 <details>
   <summary>Solution</summary>
 
-- [x] EDA is a software pattern where apps publish/subscribe events via a broker, allowing decoupling and asynchronous communication.
+- [ ] Retrieve All Records
 
-- [ ] EDA is an application pattern where systems push via a broker messages to a unified system.
+- [ ] Get Record
 
-- [ ] EDA is an exchange message platform, which is provided by a SAP platform.
+- [ ] Create Record
 
-- [ ] EDA is a supervised and unified PAAS.
+- [ ] Update Record
 
 </details>
