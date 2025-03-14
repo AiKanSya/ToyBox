@@ -8,7 +8,7 @@
 
 ## :closed_book: PROCESS OF BUILDING AN APP
 
-Il existe une méthodologie ou un processus type pour créer une application, ainsi que certaines parties typiques de l'application.
+Il existe une typical methodology ou un process flow pour créer une application, ainsi que certaines parties typiques de l'application.
 
 Les trois principales parties d'une application sont :
 
@@ -32,6 +32,9 @@ Dans ce qui suit, vous apprendrez à appliquer vos connaissances sur les applica
 
 Dans cet exemple, nous allons créer une application pour les fans de sport. Cette application vous permet de sélectionner une équipe pour voir ses joueurs, et de sélectionner un joueur pour obtenir des informations le concernant.
 
-[Link Video](https://learning.sap.com/learning-journeys/develop-apps-with-sap-build-apps-using-drag-and-drop-simplicity/building-applications-_a6fddd92-2e10-4e10-a2f5-755a2563fc98)
+<video width="640" height="360" controls>
+  <source src="./RESSOURCES/Building Applications.mp4" type="video/mp4">
+  Votre navigateur ne supporte pas la vidéo.
+</video>
 
 Vous pouvez trouver plus d'informations sur cet exemple d'application dans ce blog : [Créer une application de baseball fantastique](https://community.sap.com/t5/technology-blogs-by-sap/building-a-fantasy-baseball-app-with-appgyver/ba-p/13540708)

@@ -20,7 +20,7 @@ Une autre caractéristique notable de **SAP BTP** est sa capacité à prendre en
 
 ![](./RESSOURCES/Illustrating%20the%20SAP%20BTP.mp4)
 
-Le développement d'applications, l'automatisation, l'intégration, les données et l'analyse, ainsi que l'**IA** sont les piliers fondamentaux de **SAP BTP**, fournissant aux organisations les outils et les capacités dont elles ont besoin pour numériser leurs processus métier, innover rapidement et offrir des expériences client exceptionnelles à l'ère numérique.
+L'**Application Development**, **Automation**, **Integration**, **Data and Analytics**, and **AI** sont les piliers fondamentaux de **SAP BTP**, fournissant aux organisations les outils et les capacités dont elles ont besoin pour numériser leurs processus métier, innover rapidement et offrir des expériences client exceptionnelles à l'ère numérique.
 
 ![](./RESSOURCES/BTP100_01_U2L1_002.png)
 
