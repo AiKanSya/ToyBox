@@ -2,15 +2,15 @@
 
 > :exclamation: Objectifs
 >
-> - [ ] Après avoir terminé cette leçon, vous serez en mesure d’illustrer la plateforme technologique commerciale SAP.
+> - [ ] Illustrate the SAP Business Technology Platform.
 
 ## :closed_book: WHAT IS THE SAP BUSINESS TECHNOLOGY PLATFORM?
 
-Dans ce cours, nous explorons la plateforme technologique commerciale SAP et ses capacités.
+Dans ce cours, nous explorons la SAP Business Technology Platform et ses capacités.
 
 ![](./RESSOURCES/BTP100_01_U2L1_006.png)
 
-La plateforme **SAP Business Technology Platform** est une plateforme polyvalente qui permet aux entreprises d'innover, d'intégrer et de transformer leurs opérations à l'ère du numérique. Grâce à sa gamme d'outils et de services, **SAP BTP** permet aux organisations de surpasser leurs concurrents, de générer de la valeur et d'offrir une expérience client exceptionnelle, le tout via une plateforme unique.
+La plateforme **SAP Business Technology Platform** est une plateforme versatile (polyvalente) qui permet aux businesses to innovate, integrate, and transform leurs opérations à l'ère du numérique. Grâce à sa gamme d'outils et de services, **SAP BTP** permet aux organisations de surpasser leurs concurrents, de drive business value (générer de la valeur) et d'offrir une provide great customer experiences, le tout via une single platform.
 
 **SAP BTP** propose un ensemble de services fondamentaux incluant le développement d'applications, l'automatisation, l'intégration, les données et l'analyse, ainsi que l'intelligence artificielle. Ces services sont conçus pour fonctionner en parfaite synergie, permettant aux entreprises de créer des applications innovantes, de connecter des systèmes disparates et d'extraire des informations exploitables de leurs données.
 
