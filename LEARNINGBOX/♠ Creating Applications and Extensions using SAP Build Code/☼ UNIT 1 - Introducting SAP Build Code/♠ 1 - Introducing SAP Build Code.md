@@ -52,7 +52,7 @@ SAP Build Code propose de nombreux outils de productivité augmentant l'efficaci
 
 ![](./RESSOURCES/BTP120_02_U1L3_05.png)
 
-### SAP CUILD CODE COMPONENTS
+### SAP BUILD CODE COMPONENTS
 
 SAP Build Code est un outil puissant basé sur SAP BTP. Il intègre de nombreuses fonctionnalités logicielles SAP éprouvées, offrant des fonctionnalités de conception et d'exécution.
 
@@ -98,7 +98,7 @@ Voici une liste de certains des services inclus dans SAP Build Code :
 
   - Le service SAP Feature Flags permet l'activation et la désactivation dynamiques des fonctionnalités de l'application.
 
-### USE CASES: CREAT AND EXTEND SEAMLESSLY WITH SAP BUILD CODE
+### USE CASES: CREATE AND EXTEND SEAMLESSLY WITH SAP BUILD CODE
 
 Les cas d'utilisation suivants peuvent être couverts par SAP Build Code. Ils couvrent tous les principaux scénarios des environnements SAP.
 
@@ -116,7 +116,7 @@ Les cas d'utilisation suivants peuvent être couverts par SAP Build Code. Ils co
 
 En substance, SAP Build Code offre aux développeurs un environnement robuste et polyvalent pour créer des applications sophistiquées et performantes au sein de l'écosystème SAP.
 
-### AN AI-POWERED COPILOT FOR DEVEOPERS
+### AN AI-POWERED COPILOT FOR DEVELOPERS
 
 SAP Build Code introduit la génération de code IA avec le copilote Joule, améliorant le processus de développement en fournissant une assistance de codage intelligente et automatisée, notamment en utilisant des descriptions en langage naturel pour générer la logique de l'application.
 
