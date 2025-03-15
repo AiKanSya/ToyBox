@@ -1,218 +1,126 @@
 # ☼ UNIT 1 - QUIZZ
 
-## :small_red_triangle_down: Which are the three main capabilities of the SAP Integration Suite?
-
-_There are three correct answers._
-
-- [ ] Extend Non-SAP Connectivity
-
-- [ ] Design, Develop, and Manage APIs
-
-- [ ] Design, Develop, and Operate Integration Scenarios
-
-- [ ] Managing Integration with Trading Partners
-
-<details>
-  <summary>Solution</summary>
-
-- [x] Extend Non-SAP Connectivity
-
-- [x] Design, Develop, and Manage APIs
-
-- [x] Design, Develop, and Operate Integration Scenarios
-
-- [ ] Managing Integration with Trading Partners
-
-</details>
-
-## :small_red_triangle_down: How does an event-driven architecture work?
+## :small_red_triangle_down: What are the benefits of SAP Build?
 
 _There are two correct answers._
 
-- [ ] Pull
+- [ ] It enables citizen developers to create applications and automate processes without needing to have a computer science background
 
-- [ ] Push
+- [ ] Prebuilt components can be used to digitalize and automate common repetitive tasks
 
-- [ ] Force
+- [ ] It can only integrate SAP systems
 
-- [ ] Turn
+- [ ] Extensive programming knowledge is required to use SAP Build
 
 <details>
   <summary>Solution</summary>
 
-- [x] Pull
+- [ ] It enables citizen developers to create applications and automate processes without needing to have a computer science background
 
-- [x] Push
+- [ ] Prebuilt components can be used to digitalize and automate common repetitive tasks
 
-- [ ] Force
+- [ ] It can only integrate SAP systems
 
-- [ ] Turn
+- [ ] Extensive programming knowledge is required to use SAP Build
 
 </details>
 
-## :small_red_triangle_down: Which are the most commonly used HTTP methods?
+## :small_red_triangle_down: What does the "Process" element of the Governance Triad involve?
+
+_Choose the correct answer._
+
+- [ ] Bypassing traditional IT processes to speed up development
+
+- [ ] Creation of an IT Trust Blueprint, implementing best practices
+
+- [ ] Only defining the stages of the development lifecycle
+
+- [ ] Prioritizing speed of development over security and compliance issues
+
+<details>
+  <summary>Solution</summary>
+
+- [ ] Bypassing traditional IT processes to speed up development
+
+- [ ] Creation of an IT Trust Blueprint, implementing best practices
+
+- [ ] Only defining the stages of the development lifecycle
+
+- [ ] Prioritizing speed of development over security and compliance issues
+
+</details>
+
+## :small_red_triangle_down: What is the Governance Triad in the context of low-code platforms?
+
+_Choose the correct answer._
+
+- [ ] A model to facilitate communication between IT and business stakeholders
+
+- [ ] A framework consisting of people, process, and technologies for governing low-code platforms
+
+- [ ] A hierarchy within an IT department to manage low-code development
+
+- [ ] A triage process for dealing with shadow IT issues
+
+<details>
+  <summary>Solution</summary>
+
+- [ ] A model to facilitate communication between IT and business stakeholders
+
+- [ ] A framework consisting of people, process, and technologies for governing low-code platforms
+
+- [ ] A hierarchy within an IT department to manage low-code development
+
+- [ ] A triage process for dealing with shadow IT issues
+
+</details>
+
+## :small_red_triangle_down: Which of the following components are part of SAP Build?
 
 _There are three correct answers._
 
-- [ ] GET
+- [ ] SAP Build Apps
 
-- [ ] DELETE
+- [ ] SAP Build Process Automation
 
-- [ ] SMASH
+- [ ] SAP Build Work Zone
 
-- [ ] POST
+- [ ] SAP Business Application Studio
 
 <details>
   <summary>Solution</summary>
 
-- [x] GET
+- [ ] SAP Build Apps
 
-- [x] DELETE
+- [ ] SAP Build Process Automation
 
-- [ ] SMASH
+- [ ] SAP Build Work Zone
 
-- [x] POST
+- [ ] SAP Business Application Studio
 
 </details>
 
-## :small_red_triangle_down: Where can you configure the virtual host alias?
+## :small_red_triangle_down: Which of the following is a key responsibility of an IT-led Center of Excellence (CoE) in the context of SAP Build?
 
 _Choose the correct answer._
 
-- [ ] Configure ->Settings ->Integrations
+- [ ] Maintaining strict control over all low-code projects
 
-- [ ] Discover
+- [ ] Discouraging the use of low-code solutions in the organization
 
-- [ ] Settings ->Integrations ->Configure
+- [ ] Safely scaling development, integrating Low-Code DevOps, fostering fusion development, and operationalizing governance
 
-- [ ] Design
-
-<details>
-  <summary>Solution</summary>
-
-- [ ] Configure ->Settings ->Integrations
-
-- [ ] Discover
-
-- [x] Settings ->Integrations ->Configure
-
-- [ ] Design
-
-</details>
-
-## :small_red_triangle_down: Which are the guiding constraints that define the REST architectural style?
-
-_There are three correct answers._
-
-- [ ] High-Availability
-
-- [ ] Stateless
-
-- [ ] Client-Server-Architecture
-
-- [ ] Cache-Ability
+- [ ] Only providing technical support for professional developers
 
 <details>
   <summary>Solution</summary>
 
-- [ ] High-Availability
+- [ ] Maintaining strict control over all low-code projects
 
-- [x] Stateless
+- [ ] Discouraging the use of low-code solutions in the organization
 
-- [x] Client-Server-Architecture
+- [ ] Safely scaling development, integrating Low-Code DevOps, fostering fusion development, and operationalizing governance
 
-- [x] Cache-Ability
-
-</details>
-
-## :small_red_triangle_down: Which approach supports to overcome heterogeneity and complex solutions?
-
-_Choose the correct answer._
-
-- [ ] RAP first Approach
-
-- [ ] API first Approach
-
-- [ ] CAP first Approach
-
-- [ ] Call first Approach
-
-<details>
-  <summary>Solution</summary>
-
-- [ ] RAP first Approach
-
-- [x] API first Approach
-
-- [ ] CAP first Approach
-
-- [ ] Call first Approach
-
-</details>
-
-## :small_red_triangle_down: Which of the following are some elements of the core as it relates to the clean core approach?
-
-_There are three correct answers._
-
-- [ ] Software Stack
-
-- [ ] Extensibility
-
-- [ ] Integrations
-
-- [ ] Analytics
-
-<details>
-  <summary>Solution</summary>
-
-- [x] Software Stack
-
-- [x] Extensibility
-
-- [x] Integrations
-
-- [ ] Analytics
-
-</details>
-
-## :small_red_triangle_down: Metadata in XML is essential for providing context, structure, and control over XML documents.
-
-_Choose the correct answer._
-
-- [ ] True
-
-- [ ] False
-
-<details>
-  <summary>Solution</summary>
-
-- [x] True
-
-- [ ] False
-
-</details>
-
-## :small_red_triangle_down: Which sentence describes best an event-driven architecture (EDA)?
-
-_Choose the correct answer._
-
-- [ ] EDA is a software pattern where apps publish/subscribe events via a broker, allowing decoupling and asynchronous communication.
-
-- [ ] EDA is an application pattern where systems push via a broker messages to a unified system.
-
-- [ ] EDA is an exchange message platform, which is provided by a SAP platform.
-
-- [ ] EDA is a supervised and unified PAAS.
-
-<details>
-  <summary>Solution</summary>
-
-- [x] EDA is a software pattern where apps publish/subscribe events via a broker, allowing decoupling and asynchronous communication.
-
-- [ ] EDA is an application pattern where systems push via a broker messages to a unified system.
-
-- [ ] EDA is an exchange message platform, which is provided by a SAP platform.
-
-- [ ] EDA is a supervised and unified PAAS.
+- [ ] Only providing technical support for professional developers
 
 </details>
