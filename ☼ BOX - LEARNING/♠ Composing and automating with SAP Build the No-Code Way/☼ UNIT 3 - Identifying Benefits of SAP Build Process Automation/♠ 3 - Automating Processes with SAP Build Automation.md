@@ -60,7 +60,7 @@ To get support during the exercises, add your question in our [SAP Learning Grou
 
 Abonnez-vous à SAP Build Process Automation (version gratuite/payante) sur votre sous-compte SAP BTP. Consultez cet article de [blog](https://blogs.sap.com/2022/03/29/sap-process-automation-free-tier-availability/) pour découvrir comment configurer la version gratuite sur SAP BTP.
 
-## :closed_book: PREREQUISCREATE PROCESS CONDITIONS
+## :closed_book: CREATE PROCESS CONDITIONS
 
 ### BUSINESS SCENARIO
 
