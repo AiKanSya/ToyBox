@@ -52,5 +52,3 @@ Ouvrir le document PDF : un PDF s'ouvre. En suivant les étapes décrites dans 
 [Link Exercice](https://learnsap.enable-now.cloud.sap/pub/mmcp/index.html?show=project!PR_3DE293A3C85CAFA7:uebung)
 
 [PDF](./RESSOURCES/Exercise%20-%20Unit%201%20-%20Module%203%20-%20001.pdf)
-
-#### :small_red_triangle_down: User Interface (UI) :

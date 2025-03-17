@@ -1,218 +1,213 @@
-# ☼ UNIT 1 - QUIZZ
+# ☼ UNIT 2 - QUIZZ
 
-## :small_red_triangle_down: Which are the three main capabilities of the SAP Integration Suite?
-
-_There are three correct answers._
-
-- [ ] Extend Non-SAP Connectivity
-
-- [ ] Design, Develop, and Manage APIs
-
-- [ ] Design, Develop, and Operate Integration Scenarios
-
-- [ ] Managing Integration with Trading Partners
-
-<details>
-  <summary>Solution</summary>
-
-- [x] Extend Non-SAP Connectivity
-
-- [x] Design, Develop, and Manage APIs
-
-- [x] Design, Develop, and Operate Integration Scenarios
-
-- [ ] Managing Integration with Trading Partners
-
-</details>
-
-## :small_red_triangle_down: How does an event-driven architecture work?
-
-_There are two correct answers._
-
-- [ ] Pull
-
-- [ ] Push
-
-- [ ] Force
-
-- [ ] Turn
-
-<details>
-  <summary>Solution</summary>
-
-- [x] Pull
-
-- [x] Push
-
-- [ ] Force
-
-- [ ] Turn
-
-</details>
-
-## :small_red_triangle_down: Which are the most commonly used HTTP methods?
-
-_There are three correct answers._
-
-- [ ] GET
-
-- [ ] DELETE
-
-- [ ] SMASH
-
-- [ ] POST
-
-<details>
-  <summary>Solution</summary>
-
-- [x] GET
-
-- [x] DELETE
-
-- [ ] SMASH
-
-- [x] POST
-
-</details>
-
-## :small_red_triangle_down: Where can you configure the virtual host alias?
+## :small_red_triangle_down: When building logic, generally, what triggers the flow of actions:
 
 _Choose the correct answer._
 
-- [ ] Configure ->Settings ->Integrations
+- [ ] Event
 
-- [ ] Discover
+- [ ] Flow function
 
-- [ ] Settings ->Integrations ->Configure
-
-- [ ] Design
+- [ ] Component property
 
 <details>
   <summary>Solution</summary>
 
-- [ ] Configure ->Settings ->Integrations
+- [ ] Event
 
-- [ ] Discover
+- [ ] Flow function
 
-- [x] Settings ->Integrations ->Configure
-
-- [ ] Design
+- [ ] Component property
 
 </details>
 
-## :small_red_triangle_down: Which are the guiding constraints that define the REST architectural style?
+## :small_red_triangle_down: What feature enables business users and developers to collaborate and build apps?
+
+_Choose the correct answer._
+
+- [ ] Component library
+
+- [ ] Connectors to SAP systems
+
+- [ ] Front-ends
+
+- [ ] Backends
+
+- [ ] Sharing
+
+<details>
+  <summary>Solution</summary>
+
+- [ ] Component library
+
+- [ ] Connectors to SAP systems
+
+- [ ] Front-ends
+
+- [ ] Backends
+
+- [ ] Sharing
+
+</details>
+
+## :small_red_triangle_down: What two primary SAP Build Apps artifacts can you create in the lobby?
+
+_Choose the correct answer._
+
+- [ ] Automation and website
+
+- [ ] New components and new flow functions
+
+- [ ] Web/mobile application and application backend
+
+<details>
+  <summary>Solution</summary>
+
+- [ ] Automation and website
+
+- [ ] New components and new flow functions
+
+- [ ] Web/mobile application and application backend
+
+</details>
+
+## :small_red_triangle_down: What are the parts of an application that you can build?
+
+_Choose the correct answer._
+
+- [ ] The user interface part and the data part, with logic in both places
+
+- [ ] Front-end and backend
+
+- [ ] Web & Mobile Applications and Application Backends
+
+- [ ] All of the above
+
+<details>
+  <summary>Solution</summary>
+
+- [ ] The user interface part and the data part, with logic in both places
+
+- [ ] Front-end and backend
+
+- [ ] Web & Mobile Applications and Application Backends
+
+- [ ] All of the above
+
+</details>
+
+## :small_red_triangle_down: Where do you go if you want to find additional components or flow functions?
+
+_Choose the correct answer._
+
+- [ ] Page selector
+
+- [ ] Marketplace
+
+- [ ] Data tab
+
+- [ ] Properties pane
+
+- [ ] Tree view
+
+<details>
+  <summary>Solution</summary>
+
+- [ ] Page selector
+
+- [ ] Marketplace
+
+- [ ] Data tab
+
+- [ ] Properties pane
+
+- [ ] Tree view
+
+</details>
+
+## :small_red_triangle_down: The three main parts of application development, as understood after 40-50 years of development, are:
 
 _There are three correct answers._
 
-- [ ] High-Availability
+- [ ] User interface
 
-- [ ] Stateless
+- [ ] Variables
 
-- [ ] Client-Server-Architecture
+- [ ] Data
 
-- [ ] Cache-Ability
+- [ ] Logic
+
+- [ ] Integration
 
 <details>
   <summary>Solution</summary>
 
-- [ ] High-Availability
+- [ ] User interface
 
-- [x] Stateless
+- [ ] Variables
 
-- [x] Client-Server-Architecture
+- [ ] Data
 
-- [x] Cache-Ability
+- [ ] Logic
+
+- [ ] Integration
 
 </details>
 
-## :small_red_triangle_down: Which approach supports to overcome heterogeneity and complex solutions?
+## :small_red_triangle_down: Where do you design how the application reacts to user input?
 
 _Choose the correct answer._
 
-- [ ] RAP first Approach
+- [ ] Logic pane
 
-- [ ] API first Approach
+- [ ] Canvas
 
-- [ ] CAP first Approach
+- [ ] Data tab
 
-- [ ] Call first Approach
+- [ ] Component pane
+
+- [ ] Flow function pane
 
 <details>
   <summary>Solution</summary>
 
-- [ ] RAP first Approach
+- [ ] Logic pane
 
-- [x] API first Approach
+- [ ] Canvas
 
-- [ ] CAP first Approach
+- [ ] Data tab
 
-- [ ] Call first Approach
+- [ ] Component pane
+
+- [ ] Flow function pane
 
 </details>
 
-## :small_red_triangle_down: Which of the following are some elements of the core as it relates to the clean core approach?
+## :small_red_triangle_down: Which of the following are the benefits of using SAP Build Apps?
 
 _There are three correct answers._
 
-- [ ] Software Stack
+- [ ] Already comes with data tables defined and populated
 
-- [ ] Extensibility
+- [ ] Has preconfigured user interface components you can drag and drop onto the canvas
 
-- [ ] Integrations
+- [ ] Lets you connect to SAP systems and external REST APIs
 
-- [ ] Analytics
+- [ ] Includes S/4HANA system inside
 
-<details>
-  <summary>Solution</summary>
-
-- [x] Software Stack
-
-- [x] Extensibility
-
-- [x] Integrations
-
-- [ ] Analytics
-
-</details>
-
-## :small_red_triangle_down: Metadata in XML is essential for providing context, structure, and control over XML documents.
-
-_Choose the correct answer._
-
-- [ ] True
-
-- [ ] False
+- [ ] For advanced users, enables writing JavaScript code
 
 <details>
   <summary>Solution</summary>
 
-- [x] True
+- [ ] Already comes with data tables defined and populated
 
-- [ ] False
+- [ ] Has preconfigured user interface components you can drag and drop onto the canvas
 
-</details>
+- [ ] Lets you connect to SAP systems and external REST APIs
 
-## :small_red_triangle_down: Which sentence describes best an event-driven architecture (EDA)?
+- [ ] Includes S/4HANA system inside
 
-_Choose the correct answer._
-
-- [ ] EDA is a software pattern where apps publish/subscribe events via a broker, allowing decoupling and asynchronous communication.
-
-- [ ] EDA is an application pattern where systems push via a broker messages to a unified system.
-
-- [ ] EDA is an exchange message platform, which is provided by a SAP platform.
-
-- [ ] EDA is a supervised and unified PAAS.
-
-<details>
-  <summary>Solution</summary>
-
-- [x] EDA is a software pattern where apps publish/subscribe events via a broker, allowing decoupling and asynchronous communication.
-
-- [ ] EDA is an application pattern where systems push via a broker messages to a unified system.
-
-- [ ] EDA is an exchange message platform, which is provided by a SAP platform.
-
-- [ ] EDA is a supervised and unified PAAS.
+- [ ] For advanced users, enables writing JavaScript code
 
 </details>
