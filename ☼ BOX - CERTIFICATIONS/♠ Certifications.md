@@ -8,15 +8,15 @@
 
 #### :small_red_triangle_down: SAP Certified Associate - Low-Code/No-Code Developer - SAP Build :
 
-- [Creating Processes and Automations with SAP Build Process Automation](../☼%20BOX%20-%20LEARNING/♠%20Creating%20Processes%20and%20Automations%20with%20SAP%20Build%20Process%20Automation/☼%20UNIT%20X%20-%20Title/♠%201%20-%20Module.md)
+- [ ] [Creating Processes and Automations with SAP Build Process Automation](../☼%20BOX%20-%20LEARNING/♠%20Creating%20Processes%20and%20Automations%20with%20SAP%20Build%20Process%20Automation/☼%20UNIT%20X%20-%20Title/♠%201%20-%20Module.md)
 
-  - [Managing Clean Core for SAP S/4HANA Cloud](../☼%20BOX%20-%20LEARNING/♠%20Managing%20Clean%20Core%20for%20SAP%20S4HANA%20Cloud/☼%20UNIT%20X%20-%20Title/♠%201%20-%20Module.md)
+  - [ ] [Managing Clean Core for SAP S/4HANA Cloud](../☼%20BOX%20-%20LEARNING/♠%20Managing%20Clean%20Core%20for%20SAP%20S4HANA%20Cloud/☼%20UNIT%20X%20-%20Title/♠%201%20-%20Module.md)
 
   - [x] [Discovering SAP Business Technology Platform](../☼%20BOX%20-%20LEARNING/♠%20Discovering%20SAP%20Business%20Technology%20Platform/☼%20UNIT%201%20-%20SAP%20BTP%20Overview/♠%201%20-%20Illustrating%20the%20SAP%20BTP.md)
 
-  - [Composing and automating with SAP Build the No-Code Way](../☼%20BOX%20-%20LEARNING/♠%20Composing%20and%20automating%20with%20SAP%20Build%20the%20No-Code%20Way/☼%20UNIT%201%20-%20Introducing%20SAP%20Build/♠%201%20-%20Introducing%20SAP%20Build.md)
+  - [ ] [Composing and automating with SAP Build the No-Code Way](../☼%20BOX%20-%20LEARNING/♠%20Composing%20and%20automating%20with%20SAP%20Build%20the%20No-Code%20Way/☼%20UNIT%201%20-%20Introducing%20SAP%20Build/♠%201%20-%20Introducing%20SAP%20Build.md)
 
-- [Designing SAP Build Work Zone](../☼%20BOX%20-%20LEARNING/♠%20Designing%20SAP%20Build%20Work%20Zone/☼%20UNIT%20X%20-%20Title/♠%201%20-%20Module.md)
+- [ ] [Designing SAP Build Work Zone](../☼%20BOX%20-%20LEARNING/♠%20Designing%20SAP%20Build%20Work%20Zone/☼%20UNIT%20X%20-%20Title/♠%201%20-%20Module.md)
 
   - [x] [Discovering SAP Business Technology Platform](../☼%20BOX%20-%20LEARNING/♠%20Discovering%20SAP%20Business%20Technology%20Platform/☼%20UNIT%201%20-%20SAP%20BTP%20Overview/♠%201%20-%20Illustrating%20the%20SAP%20BTP.md)
 
