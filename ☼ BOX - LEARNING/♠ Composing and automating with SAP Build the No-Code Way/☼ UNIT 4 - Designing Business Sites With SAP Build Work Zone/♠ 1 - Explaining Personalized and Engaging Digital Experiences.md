@@ -1,25 +1,21 @@
-# ♠ 1 [TITLE](link)
+# ♠ 1 [EXPLAINING PERSONALIZED AND ENGAGING DIGITAL EXPERIENCES](https://learning.sap.com/learning-journeys/compose-and-automate-with-sap-build-the-no-code-way/explaining-personalized-and-engaging-digital-experiences)
 
 > :exclamation: Objectifs
 >
-> - [ ] Objectif
->
-> - [ ] Objectif
+> - [ ] Articulate the key challenges and goals of the SAP Build Work Zone offering
 
----
+## :closed_book: KEY CHALLENGES AND GOALS OF THE SAP BUILD WORK ZONE OFFERING
 
-## :closed_book: TITLE 2
+[Link Video](https://learning.sap.com/learning-journeys/compose-and-automate-with-sap-build-the-no-code-way/explaining-personalized-and-engaging-digital-experiences)
 
-### TITLE 3
+Regardez la vidéo suivante pour en savoir plus sur les principaux défis et objectifs de l’offre SAP Build Work Zone.
 
-#### :small_red_triangle_down: Title 4 :
+[Link Video](https://learning.sap.com/learning-journeys/compose-and-automate-with-sap-build-the-no-code-way/explaining-personalized-and-engaging-digital-experiences)
 
----
+### SUMMARY
 
-> #### :bookmark: [Definition](link Lexicon)
->
-> Definition
+SAP Build Work Zone vise à améliorer l'expérience utilisateur dans les environnements technologiques d'entreprise complexes en créant une plateforme unifiée et intelligente qui optimise la productivité, l'engagement et l'efficacité. Elle combine différents types de contenu, outils, systèmes et canaux pour offrir une expérience cohérente et engageante à tous les processus et applications métier. L'objectif est d'aider les employés à trouver rapidement et facilement les informations nécessaires, à se tenir informés des actualités de l'entreprise, à exécuter des tâches, à échanger des informations avec leurs équipes et à accéder aux rapports et alertes pertinents.
 
----
+## :closed_book: FURTHER READING ABOUT SAP BUILD WORK ZONE
 
-→
+Read more about SAP Build Work Zone here: [SAP Build Work Zone](https://www.sap.com/germany/products/technology-platform/workzone.html)

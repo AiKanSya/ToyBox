@@ -1,183 +1,37 @@
-# ☼ UNIT 1 - QUIZZ
+# ☼ UNIT 4 - QUIZZ
 
-## :small_red_triangle_down: Which are the three main capabilities of the SAP Integration Suite?
-
-_There are three correct answers._
-
-- [ ] Extend Non-SAP Connectivity
-
-- [ ] Design, Develop, and Manage APIs
-
-- [ ] Design, Develop, and Operate Integration Scenarios
-
-- [ ] Managing Integration with Trading Partners
-
-<details>
-  <summary>Solution</summary>
-
-- [x] Extend Non-SAP Connectivity
-
-- [x] Design, Develop, and Manage APIs
-
-- [x] Design, Develop, and Operate Integration Scenarios
-
-- [ ] Managing Integration with Trading Partners
-
-</details>
-
-## :small_red_triangle_down: How does an event-driven architecture work?
-
-_There are two correct answers._
-
-- [ ] Pull
-
-- [ ] Push
-
-- [ ] Force
-
-- [ ] Turn
-
-<details>
-  <summary>Solution</summary>
-
-- [x] Pull
-
-- [x] Push
-
-- [ ] Force
-
-- [ ] Turn
-
-</details>
-
-## :small_red_triangle_down: Which are the most commonly used HTTP methods?
+## :small_red_triangle_down: In the context of fragmented user experiences, which of the following dimensions were outlined in the example?
 
 _There are three correct answers._
 
-- [ ] GET
+- [ ] Dashboards
 
-- [ ] DELETE
+- [ ] Employee Journeys
 
-- [ ] SMASH
+- [ ] Functional Services Centers
 
-- [ ] POST
+- [ ] Mobile Applications
 
-<details>
-  <summary>Solution</summary>
-
-- [x] GET
-
-- [x] DELETE
-
-- [ ] SMASH
-
-- [x] POST
-
-</details>
-
-## :small_red_triangle_down: Where can you configure the virtual host alias?
-
-_Choose the correct answer._
-
-- [ ] Configure ->Settings ->Integrations
-
-- [ ] Discover
-
-- [ ] Settings ->Integrations ->Configure
-
-- [ ] Design
+- [ ] System Silos
 
 <details>
   <summary>Solution</summary>
 
-- [ ] Configure ->Settings ->Integrations
+- [ ] Dashboards
 
-- [ ] Discover
+- [ ] Employee Journeys
 
-- [x] Settings ->Integrations ->Configure
+- [ ] Functional Services Centers
 
-- [ ] Design
+- [ ] Mobile Applications
 
-</details>
-
-## :small_red_triangle_down: Which are the guiding constraints that define the REST architectural style?
-
-_There are three correct answers._
-
-- [ ] High-Availability
-
-- [ ] Stateless
-
-- [ ] Client-Server-Architecture
-
-- [ ] Cache-Ability
-
-<details>
-  <summary>Solution</summary>
-
-- [ ] High-Availability
-
-- [x] Stateless
-
-- [x] Client-Server-Architecture
-
-- [x] Cache-Ability
+- [ ] System Silos
 
 </details>
 
-## :small_red_triangle_down: Which approach supports to overcome heterogeneity and complex solutions?
+## :small_red_triangle_down: SAP Build Work Zone users can be invited to view My Workspace.
 
-_Choose the correct answer._
-
-- [ ] RAP first Approach
-
-- [ ] API first Approach
-
-- [ ] CAP first Approach
-
-- [ ] Call first Approach
-
-<details>
-  <summary>Solution</summary>
-
-- [ ] RAP first Approach
-
-- [x] API first Approach
-
-- [ ] CAP first Approach
-
-- [ ] Call first Approach
-
-</details>
-
-## :small_red_triangle_down: Which of the following are some elements of the core as it relates to the clean core approach?
-
-_There are three correct answers._
-
-- [ ] Software Stack
-
-- [ ] Extensibility
-
-- [ ] Integrations
-
-- [ ] Analytics
-
-<details>
-  <summary>Solution</summary>
-
-- [x] Software Stack
-
-- [x] Extensibility
-
-- [x] Integrations
-
-- [ ] Analytics
-
-</details>
-
-## :small_red_triangle_down: Metadata in XML is essential for providing context, structure, and control over XML documents.
-
-_Choose the correct answer._
+_Choose the correct answer.._
 
 - [ ] True
 
@@ -186,33 +40,125 @@ _Choose the correct answer._
 <details>
   <summary>Solution</summary>
 
-- [x] True
+- [ ] True
 
 - [ ] False
 
 </details>
 
-## :small_red_triangle_down: Which sentence describes best an event-driven architecture (EDA)?
+## :small_red_triangle_down: Which of the following layout options are applicable to workpages?
 
-_Choose the correct answer._
+_There are two correct answers._
 
-- [ ] EDA is a software pattern where apps publish/subscribe events via a broker, allowing decoupling and asynchronous communication.
+- [ ] 5-column grid layout
 
-- [ ] EDA is an application pattern where systems push via a broker messages to a unified system.
+- [ ] Widget catalog
 
-- [ ] EDA is an exchange message platform, which is provided by a SAP platform.
+- [ ] Freestyle design
 
-- [ ] EDA is a supervised and unified PAAS.
+- [ ] 6-column grid layout
 
 <details>
   <summary>Solution</summary>
 
-- [x] EDA is a software pattern where apps publish/subscribe events via a broker, allowing decoupling and asynchronous communication.
+- [ ] 5-column grid layout
 
-- [ ] EDA is an application pattern where systems push via a broker messages to a unified system.
+- [ ] Widget catalog
 
-- [ ] EDA is an exchange message platform, which is provided by a SAP platform.
+- [ ] Freestyle design
 
-- [ ] EDA is a supervised and unified PAAS.
+- [ ] 6-column grid layout
+
+</details>
+
+## :small_red_triangle_down: Where are workpages used in SAP Build Work Zone?
+
+_Choose the correct answer._
+
+- [ ] Home pages
+
+- [ ] Workspaces
+
+- [ ] Applications
+
+- [ ] Dashboard
+
+<details>
+  <summary>Solution</summary>
+
+- [ ] Home pages
+
+- [ ] Workspaces
+
+- [ ] Applications
+
+- [ ] Dashboard
+
+</details>
+
+## :small_red_triangle_down: SAP Build Work Zone only supports integrations into SAP Cloud.
+
+_Choose the correct answer.._
+
+- [ ] True
+
+- [ ] False
+
+<details>
+  <summary>Solution</summary>
+
+- [ ] True
+
+- [ ] False
+
+</details>
+
+## :small_red_triangle_down: SAP Build Work Zone is available in which editions?
+
+_There are two correct answers._
+
+- [ ] Standard
+
+- [ ] Advanced
+
+- [ ] Enterprise
+
+<details>
+  <summary>Solution</summary>
+
+- [ ] Standard
+
+- [ ] Advanced
+
+- [ ] Enterprise
+
+</details>
+
+## :small_red_triangle_down: What are the different types of Workspaces?
+
+_There are four correct answers._
+
+- [ ] Public
+
+- [ ] Hybrid
+
+- [ ] Private
+
+- [ ] External
+
+- [ ] My Workspace
+
+<details>
+  <summary>Solution</summary>
+
+- [ ] Public
+
+- [ ] Hybrid
+
+- [ ] Private
+
+- [ ] External
+
+- [ ] My Workspace
 
 </details>
