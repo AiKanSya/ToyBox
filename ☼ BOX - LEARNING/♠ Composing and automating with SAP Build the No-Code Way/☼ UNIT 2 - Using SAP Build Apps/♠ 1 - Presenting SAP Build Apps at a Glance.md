@@ -15,7 +15,7 @@
 
 Votre entreprise souhaite permettre aux utilisateurs professionnels, qui connaissent le mieux les processus quotidiens et comment les améliorer, de développer leurs propres extensions et applications SAP et de collaborer plus étroitement avec les professionnels de l'informatique dans le processus de développement.
 
-### CHAT IS SAP BUILD APPS?
+### WHAT IS SAP BUILD APPS?
 
 SAP Build Apps (anciennement SAP AppGyver) est une solution de développement visuel permettant de créer des applications d'entreprise sans code. Elle vous permet de :
 
