@@ -32,7 +32,7 @@ Par « propre », nous entendons que pour chaque dimension mentionnée ci-dess
 >
 > Each individual dimension, and the approach applicable to it is explored in detail in the Unit Diving Deep Into the Different Dimensions of Clean Core.
 
-### CHAT IS CLEAN CORE?
+### WHAT IS CLEAN CORE?
 
 Maintenant que nous comprenons les termes individuels, nous pouvons les regrouper :
 

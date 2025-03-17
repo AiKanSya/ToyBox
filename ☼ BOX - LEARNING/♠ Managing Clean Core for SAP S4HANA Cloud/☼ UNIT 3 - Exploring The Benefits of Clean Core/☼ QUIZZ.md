@@ -1,218 +1,76 @@
 # ☼ UNIT 1 - QUIZZ
 
-## :small_red_triangle_down: Which are the three main capabilities of the SAP Integration Suite?
+## :small_red_triangle_down: Which of the following are benefits of clean core for IT?
 
 _There are three correct answers._
 
-- [ ] Extend Non-SAP Connectivity
+- [ ] Software stack
 
-- [ ] Design, Develop, and Manage APIs
+- [ ] Cloud native development
 
-- [ ] Design, Develop, and Operate Integration Scenarios
+- [ ] Business process flexibility
 
-- [ ] Managing Integration with Trading Partners
-
-<details>
-  <summary>Solution</summary>
-
-- [x] Extend Non-SAP Connectivity
-
-- [x] Design, Develop, and Manage APIs
-
-- [x] Design, Develop, and Operate Integration Scenarios
-
-- [ ] Managing Integration with Trading Partners
-
-</details>
-
-## :small_red_triangle_down: How does an event-driven architecture work?
-
-_There are two correct answers._
-
-- [ ] Pull
-
-- [ ] Push
-
-- [ ] Force
-
-- [ ] Turn
+- [ ] Cost savings
 
 <details>
   <summary>Solution</summary>
 
-- [x] Pull
+- [ ] Software stack
 
-- [x] Push
+- [ ] Cloud native development
 
-- [ ] Force
+- [ ] Business process flexibility
 
-- [ ] Turn
+- [ ] Cost savings
 
 </details>
 
-## :small_red_triangle_down: Which are the most commonly used HTTP methods?
+## :small_red_triangle_down: Which of the following are benefits of clean core for users?
 
 _There are three correct answers._
 
-- [ ] GET
+- [ ] Performance
 
-- [ ] DELETE
+- [ ] Cleansed data
 
-- [ ] SMASH
+- [ ] System reliability
 
-- [ ] POST
-
-<details>
-  <summary>Solution</summary>
-
-- [x] GET
-
-- [x] DELETE
-
-- [ ] SMASH
-
-- [x] POST
-
-</details>
-
-## :small_red_triangle_down: Where can you configure the virtual host alias?
-
-_Choose the correct answer._
-
-- [ ] Configure ->Settings ->Integrations
-
-- [ ] Discover
-
-- [ ] Settings ->Integrations ->Configure
-
-- [ ] Design
+- [ ] Enhanced collaboration
 
 <details>
   <summary>Solution</summary>
 
-- [ ] Configure ->Settings ->Integrations
+- [ ] Performance
 
-- [ ] Discover
+- [ ] Cleansed data
 
-- [x] Settings ->Integrations ->Configure
+- [ ] System reliability
 
-- [ ] Design
+- [ ] Enhanced collaboration
 
 </details>
 
-## :small_red_triangle_down: Which are the guiding constraints that define the REST architectural style?
+## :small_red_triangle_down: Which of the following are benefits of clean core for companies?
 
 _There are three correct answers._
 
-- [ ] High-Availability
+- [ ] Streamlined operations
 
-- [ ] Stateless
+- [ ] Improved decision-making
 
-- [ ] Client-Server-Architecture
+- [ ] Cost savings
 
-- [ ] Cache-Ability
-
-<details>
-  <summary>Solution</summary>
-
-- [ ] High-Availability
-
-- [x] Stateless
-
-- [x] Client-Server-Architecture
-
-- [x] Cache-Ability
-
-</details>
-
-## :small_red_triangle_down: Which approach supports to overcome heterogeneity and complex solutions?
-
-_Choose the correct answer._
-
-- [ ] RAP first Approach
-
-- [ ] API first Approach
-
-- [ ] CAP first Approach
-
-- [ ] Call first Approach
+- [ ] Business process flexibility
 
 <details>
   <summary>Solution</summary>
 
-- [ ] RAP first Approach
+- [ ] Streamlined operations
 
-- [x] API first Approach
+- [ ] Improved decision-making
 
-- [ ] CAP first Approach
+- [ ] Cost savings
 
-- [ ] Call first Approach
-
-</details>
-
-## :small_red_triangle_down: Which of the following are some elements of the core as it relates to the clean core approach?
-
-_There are three correct answers._
-
-- [ ] Software Stack
-
-- [ ] Extensibility
-
-- [ ] Integrations
-
-- [ ] Analytics
-
-<details>
-  <summary>Solution</summary>
-
-- [x] Software Stack
-
-- [x] Extensibility
-
-- [x] Integrations
-
-- [ ] Analytics
-
-</details>
-
-## :small_red_triangle_down: Metadata in XML is essential for providing context, structure, and control over XML documents.
-
-_Choose the correct answer._
-
-- [ ] True
-
-- [ ] False
-
-<details>
-  <summary>Solution</summary>
-
-- [x] True
-
-- [ ] False
-
-</details>
-
-## :small_red_triangle_down: Which sentence describes best an event-driven architecture (EDA)?
-
-_Choose the correct answer._
-
-- [ ] EDA is a software pattern where apps publish/subscribe events via a broker, allowing decoupling and asynchronous communication.
-
-- [ ] EDA is an application pattern where systems push via a broker messages to a unified system.
-
-- [ ] EDA is an exchange message platform, which is provided by a SAP platform.
-
-- [ ] EDA is a supervised and unified PAAS.
-
-<details>
-  <summary>Solution</summary>
-
-- [x] EDA is a software pattern where apps publish/subscribe events via a broker, allowing decoupling and asynchronous communication.
-
-- [ ] EDA is an application pattern where systems push via a broker messages to a unified system.
-
-- [ ] EDA is an exchange message platform, which is provided by a SAP platform.
-
-- [ ] EDA is a supervised and unified PAAS.
+- [ ] Business process flexibility
 
 </details>
