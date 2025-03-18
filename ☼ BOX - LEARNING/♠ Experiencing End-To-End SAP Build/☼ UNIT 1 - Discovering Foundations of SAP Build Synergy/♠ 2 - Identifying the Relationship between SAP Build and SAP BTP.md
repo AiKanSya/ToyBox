@@ -1,63 +1,49 @@
-# ♠ 1 [EXAMINING TECHNOLOGY CHANGE](https://learning.sap.com/learning-journeys/managing-clean-core-for-sap-s-4hana-cloud/examining-technological-change-1)
+# ♠ 1 [IDENTIFYING THE RELATIONSHIP BETWEEN SAP BUILD AND SAP BTP](https://learning.sap.com/learning-journeys/experiencing-end-to-end-sap-build/identifying-the-relationship-between-sap-build-and-sap-btp)
 
 > :exclamation: Objectifs
 >
-> - [ ] Describe the importance of being able to quickly embrace new technological capabilities
+> - [ ] Identify the Connection between SAP Build and SAP BTP.
 
-## :closed_book: EMBRACING NEW TECHNOLOGICAL CHALLENGES
+## :closed_book: SAP BTP AND SAP BUILD
 
-### ERP CHALLENGES TODAY: WHY DO WE NEED CLEAN CORE?
+![](./RESSOURCES/SAP_BTP_features_Static.png)
 
-![](./RESSOURCES/MCC100_01_U1L2_T2_001.png)
+Outre les principales fonctionnalités de création d'applications, de nombreuses fonctionnalités facilitent la création d'extensions SAP et d'autres applications liées à SAP :
 
-Dans la leçon précédente, nous avons examiné la nécessité pour les organisations de s'adapter aux défis d'un monde des affaires en constante évolution. Dans cette leçon, nous nous intéressons aux défis technologiques.
+#### :small_red_triangle_down: Destinations :
 
-Dans un monde actuel en constante évolution et de plus en plus numérique, il est essentiel pour les entreprises d'adopter les nouvelles avancées technologiques, d'accélérer l'innovation, d'optimiser et d'automatiser leurs processus métier et de favoriser l'agilité. Face à la croissance rapide des technologies et à l'évolution constante des exigences des consommateurs, les entreprises doivent s'adapter rapidement et efficacement aux changements technologiques pour conserver un avantage concurrentiel.
+Les destinations sont des connexions aux systèmes back-end, souvent SAP, définies dans SAP BTP pour être utilisées par les services SAP BTP. SAP Build prend en compte les destinations définies dans le cockpit SAP BTP et peut créer des ressources de données (c'est-à-dire des connexions aux systèmes back-end) basées sur ces destinations. SAP Systems décrit comment configurer des destinations pour SAP Build Apps.
 
-> ![](./RESSOURCES/299361_sum_blue_small.png)
->
-> Le rythme des changements technologiques :
->
-> - Nouvelles avancées technologiques
->
-> - Accélération de l'innovation
->
-> - Optimisation des processus métier
->
-> - Favoriser l'agilité
+#### :small_red_triangle_down: Deployment to SAP BTP :
 
-### EMBRACING NEW TECHNOLOGICAL ADVANCEMENTS
+SAP Build Apps vous permet de déployer votre application pour qu'elle s'exécute sur SAP BTP. SAP Build Apps vous permet de créer votre projet dans un fichier MTAR, un fichier d'application compris par l'environnement Cloud Foundry de SAP BTP, puis d'envoyer le fichier pour déploiement dans SAP BTP.
 
-Le rythme effréné des avancées technologiques a transformé notre façon de vivre, de travailler et de faire des affaires. De l'intelligence artificielle et de l'apprentissage automatique au cloud computing et à l'analyse des big data, les possibilités sont infinies. Les entreprises doivent donc être prêtes à adopter ces innovations et à les intégrer à leurs opérations pour rester pertinentes et compétitives.
+#### :small_red_triangle_down: SAP BTP Authentication :
 
-L'un des principaux avantages des nouvelles avancées technologiques est le potentiel d'amélioration de l'efficacité et de la productivité. L'automatisation, par exemple, peut simplifier les tâches répétitives et chronophages et permettre aux employés de consacrer un temps et des ressources précieux à des tâches plus stratégiques et créatives. De plus, l'adoption de nouvelles technologies peut également améliorer l'expérience client globale, favorisant ainsi une plus grande satisfaction et une plus grande fidélité.
+Vous pouvez rendre obligatoire l'authentification des utilisateurs auprès de SAP BTP avant d'utiliser l'application. Cette authentification est requise pour de nombreuses autres fonctionnalités, comme le référencement des destinations SAP BTP.
 
-### ACCELERATING INNOVATION
+### MORE ADVANCED FEATURES
 
-L'innovation est le moteur de toute entreprise prospère. Elle est le moteur des nouveaux produits, services et processus qui distinguent les entreprises de leurs concurrents. Dans le marché concurrentiel actuel, accélérer l'innovation n'est plus une option : c'est une nécessité.
+SAP Build Apps propose également des fonctionnalités plus sophistiquées permettant aux utilisateurs métier et aux développeurs plus expérimentés d'exploiter pleinement la plateforme. L'intégration de SAP Build Apps à SAP Business Technology Platform (BTP) offre plusieurs fonctionnalités pratiques. L'un des principaux avantages est la possibilité d'utiliser l'éditeur de formules pour incorporer dynamiquement des variables récupérant des informations de SAP BTP, telles que le nom ou l'adresse e-mail de l'utilisateur authentifié. Par exemple, l'adresse e-mail est accessible via une variable spécifique dans l'éditeur de formules.
 
-Les entreprises qui cultivent une culture de l'innovation et de la créativité sont mieux placées pour identifier de nouvelles opportunités et s'adapter aux évolutions du marché. Cette capacité peut conduire au développement de solutions innovantes qui non seulement répondent aux attentes des clients, mais les dépassent. Dans le monde actuel en constante évolution, la capacité à innover rapidement et efficacement peut faire la différence entre le succès et l'échec.
+![](./RESSOURCES/U1L2_SystemVar.png)
 
-### OPTIMIZING AND AUTOMATING BUSINESS PROCESSES
+Cette variable, appelée `userEmail`, peut ensuite être intégrée dynamiquement dans SAP Build Apps. Cette fonctionnalité améliore l'utilité pour les utilisateurs finaux et optimise les processus de bout en bout. Grâce à cette fonctionnalité, l'adresse e-mail d'un utilisateur authentifié via SAP BTP Authentication peut servir de base à divers processus ou paramètres lorsque ces derniers sont déclenchés. Cette intégration souligne l'intérêt de l'authentification pour améliorer la personnalisation et optimiser l'automatisation des workflows, garantissant ainsi une utilisation sécurisée et efficace des données utilisateur au sein des applications.
 
-L'optimisation et l'automatisation des processus métier sont essentielles pour rester compétitif sur le marché actuel. En rationalisant les opérations et en réduisant le travail manuel, les entreprises peuvent améliorer leur efficacité, réduire leurs coûts et minimiser le risque d'erreurs. De plus, comme mentionné précédemment, l'optimisation et l'automatisation permettent de libérer de précieuses ressources humaines pour se concentrer sur des tâches plus stratégiques et à plus forte valeur ajoutée.
+### DESTINATIONS
 
-Il est essentiel pour les entreprises d'évaluer leurs processus actuels et d'identifier les domaines dans lesquels l'optimisation et l'automatisation peuvent être mises en œuvre. Cette évaluation peut couvrir tous les aspects, du service client et des processus de vente à la gestion de la chaîne d'approvisionnement et aux opérations RH. En appliquant les dernières technologies et les meilleures pratiques, les entreprises peuvent se positionner pour une réussite et une croissance à long terme.
+Dans SAP Business Technology Platform (BTP), les destinations sont des points de terminaison prédéfinis qui facilitent la communication sécurisée entre vos applications et les systèmes externes, qu'ils soient sur site ou dans le cloud. Elles stockent des informations de connexion essentielles, telles que les URL et les informations d'authentification, garantissant ainsi la sécurité des échanges de données.
 
-### FOSTERING AGILITY
+Dans le cadre des produits SAP Build, des destinations correctement configurées sont essentielles à une intégration et une communication fluides entre divers services tels que SAP Build Process Automation, SAP Build Work Zone, SAP Build Apps et SAP S/4HANA Cloud. Ces configurations garantissent le bon déclenchement des processus et le transfert cohérent des données, favorisant ainsi la cohérence des workflows.
 
-Dans un monde en constante évolution et incertain, l'agilité est devenue un facteur de réussite essentiel pour les entreprises. La capacité à s'adapter rapidement, à s'adapter aux nouvelles circonstances et à saisir les opportunités émergentes est essentielle pour garder une longueur d'avance sur la concurrence. Les entreprises agiles peuvent réagir plus rapidement aux évolutions du marché, innover plus efficacement et nouer des relations plus solides avec leurs clients et partenaires.
+![](./RESSOURCES/U1L2_Destination.png)
 
-Pour favoriser l'agilité, les entreprises doivent être prêtes à accepter le changement et l'incertitude. Cette approche peut impliquer de briser les silos traditionnels, de laisser les employés décider et de s'ouvrir aux nouvelles idées et perspectives. De plus, les entreprises doivent également être prêtes à investir dans les technologies et les outils adaptés à l'agilité, tels que les applications cloud et les plateformes collaboratives.
+La destination SAP BTP sap_process_automation_service_user_access assure une communication sécurisée et efficace entre les différents services SAP, facilitant ainsi les nouveaux flux de processus entre SAP Build Apps et SAP Build Process Automation pour un déclenchement fluide des processus. Le mécanisme OAuth2JWTBearer utilise des jetons Web JSON (JWT) pour l'accès autorisé, garantissant ainsi que seuls les utilisateurs légitimes peuvent interagir avec les services. Des mesures de sécurité supplémentaires, telles que mTLS (Mutual Transport Layer Security), vérifient les deux partenaires de communication, tandis que la protection CSRF empêche les commandes non autorisées.
 
-### SAP ERP, CLEAN CORE AND TECHNOLOGICAL INNOVATION
+La prise en charge des applications mobiles et HTML5 offre un accès flexible à SAP Build Process Automation et aux autres produits SAP Build, permettant aux utilisateurs d'intégrer ces services à leurs workflows existants, où qu'ils soient. Les informations d'identification pertinentes, telles que l'ID client, le secret client et l'URL du service de jetons, sont disponibles dans le cockpit SAP BTP. L'ID client identifie de manière unique le client OAuth, le secret client est une clé confidentielle nécessaire à l'authentification, et l'URL du service de jetons sert à générer et récupérer les jetons d'authentification. Cette configuration permet l'automatisation et la rationalisation des processus au sein de SAP Build Apps et SAP Build Process Automation, garantissant une utilisation sécurisée et ininterrompue des services SAP.
 
-SAP S/4HANA Cloud offre aux clients une base solide pour exploiter et bénéficier des innovations technologiques. En tant qu'ERP cloud, SAP gère toutes les mises à jour, évitant ainsi aux clients de recourir à des ressources informatiques importantes et de subir des perturbations. La sécurité, la conformité et l'évolutivité sont intégrées à SAP S/4HANA Cloud. Les opérations importantes telles que la sauvegarde et la reprise après sinistre, la maintenance du système et la protection des données sont également gérées automatiquement, pour une tranquillité d'esprit optimale.
+### FURTHER READING
 
-> ![](./RESSOURCES/299361_sum_blue_small.png)
->
-> Les clients bénéficient des fonctionnalités intégrées de SAP S/4HANA Cloud telles que les mises à jour automatisées, la conception native du cloud et la conformité et l'évolutivité intégrées.
+- [Further information about the Connectivity Service](https://learning.sap.com/learning-journeys/discover-sap-business-technology-platform/analyzing-connectivity-in-sap-btp_e525e7d8-20a0-41f7-8b79-eec4aad834a8)
 
-### CONCLUSION
-
-En conclusion, la capacité des entreprises à adopter les nouvelles avancées technologiques, à accélérer l'innovation, à optimiser et automatiser leurs processus métier et à favoriser l'agilité est essentielle pour prospérer sur un marché concurrentiel. Ce faisant, elles peuvent se positionner pour assurer leur réussite, leur croissance et leur pérennité à long terme. Face à l'accélération du changement, il est crucial pour les entreprises de rester adaptables, avant-gardistes et disposées à adopter de nouvelles idées et technologies. Ce faisant, elles peuvent non seulement survivre, mais aussi prospérer sur un marché concurrentiel et en constante évolution. SAP S/4HANA Cloud, en tant que solution ERP cloud, est une excellente solution à déployer pour relever les défis technologiques.
+- [Further information about Destinations](https://learning.sap.com/learning-journeys/administrating-sap-business-technology-platform/using-destinations)
