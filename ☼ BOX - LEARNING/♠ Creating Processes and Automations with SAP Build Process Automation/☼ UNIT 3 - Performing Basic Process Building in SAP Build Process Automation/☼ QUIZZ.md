@@ -1,181 +1,139 @@
-# ☼ UNIT 1 - QUIZZ
+# ☼ UNIT 3 - QUIZZ
 
-## :small_red_triangle_down: Which are the three main capabilities of the SAP Integration Suite?
-
-_There are three correct answers._
-
-- [ ] Extend Non-SAP Connectivity
-
-- [ ] Design, Develop, and Manage APIs
-
-- [ ] Design, Develop, and Operate Integration Scenarios
-
-- [ ] Managing Integration with Trading Partners
-
-<details>
-  <summary>Solution</summary>
-
-- [x] Extend Non-SAP Connectivity
-
-- [x] Design, Develop, and Manage APIs
-
-- [x] Design, Develop, and Operate Integration Scenarios
-
-- [ ] Managing Integration with Trading Partners
-
-</details>
-
-## :small_red_triangle_down: How does an event-driven architecture work?
-
-_There are two correct answers._
-
-- [ ] Pull
-
-- [ ] Push
-
-- [ ] Force
-
-- [ ] Turn
-
-<details>
-  <summary>Solution</summary>
-
-- [x] Pull
-
-- [x] Push
-
-- [ ] Force
-
-- [ ] Turn
-
-</details>
-
-## :small_red_triangle_down: Which are the most commonly used HTTP methods?
-
-_There are three correct answers._
-
-- [ ] GET
-
-- [ ] DELETE
-
-- [ ] SMASH
-
-- [ ] POST
-
-<details>
-  <summary>Solution</summary>
-
-- [x] GET
-
-- [x] DELETE
-
-- [ ] SMASH
-
-- [x] POST
-
-</details>
-
-## :small_red_triangle_down: Where can you configure the virtual host alias?
+## :small_red_triangle_down: After logging into the SAP Build Process Automation Homepage, where do you have to navigate to be able to create a process project?
 
 _Choose the correct answer._
 
-- [ ] Configure ->Settings ->Integrations
+- [ ] Entrance
 
-- [ ] Discover
+- [ ] Monitor
 
-- [ ] Settings ->Integrations ->Configure
+- [ ] Homepage
 
-- [ ] Design
+- [ ] Lobby
 
 <details>
   <summary>Solution</summary>
 
-- [ ] Configure ->Settings ->Integrations
+- [ ] Entrance
 
-- [ ] Discover
+- [ ] Monitor
 
-- [x] Settings ->Integrations ->Configure
+- [ ] Homepage
 
-- [ ] Design
+- [ ] Lobby
 
 </details>
 
-## :small_red_triangle_down: Which are the guiding constraints that define the REST architectural style?
+## :small_red_triangle_down: Which configurations are necessary for process conditions?
 
 _There are three correct answers._
 
-- [ ] High-Availability
+- [ ] Add a condition to the process.
 
-- [ ] Stateless
+- [ ] Configure If and else conditions.
 
-- [ ] Client-Server-Architecture
+- [ ] Define the process flow for different conditional paths.
 
-- [ ] Cache-Ability
+- [ ] Map the condition input with process content.
+
+- [ ] Add environment variables.
 
 <details>
   <summary>Solution</summary>
 
-- [ ] High-Availability
+- [ ] Add a condition to the process.
 
-- [x] Stateless
+- [ ] Configure If and else conditions.
 
-- [x] Client-Server-Architecture
+- [ ] Define the process flow for different conditional paths.
 
-- [x] Cache-Ability
+- [ ] Map the condition input with process content.
+
+- [ ] Add environment variables.
 
 </details>
 
-## :small_red_triangle_down: Which approach supports to overcome heterogeneity and complex solutions?
+## :small_red_triangle_down: Which sequence of steps needs to be followed to deploy your created Process?
 
 _Choose the correct answer._
 
-- [ ] RAP first Approach
+- [ ] Create Process Project → Release Process Project → Design Process → Deploy Process Project
 
-- [ ] API first Approach
+- [ ] Create Process Project →Design Process → Release Process Project → Deploy Process Project
 
-- [ ] CAP first Approach
+- [ ] Release Process Project → Create Process Project → Design Process → Deploy Process Project
 
-- [ ] Call first Approach
+- [ ] Release Process Project →Deploy Process Project → Create Process Project → Design Process
 
 <details>
   <summary>Solution</summary>
 
-- [ ] RAP first Approach
+- [ ] Create Process Project → Release Process Project → Design Process → Deploy Process Project
 
-- [x] API first Approach
+- [ ] Create Process Project →Design Process → Release Process Project → Deploy Process Project
 
-- [ ] CAP first Approach
+- [ ] Release Process Project → Create Process Project → Design Process → Deploy Process Project
 
-- [ ] Call first Approach
+- [ ] Release Process Project →Deploy Process Project → Create Process Project → Design Process
 
 </details>
 
-## :small_red_triangle_down: Which of the following are some elements of the core as it relates to the clean core approach?
+## :small_red_triangle_down: Which types of forms can be added to your business process?
 
 _There are three correct answers._
 
-- [ ] Software Stack
+- [ ] Trigger
 
-- [ ] Extensibility
+- [ ] Approval
 
-- [ ] Integrations
+- [ ] Cancellation
 
-- [ ] Analytics
+- [ ] Notification
+
+- [ ] Lobby
 
 <details>
   <summary>Solution</summary>
 
-- [x] Software Stack
+- [ ] Trigger
 
-- [x] Extensibility
+- [ ] Approval
 
-- [x] Integrations
+- [ ] Cancellation
 
-- [ ] Analytics
+- [ ] Notification
+
+- [ ] Lobby
 
 </details>
 
-## :small_red_triangle_down: Metadata in XML is essential for providing context, structure, and control over XML documents.
+## :small_red_triangle_down: Where can you use SAP Build Process Automation?
+
+_Choose the correct answer._
+
+- [ ] Only in sales departments
+
+- [ ] Only in the automotive industry
+
+- [ ] Only in banking
+
+- [ ] In every industry and line of business
+
+<details>
+  <summary>Solution</summary>
+
+- [ ] Only in sales departments
+
+- [ ] Only in the automotive industry
+
+- [ ] Only in banking
+
+- [ ] In every industry and line of business
+
+</details>
+
+## :small_red_triangle_down: With SAP Build Process Automation, you can create and amend Sales Order processes only.
 
 _Choose the correct answer._
 
@@ -186,33 +144,118 @@ _Choose the correct answer._
 <details>
   <summary>Solution</summary>
 
-- [x] True
+- [ ] True
 
 - [ ] False
 
 </details>
 
-## :small_red_triangle_down: Which sentence describes best an event-driven architecture (EDA)?
+## :small_red_triangle_down: What are the benefits of using forms?
 
-_Choose the correct answer._
+_There are three correct answers._
 
-- [ ] EDA is a software pattern where apps publish/subscribe events via a broker, allowing decoupling and asynchronous communication.
+- [ ] Quick, simple, and easy way to create interactive UI.
 
-- [ ] EDA is an application pattern where systems push via a broker messages to a unified system.
+- [ ] Create documents for the process.
 
-- [ ] EDA is an exchange message platform, which is provided by a SAP platform.
+- [ ] One layout, one access, and traceable action.
 
-- [ ] EDA is a supervised and unified PAAS.
+- [ ] Streamline approvals in the business process.
+
+- [ ] Send e-mail templates to users.
 
 <details>
   <summary>Solution</summary>
 
-- [x] EDA is a software pattern where apps publish/subscribe events via a broker, allowing decoupling and asynchronous communication.
+- [ ] Quick, simple, and easy way to create interactive UI.
 
-- [ ] EDA is an application pattern where systems push via a broker messages to a unified system.
+- [ ] Create documents for the process.
 
-- [ ] EDA is an exchange message platform, which is provided by a SAP platform.
+- [ ] One layout, one access, and traceable action.
 
-- [ ] EDA is a supervised and unified PAAS.
+- [ ] Streamline approvals in the business process.
+
+- [ ] Send e-mail templates to users.
+
+</details>
+
+## :small_red_triangle_down: Where can an end user work on forms?
+
+_Choose the correct answer._
+
+- [ ] ChatBot
+
+- [ ] Monitor Workflow Application
+
+- [ ] My Inbox
+
+- [ ] Process Workspace
+
+<details>
+  <summary>Solution</summary>
+
+- [ ] ChatBot
+
+- [ ] Monitor Workflow Application
+
+- [ ] My Inbox
+
+- [ ] Process Workspace
+
+</details>
+
+## :small_red_triangle_down: What are the different ways in which forms can be used?
+
+_There are two correct answers._
+
+- [ ] For sending e-mail
+
+- [ ] For approving a sales order
+
+- [ ] For sending a notification to the requestor
+
+- [ ] For accessing automation
+
+<details>
+  <summary>Solution</summary>
+
+- [ ] For sending e-mail
+
+- [ ] For approving a sales order
+
+- [ ] For sending a notification to the requestor
+
+- [ ] For accessing automation
+
+</details>
+
+## :small_red_triangle_down:
+
+What are you able to achieve with SAP Build Process Automation?
+
+_There are three correct answers._
+
+- [ ] Automate faster
+
+- [ ] Simplify automation
+
+- [ ] Operate confidently
+
+- [ ] Keep more manual steps
+
+- [ ] Slow down a process
+
+<details>
+  <summary>Solution</summary>
+
+- [ ] Automate faster
+
+- [ ] Simplify automation
+
+- [ ] Operate confidently
+
+- [ ] Keep more manual steps
+
+- [ ] Slow down a process
 
 </details>
