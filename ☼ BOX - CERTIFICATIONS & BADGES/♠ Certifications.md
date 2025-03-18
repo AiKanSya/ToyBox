@@ -28,4 +28,4 @@
 
   - [x] [Discovering SAP Business Technology Platform](https://learning.sap.com/learning-journeys/discover-sap-business-technology-platform)
 
-- [ ] [Experiencing End-To-End SAP Build](https://learning.sap.com/learning-journeys/experiencing-end-to-end-sap-build)
+- [x] [Experiencing End-To-End SAP Build](https://learning.sap.com/learning-journeys/experiencing-end-to-end-sap-build)
