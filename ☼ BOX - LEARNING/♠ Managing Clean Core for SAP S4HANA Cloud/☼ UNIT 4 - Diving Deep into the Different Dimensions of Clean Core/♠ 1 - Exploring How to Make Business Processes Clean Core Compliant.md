@@ -8,7 +8,7 @@
 
 ### KEEP COMPETITIVENESS WHILE REDUCING COMPLEXITY
 
-Dans cette unité, nous nous intéressons aux différentes dimensions d'un cœur propre. Nous les avons brièvement évoquées dans l'unité 2 et les analysons maintenant plus en détail. Pour chacune d'elles, nous explorons les résultats spécifiques qui conduisent à la « conformité » d'un cœur propre.
+Dans cette unité, nous nous intéressons aux différentes dimensions d'un Clean Core. Nous les avons brièvement évoquées dans l'unité 2 et les analysons maintenant plus en détail. Pour chacune d'elles, nous explorons les résultats spécifiques qui conduisent à la « conformité » d'un Clean Core.
 
 ### BUSINESS PROCESSES
 
@@ -20,19 +20,19 @@ Dans cette unité, nous nous intéressons aux différentes dimensions d'un cœur
 
 ### ESTABLISH ORGANIZATIONAL STRUCTURE, TECHNICAL FOUNDATION AND TRANSFORMATION METHODOLOGY
 
-La première étape pour rendre les processus métier conformes au Clean Core consiste à établir une structure organisationnelle solide. Cela implique de définir clairement les rôles et responsabilités de chaque membre de l'équipe impliqué dans le processus, des analystes métier et chefs de projet aux développeurs et testeurs. En définissant clairement les responsabilités, les organisations peuvent garantir la responsabilisation à chaque étape du processus.
+La première étape pour rendre les processus métier conformes au Clean Core consiste à établir une **structure organisationnelle solide**. Cela implique de définir clairement les rôles et responsabilités de chaque membre de l'équipe impliqué dans le processus, des analystes métier et chefs de projet aux développeurs et testeurs. En définissant clairement les responsabilités, les organisations peuvent garantir la responsabilisation à chaque étape du processus.
 
-Une fois la structure organisationnelle en place, l'étape suivante consiste à construire une base technique solide. Cela implique de sélectionner les outils et technologies adaptés aux processus métier, ainsi que de garantir l'évolutivité et la sécurité de l'infrastructure. Grâce à une base technique solide, les organisations peuvent garantir l'efficacité et la fiabilité de leurs processus, avec un risque minimal d'interruption de service ou de faille de sécurité. SAP S/4HANA Cloud, SAP BTP et d'autres outils répondent à cette exigence.
+Une fois la structure organisationnelle en place, l'étape suivante consiste à construire une **base technique solide**. Cela implique de sélectionner les outils et technologies adaptés aux processus métier, ainsi que de garantir l'évolutivité et la sécurité de l'infrastructure. Grâce à une base technique solide, les organisations peuvent garantir l'efficacité et la fiabilité de leurs processus, avec un risque minimal d'interruption de service ou de faille de sécurité. SAP S/4HANA Cloud, SAP BTP et d'autres outils répondent à cette exigence.
 
-Le troisième élément clé de la conformité au Clean Core est la mise en place d'une méthodologie de transformation, basée sur les différentes approches de mise en œuvre de projet abordées dans l'Unité 2, Leçon 2 : « Décrire les types de mise en œuvre et le Clean Core ». Ce volet implique de disposer d'un processus clair et reproductible pour évaluer, mettre en œuvre et optimiser les processus métier. En suivant une méthodologie structurée, les organisations peuvent s'assurer d'améliorer continuellement leurs processus et de garder une longueur d'avance sur la concurrence.
+Le troisième élément clé de la conformité au Clean Core est la mise en place d'une **méthodologie de transformation**, basée sur les différentes approches de mise en œuvre de projet abordées dans l'Unité 2, Leçon 2 : « Décrire les types de mise en œuvre et le Clean Core ». Ce volet implique de disposer d'un processus clair et reproductible pour évaluer, mettre en œuvre et optimiser les processus métier. En suivant une méthodologie structurée, les organisations peuvent s'assurer d'améliorer continuellement leurs processus et de garder une longueur d'avance sur la concurrence.
 
 Les équipes projet peuvent s'appuyer sur les éléments suivants :
 
-- Définir les rôles et responsabilités au sein d'un bureau de transformation des processus (ou d'une instance similaire favorisant la réussite de la transformation des processus métier).
+- **Define roles and responsibilitie** au sein d'un bureau de transformation des processus (ou d'une instance similaire favorisant la réussite de la transformation des processus métier).
 
-- Mettre en place une chaîne d'outils de bout en bout reliant la gestion de l'architecture d'entreprise (GAE), la gestion des processus métier (MPO) et la gestion du cycle de vie des applications (GLLA).
+- **Set up an end-to-end toolchain connecting Enterprise Architecture Management** - Mettre en place une chaîne d'outils de bout en bout reliant la gestion de l'architecture d'entreprise (GAE), la gestion des processus métier (MPO) et la gestion du cycle de vie des applications (GLLA).
 
-- Établir des lignes directrices pour l'optimisation et l'amélioration des processus.
+- Établir des lignes directrices pour l'optimisation et l'amélioration des processus (guidelines for governing process enhancements and improvements).
 
 Compétences clés de la solution pour aider les équipes projet :
 
