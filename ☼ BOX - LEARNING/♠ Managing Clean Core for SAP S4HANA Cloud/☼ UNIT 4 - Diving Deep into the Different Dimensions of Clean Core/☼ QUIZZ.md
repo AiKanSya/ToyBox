@@ -1,218 +1,151 @@
-# ☼ UNIT 1 - QUIZZ
+# ☼ UNIT 4 - QUIZZ
 
-## :small_red_triangle_down: Which are the three main capabilities of the SAP Integration Suite?
+## :small_red_triangle_down: Which of the following are ways to get and keep integrations clean?
 
 _There are three correct answers._
 
-- [ ] Extend Non-SAP Connectivity
+- [ ] Base integrations on standard APIs.
 
-- [ ] Design, Develop, and Manage APIs
+- [ ] Use SAP Integration Suite.
 
-- [ ] Design, Develop, and Operate Integration Scenarios
+- [ ] Use SAP Event Mesh.
 
-- [ ] Managing Integration with Trading Partners
+- [ ] Use SAP Application Extension Methodology.
 
 <details>
   <summary>Solution</summary>
 
-- [x] Extend Non-SAP Connectivity
+- [ ] Base integrations on standard APIs.
 
-- [x] Design, Develop, and Manage APIs
+- [ ] Use SAP Integration Suite.
 
-- [x] Design, Develop, and Operate Integration Scenarios
+- [ ] Use SAP Event Mesh.
 
-- [ ] Managing Integration with Trading Partners
+- [ ] Use SAP Application Extension Methodology.
 
 </details>
 
-## :small_red_triangle_down: How does an event-driven architecture work?
+## :small_red_triangle_down: Which of the following are ways to get and keep extensions clean?
+
+_There are three correct answers._
+
+- [ ] Use the three-tier model.
+
+- [ ] Use released APIs only.
+
+- [ ] Precisely understand the requirements.
+
+- [ ] Avoid them.
+
+<details>
+  <summary>Solution</summary>
+
+- [ ] Use the three-tier model.
+
+- [ ] Use released APIs only.
+
+- [ ] Precisely understand the requirements.
+
+- [ ] Avoid them.
+
+</details>
+
+## :small_red_triangle_down: Which of the following are definitions of "data" in the context of SAP S/4HANA Cloud?
+
+_There are three correct answers._
+
+- [ ] Configuration
+
+- [ ] Master
+
+- [ ] Transactional
+
+- [ ] Structure
+
+<details>
+  <summary>Solution</summary>
+
+- [ ] Configuration
+
+- [ ] Master
+
+- [ ] Transactional
+
+- [ ] Structure
+
+</details>
+
+## :small_red_triangle_down: Which of the following are tools that can be used during implementation projects to help achieve a clean core?
+
+_There are three correct answers._
+
+- [ ] SAP Data Migration Cockpit.
+
+- [ ] SAP Fiori Custom Code Migration App.
+
+- [ ] SAP Cloud Application Lifecycle Management.
+
+- [ ] SAP BTP Cockpit
+
+<details>
+  <summary>Solution</summary>
+
+- [ ] SAP Data Migration Cockpit.
+
+- [ ] SAP Fiori Custom Code Migration App.
+
+- [ ] SAP Cloud Application Lifecycle Management.
+
+- [ ] SAP BTP Cockpit
+
+</details>
+
+## :small_red_triangle_down: Which of the following are ways to get and keep operations clean?
 
 _There are two correct answers._
 
-- [ ] Pull
+- [ ] SAP Cloud Application Lifecycle Management
 
-- [ ] Push
+- [ ] SAP Solution Manager
 
-- [ ] Force
+- [ ] SAP S/4HANA Cloud Extensibility Model
 
-- [ ] Turn
+- [ ] ABAP Cloud Development Model
 
 <details>
   <summary>Solution</summary>
 
-- [x] Pull
+- [ ] SAP Cloud Application Lifecycle Management
 
-- [x] Push
+- [ ] SAP Solution Manager
 
-- [ ] Force
+- [ ] SAP S/4HANA Cloud Extensibility Model
 
-- [ ] Turn
+- [ ] ABAP Cloud Development Model
 
 </details>
 
-## :small_red_triangle_down: Which are the most commonly used HTTP methods?
+## :small_red_triangle_down: Which of the following are ways to get and keep business processes clean?
 
-_There are three correct answers._
+_There are two correct answers._
 
-- [ ] GET
+- [ ] Establish an organizational structure.
 
-- [ ] DELETE
+- [ ] Set up a business process hierarchy.
 
-- [ ] SMASH
+- [ ] Ensure data accuracy in the database.
 
-- [ ] POST
-
-<details>
-  <summary>Solution</summary>
-
-- [x] GET
-
-- [x] DELETE
-
-- [ ] SMASH
-
-- [x] POST
-
-</details>
-
-## :small_red_triangle_down: Where can you configure the virtual host alias?
-
-_Choose the correct answer._
-
-- [ ] Configure ->Settings ->Integrations
-
-- [ ] Discover
-
-- [ ] Settings ->Integrations ->Configure
-
-- [ ] Design
+- [ ] Use SAP Application Interface Framework.
 
 <details>
   <summary>Solution</summary>
 
-- [ ] Configure ->Settings ->Integrations
+- [ ] Establish an organizational structure.
 
-- [ ] Discover
+- [ ] Set up a business process hierarchy.
 
-- [x] Settings ->Integrations ->Configure
+- [ ] Ensure data accuracy in the database.
 
-- [ ] Design
-
-</details>
-
-## :small_red_triangle_down: Which are the guiding constraints that define the REST architectural style?
-
-_There are three correct answers._
-
-- [ ] High-Availability
-
-- [ ] Stateless
-
-- [ ] Client-Server-Architecture
-
-- [ ] Cache-Ability
-
-<details>
-  <summary>Solution</summary>
-
-- [ ] High-Availability
-
-- [x] Stateless
-
-- [x] Client-Server-Architecture
-
-- [x] Cache-Ability
-
-</details>
-
-## :small_red_triangle_down: Which approach supports to overcome heterogeneity and complex solutions?
-
-_Choose the correct answer._
-
-- [ ] RAP first Approach
-
-- [ ] API first Approach
-
-- [ ] CAP first Approach
-
-- [ ] Call first Approach
-
-<details>
-  <summary>Solution</summary>
-
-- [ ] RAP first Approach
-
-- [x] API first Approach
-
-- [ ] CAP first Approach
-
-- [ ] Call first Approach
-
-</details>
-
-## :small_red_triangle_down: Which of the following are some elements of the core as it relates to the clean core approach?
-
-_There are three correct answers._
-
-- [ ] Software Stack
-
-- [ ] Extensibility
-
-- [ ] Integrations
-
-- [ ] Analytics
-
-<details>
-  <summary>Solution</summary>
-
-- [x] Software Stack
-
-- [x] Extensibility
-
-- [x] Integrations
-
-- [ ] Analytics
-
-</details>
-
-## :small_red_triangle_down: Metadata in XML is essential for providing context, structure, and control over XML documents.
-
-_Choose the correct answer._
-
-- [ ] True
-
-- [ ] False
-
-<details>
-  <summary>Solution</summary>
-
-- [x] True
-
-- [ ] False
-
-</details>
-
-## :small_red_triangle_down: Which sentence describes best an event-driven architecture (EDA)?
-
-_Choose the correct answer._
-
-- [ ] EDA is a software pattern where apps publish/subscribe events via a broker, allowing decoupling and asynchronous communication.
-
-- [ ] EDA is an application pattern where systems push via a broker messages to a unified system.
-
-- [ ] EDA is an exchange message platform, which is provided by a SAP platform.
-
-- [ ] EDA is a supervised and unified PAAS.
-
-<details>
-  <summary>Solution</summary>
-
-- [x] EDA is a software pattern where apps publish/subscribe events via a broker, allowing decoupling and asynchronous communication.
-
-- [ ] EDA is an application pattern where systems push via a broker messages to a unified system.
-
-- [ ] EDA is an exchange message platform, which is provided by a SAP platform.
-
-- [ ] EDA is a supervised and unified PAAS.
+- [ ] Use SAP Application Interface Framework.
 
 </details>
