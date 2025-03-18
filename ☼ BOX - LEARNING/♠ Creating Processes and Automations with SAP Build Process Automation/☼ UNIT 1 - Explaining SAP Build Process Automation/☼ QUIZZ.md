@@ -1,77 +1,61 @@
 # ☼ UNIT 1 - QUIZZ
 
-## :small_red_triangle_down: Which are the three main capabilities of the SAP Integration Suite?
-
-_There are three correct answers._
-
-- [ ] Extend Non-SAP Connectivity
-
-- [ ] Design, Develop, and Manage APIs
-
-- [ ] Design, Develop, and Operate Integration Scenarios
-
-- [ ] Managing Integration with Trading Partners
-
-<details>
-  <summary>Solution</summary>
-
-- [x] Extend Non-SAP Connectivity
-
-- [x] Design, Develop, and Manage APIs
-
-- [x] Design, Develop, and Operate Integration Scenarios
-
-- [ ] Managing Integration with Trading Partners
-
-</details>
-
-## :small_red_triangle_down: How does an event-driven architecture work?
+## :small_red_triangle_down: Which of the following SAP BTP services are integrated into SAP Build Process Automation?
 
 _There are two correct answers._
 
-- [ ] Pull
+- [ ] SAP Workflow Management
 
-- [ ] Push
+- [ ] SAP Conversational AI
 
-- [ ] Force
+- [ ] SAP Intelligent Robotic Process Automation
 
-- [ ] Turn
+- [ ] SAP Cloud Transport Management
 
 <details>
   <summary>Solution</summary>
 
-- [x] Pull
+- [ ] SAP Workflow Management
 
-- [x] Push
+- [ ] SAP Conversational AI
 
-- [ ] Force
+- [ ] SAP Intelligent Robotic Process Automation
 
-- [ ] Turn
+- [ ] SAP Cloud Transport Management
 
 </details>
 
-## :small_red_triangle_down: Which are the most commonly used HTTP methods?
+## :small_red_triangle_down: SAP Build Process Automation has more than one Working Mode.
 
-_There are three correct answers._
+_Choose the correct answer._
 
-- [ ] GET
+- [ ] True
 
-- [ ] DELETE
-
-- [ ] SMASH
-
-- [ ] POST
+- [ ] False
 
 <details>
   <summary>Solution</summary>
 
-- [x] GET
+- [ ] True
 
-- [x] DELETE
+- [ ] False
 
-- [ ] SMASH
+</details>
 
-- [x] POST
+## :small_red_triangle_down: The Business Process Management (BPM) lifecycle consists of four stages that should be undertaken by a company.
+
+_Choose the correct answer._
+
+- [ ] True
+
+- [ ] False
+
+<details>
+  <summary>Solution</summary>
+
+- [ ] True
+
+- [ ] False
 
 </details>
 
