@@ -1,53 +1,159 @@
-# ♠ 1 [EXAMINING SYSTEM LANDSCAPES](https://learning.sap.com/learning-journeys/managing-clean-core-for-sap-s-4hana-cloud/examining-system-landscapes-1)
+# ♠ 4 [CREATING THE END-TO-END SCENARIO](https://learning.sap.com/learning-journeys/experiencing-end-to-end-sap-build/exercise-creating-the-end-to-end-szenario)
 
 > :exclamation: Objectifs
 >
-> - [ ] Describe the importance of being able to quickly adapt system landscapes
+> - [ ] Create the SAP Build End-To-End scenario for certification registration.
 
-## :closed_book: ADAPTING SYSTEM LANDSCAPES
+## :closed_book: SAP BUILD USE CASE FOR CERTIFICATION REGISTRATION
 
-### ERP CHALLENGES TODAY: WHY DO WE NEED CLEAN CORE?
+### BUSINESS SCENARIO AND EXERCISE GOAL
 
-![](./RESSOURCES/MCC100_01_U1L3_T3_001.png)
+Afin de démontrer la rapidité et la simplicité d'intégration des produits low-code de SAP Build, le scénario suivant est abordé. Dans ce scénario, un responsable souhaite obtenir une vue d'ensemble du processus d'apprentissage de ses employés sur les produits SAP Build avant leur admission à la certification. Pour ce faire, une application, un processus et un site métier seront créés et connectés sans aucun code.
 
-Dans les deux premières leçons de l'unité, nous avons étudié l'adaptation des entreprises et l'innovation technologique : deux moteurs de changement que SAP S/4HANA Cloud et les principes de base propres peuvent contribuer à atténuer. Dans la dernière leçon, nous terminons notre exploration des défis clients en examinant la complexité du paysage. Dans un environnement économique en constante évolution, les entreprises doivent disposer d'une infrastructure simple et flexible leur permettant d'adapter rapidement leurs modèles économiques. Par exemple, une entreprise peut avoir besoin d'adapter rapidement certaines applications clés pour répondre à l'évolution des demandes du marché et des besoins des clients.
+[Link Video](https://learning.sap.com/learning-journeys/experiencing-end-to-end-sap-build/exercise-creating-the-end-to-end-szenario)
 
-> ![](./RESSOURCES/299361_sum_blue_small.png)
+L'objectif de cet exercice est de créer un processus avec deux flux et de le publier dans la bibliothèque SAP Build pour que les applications SAP Build puissent le déclencher. Les variables clés incluent un nom (adresse e-mail via une variable système de l'utilisateur SAP BTP) et la date du jour (via une fonction de formule). Elles incluent également la sélection de trois produits SAP Build (SAP Build Apps, SAP Build Process Automation et SAP Build Work Zone). Si les trois produits sont sélectionnés, l'approbation automatique est déclenchée. Si aucun produit n'est sélectionné, la demande est transmise à un responsable pour approbation ou rejet, et enregistrée dans Ma boîte de réception.
+
+![](./RESSOURCES/FinalScreenshot_Lesson4.png)
+
+Assurez-vous que les journaux et le contexte sont visibles dans la section de surveillance. Il doit être clair que le processus a été déclenché par ces cinq variables. Assurez-vous que la notification est envoyée dans Ma boîte de réception. Une fois terminé, prenez une capture d'écran de votre résultat (journaux et contexte) pour la partager lors de votre examen.
+
+> Hint
 >
-> Landscape challenges :
+> Concentrez-vous sur l'objectif final, et non sur les étapes, afin de permettre plusieurs solutions et une flexibilité dans la logique et l'interface utilisateur.
+
+N'hésitez pas à déployer l'application et à l'intégrer à SAP Build Work Zone.
+
+Bonne chance !
+
+### PREREQUISITES
+
+Pour commencer les exercices pratiques, suivez attentivement ces étapes afin de préparer un environnement SAP Build avec un utilisateur d'essai :
+
+1. Ouvrez la page d'inscription à l'essai SAP Build Basic.
+
+2. Inscrivez-vous pour un utilisateur d'essai SAP Build Basic :
+
+   - Si vous êtes déjà connecté à SAP.com avec votre identifiant/profil universel SAP, votre utilisateur d'essai sera généré directement.
+
+   - Si vous n'êtes pas connecté, veuillez remplir le formulaire pour générer votre utilisateur d'essai.
+
+3. Retournez au parcours d'apprentissage :
+
+   - Une fois inscrit, vous avez reçu votre identifiant et votre mot de passe d'essai Basic.
+
+   - Un bouton s'affiche à l'écran pour revenir directement au parcours d'apprentissage.
+
+4. Accès au système de formation :
+
+   - Ouvrez le système de formation
+
+   - Connectez-vous au système de formation avec votre identifiant et votre mot de passe.
+
+En suivant ces étapes, vous obtenez l'accès nécessaire pour effectuer efficacement les exercices pratiques.
+
+> Note
 >
-> - Adaptations du modèle économique.
->
-> - Adaptations clés des applications.
->
-> - Évolution des préférences des clients.
+> Lors de la création de processus dans le lobby SAP Build, indiquez toujours votre identifiant dans le nom du projet. Cela vous permettra d'identifier facilement vos processus ultérieurement. Exemple : (Nom du projet) Enregistrement de certification (ID utilisateur) GE134601.
 
-### ADAPTING BUSINESS MODELS
+### ADDITIONAL GUIDANCE FOR BUILDING A COMPLETE SCENARIO
 
-L'une des principales raisons pour lesquelles les entreprises doivent privilégier la simplicité et la flexibilité de leur infrastructure est la nécessité de répondre rapidement à l'évolution des exigences du marché. Comme mentionné dans la première leçon consacrée aux changements opérationnels, les perturbations des chaînes d'approvisionnement mondiales, l'évolution des préférences des clients et la conformité réglementaire constituent des défis majeurs pour les entreprises d'aujourd'hui. Cependant, ces défis ne sont pas les seuls auxquels une entreprise peut devoir s'adapter. De nos jours, de nouveaux marchés peuvent apparaître soudainement et sans prévenir, offrant d'incroyables opportunités de profit. Bien souvent, le premier entrant sur ces marchés en récolte la majeure partie. Pour rester compétitives et saisir les opportunités, les entreprises doivent être capables de faire évoluer rapidement leurs modèles économiques, et leur environnement technologique ne doit pas constituer un obstacle à cette évolution.
+1.  Créez le processus d'inscription à la certification dans SAP Build Process Automation.
+    Un employé ayant suivi les formations SAP Build Apps, SAP Build Process Automation et SAP Build Work Zone doit l'initier.
 
-### RAPID ADJUSTMENT OF KEY APPLICATIONS
+         | **Name**                     | **Type** |
+         |------------------------------|----------|
+         | User                         | String   |
+         | Date                         | String   |
+         | SAP Build Process Automation | Boolean  |
+         | SAP Build Apps               | Boolean  |
+         | SAP Build Work Zone          | Boolean  |
 
-Outre l'adaptation de leurs modèles économiques, les entreprises doivent également être capables d'adapter rapidement leurs applications clés à l'évolution des demandes du marché. Qu'il s'agisse d'augmenter ou de réduire la capacité de leurs applications, d'intégrer de nouvelles technologies ou d'améliorer l'expérience utilisateur, la flexibilité nécessaire pour modifier rapidement leurs applications clés est cruciale. Par exemple, un commerce de détail peut avoir besoin d'adapter rapidement sa plateforme de commerce électronique pour gérer l'augmentation du trafic pendant les périodes de forte affluence. De même, une société de services financiers peut avoir besoin de mettre à jour son application bancaire mobile afin d'offrir de nouvelles fonctionnalités et de répondre aux demandes de ses clients.
+         Process Flow:
 
-### RESPONDING TO CHANGING CUSTOMER NEEDS
+         a. Vérification de l'état : Si l'employé confirme les trois produits, le processus passe à l'approbation automatique pour l'inscription à la certification. Une notification est alors envoyée à l'apprenant.
 
-Répondre à l'évolution des besoins et des préférences des clients est un autre domaine où une infrastructure technologique flexible est essentielle. Avec l'essor des réseaux sociaux, des avis en ligne et de l'accès instantané à l'information, les clients sont devenus plus compétents et plus exigeants. Les entreprises doivent être capables de répondre rapidement à leurs commentaires et d'adapter leurs produits et services en conséquence. Cette réponse peut impliquer de modifier les interfaces utilisateur, d'ajouter de nouvelles fonctionnalités ou d'intégrer des mécanismes de retour client directement dans leurs applications.
+         b. Si un ou plusieurs produits ne sont pas terminés, le processus est transmis à l'approbation de la direction pour examen. Le responsable peut alors décider d'approuver ou de rejeter la demande en fonction de son statut d'achèvement. Des notifications sont envoyées à l'apprenant pour approbation ou rejet.
 
-### CLOUD COMPUTING AND AGILE DEVELOPMENT
+         Une fois le processus terminé, il doit être déployé et publié dans la bibliothèque SAP Build Lobby, ce qui le rend accessible aux applications SAP Build.
 
-Le cloud computing est un outil essentiel pour une infrastructure technologique simple et flexible. Il permet aux entreprises d'adapter rapidement leurs ressources à la demande et d'accéder aux dernières technologies sans nécessiter d'investissements initiaux importants. Ceci est particulièrement important pour les startups et les petites entreprises qui ne disposent pas toujours des ressources financières nécessaires pour investir dans une infrastructure sur site complète et élaborée.
+         > Note
+         >
+         > Les notifications peuvent être consultées dans la boîte de réception SAP Build Lobby.
 
-Les méthodologies de développement agiles jouent également un rôle essentiel pour permettre aux entreprises d'adapter leur infrastructure technologique à l'évolution de leurs besoins. En décomposant les grands projets en segments plus petits et plus faciles à gérer, les entreprises peuvent rapidement itérer et répondre aux retours, réduisant ainsi les délais de commercialisation des nouvelles applications et fonctionnalités. Cette agilité permet aux entreprises de garder une longueur d'avance sur la concurrence et de proposer des produits et services répondant aux exigences des clients et du marché. Étroitement lié aux méthodologies de développement agiles, DevOps optimise le cycle de vie du développement logiciel et des opérations grâce à des processus et des outils.
+2.  Créez une application avec SAP Build Apps pour déclencher le processus.
 
-### SAP S/4HANA CLOUD, SAP BTP AND LANDSCAPE FLEXIBILITY
+    a. Créez un projet dans SAP Build Apps et attribuez-lui le titre d'utilisateur.
 
-À l'instar des évolutions métier et des innovations technologiques, SAP S/4HANA Cloud relève efficacement le défi de la flexibilité du paysage. À première vue, les options de flexibilité offertes par une solution cloud peuvent sembler limitées. Cependant, SAP S/4HANA Cloud est extensible et propose des API prêtes à l'emploi, accompagnées d'outils et de documentation, permettant aux clients de s'intégrer facilement à leurs partenaires ou de s'appuyer sur ces dernières. De plus, l'innovation continue offerte par SAP S/4HANA Cloud ne compromet pas cette flexibilité. Les clients bénéficient du meilleur des deux mondes. Avec SAP S/4HANA Cloud, SAP BTP propose une plateforme cloud native moderne en tant que service qui regroupe intelligence artificielle, machine learning, données, analytique, bases de données, DevOps et bien plus encore, au sein d'une architecture holistique et d'un environnement unifié.
+    b. Incluez le processus précédemment créé et activez-le.
 
-### CONCLUSION
+    c. Utilisez des composants pour concevoir l'interface utilisateur, permettant ainsi la sélection des produits low-code SAP Build Apps, SAP Build Process Automation et SAP Build Work Zone.
 
-En conclusion, une infrastructure technologique simple et flexible est essentielle. Elle permet aux entreprises d'adapter leurs modèles économiques, d'ajuster leurs applications clés et de répondre à l'évolution des demandes et des besoins du marché et des clients. Grâce au cloud computing, au développement agile et à une approche centrée sur le client, les entreprises peuvent acquérir la flexibilité nécessaire pour prospérer dans le contexte économique mondialisé et en constante évolution d'aujourd'hui. En investissant dans une infrastructure technologique flexible, les entreprises peuvent se positionner pour assurer leur réussite et leur croissance à long terme.
+    > Note
+    >
+    > Vous pouvez télécharger et implémenter une image selon vos besoins.
 
-> ![](./RESSOURCES/299361_sum_blue_small.png)
->
-> SAP S/4HANA Cloud, grâce à ses capacités d'extensibilité et d'intégration, offre aux clients une solution pour relever les défis du paysage.
+    d. À l'aide d'un bouton et de la logique correspondante, déclenchez le processus précédemment créé et transmettez les variables des produits SAP Build Process Automation, SAP Build Apps et SAP Build Work Zone avec des valeurs true ou false.
+
+    e. Deux autres variables doivent également être transmises :
+
+    | **Variable** | **Explanation**                                                                |
+    | ------------ | ------------------------------------------------------------------------------ |
+    | Name         | The user’s email from the subaccount using a function from the Formula Editor. |
+    | Date         | A basic date function without specifics from the Formula Editor.               |
+
+    > Hint
+    >
+    > Ces fonctions et d’autres détails peuvent être trouvés dans la deuxième leçon de l’unité 1 et dans le [parcours d’apprentissage SAP Build Apps](https://learning.sap.com/learning-journeys/develop-apps-with-sap-build-apps-using-drag-and-drop-simplicity/using-formula-functions-_b565fa9d-c2c4-4061-b40d-07febf1436b3) (Utilisation des fonctions de formule).
+
+    f. Ajoutez une logique pour une boîte de dialogue demandant à l'apprenant s'il se sent prêt pour l'examen de certification. Le processus sera déclenché en cas de confirmation. En cas de refus, redirigez l'apprenant vers https://learning.sap.com/.
+
+    > Note
+    >
+    > Ce composant logique d'URL de redirection est disponible dans la leçon du parcours d'apprentissage de la marketplace.
+
+    g. Testez l'application en sélectionnant d'abord deux produits SAP Build comme valides et en déclenchant le processus. Sélectionnez ensuite les trois et relancez le processus. Consultez la boîte de réception et les notifications dans le lobby SAP Build pour vérifier le bon fonctionnement du processus et de l'application.
+
+    > Note
+    >
+    > Assumez à la fois le rôle de l'apprenant et du responsable pour approuver ou rejeter le processus.
+
+    h. Recherchez votre processus déclenché dans l'onglet Surveillance « Instances de processus et de workflow » et prenez une capture d'écran de votre résultat à partager lors de votre examen.
+
+    i. Enfin, créez et déployez l'application en tant qu'application web sur Cloud Foundry afin qu'elle s'exécute sur SAP BTP.
+
+3.  Étapes de déploiement dans le système d'exercice (facultatif)
+
+    a. Après avoir choisi « Déployer », sélectionnez un environnement dans la liste déroulante, par exemple https://api.cf.eu10-004.hana.ondemand.com.
+
+    b. Choisissez « Connexion avec BTP ».
+
+    c. Vous serez invité à vous connecter à l'environnement de déploiement (Cloud Foundry). Saisissez « academy-platform » et cliquez sur le bouton « Se connecter avec un autre fournisseur d'identité ».
+
+    d. Choisissez « Autoriser ».
+
+    e. Une fois connecté, sélectionnez les détails de déploiement Cloud Foundry pertinents, par exemple, comme illustré ci-dessous, puis choisissez « Continuer ».
+
+    - Organisation : sap-build-eu10-trial-2
+
+    - Espace : AC_SAPBUILD
+
+    Pour un guide plus détaillé, consultez le manuel du scénario de commande client étendu ou, en cas de divergences dans les spécifications système :
+
+    - [Configurez les paramètres de votre build](https://trials.cfapps.eu10-004.hana.ondemand.com/learning-journey/SAP-Build-Experience/324-1_BuildApps-Deploy).
+
+    - [Déployez et exécutez l'application](https://trials.cfapps.eu10-004.hana.ondemand.com/learning-journey/SAP-Build-Experience/324-2_BuildApps-Deploy).
+
+4.  Créez un espace de travail avec SAP Build Work Zone et implémentez l'application créée (facultatif).
+
+    a. Créez un projet SAP Build Work Zone et ajoutez le nom d'utilisateur que vous avez généré au titre.
+
+    b. Créez un espace de travail.
+
+    c. Intégrez l'application sous forme de carte.
+
+    d. Le processus peut désormais être déclenché depuis l'espace de travail.
+
+    e. Reportez-vous aux étapes de bout en bout.
+
+    En suivant ces tâches, vous comprendrez comment intégrer les produits SAP Build pour créer des applications et des processus efficaces et fonctionnels sans écrire de code.

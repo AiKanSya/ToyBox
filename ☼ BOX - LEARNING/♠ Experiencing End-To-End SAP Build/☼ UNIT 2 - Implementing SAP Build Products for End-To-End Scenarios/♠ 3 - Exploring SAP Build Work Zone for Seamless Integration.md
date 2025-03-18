@@ -1,53 +1,80 @@
-# ♠ 1 [EXAMINING SYSTEM LANDSCAPES](https://learning.sap.com/learning-journeys/managing-clean-core-for-sap-s-4hana-cloud/examining-system-landscapes-1)
+# ♠ 3 [EXPLORING SAP BUILD WORK ZONE FOR SEAMLESS INTEGRATION](https://learning.sap.com/learning-journeys/experiencing-end-to-end-sap-build/sap-build-work-zone)
 
 > :exclamation: Objectifs
 >
-> - [ ] Describe the importance of being able to quickly adapt system landscapes
-
-## :closed_book: ADAPTING SYSTEM LANDSCAPES
-
-### ERP CHALLENGES TODAY: WHY DO WE NEED CLEAN CORE?
-
-![](./RESSOURCES/MCC100_01_U1L3_T3_001.png)
-
-Dans les deux premières leçons de l'unité, nous avons étudié l'adaptation des entreprises et l'innovation technologique : deux moteurs de changement que SAP S/4HANA Cloud et les principes de base propres peuvent contribuer à atténuer. Dans la dernière leçon, nous terminons notre exploration des défis clients en examinant la complexité du paysage. Dans un environnement économique en constante évolution, les entreprises doivent disposer d'une infrastructure simple et flexible leur permettant d'adapter rapidement leurs modèles économiques. Par exemple, une entreprise peut avoir besoin d'adapter rapidement certaines applications clés pour répondre à l'évolution des demandes du marché et des besoins des clients.
-
-> ![](./RESSOURCES/299361_sum_blue_small.png)
+> - [ ] Repeat SAP Build Work Zone Foundation.
 >
-> Landscape challenges :
->
-> - Adaptations du modèle économique.
->
-> - Adaptations clés des applications.
->
-> - Évolution des préférences des clients.
+> - [ ] Implement End-To-End Projects.
 
-### ADAPTING BUSINESS MODELS
+## :closed_book: SAP BUILD WORK ZONE IN A NUTSHELL
 
-L'une des principales raisons pour lesquelles les entreprises doivent privilégier la simplicité et la flexibilité de leur infrastructure est la nécessité de répondre rapidement à l'évolution des exigences du marché. Comme mentionné dans la première leçon consacrée aux changements opérationnels, les perturbations des chaînes d'approvisionnement mondiales, l'évolution des préférences des clients et la conformité réglementaire constituent des défis majeurs pour les entreprises d'aujourd'hui. Cependant, ces défis ne sont pas les seuls auxquels une entreprise peut devoir s'adapter. De nos jours, de nouveaux marchés peuvent apparaître soudainement et sans prévenir, offrant d'incroyables opportunités de profit. Bien souvent, le premier entrant sur ces marchés en récolte la majeure partie. Pour rester compétitives et saisir les opportunités, les entreprises doivent être capables de faire évoluer rapidement leurs modèles économiques, et leur environnement technologique ne doit pas constituer un obstacle à cette évolution.
+![](./RESSOURCES/U2L3.png)
 
-### RAPID ADJUSTMENT OF KEY APPLICATIONS
+SAP Build Work Zone centralise l'accès aux applications, processus, informations et communications métier pertinents au sein d'un point d'entrée unifié, accessible depuis n'importe quel appareil. Vous pouvez l'utiliser pour créer facilement et rapidement des solutions d'espace de travail numérique par glisser-déposer afin d'améliorer la productivité et l'engagement des utilisateurs, tout en offrant l'expérience de travail unifiée, intelligente et personnalisée souhaitée.
 
-Outre l'adaptation de leurs modèles économiques, les entreprises doivent également être capables d'adapter rapidement leurs applications clés à l'évolution des demandes du marché. Qu'il s'agisse d'augmenter ou de réduire la capacité de leurs applications, d'intégrer de nouvelles technologies ou d'améliorer l'expérience utilisateur, la flexibilité nécessaire pour modifier rapidement leurs applications clés est cruciale. Par exemple, un commerce de détail peut avoir besoin d'adapter rapidement sa plateforme de commerce électronique pour gérer l'augmentation du trafic pendant les périodes de forte affluence. De même, une société de services financiers peut avoir besoin de mettre à jour son application bancaire mobile afin d'offrir de nouvelles fonctionnalités et de répondre aux demandes de ses clients.
+Vous pouvez intégrer des applications et services SAP sur site et dans le cloud, des applications tierces telles que SharePoint Online pour Microsoft 365 et Microsoft Teams, et bien sûr vos propres applications et processus personnalisés créés avec SAP Build Apps ou SAP Build Process Automation. Administrateurs et utilisateurs bénéficient d'un large éventail d'options pour partager et trouver rapidement toutes les informations et collaborer, par exemple via des blogs, des supports multimédias, des enquêtes, des sondages, des pages wiki, des événements, des articles de la base de connaissances, des tâches et des flux.
 
-### RESPONDING TO CHANGING CUSTOMER NEEDS
+Pour en savoir plus sur SAP Build Work Zone, consultez notre parcours de formation : [Implémentation et administration de SAP Build Work Zone](https://learning.sap.com/learning-journey/implement-and-administer-sap-build-work-zone)
 
-Répondre à l'évolution des besoins et des préférences des clients est un autre domaine où une infrastructure technologique flexible est essentielle. Avec l'essor des réseaux sociaux, des avis en ligne et de l'accès instantané à l'information, les clients sont devenus plus compétents et plus exigeants. Les entreprises doivent être capables de répondre rapidement à leurs commentaires et d'adapter leurs produits et services en conséquence. Cette réponse peut impliquer de modifier les interfaces utilisateur, d'ajouter de nouvelles fonctionnalités ou d'intégrer des mécanismes de retour client directement dans leurs applications.
+### SAP BUILD WORK ZONE BUSINESS SCENARIO
 
-### CLOUD COMPUTING AND AGILE DEVELOPMENT
+S.MART utilise SAP Build Work Zone pour créer des tableaux de bord centraux offrant un aperçu en temps réel des processus de gestion des stocks et de réapprovisionnement. Ces tableaux de bord affichent les indicateurs clés et l'état des réapprovisionnements en cours, déclenchés par SAP Build Apps et traités automatiquement par SAP Build Process Automation. En intégrant des cartes et en implémentant l'application dans la Work Zone, les utilisateurs accèdent à toutes les informations et fonctionnalités pertinentes depuis un emplacement centralisé. Cela améliore la transparence et facilite la prise de décision en matière de gestion des stocks.
 
-Le cloud computing est un outil essentiel pour une infrastructure technologique simple et flexible. Il permet aux entreprises d'adapter rapidement leurs ressources à la demande et d'accéder aux dernières technologies sans nécessiter d'investissements initiaux importants. Ceci est particulièrement important pour les startups et les petites entreprises qui ne disposent pas toujours des ressources financières nécessaires pour investir dans une infrastructure sur site complète et élaborée.
+## :closed_book: SAP BUILD WORK ZONE WORKSPACES
 
-Les méthodologies de développement agiles jouent également un rôle essentiel pour permettre aux entreprises d'adapter leur infrastructure technologique à l'évolution de leurs besoins. En décomposant les grands projets en segments plus petits et plus faciles à gérer, les entreprises peuvent rapidement itérer et répondre aux retours, réduisant ainsi les délais de commercialisation des nouvelles applications et fonctionnalités. Cette agilité permet aux entreprises de garder une longueur d'avance sur la concurrence et de proposer des produits et services répondant aux exigences des clients et du marché. Étroitement lié aux méthodologies de développement agiles, DevOps optimise le cycle de vie du développement logiciel et des opérations grâce à des processus et des outils.
+### OVERVIEW OD WORKSPACES AND WORKPAGES
 
-### SAP S/4HANA CLOUD, SAP BTP AND LANDSCAPE FLEXIBILITY
+SAP Build Work Zone offre des environnements flexibles pour la collaboration et l'organisation. Les espaces de travail sont conçus pour intégrer outils, applications et contenus, répondant à divers cas d'usage. Qu'il s'agisse de partager des informations à grande échelle, de gérer des projets sensibles ou de créer des tableaux de bord personnels, les espaces de travail améliorent la productivité et rationalisent les flux de travail.
 
-À l'instar des évolutions métier et des innovations technologiques, SAP S/4HANA Cloud relève efficacement le défi de la flexibilité du paysage. À première vue, les options de flexibilité offertes par une solution cloud peuvent sembler limitées. Cependant, SAP S/4HANA Cloud est extensible et propose des API prêtes à l'emploi, accompagnées d'outils et de documentation, permettant aux clients de s'intégrer facilement à leurs partenaires ou de s'appuyer sur ces dernières. De plus, l'innovation continue offerte par SAP S/4HANA Cloud ne compromet pas cette flexibilité. Les clients bénéficient du meilleur des deux mondes. Avec SAP S/4HANA Cloud, SAP BTP propose une plateforme cloud native moderne en tant que service qui regroupe intelligence artificielle, machine learning, données, analytique, bases de données, DevOps et bien plus encore, au sein d'une architecture holistique et d'un environnement unifié.
+![](./RESSOURCES/U2L3_work.png)
 
-### CONCLUSION
+Types of Workspaces
 
-En conclusion, une infrastructure technologique simple et flexible est essentielle. Elle permet aux entreprises d'adapter leurs modèles économiques, d'ajuster leurs applications clés et de répondre à l'évolution des demandes et des besoins du marché et des clients. Grâce au cloud computing, au développement agile et à une approche centrée sur le client, les entreprises peuvent acquérir la flexibilité nécessaire pour prospérer dans le contexte économique mondialisé et en constante évolution d'aujourd'hui. En investissant dans une infrastructure technologique flexible, les entreprises peuvent se positionner pour assurer leur réussite et leur croissance à long terme.
+Public Workspaces: Ouverts à un large public, y compris aux utilisateurs externes, les espaces de travail publics sont idéaux pour partager des informations à l'échelle de l'entreprise, comme les documents RH en libre-service ou les centres de support informatique. Ils proposent des modes de lecture seule optionnels et sont accessibles via la recherche globale, améliorant ainsi l'accessibilité.
 
-> ![](./RESSOURCES/299361_sum_blue_small.png)
->
-> SAP S/4HANA Cloud, grâce à ses capacités d'extensibilité et d'intégration, offre aux clients une solution pour relever les défis du paysage.
+Private Workspaces: Conçus pour un accès restreint, les espaces de travail privés nécessitent une invitation ou une attribution de rôle pour y accéder. Ils sont adaptés aux projets sensibles tels que les campagnes marketing ou les initiatives informatiques, garantissant la confidentialité tout en favorisant une collaboration ciblée.
+
+My Workspace: Tableau de bord personnel pour chaque utilisateur, « Mon Espace de Travail » sert de plateforme centralisée pour gérer les tâches, les applications et le contenu adapté à ses activités quotidiennes. Cet espace de travail est privé et inaccessible, offrant un environnement efficace pour l'organisation et la productivité personnelles.
+
+### INTRODUCTION TO WORKPAGES
+
+Les pages de travail sont des pages dynamiques et personnalisables au sein des espaces de travail, qui hébergent du contenu interactif, notamment des widgets, des applications et des cartes d'interface utilisateur. Conçues pour la flexibilité, elles peuvent être structurées selon des grilles pour répondre à divers besoins. L'éditeur de pages intuitif permet aux administrateurs de créer et de modifier des pages de travail par simple glisser-déposer, tout en garantissant un accès sécurisé et basé sur les rôles.
+
+Les administrateurs créent des espaces de travail en sélectionnant des modèles ou en personnalisant les structures, en configurant les autorisations et en intégrant des outils ou du contenu métier. Les pages de travail améliorent les fonctionnalités grâce à des fonctionnalités interactives telles que des calendriers d'événements, des forums et des bases de connaissances, favorisant ainsi la collaboration et le partage d'informations.
+
+## :closed_book: SAP BUILD WORK ZONE CARDS
+
+### TYPES OF CARDS
+
+Les cartes d'intégration d'interface utilisateur sont des éléments polyvalents qui affichent le contenu métier dans des formats structurés tels que des listes, des tableaux ou des graphiques. Conçues pour les plateformes SAP telles que SAP Build Work Zone, elles permettent aux utilisateurs d'accéder aux informations essentielles en un coup d'œil, sans avoir à changer d'application. L'accès basé sur les rôles garantit que les utilisateurs ne voient que le contenu pertinent, améliorant ainsi l'efficacité et la sécurité.
+
+![](./RESSOURCES/U2L3cardInline.png)
+
+Les cartes d'intégration d'interface utilisateur sont disponibles en deux types principaux : prêtes à l'emploi et personnalisées.
+
+### UI INTEGRATION CARD TYPES
+
+| **Name**             | **Type**                                                                                                                                                                                                                                             |
+| -------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Out-of-the-box cards | Out-of-the-box cards are prebuilt by SAP, offering quick and easy implementation for common use cases. These cards require minimal setup, making them ideal for streamlining standard processes.                                                     |
+| Custom cards         | Custom cards, on the other hand, are tailored to meet specific business needs. Developed using tools like SAP Business Application Studio, they offer greater flexibility, allowing organizations to design solutions that address unique workflows. |
+
+### OUT-OF-THE-BOX CARD EXAMPLE: INVENTORY OVERVIEW CARD
+
+Grâce à la solution clé en main List Card de SAP, S.MART a pu implémenter une vue d'ensemble des stocks en temps réel sur le tableau de bord SAP Build Work Zone. Cette vue affiche la liste des produits critiques, ainsi que leurs niveaux de stock actuels, leurs seuils et leur statut de réapprovisionnement. Configurée pour extraire les données du système d'inventaire de S.MART, la vue met automatiquement en évidence les articles en rupture de stock. Grâce à un accès basé sur les rôles, les responsables de magasin peuvent consulter les détails des stocks de leur établissement. Cette solution offre une visibilité immédiate sans nécessiter de développement supplémentaire, rationalisant les opérations quotidiennes et accélérant la prise de décision.
+
+### CUSTOM CARD EXAMPLE: AI-DRIVEN STOCK REPLENICHMENT TRACKER
+
+S.MART pourrait développer une carte analytique personnalisée pour suivre et analyser l'efficacité du réapprovisionnement des stocks grâce à SAP Business Application Studio. Cette carte personnalisée s'intègre au système d'inventaire assisté par IA de SAP Build pour afficher des indicateurs tels que les délais moyens de réapprovisionnement, les articles générant fréquemment un réapprovisionnement et les exceptions nécessitant une approbation manuelle. Grâce à la visualisation des données, la carte présente ces informations sous forme de graphiques dynamiques et d'indicateurs clés de performance (KPI), permettant aux responsables de magasin d'identifier facilement les tendances et les axes d'amélioration. Conçue pour interagir avec les cartes associées, telles que la disponibilité des stocks ou les processus d'approbation, elle offre une expérience utilisateur fluide au sein du tableau de bord unifié. Cette solution sur mesure optimise la stratégie de gestion des stocks et l'efficacité opérationnelle de S.MART.
+
+### FEATURES
+
+L'interactivité est une caractéristique clé de ces cartes. Elles peuvent partager des paramètres et répondre aux saisies des utilisateurs, mettant ainsi à jour les cartes associées en temps réel. Elles sont également hautement personnalisables, permettant aux entreprises de les adapter à des flux de travail uniques. Les administrateurs et les développeurs peuvent gérer et intégrer facilement les cartes grâce à des outils tels que Content Manager et SAP Business Application Studio.
+
+Les cartes d'intégration d'interface utilisateur améliorent la productivité en centralisant les informations et en simplifiant les flux de travail. Qu'elles utilisent des solutions préconfigurées ou des conceptions personnalisées, elles permettent aux organisations de créer des espaces de travail numériques intuitifs et efficaces, adaptés à leurs besoins.
+
+### FURTHER READING
+
+- [Exploring UI Integration Cards on SAP Learning](https://learning.sap.com/learning-journeys/implement-and-administer-sap-build-work-zone/exploring-ui-integration-cards)
+
+- [UI Integration Cards on SAP Help Portal](https://help.sap.com/docs/build-work-zone-advanced-edition/sap-build-work-zone-advanced-edition/ui-integration-cards)

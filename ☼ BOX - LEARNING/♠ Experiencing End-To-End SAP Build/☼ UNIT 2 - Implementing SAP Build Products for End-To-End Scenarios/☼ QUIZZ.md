@@ -1,78 +1,123 @@
-# ☼ UNIT 1 - QUIZZ
+# ☼ UNIT 2 - QUIZZ
 
-## :small_red_triangle_down: Which of the following are challenges for customers related to landscape complexity?
+## :small_red_triangle_down: The logic component that opens a URL needs to be installed from the Marketplace.
 
-_There are two correct answers._
+_Choose the correct answer._
 
-- [ ] Adapting business processes.
+- [ ] True
 
-- [ ] Responding to changing customer needs.
-
-- [ ] Analytical flexibility.
-
-- [ ] Macroeconomic unpredictability.
+- [ ] False
 
 <details>
   <summary>Solution</summary>
 
-- [ ] Adapting business processes.
+- [ ] True
 
-- [ ] Responding to changing customer needs.
-
-- [ ] Analytical flexibility.
-
-- [ ] Macroeconomic unpredictability.
+- [ ] False
 
 </details>
 
-## :small_red_triangle_down: Which of the following are challenges for customers related to business change?
+## :small_red_triangle_down: The SAP Build Lobby provides flexibility, allowing both professional developers and citizen developers to participate in developments and innovations
+
+_Choose the correct answer._
+
+- [ ] True
+
+- [ ] False
+
+<details>
+  <summary>Solution</summary>
+
+- [ ] True
+
+- [ ] False
+
+</details>
+
+## :small_red_triangle_down: What is a core benefit of SAP Build Process Automation for business users?
+
+_Choose the correct answer._
+
+- [ ] It requires extensive IT resources for setup.
+
+- [ ] It automates workflows using visual, low-code tools.
+
+- [ ] It limits flexibility in workflow design.
+
+- [ ] It only supports professional developers.
+
+<details>
+  <summary>Solution</summary>
+
+- [ ] It requires extensive IT resources for setup.
+
+- [ ] It automates workflows using visual, low-code tools.
+
+- [ ] It limits flexibility in workflow design.
+
+- [ ] It only supports professional developers.
+
+</details>
+
+## :small_red_triangle_down: What is a core feature of SAP Build Apps?
+
+_Choose the correct answer._
+
+- [ ] Building apps with extensive coding expertise.
+
+- [ ] Creating user interfaces using drag-and-drop components.
+
+- [ ] Limiting app deployment to Android platforms.
+
+<details>
+  <summary>Solution</summary>
+
+- [ ] Building apps with extensive coding expertise.
+
+- [ ] Creating user interfaces using drag-and-drop components.
+
+- [ ] Limiting app deployment to Android platforms.
+
+</details>
+
+## :small_red_triangle_down: Which out-of-the-box options does SAP Build Work Zone offer to communicate and share information?
 
 _There are three correct answers._
 
-- [ ] Disruption of supply chains.
+- [ ] Chatbots
 
-- [ ] Changing customer preferences.
+- [ ] Knowledge base article
 
-- [ ] Regulatory compliance
+- [ ] Surveys and polls
 
-- [ ] Data and device security.
+- [ ] Wiki pages
 
 <details>
   <summary>Solution</summary>
 
-- [ ] Disruption of supply chains.
+- [ ] Chatbots
 
-- [ ] Changing customer preferences.
+- [ ] Knowledge base article
 
-- [ ] Regulatory compliance
+- [ ] Surveys and polls
 
-- [ ] Data and device security.
+- [ ] Wiki pages
 
 </details>
 
-## :small_red_triangle_down:
+## :small_red_triangle_down: SAP Build supports dynamic process monitoring, allowing users to retrieve and view instances in real time.
 
-Which of the following are challenges for customers related to technological innovation?
+_Choose the correct answer._
 
-_There are two correct answers._
+- [ ] True
 
-- [ ] Fostering Agility
-
-- [ ] Optimizing business processes
-
-- [ ] Sustainability
-
-- [ ] Increased customer demand
+- [ ] False
 
 <details>
   <summary>Solution</summary>
 
-- [ ] Fostering Agility
+- [ ] True
 
-- [ ] Optimizing business processes
-
-- [ ] Sustainability
-
-- [ ] Increased customer demand
+- [ ] False
 
 </details>

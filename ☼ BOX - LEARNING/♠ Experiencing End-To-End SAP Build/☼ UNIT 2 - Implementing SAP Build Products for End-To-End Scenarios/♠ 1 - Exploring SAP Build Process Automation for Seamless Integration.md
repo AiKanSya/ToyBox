@@ -1,71 +1,106 @@
-# ♠ 1 [EXAMINING BUSINESS MODELS](https://learning.sap.com/learning-journeys/managing-clean-core-for-sap-s-4hana-cloud/examining-business-models-1)
+# ♠ 1 [EXPLORING SAP BUILD PROCESS AUTOMATION FOR SEAMLESS INTEGRATION](https://learning.sap.com/learning-journeys/experiencing-end-to-end-sap-build/sap-build-process-automation)
 
 > :exclamation: Objectifs
 >
-> - [ ] Describe the importance of being able to quickly adjust business models
-
-## :closed_book: ADJUSTING BUSINESS MODELS
-
-### ERP CHALLENGES TODAY: WHY DO WE NEED CLEAN CORE?
-
-![](./RESSOURCES/MCC100_01_U1L1_T1_001.png)
-
-Les logiciels ERP sont essentiels à la gestion et à la mise en œuvre des processus métier d'une entreprise. Présents depuis des décennies, les logiciels ERP de SAP permettent aux entreprises d'atteindre tous les objectifs qu'elles souhaitent atteindre grâce à un système ERP. SAP proposait traditionnellement SAP ERP, une version du logiciel ERP que les clients installaient dans leurs propres centres de données. Cependant, avec l'émergence et la prolifération des technologies cloud, les entreprises avaient besoin d'une solution ERP cloud. SAP S/4HANA Cloud est la solution idéale. Conçue comme une solution cloud native, SAP S/4HANA Cloud offre le meilleur des deux mondes : un système ERP intégrant les dernières meilleures pratiques du secteur et bénéficiant d'une innovation continue. En bref, un ERP cloud prêt à l'emploi.
-
-> ![](./RESSOURCES/299361_sum_blue_small.png)
+> - [ ] Repeat SAP Build Process Automation Foundation.
 >
-> Le logiciel ERP de SAP, y compris le SAP ERP traditionnel et le nouveau SAP S/4HANA Cloud basé sur le cloud, a permis aux entreprises de gérer et de mettre en œuvre efficacement leurs processus métier.
-
-Comme mentionné précédemment, le système ERP de SAP était traditionnellement installé et maintenu dans le centre de données de l'entreprise. Cependant, un système ERP basé sur le cloud tel que SAP S/4HANA Cloud est mis à jour en permanence. Ce système requiert une approche légèrement différente pour les clients, notamment pour la gestion des extensions ou des intégrations, par rapport à un environnement sur site. Pour faciliter cette approche, SAP a développé le concept de « Clean Core » que les clients peuvent suivre. Ce faisant, l'efficacité de SAP S/4HANA Cloud peut être maximisée.
-
-Avant d'examiner les spécificités de chaque aspect du Clean Core pour SAP S/4HANA Cloud, examinons les défis qui rendent ce Clean Core indispensable pour les clients. Une bonne façon de conceptualiser ces défis est de les centrer autour de trois domaines. Le premier est l'adaptabilité de l'entreprise, que nous abordons dans cette leçon. Les changements technologiques et les défis du landscape constituent respectivement les deux leçons suivantes.
-
-Dans le contexte économique dynamique et imprévisible d'aujourd'hui, les entreprises sont confrontées à un flot constant de perturbations. Elles doivent s'adapter rapidement à ces perturbations pour rester pertinentes et prospérer. Quelques-unes de ces perturbations peuvent être résumées comme suit :
-
-- Perturbation des chaînes d’approvisionnement.
-
-- Évolution des préférences des clients.
-
-- Conformité réglementaire.
-
-### THE IMPACT OF DISRUPTIONS IN GLOBAL SUPPLY CHAINS
-
-Les chaînes d'approvisionnement mondiales sont l'épine dorsale de nombreux secteurs, voire de la plupart, et permettent aux entreprises de s'approvisionner en matériaux, de fabriquer des produits et de livrer des marchandises à leurs clients dans le monde entier. Cependant, les perturbations de ces chaînes d'approvisionnement peuvent avoir des conséquences considérables, impactant notamment les calendriers de production, les niveaux de stocks et la satisfaction client.
-
-Les catastrophes naturelles, les tensions géopolitiques et les événements inattendus comme la pandémie de COVID-19 ont tous mis en évidence les vulnérabilités des chaînes d'approvisionnement mondiales. Ces événements soulignent l'importance d'intégrer la résilience et l'agilité dans les stratégies de gestion de la chaîne d'approvisionnement. Les entreprises qui dépendent d'une source unique d'approvisionnement pour les composants ou matériaux critiques sont vulnérables aux perturbations. Toute perturbation de la chaîne d'approvisionnement peut avoir un effet domino sur l'ensemble du processus de production.
-
-Pour répondre efficacement aux perturbations des chaînes d'approvisionnement mondiales, les entreprises doivent diversifier leurs sources d'approvisionnement, nouer des relations solides avec leurs fournisseurs clés et mettre en œuvre des stratégies de gestion des risques robustes. Investir dans les technologies numériques, telles que les plateformes d'analyse avancée et de visibilité sur la chaîne d'approvisionnement, permet aux entreprises d'obtenir des informations en temps réel sur la performance de leur chaîne d'approvisionnement. Cet investissement permet d’identifier les risques potentiels avant qu’ils ne deviennent des perturbations majeures.
-
-### CUSTOMER PREFERENCES: A MOVING TARGET
-
-Outre les perturbations des chaînes d'approvisionnement mondiales, les entreprises sont également confrontées à l'évolution constante des préférences des clients. À mesure que les consommateurs deviennent plus informés et compétents, leurs attentes en matière de produits et de services évoluent. Il est donc essentiel pour les entreprises de rester agiles et réactives face à ces fluctuations de la demande.
-
-L'essor du e-commerce, des réseaux sociaux et du marketing personnalisé a transformé la façon dont les entreprises interagissent avec leurs clients, créant de nouvelles opportunités et de nouveaux défis pour les entreprises de tous les secteurs. Les clients d'aujourd'hui attendent des expériences personnalisées, des interactions omnicanales fluides (omnichannel interactions) et des pratiques commerciales éthiques et durables, ce qui les oblige à adapter leurs stratégies et leurs offres pour répondre à ces demandes en constante évolution.
-
-Pour anticiper l'évolution des préférences des clients, les entreprises doivent investir dans les études de marché, l'analyse client et les analyses de données afin de comprendre leur public cible et d'anticiper les évolutions de la demande. En misant sur l'innovation et l'expérimentation, les entreprises doivent constamment affiner leurs produits et services pour s'adapter à l'évolution des besoins et des préférences des clients, tout en favorisant une approche centrée sur le client dans toute l'organisation.
-
-### REGULATORY COMPLIANCE: NAVIGATING THE EVER-CHANGING LANDSCAPE
-
-Outre les perturbations de la chaîne d'approvisionnement et l'évolution des préférences des clients, l'évolution constante de la conformité réglementaire est un autre défi majeur auquel les entreprises sont confrontées dans le contexte actuel. Les réglementations gouvernementales et les normes sectorielles évoluent constamment, et les entreprises doivent s'y tenir informées pour rester en conformité et éviter des sanctions coûteuses.
-
-Par exemple, dans le secteur de la santé, l'introduction de nouvelles lois sur la confidentialité ou la modification des réglementations de facturation peut avoir un impact significatif sur le fonctionnement des établissements de santé. Le non-respect de ces réglementations peut entraîner de lourdes amendes et nuire à la réputation de l'entreprise. Par conséquent, les entreprises doivent se tenir informées des changements réglementaires et adapter leurs processus et procédures en conséquence.
-
-Pour répondre efficacement aux changements de conformité réglementaire, les entreprises peuvent mettre en place des systèmes et des processus de gestion de la conformité robustes. Cette réponse peut impliquer un suivi régulier des mises à jour réglementaires, des évaluations approfondies des risques et la mise en place de contrôles appropriés pour garantir une conformité continue. Les entreprises peuvent également investir dans des programmes de formation et d'éducation afin de s'assurer que les employés sont informés et équipés pour se conformer aux dernières exigences réglementaires.
-
-> ![](./RESSOURCES/299361_sum_blue_small.png)
+> - [ ] Enhance business process efficiency by using SAP Build Process Automation.
 >
-> La perturbation des chaînes d’approvisionnement, l’évolution des préférences des clients et la conformité réglementaire ne sont que quelques-uns des types de perturbations qui obligent les entreprises à s’adapter rapidement.
+> - [ ] Ensure seamless process release, deployment, and publishing with SAP Build Process Automation.
 
-### CASE STUDY: HEDELBERG HOTEL CHAIN
+## :closed_book: SAP BUILD AUTOMATION IN A NUTSHELL
 
-Prenons un exemple concret de la nécessité d'adapter rapidement ses modèles économiques. Face à la pandémie de COVID-19, la chaîne hôtelière Heidelberg a dû relever ces trois défis. Les produits simples de la chaîne d'approvisionnement, tels que les serviettes et les masques, sont devenus difficiles à approvisionner, avec des délais de livraison longs. Les préférences des clients ont rapidement évolué, nombre d'entre eux préférant un processus d'enregistrement sans contact et la possibilité d'entrer et de sortir des chambres via leur téléphone plutôt qu'avec une carte magnétique. Les réglementations ont été publiées (et modifiées) rapidement en fonction des avancées scientifiques.
+![](./RESSOURCES/U2L1.png)
 
-Pour relever ces défis, l'hôtel Heidelberg a décidé d'adopter SAP S/4HANA Cloud. Grâce à l'accent mis par SAP S/4HANA Cloud sur la rapidité de déploiement et la simplicité d'adoption, ainsi qu'à son approche moderne de création d'extensions, Heidelberg Hotels a pu s'adapter à la demande, au gré des évolutions de l'activité.
+SAP Build Process Automation permet aux organisations d'automatiser leurs workflows et processus grâce à des outils visuels intuitifs. Les développeurs peuvent concevoir, modifier et améliorer leurs processus métier en minimisant leur dépendance aux ressources informatiques. La plateforme propose des outils conviviaux, tels que le générateur de processus et le générateur de formulaires, avec une fonctionnalité de glisser-déposer simple pour optimiser l'automatisation. Les utilisateurs peuvent ainsi innover et optimiser efficacement leurs workflows.
 
-### CONCLUSION
+De plus, la plateforme prend en charge des fonctionnalités avancées de gestion des workflows, telles que les règles métier, la visibilité des processus, la flexibilité et l'intégration de l'IA. Les utilisateurs peuvent également étendre l'automatisation grâce à des fonctionnalités intégrées d'automatisation robotisée des processus (RPA) et tirer parti d'artefacts réutilisables, tels que des robots et des composants de workflow. SAP Build Process Automation combine les fonctionnalités de workflow et d'automatisation au sein d'une solution unique et transparente.
 
-En conclusion, les perturbations des chaînes d'approvisionnement mondiales, l'évolution des préférences des clients et la conformité réglementaire constituent des défis majeurs pour les entreprises d'aujourd'hui. Cependant, en adoptant SAP S/4HANA Cloud ERP, les organisations peuvent atténuer ces difficultés et en sortir plus fortes et plus résilientes.
+Pour en savoir plus sur SAP Build Process Automation, consultez notre parcours de formation : [Créer des processus et des automatisations avec SAP Build Process Automation](https://learning.sap.com/learning-journey/create-processes-and-automations-with-sap-build-process-automation)
 
-> ![](./RESSOURCES/299361_sum_blue_small.png)
->
-> SAP S/4HANA Cloud fournit une solution complète pour tous les défis liés au changement d'entreprise.
+### SAP BUILD PROCESS AUTOMATION BUSINESS SCENARIO
+
+Le magasin S.MART a développé un processus d'optimisation des stocks. Ce processus garantit le déclenchement des commandes en entrepôt lorsque certains critères sont remplis. Ce nouveau processus est disponible dans la bibliothèque SAP Build et peut donc être déclenché ultérieurement par les applications SAP Build. Cela facilite l'intégration et l'automatisation transparentes de la gestion des stocks.
+
+## :closed_book: TRIGGERING PROCESSES WITH API INTEGRATION
+
+Un Trigger d'API est un mécanisme qui démarre un processus lorsqu'un système externe lui envoie un appel d'API. Dans ce cas d'utilisation, nous devons utiliser un Trigger d'API, car le processus doit être initié par une application, en transmettant des entrées spécifiques dans le cadre de la requête d'API.
+
+Un Trigger d'API permet d'automatiser les processus, d'assurer l'intégration en temps réel de différents systèmes et de configurer de manière flexible des flux de travail personnalisés. Cela améliore l'efficacité, la cohérence des données et la convivialité de l'expérience utilisateur. De plus, un Trigger d'API contribue à l'évolutivité et à la pérennité de l'infrastructure technologique en facilitant l'intégration de nouveaux systèmes et applications.
+
+### OVERVIEW OF TRIGGER TYPES
+
+| **Trigger Type**  | **Explanation**                                                     |
+| ----------------- | ------------------------------------------------------------------- |
+| API Trigger       | Initiates a process through an API call from an external system.    |
+| Form Trigger      | Starts a process when a user submits a form.                        |
+| Event Trigger     | Launches a process based on a defined event in the system.          |
+| Scheduled Trigger | Executes processes or automations at a predefined time or interval. |
+
+### SUMMARY
+
+Un Trigger d'API est idéal pour les scénarios où des processus doivent être initiés par des systèmes externes. En suivant les étapes ci-dessus, vous pouvez configurer un Trigger d'API pour assurer une communication fluide entre les applications et les processus.
+
+## :closed_book: TO CONFIGURE A PROCESS TO TRIGGER AN API REQUEST WITH SPECIFIC INPUTS
+
+Configurez un processus pour déclencher une requête API avec des entrées spécifiques.
+
+### STEPS
+
+1. Create the Trigger:
+
+   - Open the Trigger tile in the process editor and select Add Trigger.
+
+   - Choose the API Trigger option.
+
+2. Name the Trigger:
+
+   - Provide a name and description for the trigger.
+
+   - The identifier is automatically generated based on the name.
+
+3. Configure Process Inputs:
+
+   - Open the Process Panel to display Process Details.
+
+   - Navigate to Variables → Process Inputs → Configure.
+
+4. Add Inputs:
+
+Choose Add Input and enter the following details:
+
+     - Name: Specify the input name.
+
+     - Identifier: Automatically generated or manually adjusted.
+
+     - Type: Choose either String or Boolean.
+
+     - Required: Mark whether this input is mandatory.
+
+5. Save the configuration to activate the API trigger.
+
+## :closed_book: DEPLOY AND PUBLISH PROCESSES TO THE SAP BUILD LIBRARY
+
+Avant de pouvoir utiliser le scénario d'intégration pour connecter un processus, une application et un espace de travail dans SAP Build, il est essentiel de s'assurer que les processus nécessaires sont correctement déployés et publiés dans la bibliothèque SAP Build. Cette préparation garantit que tous les composants sont prêts pour une intégration transparente.
+
+Pour commencer, accédez à votre projet dans SAP Build Process Automation. Vérifiez que vous utilisez la bonne version en sélectionnant « Afficher la version du projet ». Cette étape est essentielle car elle garantit le déploiement de la dernière version de votre projet.
+
+![](./RESSOURCES/U2_L1_PA_11.png)
+
+Accédez ensuite à la section « Déployer » de l'interface. Sélectionnez l'environnement dans lequel vous souhaitez déployer votre processus. Il peut s'agir d'un environnement de développement, de test ou de production, selon vos besoins. Lancez le processus de déploiement en cliquant sur « Déployer ». À cette étape, vous serez informé de la création d'un déclencheur. Ce déclencheur est essentiel au bon déroulement du processus. Confirmez le déploiement en cliquant à nouveau sur « Déployer ». Vous recevrez des mises à jour sur son état au fur et à mesure de sa progression. Une fois le déploiement terminé, un message de confirmation s'affichera, indiquant que votre processus est correctement déployé et actif.
+
+![](./RESSOURCES/U2_L1_PA.png)
+
+Une fois le processus déployé, l'étape suivante consiste à le publier dans la bibliothèque SAP Build, afin de le rendre accessible pour une utilisation et une intégration ultérieures.
+
+1. Retournez dans le lobby et localisez votre projet spécifique, par exemple « Processus de réapprovisionnement S.MART ».
+
+2. Accédez à la section « Versions ». Vous y trouverez différentes versions de votre projet.
+
+3. Cliquez sur les trois points à côté de la version que vous souhaitez publier et sélectionnez « Publier dans la bibliothèque ».
+
+Cette action garantit que votre processus est non seulement déployé, mais également accessible dans la bibliothèque, permettant ainsi aux autres utilisateurs de l'utiliser selon leurs besoins.
+
+En suivant ces étapes, vous vous assurez que votre processus est entièrement préparé et disponible pour l'intégration. Cette préparation est cruciale car elle garantit que tous les processus back-end sont en place et fonctionnels, ouvrant la voie à une intégration fluide avec l'application et les composants de l'espace de travail dans SAP Build Apps.
+
+Une fois votre processus correctement déployé et publié, vous pouvez commencer la création et l'intégration de votre application en toute confiance, sachant que tous les composants nécessaires sont prêts et disponibles.

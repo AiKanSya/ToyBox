@@ -1,4 +1,4 @@
-# ♠ 1 [IDENTIFYING THE RELATIONSHIP BETWEEN SAP BUILD AND SAP BTP](https://learning.sap.com/learning-journeys/experiencing-end-to-end-sap-build/identifying-the-relationship-between-sap-build-and-sap-btp)
+# ♠ 2 [IDENTIFYING THE RELATIONSHIP BETWEEN SAP BUILD AND SAP BTP](https://learning.sap.com/learning-journeys/experiencing-end-to-end-sap-build/identifying-the-relationship-between-sap-build-and-sap-btp)
 
 > :exclamation: Objectifs
 >
