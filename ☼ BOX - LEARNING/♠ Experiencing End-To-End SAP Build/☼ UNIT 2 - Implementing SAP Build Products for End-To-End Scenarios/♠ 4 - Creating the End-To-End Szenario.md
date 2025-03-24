@@ -69,17 +69,17 @@ En suivant ces étapes, vous obtenez l'accès nécessaire pour effectuer efficac
          | SAP Build Apps               | Boolean  |
          | SAP Build Work Zone          | Boolean  |
 
-         Process Flow:
+    Process Flow:
 
-         a. Vérification de l'état : Si l'employé confirme les trois produits, le processus passe à l'approbation automatique pour l'inscription à la certification. Une notification est alors envoyée à l'apprenant.
+    a. Vérification de l'état : Si l'employé confirme les trois produits, le processus passe à l'approbation automatique pour l'inscription à la certification. Une notification est alors envoyée à l'apprenant.
 
-         b. Si un ou plusieurs produits ne sont pas terminés, le processus est transmis à l'approbation de la direction pour examen. Le responsable peut alors décider d'approuver ou de rejeter la demande en fonction de son statut d'achèvement. Des notifications sont envoyées à l'apprenant pour approbation ou rejet.
+    b. Si un ou plusieurs produits ne sont pas terminés, le processus est transmis à l'approbation de la direction pour examen. Le responsable peut alors décider d'approuver ou de rejeter la demande en fonction de son statut d'achèvement. Des notifications sont envoyées à l'apprenant pour approbation ou rejet.
 
-         Une fois le processus terminé, il doit être déployé et publié dans la bibliothèque SAP Build Lobby, ce qui le rend accessible aux applications SAP Build.
+    Une fois le processus terminé, il doit être déployé et publié dans la bibliothèque SAP Build Lobby, ce qui le rend accessible aux applications SAP Build.
 
-         > Note
-         >
-         > Les notifications peuvent être consultées dans la boîte de réception SAP Build Lobby.
+    > Note
+    >
+    > Les notifications peuvent être consultées dans la boîte de réception SAP Build Lobby.
 
 2.  Créez une application avec SAP Build Apps pour déclencher le processus.
 
