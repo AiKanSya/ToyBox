@@ -16,7 +16,7 @@ Tout d'abord, expliquons pourquoi les entreprises ont besoin d'un logiciel de ge
 
 ### GETTING STARTED WITH NO-CODE BUSINESS PROCESS AUTOMATION
 
-#### :small_red_triangle_down: Proorly and well designed processes :
+#### :small_red_triangle_down: Poorly and well designed processes :
 
 ![](./RESSOURCES/No-Code_BusinessProcessAutomation.png)
 
